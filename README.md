@@ -6,8 +6,8 @@ This project was developed for the Advanced Data Visualization course (MIACD) 20
 
 This project was developed by a group of 2 elements:
 
-- **Samuel Crespo** - uc2025178373@student.uc.pt
 - **Cláudio Catarino** - uc2022224320@student.uc.pt
+- **Samuel Crespo** - uc2025178373@student.uc.pt
 
 ## Project Goals
 
@@ -24,21 +24,21 @@ The main goal of this visualization is to provide an interactive, multiple-view 
 
 ```bash
 git clone https://github.com/claudio3472/VAD2026.git
-cd projeto-vad-mecd
+cd VAD2026
 ```
 
 **2. Create and activate a virtual environment:**
 
-python -m venv venv
+`python -m venv venv`
 
 # On Windows:
 
-venv\Scripts\activate
+`venv\Scripts\activate`
 
 # On Mac/Linux:
 
-source venv/bin/activate
+`source venv/bin/activate`
 
 **3. Install dependencies:**
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`

@@ -1,6 +1,9 @@
 # Python
 __pycache__/
 *.py[cod]
+*.pyc
+*.pyo
+*.pyd
 *.egg-info/
 dist/
 build/
@@ -13,3 +16,10 @@ ENV/
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
+
+# Ambient Variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db

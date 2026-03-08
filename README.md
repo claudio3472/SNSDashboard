@@ -7,7 +7,7 @@ This project was developed for the Advanced Data Visualization course (MIACD) 20
 This project was developed by a group of 2 elements:
 
 - **Samuel Crespo** - uc2025178373@student.uc.pt
-- **Cláudio Catarino** - uc@student.uc.pt
+- **Cláudio Catarino** - uc2022224320@student.uc.pt
 
 ## Project Goals
 
@@ -23,7 +23,7 @@ The main goal of this visualization is to provide an interactive, multiple-view 
 **1. Clone the repository and navigate to the folder:**
 
 ```bash
-git clone [YOUR_REPOSITORY_URL]
+git clone https://github.com/claudio3472/VAD2026.git
 cd projeto-vad-mecd
 ```
 

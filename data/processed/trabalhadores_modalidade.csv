@@ -1,0 +1,681 @@
+tempo,regiao,entidade,localizacao_geografica,modalidade_de_vinculacao,no_trabalhadores,ano,mes
+2020-05-01,Centro,"Hospital Distrital da Figueira da Foz, E.P.E.","40.117897, -8.8586755",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,320.0,2020,5
+2020-05-01,Centro,"Hospital Distrital da Figueira da Foz, E.P.E.","40.117897, -8.8586755",CTR certo no âmbito do Código Trabalho,25.0,2020,5
+2020-05-01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",Nomeação Transitória p/ Tempo determinável,0.0,2020,5
+2020-05-01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",CT em Funções Públicas p/ Tempo Indeterminado,169.0,2020,5
+2020-05-01,Centro,"Instituto Português Oncologia de Coimbra, E.P.E.","40.2162514, -8.4103814",Nomeação Transitória p/ Tempo determinado,0.0,2020,5
+2020-05-01,Centro,"Instituto Português Oncologia de Coimbra, E.P.E.","40.2162514, -8.4103814",Nomeação Transitória p/ Tempo determinável,0.0,2020,5
+2020-05-01,Centro,"Instituto Português Oncologia de Coimbra, E.P.E.","40.2162514, -8.4103814",CTR incerto no âmbito do Código Trabalho,24.0,2020,5
+2020-05-01,Centro,"Instituto Português Oncologia de Coimbra, E.P.E.","40.2162514, -8.4103814",P. Serviços (Avenças),0.0,2020,5
+2020-05-01,Centro,"Unidade Local de Saúde da Guarda, E.P.E.","40.5309916, -7.2734793",Nomeação Transitória p/ Tempo determinado,0.0,2020,5
+2020-05-01,Centro,"Unidade Local de Saúde da Guarda, E.P.E.","40.5309916, -7.2734793",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,776.0,2020,5
+2020-05-01,Centro,"Unidade Local de Saúde da Guarda, E.P.E.","40.5309916, -7.2734793",P. Serviços (Tarefas),0.0,2020,5
+2020-05-01,Centro,"Unidade Local de Saúde de Castelo Branco, E.P.E.","39.8212263, -7.4981271",Comissão de Serviço no âmbito do LTFP,6.0,2020,5
+2020-05-01,Centro,"Unidade Local de Saúde de Castelo Branco, E.P.E.","39.8212263, -7.4981271",CTR incerto no âmbito do Código Trabalho,61.0,2020,5
+2020-05-01,Centro,"Unidade Local de Saúde de Castelo Branco, E.P.E.","39.8212263, -7.4981271",P. Serviços (Tarefas),0.0,2020,5
+2020-06-01,Lisboa e Vale do Tejo,"Administração Central do Sistema de Saúde, I.P.","38.7569402, -9.1494097",P. Serviços (Tarefas),0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Administração Regional Saúde Lisboa Vale Tejo, I.P.","38.748879, -9.139606",Nomeação Transitória p/ Tempo determinável,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Administração Regional Saúde Lisboa Vale Tejo, I.P.","38.748879, -9.139606",CT em Funções Públicas a Termo Resolutivo Certo,120.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Administração Regional Saúde Lisboa Vale Tejo, I.P.","38.748879, -9.139606",P. Serviços (Tarefas),0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Autoridade Nacional Medicamento Produtos de Saúde, I.P.","38.7582532, -9.1502867",Cargo Político / Mandato,2.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Autoridade Nacional Medicamento Produtos de Saúde, I.P.","38.7582532, -9.1502867",Nomeação Transitória p/ Tempo determinado,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Autoridade Nacional Medicamento Produtos de Saúde, I.P.","38.7582532, -9.1502867",CT em Funções Públicas a Termo Resolutivo Incerto,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Autoridade Nacional Medicamento Produtos de Saúde, I.P.","38.7582532, -9.1502867",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,1.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,Ação Governativa - MS,"38.7362218, -9.1463126",Nomeação Transitória p/ Tempo determinável,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,Ação Governativa - MS,"38.7362218, -9.1463126",Comissão de Serviço no âmbito do Código Trabalho,1.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,Ação Governativa - MS,"38.7362218, -9.1463126",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,Ação Governativa - MS,"38.7362218, -9.1463126",CTR incerto no âmbito do Código Trabalho,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, E.P.E.","38.6554005, -9.0592392",Comissão de Serviço no âmbito do LTFP,5.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, E.P.E.","38.6554005, -9.0592392",Comissão de Serviço no âmbito do Código Trabalho,5.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",Cargo Político / Mandato,2.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",Nomeação Transitória p/ Tempo determinável,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",CT em Funções Públicas p/ Tempo Indeterminado,540.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",CT em Funções Públicas a Termo Resolutivo Certo,16.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, E.P.E.","38.7166948, -9.1371248",P. Serviços (Tarefas),0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, E.P.E.","38.7500861, -9.1616116",Nomeação Transitória p/ Tempo determinado,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, E.P.E.","38.7500861, -9.1616116",CT em Funções Públicas a Termo Resolutivo Incerto,639.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, E.P.E.","38.708454, -9.216985",Cargo Político / Mandato,4.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, E.P.E.","38.708454, -9.216985",Nomeação Transitória p/ Tempo determinado,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Setúbal, E.P.E.","38.5283754, -8.8818638",Nomeação Transitória p/ Tempo determinado,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Setúbal, E.P.E.","38.5283754, -8.8818638",Nomeação Transitória p/ Tempo determinável,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Setúbal, E.P.E.","38.5283754, -8.8818638",CTR incerto no âmbito do Código Trabalho,72.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Setúbal, E.P.E.","38.5283754, -8.8818638",P. Serviços (Avenças),8.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, E.P.E.","39.4054629, -9.1258493",CT em Funções Públicas a Termo Resolutivo Incerto,99.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, E.P.E.","39.4054629, -9.1258493",Comissão de Serviço no âmbito do LTFP,17.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, E.P.E.","39.4054629, -9.1258493",Comissão de Serviço no âmbito do Código Trabalho,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, E.P.E.","39.4054629, -9.1258493",P. Serviços (Tarefas),0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,Direção-Geral da Saúde,"38.7364065, -9.1379161",CT em Funções Públicas p/ Tempo Indeterminado,116.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,Direção-Geral da Saúde,"38.7364065, -9.1379161",Comissão de Serviço no âmbito do Código Trabalho,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,Direção-Geral da Saúde,"38.7364065, -9.1379161",CTR certo no âmbito do Código Trabalho,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,Direção-Geral da Saúde,"38.7364065, -9.1379161",P. Serviços (Tarefas),0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, E.P.E.","39.2410946, -8.6937515",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, E.P.E.","39.2410946, -8.6937515",P. Serviços (Tarefas),60.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, E.P.E.","38.7422257, -9.2264834",Nomeação Transitória p/ Tempo determinado,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, E.P.E.","38.7422257, -9.2264834",CT em Funções Públicas a Termo Resolutivo Certo,1.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, E.P.E.","38.7422257, -9.2264834",CTR incerto no âmbito do Código Trabalho,100.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Hospital Garcia de Orta, E.P.E.","38.6658713, -9.1822554",Nomeação Transitória p/ Tempo determinável,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Hospital Garcia de Orta, E.P.E.","38.6658713, -9.1822554",CT em Funções Públicas a Termo Resolutivo Incerto,228.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Hospital Garcia de Orta, E.P.E.","38.6658713, -9.1822554",Comissão de Serviço no âmbito do LTFP,12.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Hospital Garcia de Orta, E.P.E.","38.6658713, -9.1822554",Comissão de Serviço no âmbito do Código Trabalho,12.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Hospital Garcia de Orta, E.P.E.","38.6658713, -9.1822554",CTR incerto no âmbito do Código Trabalho,65.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,Instituto Nacional de Emergência Médica,"38.731388, -9.142606",P. Serviços (Tarefas),299.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,Instituto Nacional de Emergência Médica,"38.731388, -9.142606",P. Serviços (Avenças),0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Instituto Nacional de Saúde Dr. Ricardo Jorge, I.P.","38.7643827, -9.1663422",CT em Funções Públicas a Termo Resolutivo Certo,11.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Instituto Nacional de Saúde Dr. Ricardo Jorge, I.P.","38.7643827, -9.1663422",CTR certo no âmbito do Código Trabalho,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, E.P.E.","38.7396768, -9.1634516",Cargo Político / Mandato,3.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, E.P.E.","38.7396768, -9.1634516",Nomeação Transitória p/ Tempo determinável,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Instituto Português do Sangue e da Transplantação, I.P.","38.7567758, -9.1505021",Cargo Político / Mandato,1.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Instituto Português do Sangue e da Transplantação, I.P.","38.7567758, -9.1505021",CT em Funções Públicas a Termo Resolutivo Incerto,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Instituto Português do Sangue e da Transplantação, I.P.","38.7567758, -9.1505021",Comissão de Serviço no âmbito do Código Trabalho,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Instituto Português do Sangue e da Transplantação, I.P.","38.7567758, -9.1505021",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Instituto Português do Sangue e da Transplantação, I.P.","38.7567758, -9.1505021",P. Serviços (Avenças),7.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,Instituto de Oftalmologia Dr. Gama Pinto,"38.7218793, -9.144249",Nomeação Transitória p/ Tempo determinado,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,Instituto de Oftalmologia Dr. Gama Pinto,"38.7218793, -9.144249",Nomeação Transitória p/ Tempo determinável,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,Instituto de Oftalmologia Dr. Gama Pinto,"38.7218793, -9.144249",CT em Funções Públicas p/ Tempo Indeterminado,107.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,Instituto de Oftalmologia Dr. Gama Pinto,"38.7218793, -9.144249",CTR incerto no âmbito do Código Trabalho,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,Secretaria-Geral do Ministério da Saúde,"38.7362218, -9.1463126",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,Secretaria-Geral do Ministério da Saúde,"38.7362218, -9.1463126",CT em Funções Públicas a Termo Resolutivo Incerto,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,Secretaria-Geral do Ministério da Saúde,"38.7362218, -9.1463126",P. Serviços (Avenças),0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Serviços Partilhados do Ministério da Saúde, E.P.E.","38.739767, -9.1489431",Nomeação Transitória p/ Tempo determinado,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Serviços Partilhados do Ministério da Saúde, E.P.E.","38.739767, -9.1489431",Nomeação Transitória p/ Tempo determinável,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Serviços Partilhados do Ministério da Saúde, E.P.E.","38.739767, -9.1489431",Comissão de Serviço no âmbito do LTFP,0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,"Serviços Partilhados do Ministério da Saúde, E.P.E.","38.739767, -9.1489431",P. Serviços (Tarefas),0.0,2020,6
+2020-06-01,Lisboa e Vale do Tejo,Serviço de Intervenção Comportamentos Aditivos e Dependências,"38.7653399, -9.1611815",CTR incerto no âmbito do Código Trabalho,0.0,2020,6
+2020-06-01,Norte,"Administração Regional Saúde Norte, I.P.","41.157454, -8.604431",CT em Funções Públicas a Termo Resolutivo Incerto,846.0,2020,6
+2020-06-01,Norte,"Centro Hospitalar Entre Douro e Vouga, E.P.E.","40.9293884, -8.5458794",CT em Funções Públicas p/ Tempo Indeterminado,329.0,2020,6
+2020-06-01,Norte,"Centro Hospitalar Entre Douro e Vouga, E.P.E.","40.9293884, -8.5458794",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,6
+2020-06-01,Norte,"Centro Hospitalar Entre Douro e Vouga, E.P.E.","40.9293884, -8.5458794",CT em Funções Públicas a Termo Resolutivo Incerto,174.0,2020,6
+2020-06-01,Norte,"Centro Hospitalar Entre Douro e Vouga, E.P.E.","40.9293884, -8.5458794",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,1520.0,2020,6
+2020-06-01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, E.P.E.","41.3828711, -8.7589945",CTR certo no âmbito do Código Trabalho,28.0,2020,6
+2020-06-01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, E.P.E.","41.3828711, -8.7589945",CTR incerto no âmbito do Código Trabalho,36.0,2020,6
+2020-06-01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, E.P.E.","41.3031784, -7.7515252",Nomeação Transitória p/ Tempo determinado,0.0,2020,6
+2020-06-01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, E.P.E.","41.3031784, -7.7515252",CT em Funções Públicas a Termo Resolutivo Incerto,205.0,2020,6
+2020-06-01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, E.P.E.","41.3031784, -7.7515252",Comissão de Serviço no âmbito do LTFP,10.0,2020,6
+2020-06-01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, E.P.E.","41.3031784, -7.7515252",Comissão de Serviço no âmbito do Código Trabalho,3.0,2020,6
+2020-06-01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, E.P.E.","41.3031784, -7.7515252",P. Serviços (Tarefas),127.0,2020,6
+2020-06-01,Norte,"Centro Hospitalar Tâmega e Sousa, E.P.E.","41.2494561, -8.264901",Nomeação Transitória p/ Tempo determinado,0.0,2020,6
+2020-06-01,Norte,"Centro Hospitalar Tâmega e Sousa, E.P.E.","41.2494561, -8.264901",Nomeação Transitória p/ Tempo determinável,0.0,2020,6
+2020-06-01,Norte,"Centro Hospitalar Tâmega e Sousa, E.P.E.","41.2494561, -8.264901",CT em Funções Públicas p/ Tempo Indeterminado,562.0,2020,6
+2020-06-01,Norte,"Centro Hospitalar Tâmega e Sousa, E.P.E.","41.2494561, -8.264901",CTR incerto no âmbito do Código Trabalho,46.0,2020,6
+2020-06-01,Norte,"Centro Hospitalar Tâmega e Sousa, E.P.E.","41.2494561, -8.264901",P. Serviços (Tarefas),174.0,2020,6
+2020-06-01,Norte,"Centro Hospitalar Tâmega e Sousa, E.P.E.","41.2494561, -8.264901",P. Serviços (Avenças),1.0,2020,6
+2020-06-01,Norte,"Centro Hospitalar Universitário do Porto, E.P.E.","41.1472498, -8.6172617",CT em Funções Públicas a Termo Resolutivo Incerto,479.0,2020,6
+2020-06-01,Norte,"Centro Hospitalar Universitário do Porto, E.P.E.","41.1472498, -8.6172617",CTR certo no âmbito do Código Trabalho,257.0,2020,6
+2020-06-01,Norte,"Centro Hospitalar Universitário do Porto, E.P.E.","41.1472498, -8.6172617",CTR incerto no âmbito do Código Trabalho,135.0,2020,6
+2020-06-01,Norte,"Centro Hospitalar Universitário do Porto, E.P.E.","41.1472498, -8.6172617",P. Serviços (Avenças),0.0,2020,6
+2020-06-01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, E.P.E.","41.1094138, -8.5972617",P. Serviços (Tarefas),86.0,2020,6
+2020-06-01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, E.P.E.","41.1094138, -8.5972617",P. Serviços (Avenças),0.0,2020,6
+2020-06-01,Norte,"Centro Hospitalar do Médio Ave, E.P.E.","41.3423984, -8.4802503",Cargo Político / Mandato,5.0,2020,6
+2020-06-01,Norte,"Hospital de Braga, E.P.E.","41.567832, -8.398936",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,6
+2020-06-01,Norte,"Hospital de Braga, E.P.E.","41.567832, -8.398936",CT em Funções Públicas a Termo Resolutivo Incerto,301.0,2020,6
+2020-06-01,Norte,"Hospital de Braga, E.P.E.","41.567832, -8.398936",CTR certo no âmbito do Código Trabalho,174.0,2020,6
+2020-06-01,Norte,"Hospital de Braga, E.P.E.","41.567832, -8.398936",CTR incerto no âmbito do Código Trabalho,48.0,2020,6
+2020-06-01,Norte,"Hospital Santa Maria Maior, E.P.E.","41.5324234, -8.6171561",Cargo Político / Mandato,2.0,2020,6
+2020-06-01,Norte,"Hospital da Senhora da Oliveira, Guimarães, E.P.E.","41.4417064, -8.1722408",Cargo Político / Mandato,5.0,2020,6
+2020-06-01,Norte,"Hospital da Senhora da Oliveira, Guimarães, E.P.E.","41.4417064, -8.1722408",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,6
+2020-06-01,Norte,"Hospital da Senhora da Oliveira, Guimarães, E.P.E.","41.4417064, -8.1722408",Comissão de Serviço no âmbito do Código Trabalho,1.0,2020,6
+2020-06-01,Norte,"Hospital da Senhora da Oliveira, Guimarães, E.P.E.","41.4417064, -8.1722408",P. Serviços (Tarefas),168.0,2020,6
+2020-06-01,Norte,"Hospital de Magalhães Lemos, E.P.E.","41.1764649, -8.6649823",Nomeação Transitória p/ Tempo determinado,0.0,2020,6
+2020-06-01,Norte,"Hospital de Magalhães Lemos, E.P.E.","41.1764649, -8.6649823",Nomeação Transitória p/ Tempo determinável,0.0,2020,6
+2020-06-01,Norte,"Hospital de Magalhães Lemos, E.P.E.","41.1764649, -8.6649823",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,202.0,2020,6
+2020-06-01,Norte,"Hospital de Magalhães Lemos, E.P.E.","41.1764649, -8.6649823",CTR incerto no âmbito do Código Trabalho,11.0,2020,6
+2020-06-01,Norte,"Instituto Português Oncologia do Porto, E.P.E.","41.1785642, -8.6062881",Comissão de Serviço no âmbito do LTFP,1.0,2020,6
+2020-06-01,Norte,"Instituto Português Oncologia do Porto, E.P.E.","41.1785642, -8.6062881",CTR incerto no âmbito do Código Trabalho,52.0,2020,6
+2020-06-01,Norte,"Instituto Português Oncologia do Porto, E.P.E.","41.1785642, -8.6062881",P. Serviços (Tarefas),0.0,2020,6
+2020-06-01,Norte,"Instituto Português Oncologia do Porto, E.P.E.","41.1785642, -8.6062881",P. Serviços (Avenças),8.0,2020,6
+2020-06-01,Norte,"Unidade Local de Saúde de Matosinhos, E.P.E.","41.1794456, -8.6745115",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,6
+2020-06-01,Norte,"Unidade Local de Saúde do Alto Minho, E.P.E.","41.7056054, -8.8252713",Cargo Político / Mandato,3.0,2020,6
+2020-06-01,Norte,"Unidade Local de Saúde do Alto Minho, E.P.E.","41.7056054, -8.8252713",Nomeação Transitória p/ Tempo determinado,0.0,2020,6
+2020-06-01,Norte,"Unidade Local de Saúde do Alto Minho, E.P.E.","41.7056054, -8.8252713",CTR incerto no âmbito do Código Trabalho,34.0,2020,6
+2020-06-01,Norte,"Unidade Local de Saúde do Nordeste, E.P.E.","41.8056532, -6.7888197",CT em Funções Públicas p/ Tempo Indeterminado,1015.0,2020,6
+2020-06-01,Norte,"Unidade Local de Saúde do Nordeste, E.P.E.","41.8056532, -6.7888197",Comissão de Serviço no âmbito do Código Trabalho,3.0,2020,6
+2020-06-01,Alentejo,"Administração Regional de Saúde do Alentejo, I.P.","38.565715, -7.91162",Nomeação Transitória p/ Tempo determinável,0.0,2020,6
+2020-06-01,Alentejo,"Administração Regional de Saúde do Alentejo, I.P.","38.565715, -7.91162",Comissão de Serviço no âmbito do Código Trabalho,0.0,2020,6
+2020-06-01,Alentejo,"Administração Regional de Saúde do Alentejo, I.P.","38.565715, -7.91162",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,1.0,2020,6
+2020-06-01,Alentejo,"Administração Regional de Saúde do Alentejo, I.P.","38.565715, -7.91162",CTR incerto no âmbito do Código Trabalho,0.0,2020,6
+2020-06-01,Alentejo,"Hospital Espírito Santo de Évora, E.P.E.","38.5684861, -7.9032848",Cargo Político / Mandato,3.0,2020,6
+2020-06-01,Alentejo,"Hospital Espírito Santo de Évora, E.P.E.","38.5684861, -7.9032848",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,6
+2020-06-01,Alentejo,"Hospital Espírito Santo de Évora, E.P.E.","38.5684861, -7.9032848",Comissão de Serviço no âmbito do LTFP,8.0,2020,6
+2020-06-01,Alentejo,"Hospital Espírito Santo de Évora, E.P.E.","38.5684861, -7.9032848",CTR incerto no âmbito do Código Trabalho,46.0,2020,6
+2020-06-01,Alentejo,"Hospital Espírito Santo de Évora, E.P.E.","38.5684861, -7.9032848",P. Serviços (Avenças),0.0,2020,6
+2020-06-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, E.P.E.","38.014123, -7.8721227",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,880.0,2020,6
+2020-06-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, E.P.E.","38.014123, -7.8721227",CTR certo no âmbito do Código Trabalho,29.0,2020,6
+2020-06-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, E.P.E.","38.0162314, -8.6956768",CT em Funções Públicas a Termo Resolutivo Certo,1.0,2020,6
+2020-06-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, E.P.E.","38.0162314, -8.6956768",CT em Funções Públicas a Termo Resolutivo Incerto,48.0,2020,6
+2020-06-01,Alentejo,"Unidade Local de Saúde do Norte Alentejano, E.P.E.","39.3003425, -7.4263845",Nomeação Transitória p/ Tempo determinado,0.0,2020,6
+2020-06-01,Alentejo,"Unidade Local de Saúde do Norte Alentejano, E.P.E.","39.3003425, -7.4263845",CT em Funções Públicas p/ Tempo Indeterminado,810.0,2020,6
+2020-06-01,Algarve,"Administração Regional de Saúde do Algarve, I.P.","37.027122, -7.946842",Nomeação Transitória p/ Tempo determinado,0.0,2020,6
+2020-06-01,Algarve,"Administração Regional de Saúde do Algarve, I.P.","37.027122, -7.946842",P. Serviços (Tarefas),0.0,2020,6
+2020-06-01,Algarve,Centro Hospitalar Universitário do Algarve,"37.0238973, -7.9281554",Comissão de Serviço no âmbito do Código Trabalho,0.0,2020,6
+2020-06-01,Algarve,Centro Hospitalar Universitário do Algarve,"37.0238973, -7.9281554",P. Serviços (Tarefas),0.0,2020,6
+2020-06-01,Centro,Administração Regional de Saúde do Centro,"40.203782, -8.419176",CT em Funções Públicas a Termo Resolutivo Incerto,439.0,2020,6
+2020-06-01,Centro,Administração Regional de Saúde do Centro,"40.203782, -8.419176",Comissão de Serviço no âmbito do LTFP,24.0,2020,6
+2020-06-01,Centro,Administração Regional de Saúde do Centro,"40.203782, -8.419176",Comissão de Serviço no âmbito do Código Trabalho,0.0,2020,6
+2020-06-01,Centro,Administração Regional de Saúde do Centro,"40.203782, -8.419176",CTR certo no âmbito do Código Trabalho,0.0,2020,6
+2020-06-01,Centro,"Centro Hospitalar Tondela-Viseu, E.P.E.","40.516364, -8.0827433",P. Serviços (Avenças),1.0,2020,6
+2020-06-01,Centro,"Centro Hospitalar Universitário Cova da Beira, E.P.E.","40.2804158, -7.4922407",CT em Funções Públicas a Termo Resolutivo Incerto,89.0,2020,6
+2020-06-01,Centro,"Centro Hospitalar Universitário Cova da Beira, E.P.E.","40.2804158, -7.4922407",CTR certo no âmbito do Código Trabalho,31.0,2020,6
+2020-06-01,Centro,"Centro Hospitalar de Leiria, E.P.E.","39.7414812, -8.7982706",Nomeação Transitória p/ Tempo determinado,0.0,2020,6
+2020-06-01,Centro,"Centro Hospitalar de Leiria, E.P.E.","39.7414812, -8.7982706",Nomeação Transitória p/ Tempo determinável,0.0,2020,6
+2020-06-01,Centro,"Centro Hospitalar de Leiria, E.P.E.","39.7414812, -8.7982706",Comissão de Serviço no âmbito do LTFP,3.0,2020,6
+2020-06-01,Centro,"Centro Hospitalar de Leiria, E.P.E.","39.7414812, -8.7982706",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,1052.0,2020,6
+2020-06-01,Centro,"Centro Hospitalar de Leiria, E.P.E.","39.7414812, -8.7982706",CTR certo no âmbito do Código Trabalho,24.0,2020,6
+2020-06-01,Centro,"Centro Hospitalar do Baixo Vouga, E.P.E.","40.6362453, -8.6543716",Cargo Político / Mandato,3.0,2020,6
+2020-06-01,Centro,"Centro Hospitalar do Baixo Vouga, E.P.E.","40.6362453, -8.6543716",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,6
+2020-06-01,Centro,"Centro Hospitalar do Baixo Vouga, E.P.E.","40.6362453, -8.6543716",Comissão de Serviço no âmbito do Código Trabalho,2.0,2020,6
+2020-06-01,Centro,"Centro Hospitalar e Universitário de Coimbra, E.P.E.","40.2191523, -8.4098211",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,3145.0,2020,6
+2020-06-01,Centro,Centro Medicina de Reabilitação da Região Centro Rovisco Pais,"38.7313954, -9.1447467",Cargo Político / Mandato,2.0,2020,6
+2020-06-01,Centro,Hospital Arcebispo João Crisóstomo,"40.3470015, -8.5933462",CT em Funções Públicas p/ Tempo Indeterminado,110.0,2020,6
+2020-06-01,Centro,Hospital Arcebispo João Crisóstomo,"40.3470015, -8.5933462",CT em Funções Públicas a Termo Resolutivo Incerto,0.0,2020,6
+2020-06-01,Centro,Hospital Arcebispo João Crisóstomo,"40.3470015, -8.5933462",CTR certo no âmbito do Código Trabalho,0.0,2020,6
+2020-06-01,Centro,"Hospital Distrital da Figueira da Foz, E.P.E.","40.117897, -8.8586755",Cargo Político / Mandato,2.0,2020,6
+2020-06-01,Centro,"Hospital Distrital da Figueira da Foz, E.P.E.","40.117897, -8.8586755",CTR certo no âmbito do Código Trabalho,31.0,2020,6
+2020-06-01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",Comissão de Serviço no âmbito do Código Trabalho,0.0,2020,6
+2020-06-01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",CTR certo no âmbito do Código Trabalho,0.0,2020,6
+2020-06-01,Centro,"Instituto Português Oncologia de Coimbra, E.P.E.","40.2162514, -8.4103814",Comissão de Serviço no âmbito do LTFP,2.0,2020,6
+2020-06-01,Centro,"Instituto Português Oncologia de Coimbra, E.P.E.","40.2162514, -8.4103814",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,597.0,2020,6
+2020-06-01,Centro,"Unidade Local de Saúde da Guarda, E.P.E.","40.5309916, -7.2734793",Nomeação Transitória p/ Tempo determinável,0.0,2020,6
+2020-06-01,Centro,"Unidade Local de Saúde de Castelo Branco, E.P.E.","39.8212263, -7.4981271",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,6
+2020-06-01,Centro,"Unidade Local de Saúde de Castelo Branco, E.P.E.","39.8212263, -7.4981271",Comissão de Serviço no âmbito do LTFP,6.0,2020,6
+2020-06-01,Centro,"Unidade Local de Saúde de Castelo Branco, E.P.E.","39.8212263, -7.4981271",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,509.0,2020,6
+2020-06-01,Centro,"Unidade Local de Saúde de Castelo Branco, E.P.E.","39.8212263, -7.4981271",CTR incerto no âmbito do Código Trabalho,68.0,2020,6
+2020-06-01,Centro,"Unidade Local de Saúde de Castelo Branco, E.P.E.","39.8212263, -7.4981271",P. Serviços (Tarefas),0.0,2020,6
+2020-07-01,Lisboa e Vale do Tejo,"Administração Central do Sistema de Saúde, I.P.","38.7569402, -9.1494097",CT em Funções Públicas p/ Tempo Indeterminado,148.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Administração Central do Sistema de Saúde, I.P.","38.7569402, -9.1494097",CT em Funções Públicas a Termo Resolutivo Incerto,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Administração Central do Sistema de Saúde, I.P.","38.7569402, -9.1494097",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,2.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Administração Regional Saúde Lisboa Vale Tejo, I.P.","38.748879, -9.139606",Cargo Político / Mandato,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Administração Regional Saúde Lisboa Vale Tejo, I.P.","38.748879, -9.139606",Nomeação Transitória p/ Tempo determinável,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Administração Regional Saúde Lisboa Vale Tejo, I.P.","38.748879, -9.139606",Comissão de Serviço no âmbito do Código Trabalho,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Autoridade Nacional Medicamento Produtos de Saúde, I.P.","38.7582532, -9.1502867",Cargo Político / Mandato,2.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Autoridade Nacional Medicamento Produtos de Saúde, I.P.","38.7582532, -9.1502867",Comissão de Serviço no âmbito do LTFP,25.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Ação Governativa - MS,"38.7362218, -9.1463126",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Ação Governativa - MS,"38.7362218, -9.1463126",P. Serviços (Avenças),0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, E.P.E.","38.6554005, -9.0592392",Nomeação Transitória p/ Tempo determinável,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, E.P.E.","38.6554005, -9.0592392",CT em Funções Públicas a Termo Resolutivo Certo,1.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, E.P.E.","38.6554005, -9.0592392",CTR certo no âmbito do Código Trabalho,51.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, E.P.E.","38.6554005, -9.0592392",P. Serviços (Tarefas),137.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar Médio Tejo, E.P.E.","39.478072, -8.5404429",CT em Funções Públicas a Termo Resolutivo Certo,2.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar Médio Tejo, E.P.E.","39.478072, -8.5404429",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,1185.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar Médio Tejo, E.P.E.","39.478072, -8.5404429",P. Serviços (Avenças),3.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",Nomeação Transitória p/ Tempo determinável,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",CT em Funções Públicas p/ Tempo Indeterminado,536.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",CT em Funções Públicas a Termo Resolutivo Incerto,38.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",Comissão de Serviço no âmbito do Código Trabalho,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",CTR certo no âmbito do Código Trabalho,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, E.P.E.","38.7166948, -9.1371248",Nomeação Transitória p/ Tempo determinado,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, E.P.E.","38.7166948, -9.1371248",CT em Funções Públicas a Termo Resolutivo Certo,1.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, E.P.E.","38.7166948, -9.1371248",CT em Funções Públicas a Termo Resolutivo Incerto,599.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, E.P.E.","38.7166948, -9.1371248",P. Serviços (Tarefas),0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, E.P.E.","38.7500861, -9.1616116",Comissão de Serviço no âmbito do LTFP,12.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, E.P.E.","38.7500861, -9.1616116",CTR certo no âmbito do Código Trabalho,21.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, E.P.E.","38.708454, -9.216985",Cargo Político / Mandato,4.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, E.P.E.","38.708454, -9.216985",CT em Funções Públicas a Termo Resolutivo Certo,2.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, E.P.E.","38.708454, -9.216985",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,2382.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, E.P.E.","38.708454, -9.216985",CTR certo no âmbito do Código Trabalho,167.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, E.P.E.","38.708454, -9.216985",CTR incerto no âmbito do Código Trabalho,138.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, E.P.E.","38.708454, -9.216985",P. Serviços (Avenças),5.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Setúbal, E.P.E.","38.5283754, -8.8818638",Cargo Político / Mandato,3.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Setúbal, E.P.E.","38.5283754, -8.8818638",Nomeação Transitória p/ Tempo determinado,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Setúbal, E.P.E.","38.5283754, -8.8818638",Comissão de Serviço no âmbito do LTFP,8.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, E.P.E.","39.4054629, -9.1258493",Cargo Político / Mandato,3.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, E.P.E.","39.4054629, -9.1258493",CT em Funções Públicas a Termo Resolutivo Incerto,97.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, E.P.E.","39.4054629, -9.1258493",CTR certo no âmbito do Código Trabalho,89.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Direção-Geral da Saúde,"38.7364065, -9.1379161",Nomeação Transitória p/ Tempo determinável,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Direção-Geral da Saúde,"38.7364065, -9.1379161",CT em Funções Públicas a Termo Resolutivo Incerto,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Direção-Geral da Saúde,"38.7364065, -9.1379161",Comissão de Serviço no âmbito do Código Trabalho,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Direção-Geral da Saúde,"38.7364065, -9.1379161",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,1.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Direção-Geral da Saúde,"38.7364065, -9.1379161",CTR certo no âmbito do Código Trabalho,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Direção-Geral da Saúde,"38.7364065, -9.1379161",CTR incerto no âmbito do Código Trabalho,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, E.P.E.","39.2410946, -8.6937515",Nomeação Transitória p/ Tempo determinado,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, E.P.E.","39.2410946, -8.6937515",CT em Funções Públicas a Termo Resolutivo Incerto,117.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, E.P.E.","38.7422257, -9.2264834",Nomeação Transitória p/ Tempo determinável,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, E.P.E.","38.7422257, -9.2264834",CT em Funções Públicas a Termo Resolutivo Incerto,284.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, E.P.E.","38.7422257, -9.2264834",Comissão de Serviço no âmbito do LTFP,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, E.P.E.","38.7422257, -9.2264834",P. Serviços (Avenças),0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Inspeção Geral das Atividades da Saúde,"38.7156219, -9.1431603",Cargo Político / Mandato,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Inspeção Geral das Atividades da Saúde,"38.7156219, -9.1431603",CT em Funções Públicas p/ Tempo Indeterminado,71.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Inspeção Geral das Atividades da Saúde,"38.7156219, -9.1431603",Comissão de Serviço no âmbito do LTFP,3.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Inspeção Geral das Atividades da Saúde,"38.7156219, -9.1431603",P. Serviços (Avenças),0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Instituto Nacional de Emergência Médica,"38.731388, -9.142606",Cargo Político / Mandato,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Instituto Nacional de Emergência Médica,"38.731388, -9.142606",CT em Funções Públicas p/ Tempo Indeterminado,1407.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Instituto Nacional de Emergência Médica,"38.731388, -9.142606",CT em Funções Públicas a Termo Resolutivo Incerto,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Instituto Nacional de Saúde Dr. Ricardo Jorge, I.P.","38.7643827, -9.1663422",Nomeação Transitória p/ Tempo determinado,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Instituto Nacional de Saúde Dr. Ricardo Jorge, I.P.","38.7643827, -9.1663422",Nomeação Transitória p/ Tempo determinável,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Instituto Nacional de Saúde Dr. Ricardo Jorge, I.P.","38.7643827, -9.1663422",CT em Funções Públicas p/ Tempo Indeterminado,527.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Instituto Nacional de Saúde Dr. Ricardo Jorge, I.P.","38.7643827, -9.1663422",CT em Funções Públicas a Termo Resolutivo Incerto,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, E.P.E.","38.7396768, -9.1634516",CT em Funções Públicas p/ Tempo Indeterminado,526.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, E.P.E.","38.7396768, -9.1634516",CT em Funções Públicas a Termo Resolutivo Incerto,111.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, E.P.E.","38.7396768, -9.1634516",Comissão de Serviço no âmbito do Código Trabalho,23.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Instituto de Oftalmologia Dr. Gama Pinto,"38.7218793, -9.144249",CT em Funções Públicas a Termo Resolutivo Incerto,6.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Instituto de Oftalmologia Dr. Gama Pinto,"38.7218793, -9.144249",Comissão de Serviço no âmbito do LTFP,2.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Instituto de Oftalmologia Dr. Gama Pinto,"38.7218793, -9.144249",Comissão de Serviço no âmbito do Código Trabalho,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Instituto de Oftalmologia Dr. Gama Pinto,"38.7218793, -9.144249",CTR certo no âmbito do Código Trabalho,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Secretaria-Geral do Ministério da Saúde,"38.7362218, -9.1463126",Nomeação Transitória p/ Tempo determinável,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Serviços Partilhados do Ministério da Saúde, E.P.E.","38.739767, -9.1489431",CT em Funções Públicas p/ Tempo Indeterminado,22.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,"Serviços Partilhados do Ministério da Saúde, E.P.E.","38.739767, -9.1489431",P. Serviços (Avenças),0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Serviço de Intervenção Comportamentos Aditivos e Dependências,"38.7653399, -9.1611815",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Serviço de Intervenção Comportamentos Aditivos e Dependências,"38.7653399, -9.1611815",CT em Funções Públicas a Termo Resolutivo Incerto,0.0,2020,7
+2020-07-01,Norte,"Administração Regional Saúde Norte, I.P.","41.157454, -8.604431",Nomeação Transitória p/ Tempo determinável,0.0,2020,7
+2020-07-01,Norte,"Administração Regional Saúde Norte, I.P.","41.157454, -8.604431",Comissão de Serviço no âmbito do Código Trabalho,0.0,2020,7
+2020-07-01,Norte,"Centro Hospitalar Entre Douro e Vouga, E.P.E.","40.9293884, -8.5458794",CT em Funções Públicas a Termo Resolutivo Incerto,170.0,2020,7
+2020-07-01,Norte,"Centro Hospitalar Entre Douro e Vouga, E.P.E.","40.9293884, -8.5458794",CTR certo no âmbito do Código Trabalho,64.0,2020,7
+2020-07-01,Norte,"Centro Hospitalar Entre Douro e Vouga, E.P.E.","40.9293884, -8.5458794",P. Serviços (Avenças),1.0,2020,7
+2020-07-01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, E.P.E.","41.3828711, -8.7589945",Cargo Político / Mandato,3.0,2020,7
+2020-07-01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, E.P.E.","41.3828711, -8.7589945",CT em Funções Públicas p/ Tempo Indeterminado,307.0,2020,7
+2020-07-01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, E.P.E.","41.3828711, -8.7589945",Comissão de Serviço no âmbito do Código Trabalho,3.0,2020,7
+2020-07-01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, E.P.E.","41.3828711, -8.7589945",CTR incerto no âmbito do Código Trabalho,37.0,2020,7
+2020-07-01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, E.P.E.","41.3031784, -7.7515252",Comissão de Serviço no âmbito do LTFP,10.0,2020,7
+2020-07-01,Norte,"Centro Hospitalar Tâmega e Sousa, E.P.E.","41.2494561, -8.264901",Comissão de Serviço no âmbito do LTFP,2.0,2020,7
+2020-07-01,Norte,"Centro Hospitalar Tâmega e Sousa, E.P.E.","41.2494561, -8.264901",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,1312.0,2020,7
+2020-07-01,Norte,"Centro Hospitalar Tâmega e Sousa, E.P.E.","41.2494561, -8.264901",P. Serviços (Avenças),1.0,2020,7
+2020-07-01,Norte,"Centro Hospitalar Universitário de São João, E.P.E.","41.1831056, -8.6010558",CT em Funções Públicas a Termo Resolutivo Incerto,593.0,2020,7
+2020-07-01,Norte,"Centro Hospitalar Universitário de São João, E.P.E.","41.1831056, -8.6010558",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,3283.0,2020,7
+2020-07-01,Norte,"Centro Hospitalar Universitário do Porto, E.P.E.","41.1472498, -8.6172617",Nomeação Transitória p/ Tempo determinado,0.0,2020,7
+2020-07-01,Norte,"Centro Hospitalar Universitário do Porto, E.P.E.","41.1472498, -8.6172617",CT em Funções Públicas a Termo Resolutivo Incerto,477.0,2020,7
+2020-07-01,Norte,"Centro Hospitalar Universitário do Porto, E.P.E.","41.1472498, -8.6172617",Comissão de Serviço no âmbito do LTFP,23.0,2020,7
+2020-07-01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, E.P.E.","41.1094138, -8.5972617",Comissão de Serviço no âmbito do Código Trabalho,8.0,2020,7
+2020-07-01,Norte,"Centro Hospitalar do Médio Ave, E.P.E.","41.3423984, -8.4802503",CTR incerto no âmbito do Código Trabalho,33.0,2020,7
+2020-07-01,Norte,"Hospital de Braga, E.P.E.","41.567832, -8.398936",CT em Funções Públicas p/ Tempo Indeterminado,790.0,2020,7
+2020-07-01,Norte,"Hospital Santa Maria Maior, E.P.E.","41.5324234, -8.6171561",Comissão de Serviço no âmbito do LTFP,3.0,2020,7
+2020-07-01,Norte,"Hospital Santa Maria Maior, E.P.E.","41.5324234, -8.6171561",CTR incerto no âmbito do Código Trabalho,24.0,2020,7
+2020-07-01,Norte,"Hospital da Senhora da Oliveira, Guimarães, E.P.E.","41.4417064, -8.1722408",CT em Funções Públicas p/ Tempo Indeterminado,571.0,2020,7
+2020-07-01,Norte,"Hospital da Senhora da Oliveira, Guimarães, E.P.E.","41.4417064, -8.1722408",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,7
+2020-07-01,Norte,"Hospital da Senhora da Oliveira, Guimarães, E.P.E.","41.4417064, -8.1722408",P. Serviços (Tarefas),174.0,2020,7
+2020-07-01,Norte,"Hospital de Magalhães Lemos, E.P.E.","41.1764649, -8.6649823",Nomeação Transitória p/ Tempo determinado,0.0,2020,7
+2020-07-01,Norte,"Hospital de Magalhães Lemos, E.P.E.","41.1764649, -8.6649823",CT em Funções Públicas p/ Tempo Indeterminado,214.0,2020,7
+2020-07-01,Norte,"Hospital de Magalhães Lemos, E.P.E.","41.1764649, -8.6649823",P. Serviços (Avenças),2.0,2020,7
+2020-07-01,Norte,"Instituto Português Oncologia do Porto, E.P.E.","41.1785642, -8.6062881",Nomeação Transitória p/ Tempo determinado,0.0,2020,7
+2020-07-01,Norte,"Instituto Português Oncologia do Porto, E.P.E.","41.1785642, -8.6062881",CTR incerto no âmbito do Código Trabalho,49.0,2020,7
+2020-07-01,Norte,"Unidade Local de Saúde de Matosinhos, E.P.E.","41.1794456, -8.6745115",CT em Funções Públicas p/ Tempo Indeterminado,431.0,2020,7
+2020-07-01,Norte,"Unidade Local de Saúde de Matosinhos, E.P.E.","41.1794456, -8.6745115",Comissão de Serviço no âmbito do LTFP,1.0,2020,7
+2020-07-01,Norte,"Unidade Local de Saúde de Matosinhos, E.P.E.","41.1794456, -8.6745115",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,1697.0,2020,7
+2020-07-01,Norte,"Unidade Local de Saúde de Matosinhos, E.P.E.","41.1794456, -8.6745115",CTR certo no âmbito do Código Trabalho,2.0,2020,7
+2020-07-01,Norte,"Unidade Local de Saúde do Alto Minho, E.P.E.","41.7056054, -8.8252713",Cargo Político / Mandato,3.0,2020,7
+2020-07-01,Norte,"Unidade Local de Saúde do Alto Minho, E.P.E.","41.7056054, -8.8252713",P. Serviços (Avenças),129.0,2020,7
+2020-07-01,Norte,"Unidade Local de Saúde do Nordeste, E.P.E.","41.8056532, -6.7888197",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,7
+2020-07-01,Norte,"Unidade Local de Saúde do Nordeste, E.P.E.","41.8056532, -6.7888197",Comissão de Serviço no âmbito do LTFP,4.0,2020,7
+2020-07-01,Alentejo,"Administração Regional de Saúde do Alentejo, I.P.","38.565715, -7.91162",Nomeação Transitória p/ Tempo determinado,0.0,2020,7
+2020-07-01,Alentejo,"Administração Regional de Saúde do Alentejo, I.P.","38.565715, -7.91162",CT em Funções Públicas a Termo Resolutivo Certo,17.0,2020,7
+2020-07-01,Alentejo,"Hospital Espírito Santo de Évora, E.P.E.","38.5684861, -7.9032848",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,868.0,2020,7
+2020-07-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, E.P.E.","38.014123, -7.8721227",Comissão de Serviço no âmbito do LTFP,7.0,2020,7
+2020-07-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, E.P.E.","38.0162314, -8.6956768",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,611.0,2020,7
+2020-07-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, E.P.E.","38.0162314, -8.6956768",P. Serviços (Tarefas),0.0,2020,7
+2020-07-01,Alentejo,"Unidade Local de Saúde do Norte Alentejano, E.P.E.","39.3003425, -7.4263845",CT em Funções Públicas p/ Tempo Indeterminado,805.0,2020,7
+2020-07-01,Alentejo,"Unidade Local de Saúde do Norte Alentejano, E.P.E.","39.3003425, -7.4263845",CT em Funções Públicas a Termo Resolutivo Certo,6.0,2020,7
+2020-07-01,Algarve,"Administração Regional de Saúde do Algarve, I.P.","37.027122, -7.946842",CT em Funções Públicas a Termo Resolutivo Incerto,81.0,2020,7
+2020-07-01,Algarve,"Administração Regional de Saúde do Algarve, I.P.","37.027122, -7.946842",P. Serviços (Avenças),2.0,2020,7
+2020-07-01,Algarve,Centro Hospitalar Universitário do Algarve,"37.0238973, -7.9281554",CT em Funções Públicas p/ Tempo Indeterminado,1218.0,2020,7
+2020-07-01,Algarve,Centro Hospitalar Universitário do Algarve,"37.0238973, -7.9281554",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,2890.0,2020,7
+2020-07-01,Algarve,Centro Hospitalar Universitário do Algarve,"37.0238973, -7.9281554",P. Serviços (Avenças),98.0,2020,7
+2020-07-01,Centro,Administração Regional de Saúde do Centro,"40.203782, -8.419176",CTR certo no âmbito do Código Trabalho,0.0,2020,7
+2020-07-01,Centro,"Centro Hospitalar Tondela-Viseu, E.P.E.","40.516364, -8.0827433",Nomeação Transitória p/ Tempo determinável,0.0,2020,7
+2020-07-01,Centro,"Centro Hospitalar Tondela-Viseu, E.P.E.","40.516364, -8.0827433",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,7
+2020-07-01,Centro,"Centro Hospitalar Universitário Cova da Beira, E.P.E.","40.2804158, -7.4922407",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,7
+2020-07-01,Centro,"Centro Hospitalar de Leiria, E.P.E.","39.7414812, -8.7982706",CT em Funções Públicas p/ Tempo Indeterminado,899.0,2020,7
+2020-07-01,Centro,"Centro Hospitalar de Leiria, E.P.E.","39.7414812, -8.7982706",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,7
+2020-07-01,Centro,"Centro Hospitalar de Leiria, E.P.E.","39.7414812, -8.7982706",CTR certo no âmbito do Código Trabalho,24.0,2020,7
+2020-07-01,Centro,"Centro Hospitalar do Baixo Vouga, E.P.E.","40.6362453, -8.6543716",Comissão de Serviço no âmbito do LTFP,6.0,2020,7
+2020-07-01,Centro,"Centro Hospitalar e Universitário de Coimbra, E.P.E.","40.2191523, -8.4098211",Comissão de Serviço no âmbito do LTFP,4.0,2020,7
+2020-07-01,Centro,Centro Medicina de Reabilitação da Região Centro Rovisco Pais,"38.7313954, -9.1447467",Comissão de Serviço no âmbito do LTFP,1.0,2020,7
+2020-07-01,Centro,Hospital Arcebispo João Crisóstomo,"40.3470015, -8.5933462",CT em Funções Públicas a Termo Resolutivo Incerto,0.0,2020,7
+2020-07-01,Centro,Hospital Arcebispo João Crisóstomo,"40.3470015, -8.5933462",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,0.0,2020,7
+2020-07-01,Centro,"Hospital Distrital da Figueira da Foz, E.P.E.","40.117897, -8.8586755",Nomeação Transitória p/ Tempo determinado,0.0,2020,7
+2020-07-01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",Nomeação Transitória p/ Tempo determinável,0.0,2020,7
+2020-07-01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",CT em Funções Públicas a Termo Resolutivo Incerto,0.0,2020,7
+2020-07-01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",Comissão de Serviço no âmbito do Código Trabalho,0.0,2020,7
+2020-07-01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",P. Serviços (Avenças),0.0,2020,7
+2020-07-01,Centro,"Instituto Português Oncologia de Coimbra, E.P.E.","40.2162514, -8.4103814",Nomeação Transitória p/ Tempo determinado,0.0,2020,7
+2020-07-01,Centro,"Unidade Local de Saúde da Guarda, E.P.E.","40.5309916, -7.2734793",Nomeação Transitória p/ Tempo determinado,0.0,2020,7
+2020-07-01,Centro,"Unidade Local de Saúde da Guarda, E.P.E.","40.5309916, -7.2734793",CTR certo no âmbito do Código Trabalho,135.0,2020,7
+2020-07-01,Centro,"Unidade Local de Saúde da Guarda, E.P.E.","40.5309916, -7.2734793",P. Serviços (Avenças),0.0,2020,7
+2020-08-01,Lisboa e Vale do Tejo,"Administração Central do Sistema de Saúde, I.P.","38.7569402, -9.1494097",Nomeação Transitória p/ Tempo determinável,0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Administração Central do Sistema de Saúde, I.P.","38.7569402, -9.1494097",CT em Funções Públicas p/ Tempo Indeterminado,149.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Administração Central do Sistema de Saúde, I.P.","38.7569402, -9.1494097",CT em Funções Públicas a Termo Resolutivo Certo,10.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Administração Central do Sistema de Saúde, I.P.","38.7569402, -9.1494097",Comissão de Serviço no âmbito do Código Trabalho,0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Administração Central do Sistema de Saúde, I.P.","38.7569402, -9.1494097",CTR certo no âmbito do Código Trabalho,0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Administração Central do Sistema de Saúde, I.P.","38.7569402, -9.1494097",P. Serviços (Avenças),0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Administração Regional Saúde Lisboa Vale Tejo, I.P.","38.748879, -9.139606",CTR incerto no âmbito do Código Trabalho,0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Autoridade Nacional Medicamento Produtos de Saúde, I.P.","38.7582532, -9.1502867",Cargo Político / Mandato,2.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Autoridade Nacional Medicamento Produtos de Saúde, I.P.","38.7582532, -9.1502867",Nomeação Transitória p/ Tempo determinado,0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Autoridade Nacional Medicamento Produtos de Saúde, I.P.","38.7582532, -9.1502867",Comissão de Serviço no âmbito do LTFP,25.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,Ação Governativa - MS,"38.7362218, -9.1463126",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, E.P.E.","38.6554005, -9.0592392",Cargo Político / Mandato,5.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, E.P.E.","38.6554005, -9.0592392",Nomeação Transitória p/ Tempo determinável,0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, E.P.E.","38.6554005, -9.0592392",CT em Funções Públicas a Termo Resolutivo Incerto,112.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, E.P.E.","38.6554005, -9.0592392",P. Serviços (Tarefas),137.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Centro Hospitalar Médio Tejo, E.P.E.","39.478072, -8.5404429",Comissão de Serviço no âmbito do Código Trabalho,54.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",Cargo Político / Mandato,2.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",P. Serviços (Tarefas),1.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, E.P.E.","38.7166948, -9.1371248",Nomeação Transitória p/ Tempo determinado,0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, E.P.E.","38.7166948, -9.1371248",CT em Funções Públicas a Termo Resolutivo Certo,1.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, E.P.E.","38.7500861, -9.1616116",Nomeação Transitória p/ Tempo determinado,0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, E.P.E.","38.7500861, -9.1616116",Comissão de Serviço no âmbito do Código Trabalho,3.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, E.P.E.","38.7500861, -9.1616116",CTR certo no âmbito do Código Trabalho,19.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, E.P.E.","38.708454, -9.216985",CT em Funções Públicas a Termo Resolutivo Certo,3.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, E.P.E.","38.708454, -9.216985",CT em Funções Públicas a Termo Resolutivo Incerto,377.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, E.P.E.","38.708454, -9.216985",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,2377.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, E.P.E.","38.708454, -9.216985",CTR incerto no âmbito do Código Trabalho,135.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Setúbal, E.P.E.","38.5283754, -8.8818638",CT em Funções Públicas p/ Tempo Indeterminado,735.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, E.P.E.","39.4054629, -9.1258493",Nomeação Transitória p/ Tempo determinável,0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, E.P.E.","39.4054629, -9.1258493",CT em Funções Públicas p/ Tempo Indeterminado,1460.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, E.P.E.","39.4054629, -9.1258493",CT em Funções Públicas a Termo Resolutivo Certo,1.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,Direção-Geral da Saúde,"38.7364065, -9.1379161",CT em Funções Públicas p/ Tempo Indeterminado,111.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, E.P.E.","39.2410946, -8.6937515",Comissão de Serviço no âmbito do LTFP,2.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, E.P.E.","39.2410946, -8.6937515",Comissão de Serviço no âmbito do Código Trabalho,36.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, E.P.E.","39.2410946, -8.6937515",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,931.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, E.P.E.","38.7422257, -9.2264834",Cargo Político / Mandato,3.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, E.P.E.","38.7422257, -9.2264834",CTR certo no âmbito do Código Trabalho,47.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Hospital Garcia de Orta, E.P.E.","38.6658713, -9.1822554",CTR certo no âmbito do Código Trabalho,124.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Hospital Garcia de Orta, E.P.E.","38.6658713, -9.1822554",CTR incerto no âmbito do Código Trabalho,63.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,Inspeção Geral das Atividades da Saúde,"38.7156219, -9.1431603",Nomeação Transitória p/ Tempo determinável,0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,Inspeção Geral das Atividades da Saúde,"38.7156219, -9.1431603",CT em Funções Públicas a Termo Resolutivo Incerto,0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,Inspeção Geral das Atividades da Saúde,"38.7156219, -9.1431603",CTR incerto no âmbito do Código Trabalho,0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,Instituto Nacional de Emergência Médica,"38.731388, -9.142606",Nomeação Transitória p/ Tempo determinável,0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,Instituto Nacional de Emergência Médica,"38.731388, -9.142606",CT em Funções Públicas a Termo Resolutivo Certo,15.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Instituto Nacional de Saúde Dr. Ricardo Jorge, I.P.","38.7643827, -9.1663422",Cargo Político / Mandato,1.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Instituto Nacional de Saúde Dr. Ricardo Jorge, I.P.","38.7643827, -9.1663422",CT em Funções Públicas p/ Tempo Indeterminado,527.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Instituto Nacional de Saúde Dr. Ricardo Jorge, I.P.","38.7643827, -9.1663422",CTR certo no âmbito do Código Trabalho,0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Instituto Nacional de Saúde Dr. Ricardo Jorge, I.P.","38.7643827, -9.1663422",P. Serviços (Avenças),0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, E.P.E.","38.7396768, -9.1634516",Cargo Político / Mandato,3.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, E.P.E.","38.7396768, -9.1634516",Nomeação Transitória p/ Tempo determinável,0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, E.P.E.","38.7396768, -9.1634516",CT em Funções Públicas p/ Tempo Indeterminado,535.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, E.P.E.","38.7396768, -9.1634516",Comissão de Serviço no âmbito do Código Trabalho,12.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, E.P.E.","38.7396768, -9.1634516",CTR certo no âmbito do Código Trabalho,19.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, E.P.E.","38.7396768, -9.1634516",P. Serviços (Tarefas),0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Instituto Português do Sangue e da Transplantação, I.P.","38.7567758, -9.1505021",Nomeação Transitória p/ Tempo determinável,0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Instituto Português do Sangue e da Transplantação, I.P.","38.7567758, -9.1505021",CT em Funções Públicas a Termo Resolutivo Certo,23.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Instituto Português do Sangue e da Transplantação, I.P.","38.7567758, -9.1505021",Comissão de Serviço no âmbito do LTFP,8.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,Instituto de Oftalmologia Dr. Gama Pinto,"38.7218793, -9.144249",P. Serviços (Tarefas),1.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,Instituto de Oftalmologia Dr. Gama Pinto,"38.7218793, -9.144249",P. Serviços (Avenças),6.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,Secretaria-Geral do Ministério da Saúde,"38.7362218, -9.1463126",CT em Funções Públicas p/ Tempo Indeterminado,51.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Serviços Partilhados do Ministério da Saúde, E.P.E.","38.739767, -9.1489431",Nomeação Transitória p/ Tempo determinado,0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Serviços Partilhados do Ministério da Saúde, E.P.E.","38.739767, -9.1489431",CTR certo no âmbito do Código Trabalho,0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,"Serviços Partilhados do Ministério da Saúde, E.P.E.","38.739767, -9.1489431",CTR incerto no âmbito do Código Trabalho,0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,Serviço de Intervenção Comportamentos Aditivos e Dependências,"38.7653399, -9.1611815",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,Serviço de Intervenção Comportamentos Aditivos e Dependências,"38.7653399, -9.1611815",CTR certo no âmbito do Código Trabalho,0.0,2020,8
+2020-08-01,Lisboa e Vale do Tejo,Serviço de Intervenção Comportamentos Aditivos e Dependências,"38.7653399, -9.1611815",CTR incerto no âmbito do Código Trabalho,0.0,2020,8
+2020-08-01,Norte,"Administração Regional Saúde Norte, I.P.","41.157454, -8.604431",Nomeação Transitória p/ Tempo determinado,0.0,2020,8
+2020-08-01,Norte,"Administração Regional Saúde Norte, I.P.","41.157454, -8.604431",CT em Funções Públicas p/ Tempo Indeterminado,8043.0,2020,8
+2020-08-01,Norte,"Administração Regional Saúde Norte, I.P.","41.157454, -8.604431",CT em Funções Públicas a Termo Resolutivo Incerto,842.0,2020,8
+2020-08-01,Norte,"Administração Regional Saúde Norte, I.P.","41.157454, -8.604431",Comissão de Serviço no âmbito do LTFP,36.0,2020,8
+2020-08-01,Norte,"Centro Hospitalar Entre Douro e Vouga, E.P.E.","40.9293884, -8.5458794",P. Serviços (Tarefas),155.0,2020,8
+2020-08-01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, E.P.E.","41.3828711, -8.7589945",Cargo Político / Mandato,3.0,2020,8
+2020-08-01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, E.P.E.","41.3828711, -8.7589945",CT em Funções Públicas p/ Tempo Indeterminado,307.0,2020,8
+2020-08-01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, E.P.E.","41.3828711, -8.7589945",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,8
+2020-08-01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, E.P.E.","41.3031784, -7.7515252",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,8
+2020-08-01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, E.P.E.","41.3031784, -7.7515252",Comissão de Serviço no âmbito do LTFP,10.0,2020,8
+2020-08-01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, E.P.E.","41.3031784, -7.7515252",Comissão de Serviço no âmbito do Código Trabalho,3.0,2020,8
+2020-08-01,Norte,"Centro Hospitalar Tâmega e Sousa, E.P.E.","41.2494561, -8.264901",CT em Funções Públicas a Termo Resolutivo Incerto,158.0,2020,8
+2020-08-01,Norte,"Centro Hospitalar Tâmega e Sousa, E.P.E.","41.2494561, -8.264901",Comissão de Serviço no âmbito do LTFP,2.0,2020,8
+2020-08-01,Norte,"Centro Hospitalar Universitário de São João, E.P.E.","41.1831056, -8.6010558",CT em Funções Públicas a Termo Resolutivo Certo,1.0,2020,8
+2020-08-01,Norte,"Centro Hospitalar Universitário do Porto, E.P.E.","41.1472498, -8.6172617",CTR incerto no âmbito do Código Trabalho,132.0,2020,8
+2020-08-01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, E.P.E.","41.1094138, -8.5972617",Cargo Político / Mandato,3.0,2020,8
+2020-08-01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, E.P.E.","41.1094138, -8.5972617",Nomeação Transitória p/ Tempo determinável,0.0,2020,8
+2020-08-01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, E.P.E.","41.1094138, -8.5972617",CTR certo no âmbito do Código Trabalho,89.0,2020,8
+2020-08-01,Norte,"Centro Hospitalar do Médio Ave, E.P.E.","41.3423984, -8.4802503",Cargo Político / Mandato,5.0,2020,8
+2020-08-01,Norte,"Centro Hospitalar do Médio Ave, E.P.E.","41.3423984, -8.4802503",CT em Funções Públicas p/ Tempo Indeterminado,429.0,2020,8
+2020-08-01,Norte,"Centro Hospitalar do Médio Ave, E.P.E.","41.3423984, -8.4802503",CTR certo no âmbito do Código Trabalho,3.0,2020,8
+2020-08-01,Norte,"Centro Hospitalar do Médio Ave, E.P.E.","41.3423984, -8.4802503",CTR incerto no âmbito do Código Trabalho,33.0,2020,8
+2020-08-01,Norte,"Hospital de Braga, E.P.E.","41.567832, -8.398936",Nomeação Transitória p/ Tempo determinado,0.0,2020,8
+2020-08-01,Norte,"Hospital de Braga, E.P.E.","41.567832, -8.398936",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,8
+2020-08-01,Norte,"Hospital Santa Maria Maior, E.P.E.","41.5324234, -8.6171561",Cargo Político / Mandato,2.0,2020,8
+2020-08-01,Norte,"Hospital Santa Maria Maior, E.P.E.","41.5324234, -8.6171561",Nomeação Transitória p/ Tempo determinável,0.0,2020,8
+2020-08-01,Norte,"Hospital Santa Maria Maior, E.P.E.","41.5324234, -8.6171561",Comissão de Serviço no âmbito do Código Trabalho,2.0,2020,8
+2020-08-01,Norte,"Hospital Santa Maria Maior, E.P.E.","41.5324234, -8.6171561",CTR incerto no âmbito do Código Trabalho,21.0,2020,8
+2020-08-01,Norte,"Hospital Santa Maria Maior, E.P.E.","41.5324234, -8.6171561",P. Serviços (Tarefas),163.0,2020,8
+2020-08-01,Norte,"Hospital da Senhora da Oliveira, Guimarães, E.P.E.","41.4417064, -8.1722408",Cargo Político / Mandato,5.0,2020,8
+2020-08-01,Norte,"Hospital da Senhora da Oliveira, Guimarães, E.P.E.","41.4417064, -8.1722408",Nomeação Transitória p/ Tempo determinado,0.0,2020,8
+2020-08-01,Norte,"Hospital da Senhora da Oliveira, Guimarães, E.P.E.","41.4417064, -8.1722408",Comissão de Serviço no âmbito do LTFP,9.0,2020,8
+2020-08-01,Norte,"Hospital de Magalhães Lemos, E.P.E.","41.1764649, -8.6649823",CT em Funções Públicas p/ Tempo Indeterminado,213.0,2020,8
+2020-08-01,Norte,"Hospital de Magalhães Lemos, E.P.E.","41.1764649, -8.6649823",P. Serviços (Tarefas),19.0,2020,8
+2020-08-01,Norte,"Instituto Português Oncologia do Porto, E.P.E.","41.1785642, -8.6062881",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,1334.0,2020,8
+2020-08-01,Norte,"Instituto Português Oncologia do Porto, E.P.E.","41.1785642, -8.6062881",CTR incerto no âmbito do Código Trabalho,47.0,2020,8
+2020-08-01,Norte,"Unidade Local de Saúde de Matosinhos, E.P.E.","41.1794456, -8.6745115",Nomeação Transitória p/ Tempo determinado,0.0,2020,8
+2020-08-01,Norte,"Unidade Local de Saúde de Matosinhos, E.P.E.","41.1794456, -8.6745115",Nomeação Transitória p/ Tempo determinável,0.0,2020,8
+2020-08-01,Norte,"Unidade Local de Saúde de Matosinhos, E.P.E.","41.1794456, -8.6745115",P. Serviços (Avenças),0.0,2020,8
+2020-08-01,Norte,"Unidade Local de Saúde do Alto Minho, E.P.E.","41.7056054, -8.8252713",CT em Funções Públicas a Termo Resolutivo Incerto,184.0,2020,8
+2020-08-01,Norte,"Unidade Local de Saúde do Alto Minho, E.P.E.","41.7056054, -8.8252713",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,1118.0,2020,8
+2020-08-01,Norte,"Unidade Local de Saúde do Alto Minho, E.P.E.","41.7056054, -8.8252713",P. Serviços (Tarefas),1.0,2020,8
+2020-08-01,Norte,"Unidade Local de Saúde do Nordeste, E.P.E.","41.8056532, -6.7888197",Cargo Político / Mandato,3.0,2020,8
+2020-08-01,Norte,"Unidade Local de Saúde do Nordeste, E.P.E.","41.8056532, -6.7888197",Nomeação Transitória p/ Tempo determinável,0.0,2020,8
+2020-08-01,Norte,"Unidade Local de Saúde do Nordeste, E.P.E.","41.8056532, -6.7888197",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,8
+2020-08-01,Norte,"Unidade Local de Saúde do Nordeste, E.P.E.","41.8056532, -6.7888197",CTR incerto no âmbito do Código Trabalho,1.0,2020,8
+2020-08-01,Alentejo,"Administração Regional de Saúde do Alentejo, I.P.","38.565715, -7.91162",CT em Funções Públicas p/ Tempo Indeterminado,724.0,2020,8
+2020-08-01,Alentejo,"Administração Regional de Saúde do Alentejo, I.P.","38.565715, -7.91162",CT em Funções Públicas a Termo Resolutivo Certo,33.0,2020,8
+2020-08-01,Alentejo,"Administração Regional de Saúde do Alentejo, I.P.","38.565715, -7.91162",CT em Funções Públicas a Termo Resolutivo Incerto,40.0,2020,8
+2020-08-01,Alentejo,"Administração Regional de Saúde do Alentejo, I.P.","38.565715, -7.91162",Comissão de Serviço no âmbito do LTFP,11.0,2020,8
+2020-08-01,Alentejo,"Administração Regional de Saúde do Alentejo, I.P.","38.565715, -7.91162",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,1.0,2020,8
+2020-08-01,Alentejo,"Administração Regional de Saúde do Alentejo, I.P.","38.565715, -7.91162",P. Serviços (Tarefas),0.0,2020,8
+2020-08-01,Alentejo,"Hospital Espírito Santo de Évora, E.P.E.","38.5684861, -7.9032848",Nomeação Transitória p/ Tempo determinável,0.0,2020,8
+2020-08-01,Alentejo,"Hospital Espírito Santo de Évora, E.P.E.","38.5684861, -7.9032848",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,8
+2020-08-01,Alentejo,"Hospital Espírito Santo de Évora, E.P.E.","38.5684861, -7.9032848",Comissão de Serviço no âmbito do LTFP,7.0,2020,8
+2020-08-01,Alentejo,"Hospital Espírito Santo de Évora, E.P.E.","38.5684861, -7.9032848",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,870.0,2020,8
+2020-08-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, E.P.E.","38.014123, -7.8721227",Nomeação Transitória p/ Tempo determinável,0.0,2020,8
+2020-08-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, E.P.E.","38.014123, -7.8721227",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,8
+2020-08-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, E.P.E.","38.014123, -7.8721227",CTR incerto no âmbito do Código Trabalho,70.0,2020,8
+2020-08-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, E.P.E.","38.014123, -7.8721227",P. Serviços (Tarefas),0.0,2020,8
+2020-08-01,Alentejo,"Unidade Local de Saúde do Norte Alentejano, E.P.E.","39.3003425, -7.4263845",Nomeação Transitória p/ Tempo determinado,0.0,2020,8
+2020-08-01,Algarve,"Administração Regional de Saúde do Algarve, I.P.","37.027122, -7.946842",Cargo Político / Mandato,0.0,2020,8
+2020-08-01,Algarve,"Administração Regional de Saúde do Algarve, I.P.","37.027122, -7.946842",Nomeação Transitória p/ Tempo determinado,0.0,2020,8
+2020-08-01,Algarve,"Administração Regional de Saúde do Algarve, I.P.","37.027122, -7.946842",CT em Funções Públicas a Termo Resolutivo Certo,164.0,2020,8
+2020-08-01,Algarve,Centro Hospitalar Universitário do Algarve,"37.0238973, -7.9281554",Nomeação Transitória p/ Tempo determinável,0.0,2020,8
+2020-08-01,Algarve,Centro Hospitalar Universitário do Algarve,"37.0238973, -7.9281554",CT em Funções Públicas p/ Tempo Indeterminado,1212.0,2020,8
+2020-08-01,Algarve,Centro Hospitalar Universitário do Algarve,"37.0238973, -7.9281554",Comissão de Serviço no âmbito do Código Trabalho,1.0,2020,8
+2020-08-01,Centro,Administração Regional de Saúde do Centro,"40.203782, -8.419176",Nomeação Transitória p/ Tempo determinável,0.0,2020,8
+2020-08-01,Centro,"Centro Hospitalar Tondela-Viseu, E.P.E.","40.516364, -8.0827433",Nomeação Transitória p/ Tempo determinável,0.0,2020,8
+2020-08-01,Centro,"Centro Hospitalar Tondela-Viseu, E.P.E.","40.516364, -8.0827433",Comissão de Serviço no âmbito do LTFP,7.0,2020,8
+2020-08-01,Centro,"Centro Hospitalar Tondela-Viseu, E.P.E.","40.516364, -8.0827433",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,1322.0,2020,8
+2020-08-01,Centro,"Centro Hospitalar Universitário Cova da Beira, E.P.E.","40.2804158, -7.4922407",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,8
+2020-08-01,Centro,"Centro Hospitalar de Leiria, E.P.E.","39.7414812, -8.7982706",Cargo Político / Mandato,3.0,2020,8
+2020-08-01,Centro,"Centro Hospitalar de Leiria, E.P.E.","39.7414812, -8.7982706",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,8
+2020-08-01,Centro,"Centro Hospitalar de Leiria, E.P.E.","39.7414812, -8.7982706",Comissão de Serviço no âmbito do LTFP,2.0,2020,8
+2020-08-01,Centro,"Centro Hospitalar de Leiria, E.P.E.","39.7414812, -8.7982706",Comissão de Serviço no âmbito do Código Trabalho,4.0,2020,8
+2020-08-01,Centro,"Centro Hospitalar do Baixo Vouga, E.P.E.","40.6362453, -8.6543716",Nomeação Transitória p/ Tempo determinado,0.0,2020,8
+2020-08-01,Centro,"Centro Hospitalar do Baixo Vouga, E.P.E.","40.6362453, -8.6543716",Comissão de Serviço no âmbito do Código Trabalho,2.0,2020,8
+2020-08-01,Centro,"Centro Hospitalar e Universitário de Coimbra, E.P.E.","40.2191523, -8.4098211",Nomeação Transitória p/ Tempo determinado,0.0,2020,8
+2020-08-01,Centro,"Centro Hospitalar e Universitário de Coimbra, E.P.E.","40.2191523, -8.4098211",CT em Funções Públicas a Termo Resolutivo Incerto,674.0,2020,8
+2020-08-01,Centro,"Centro Hospitalar e Universitário de Coimbra, E.P.E.","40.2191523, -8.4098211",Comissão de Serviço no âmbito do Código Trabalho,0.0,2020,8
+2020-08-01,Centro,Centro Medicina de Reabilitação da Região Centro Rovisco Pais,"38.7313954, -9.1447467",Nomeação Transitória p/ Tempo determinável,0.0,2020,8
+2020-08-01,Centro,Centro Medicina de Reabilitação da Região Centro Rovisco Pais,"38.7313954, -9.1447467",CT em Funções Públicas a Termo Resolutivo Certo,16.0,2020,8
+2020-08-01,Centro,Centro Medicina de Reabilitação da Região Centro Rovisco Pais,"38.7313954, -9.1447467",Comissão de Serviço no âmbito do Código Trabalho,0.0,2020,8
+2020-08-01,Centro,Hospital Arcebispo João Crisóstomo,"40.3470015, -8.5933462",Comissão de Serviço no âmbito do LTFP,2.0,2020,8
+2020-08-01,Centro,"Hospital Distrital da Figueira da Foz, E.P.E.","40.117897, -8.8586755",Cargo Político / Mandato,2.0,2020,8
+2020-08-01,Centro,"Hospital Distrital da Figueira da Foz, E.P.E.","40.117897, -8.8586755",Nomeação Transitória p/ Tempo determinado,0.0,2020,8
+2020-08-01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",Cargo Político / Mandato,1.0,2020,8
+2020-08-01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",Nomeação Transitória p/ Tempo determinado,0.0,2020,8
+2020-08-01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",CTR certo no âmbito do Código Trabalho,0.0,2020,8
+2020-08-01,Centro,"Instituto Português Oncologia de Coimbra, E.P.E.","40.2162514, -8.4103814",CT em Funções Públicas a Termo Resolutivo Incerto,53.0,2020,8
+2020-08-01,Centro,"Unidade Local de Saúde da Guarda, E.P.E.","40.5309916, -7.2734793",CT em Funções Públicas a Termo Resolutivo Incerto,98.0,2020,8
+2020-08-01,Centro,"Unidade Local de Saúde da Guarda, E.P.E.","40.5309916, -7.2734793",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,784.0,2020,8
+2020-08-01,Centro,"Unidade Local de Saúde de Castelo Branco, E.P.E.","39.8212263, -7.4981271",Cargo Político / Mandato,1.0,2020,8
+2020-08-01,Centro,"Unidade Local de Saúde de Castelo Branco, E.P.E.","39.8212263, -7.4981271",Nomeação Transitória p/ Tempo determinado,0.0,2020,8
+2020-08-01,Centro,"Unidade Local de Saúde de Castelo Branco, E.P.E.","39.8212263, -7.4981271",CT em Funções Públicas a Termo Resolutivo Incerto,72.0,2020,8
+2020-08-01,Centro,"Unidade Local de Saúde de Castelo Branco, E.P.E.","39.8212263, -7.4981271",Comissão de Serviço no âmbito do LTFP,6.0,2020,8
+2020-08-01,Centro,"Unidade Local de Saúde de Castelo Branco, E.P.E.","39.8212263, -7.4981271",CTR incerto no âmbito do Código Trabalho,13.0,2020,8
+2020-08-01,Centro,"Unidade Local de Saúde de Castelo Branco, E.P.E.","39.8212263, -7.4981271",P. Serviços (Tarefas),0.0,2020,8
+2020-09-01,Lisboa e Vale do Tejo,"Administração Central do Sistema de Saúde, I.P.","38.7569402, -9.1494097",Nomeação Transitória p/ Tempo determinável,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Administração Central do Sistema de Saúde, I.P.","38.7569402, -9.1494097",CT em Funções Públicas a Termo Resolutivo Incerto,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Administração Central do Sistema de Saúde, I.P.","38.7569402, -9.1494097",CTR incerto no âmbito do Código Trabalho,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Administração Regional Saúde Lisboa Vale Tejo, I.P.","38.748879, -9.139606",Cargo Político / Mandato,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Autoridade Nacional Medicamento Produtos de Saúde, I.P.","38.7582532, -9.1502867",Cargo Político / Mandato,2.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Autoridade Nacional Medicamento Produtos de Saúde, I.P.","38.7582532, -9.1502867",CT em Funções Públicas p/ Tempo Indeterminado,311.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Autoridade Nacional Medicamento Produtos de Saúde, I.P.","38.7582532, -9.1502867",Comissão de Serviço no âmbito do LTFP,24.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Autoridade Nacional Medicamento Produtos de Saúde, I.P.","38.7582532, -9.1502867",CTR certo no âmbito do Código Trabalho,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Autoridade Nacional Medicamento Produtos de Saúde, I.P.","38.7582532, -9.1502867",P. Serviços (Tarefas),35.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,Ação Governativa - MS,"38.7362218, -9.1463126",Nomeação Transitória p/ Tempo determinado,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,Ação Governativa - MS,"38.7362218, -9.1463126",Nomeação Transitória p/ Tempo determinável,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, E.P.E.","38.6554005, -9.0592392",CT em Funções Públicas a Termo Resolutivo Incerto,109.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, E.P.E.","38.6554005, -9.0592392",Comissão de Serviço no âmbito do Código Trabalho,5.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, E.P.E.","38.6554005, -9.0592392",P. Serviços (Tarefas),119.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Centro Hospitalar Médio Tejo, E.P.E.","39.478072, -8.5404429",Comissão de Serviço no âmbito do Código Trabalho,53.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Centro Hospitalar Médio Tejo, E.P.E.","39.478072, -8.5404429",P. Serviços (Tarefas),69.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",Cargo Político / Mandato,2.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",CT em Funções Públicas p/ Tempo Indeterminado,532.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",CT em Funções Públicas a Termo Resolutivo Certo,34.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",P. Serviços (Tarefas),1.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",P. Serviços (Avenças),0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, E.P.E.","38.7166948, -9.1371248",Cargo Político / Mandato,5.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, E.P.E.","38.7166948, -9.1371248",CT em Funções Públicas p/ Tempo Indeterminado,3222.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, E.P.E.","38.7500861, -9.1616116",Nomeação Transitória p/ Tempo determinado,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, E.P.E.","38.7500861, -9.1616116",CT em Funções Públicas a Termo Resolutivo Incerto,618.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, E.P.E.","38.708454, -9.216985",CT em Funções Públicas a Termo Resolutivo Certo,4.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, E.P.E.","38.708454, -9.216985",CT em Funções Públicas a Termo Resolutivo Incerto,374.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Setúbal, E.P.E.","38.5283754, -8.8818638",CT em Funções Públicas a Termo Resolutivo Incerto,141.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Setúbal, E.P.E.","38.5283754, -8.8818638",CTR incerto no âmbito do Código Trabalho,104.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, E.P.E.","39.4054629, -9.1258493",CT em Funções Públicas a Termo Resolutivo Certo,1.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,Direção-Geral da Saúde,"38.7364065, -9.1379161",Cargo Político / Mandato,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,Direção-Geral da Saúde,"38.7364065, -9.1379161",CT em Funções Públicas a Termo Resolutivo Incerto,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,Direção-Geral da Saúde,"38.7364065, -9.1379161",Comissão de Serviço no âmbito do Código Trabalho,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,Direção-Geral da Saúde,"38.7364065, -9.1379161",P. Serviços (Tarefas),0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, E.P.E.","39.2410946, -8.6937515",Nomeação Transitória p/ Tempo determinado,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, E.P.E.","39.2410946, -8.6937515",Nomeação Transitória p/ Tempo determinável,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, E.P.E.","39.2410946, -8.6937515",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, E.P.E.","39.2410946, -8.6937515",CT em Funções Públicas a Termo Resolutivo Incerto,113.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, E.P.E.","39.2410946, -8.6937515",CTR incerto no âmbito do Código Trabalho,17.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, E.P.E.","38.7422257, -9.2264834",CTR incerto no âmbito do Código Trabalho,118.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Hospital Garcia de Orta, E.P.E.","38.6658713, -9.1822554",CT em Funções Públicas a Termo Resolutivo Incerto,214.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Hospital Garcia de Orta, E.P.E.","38.6658713, -9.1822554",P. Serviços (Tarefas),0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Hospital Garcia de Orta, E.P.E.","38.6658713, -9.1822554",P. Serviços (Avenças),121.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,Inspeção Geral das Atividades da Saúde,"38.7156219, -9.1431603",Nomeação Transitória p/ Tempo determinado,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,Inspeção Geral das Atividades da Saúde,"38.7156219, -9.1431603",Comissão de Serviço no âmbito do Código Trabalho,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,Instituto Nacional de Emergência Médica,"38.731388, -9.142606",CT em Funções Públicas p/ Tempo Indeterminado,1386.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,Instituto Nacional de Emergência Médica,"38.731388, -9.142606",CT em Funções Públicas a Termo Resolutivo Certo,16.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Instituto Nacional de Saúde Dr. Ricardo Jorge, I.P.","38.7643827, -9.1663422",Nomeação Transitória p/ Tempo determinável,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Instituto Nacional de Saúde Dr. Ricardo Jorge, I.P.","38.7643827, -9.1663422",CT em Funções Públicas a Termo Resolutivo Certo,13.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Instituto Nacional de Saúde Dr. Ricardo Jorge, I.P.","38.7643827, -9.1663422",Comissão de Serviço no âmbito do Código Trabalho,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Instituto Nacional de Saúde Dr. Ricardo Jorge, I.P.","38.7643827, -9.1663422",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,4.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Instituto Nacional de Saúde Dr. Ricardo Jorge, I.P.","38.7643827, -9.1663422",CTR incerto no âmbito do Código Trabalho,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, E.P.E.","38.7396768, -9.1634516",Nomeação Transitória p/ Tempo determinado,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, E.P.E.","38.7396768, -9.1634516",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, E.P.E.","38.7396768, -9.1634516",CT em Funções Públicas a Termo Resolutivo Incerto,108.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, E.P.E.","38.7396768, -9.1634516",Comissão de Serviço no âmbito do Código Trabalho,12.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, E.P.E.","38.7396768, -9.1634516",CTR incerto no âmbito do Código Trabalho,25.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Instituto Português do Sangue e da Transplantação, I.P.","38.7567758, -9.1505021",Nomeação Transitória p/ Tempo determinável,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Instituto Português do Sangue e da Transplantação, I.P.","38.7567758, -9.1505021",CT em Funções Públicas p/ Tempo Indeterminado,448.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,Instituto de Oftalmologia Dr. Gama Pinto,"38.7218793, -9.144249",P. Serviços (Avenças),6.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,Secretaria-Geral do Ministério da Saúde,"38.7362218, -9.1463126",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,Secretaria-Geral do Ministério da Saúde,"38.7362218, -9.1463126",Comissão de Serviço no âmbito do Código Trabalho,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Serviços Partilhados do Ministério da Saúde, E.P.E.","38.739767, -9.1489431",Cargo Político / Mandato,3.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,"Serviços Partilhados do Ministério da Saúde, E.P.E.","38.739767, -9.1489431",CT em Funções Públicas p/ Tempo Indeterminado,21.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,Serviço de Intervenção Comportamentos Aditivos e Dependências,"38.7653399, -9.1611815",Nomeação Transitória p/ Tempo determinado,0.0,2020,9
+2020-09-01,Lisboa e Vale do Tejo,Serviço de Intervenção Comportamentos Aditivos e Dependências,"38.7653399, -9.1611815",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,0.0,2020,9
+2020-09-01,Norte,"Administração Regional Saúde Norte, I.P.","41.157454, -8.604431",Nomeação Transitória p/ Tempo determinado,0.0,2020,9
+2020-09-01,Norte,"Administração Regional Saúde Norte, I.P.","41.157454, -8.604431",Comissão de Serviço no âmbito do Código Trabalho,0.0,2020,9
+2020-09-01,Norte,"Centro Hospitalar Entre Douro e Vouga, E.P.E.","40.9293884, -8.5458794",Comissão de Serviço no âmbito do Código Trabalho,4.0,2020,9
+2020-09-01,Norte,"Centro Hospitalar Entre Douro e Vouga, E.P.E.","40.9293884, -8.5458794",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,1515.0,2020,9
+2020-09-01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, E.P.E.","41.3828711, -8.7589945",Comissão de Serviço no âmbito do Código Trabalho,3.0,2020,9
+2020-09-01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, E.P.E.","41.3828711, -8.7589945",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,346.0,2020,9
+2020-09-01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, E.P.E.","41.3828711, -8.7589945",CTR certo no âmbito do Código Trabalho,30.0,2020,9
+2020-09-01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, E.P.E.","41.3828711, -8.7589945",CTR incerto no âmbito do Código Trabalho,35.0,2020,9
+2020-09-01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, E.P.E.","41.3031784, -7.7515252",Cargo Político / Mandato,3.0,2020,9
+2020-09-01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, E.P.E.","41.3031784, -7.7515252",Comissão de Serviço no âmbito do LTFP,10.0,2020,9
+2020-09-01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, E.P.E.","41.3031784, -7.7515252",P. Serviços (Tarefas),136.0,2020,9
+2020-09-01,Norte,"Centro Hospitalar Tâmega e Sousa, E.P.E.","41.2494561, -8.264901",CT em Funções Públicas p/ Tempo Indeterminado,557.0,2020,9
+2020-09-01,Norte,"Centro Hospitalar Tâmega e Sousa, E.P.E.","41.2494561, -8.264901",Comissão de Serviço no âmbito do Código Trabalho,3.0,2020,9
+2020-09-01,Norte,"Centro Hospitalar Tâmega e Sousa, E.P.E.","41.2494561, -8.264901",P. Serviços (Avenças),1.0,2020,9
+2020-09-01,Norte,"Centro Hospitalar Universitário de São João, E.P.E.","41.1831056, -8.6010558",Cargo Político / Mandato,4.0,2020,9
+2020-09-01,Norte,"Centro Hospitalar Universitário de São João, E.P.E.","41.1831056, -8.6010558",Comissão de Serviço no âmbito do LTFP,17.0,2020,9
+2020-09-01,Norte,"Centro Hospitalar Universitário de São João, E.P.E.","41.1831056, -8.6010558",CTR incerto no âmbito do Código Trabalho,140.0,2020,9
+2020-09-01,Norte,"Centro Hospitalar Universitário de São João, E.P.E.","41.1831056, -8.6010558",P. Serviços (Avenças),87.0,2020,9
+2020-09-01,Norte,"Centro Hospitalar Universitário do Porto, E.P.E.","41.1472498, -8.6172617",Nomeação Transitória p/ Tempo determinado,0.0,2020,9
+2020-09-01,Norte,"Centro Hospitalar Universitário do Porto, E.P.E.","41.1472498, -8.6172617",P. Serviços (Avenças),0.0,2020,9
+2020-09-01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, E.P.E.","41.1094138, -8.5972617",Nomeação Transitória p/ Tempo determinado,0.0,2020,9
+2020-09-01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, E.P.E.","41.1094138, -8.5972617",Nomeação Transitória p/ Tempo determinável,0.0,2020,9
+2020-09-01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, E.P.E.","41.1094138, -8.5972617",Comissão de Serviço no âmbito do LTFP,2.0,2020,9
+2020-09-01,Norte,"Centro Hospitalar do Médio Ave, E.P.E.","41.3423984, -8.4802503",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,9
+2020-09-01,Norte,"Centro Hospitalar do Médio Ave, E.P.E.","41.3423984, -8.4802503",CTR incerto no âmbito do Código Trabalho,39.0,2020,9
+2020-09-01,Norte,"Hospital de Braga, E.P.E.","41.567832, -8.398936",Cargo Político / Mandato,4.0,2020,9
+2020-09-01,Norte,"Hospital de Braga, E.P.E.","41.567832, -8.398936",Comissão de Serviço no âmbito do LTFP,1.0,2020,9
+2020-09-01,Norte,"Hospital Santa Maria Maior, E.P.E.","41.5324234, -8.6171561",Nomeação Transitória p/ Tempo determinável,0.0,2020,9
+2020-09-01,Norte,"Hospital Santa Maria Maior, E.P.E.","41.5324234, -8.6171561",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,9
+2020-09-01,Norte,"Hospital Santa Maria Maior, E.P.E.","41.5324234, -8.6171561",Comissão de Serviço no âmbito do Código Trabalho,2.0,2020,9
+2020-09-01,Norte,"Hospital Santa Maria Maior, E.P.E.","41.5324234, -8.6171561",CTR incerto no âmbito do Código Trabalho,22.0,2020,9
+2020-09-01,Norte,"Hospital da Senhora da Oliveira, Guimarães, E.P.E.","41.4417064, -8.1722408",CTR certo no âmbito do Código Trabalho,136.0,2020,9
+2020-09-01,Norte,"Hospital da Senhora da Oliveira, Guimarães, E.P.E.","41.4417064, -8.1722408",P. Serviços (Avenças),0.0,2020,9
+2020-09-01,Norte,"Hospital de Magalhães Lemos, E.P.E.","41.1764649, -8.6649823",P. Serviços (Tarefas),19.0,2020,9
+2020-09-01,Norte,"Instituto Português Oncologia do Porto, E.P.E.","41.1785642, -8.6062881",CTR incerto no âmbito do Código Trabalho,45.0,2020,9
+2020-09-01,Norte,"Unidade Local de Saúde de Matosinhos, E.P.E.","41.1794456, -8.6745115",Cargo Político / Mandato,4.0,2020,9
+2020-09-01,Norte,"Unidade Local de Saúde de Matosinhos, E.P.E.","41.1794456, -8.6745115",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,9
+2020-09-01,Norte,"Unidade Local de Saúde de Matosinhos, E.P.E.","41.1794456, -8.6745115",Comissão de Serviço no âmbito do LTFP,1.0,2020,9
+2020-09-01,Norte,"Unidade Local de Saúde de Matosinhos, E.P.E.","41.1794456, -8.6745115",P. Serviços (Avenças),0.0,2020,9
+2020-09-01,Norte,"Unidade Local de Saúde do Alto Minho, E.P.E.","41.7056054, -8.8252713",Nomeação Transitória p/ Tempo determinável,0.0,2020,9
+2020-09-01,Norte,"Unidade Local de Saúde do Nordeste, E.P.E.","41.8056532, -6.7888197",Comissão de Serviço no âmbito do LTFP,4.0,2020,9
+2020-09-01,Norte,"Unidade Local de Saúde do Nordeste, E.P.E.","41.8056532, -6.7888197",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,741.0,2020,9
+2020-09-01,Alentejo,"Administração Regional de Saúde do Alentejo, I.P.","38.565715, -7.91162",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,1.0,2020,9
+2020-09-01,Alentejo,"Administração Regional de Saúde do Alentejo, I.P.","38.565715, -7.91162",CTR incerto no âmbito do Código Trabalho,0.0,2020,9
+2020-09-01,Alentejo,"Administração Regional de Saúde do Alentejo, I.P.","38.565715, -7.91162",P. Serviços (Avenças),72.0,2020,9
+2020-09-01,Alentejo,"Hospital Espírito Santo de Évora, E.P.E.","38.5684861, -7.9032848",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,9
+2020-09-01,Alentejo,"Hospital Espírito Santo de Évora, E.P.E.","38.5684861, -7.9032848",CT em Funções Públicas a Termo Resolutivo Incerto,123.0,2020,9
+2020-09-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, E.P.E.","38.014123, -7.8721227",CTR incerto no âmbito do Código Trabalho,71.0,2020,9
+2020-09-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, E.P.E.","38.0162314, -8.6956768",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,9
+2020-09-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, E.P.E.","38.0162314, -8.6956768",Comissão de Serviço no âmbito do LTFP,5.0,2020,9
+2020-09-01,Alentejo,"Unidade Local de Saúde do Norte Alentejano, E.P.E.","39.3003425, -7.4263845",CTR certo no âmbito do Código Trabalho,43.0,2020,9
+2020-09-01,Algarve,"Administração Regional de Saúde do Algarve, I.P.","37.027122, -7.946842",Nomeação Transitória p/ Tempo determinado,0.0,2020,9
+2020-09-01,Algarve,"Administração Regional de Saúde do Algarve, I.P.","37.027122, -7.946842",Comissão de Serviço no âmbito do LTFP,8.0,2020,9
+2020-09-01,Algarve,"Administração Regional de Saúde do Algarve, I.P.","37.027122, -7.946842",Comissão de Serviço no âmbito do Código Trabalho,0.0,2020,9
+2020-09-01,Algarve,Centro Hospitalar Universitário do Algarve,"37.0238973, -7.9281554",Nomeação Transitória p/ Tempo determinado,0.0,2020,9
+2020-09-01,Algarve,Centro Hospitalar Universitário do Algarve,"37.0238973, -7.9281554",Nomeação Transitória p/ Tempo determinável,0.0,2020,9
+2020-09-01,Algarve,Centro Hospitalar Universitário do Algarve,"37.0238973, -7.9281554",CT em Funções Públicas a Termo Resolutivo Certo,9.0,2020,9
+2020-09-01,Algarve,Centro Hospitalar Universitário do Algarve,"37.0238973, -7.9281554",Comissão de Serviço no âmbito do LTFP,9.0,2020,9
+2020-09-01,Algarve,Centro Hospitalar Universitário do Algarve,"37.0238973, -7.9281554",P. Serviços (Tarefas),0.0,2020,9
+2020-09-01,Algarve,Centro Hospitalar Universitário do Algarve,"37.0238973, -7.9281554",P. Serviços (Avenças),97.0,2020,9
+2020-09-01,Centro,Administração Regional de Saúde do Centro,"40.203782, -8.419176",CT em Funções Públicas p/ Tempo Indeterminado,4255.0,2020,9
+2020-09-01,Centro,Administração Regional de Saúde do Centro,"40.203782, -8.419176",CTR certo no âmbito do Código Trabalho,0.0,2020,9
+2020-09-01,Centro,"Centro Hospitalar Tondela-Viseu, E.P.E.","40.516364, -8.0827433",Nomeação Transitória p/ Tempo determinável,0.0,2020,9
+2020-09-01,Centro,"Centro Hospitalar Tondela-Viseu, E.P.E.","40.516364, -8.0827433",CT em Funções Públicas p/ Tempo Indeterminado,920.0,2020,9
+2020-09-01,Centro,"Centro Hospitalar Tondela-Viseu, E.P.E.","40.516364, -8.0827433",Comissão de Serviço no âmbito do LTFP,7.0,2020,9
+2020-09-01,Centro,"Centro Hospitalar Tondela-Viseu, E.P.E.","40.516364, -8.0827433",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,1321.0,2020,9
+2020-09-01,Centro,"Centro Hospitalar Tondela-Viseu, E.P.E.","40.516364, -8.0827433",P. Serviços (Tarefas),39.0,2020,9
+2020-09-01,Centro,"Centro Hospitalar Universitário Cova da Beira, E.P.E.","40.2804158, -7.4922407",P. Serviços (Avenças),0.0,2020,9
+2020-09-01,Centro,"Centro Hospitalar de Leiria, E.P.E.","39.7414812, -8.7982706",CT em Funções Públicas p/ Tempo Indeterminado,894.0,2020,9
+2020-09-01,Centro,"Centro Hospitalar de Leiria, E.P.E.","39.7414812, -8.7982706",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,9
+2020-09-01,Centro,"Centro Hospitalar de Leiria, E.P.E.","39.7414812, -8.7982706",CT em Funções Públicas a Termo Resolutivo Incerto,150.0,2020,9
+2020-09-01,Centro,"Centro Hospitalar do Baixo Vouga, E.P.E.","40.6362453, -8.6543716",Nomeação Transitória p/ Tempo determinado,0.0,2020,9
+2020-09-01,Centro,"Centro Hospitalar do Baixo Vouga, E.P.E.","40.6362453, -8.6543716",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,1036.0,2020,9
+2020-09-01,Centro,"Centro Hospitalar do Baixo Vouga, E.P.E.","40.6362453, -8.6543716",CTR certo no âmbito do Código Trabalho,38.0,2020,9
+2020-09-01,Centro,"Centro Hospitalar do Baixo Vouga, E.P.E.","40.6362453, -8.6543716",P. Serviços (Avenças),0.0,2020,9
+2020-09-01,Centro,"Centro Hospitalar e Universitário de Coimbra, E.P.E.","40.2191523, -8.4098211",CT em Funções Públicas p/ Tempo Indeterminado,3997.0,2020,9
+2020-09-01,Centro,"Centro Hospitalar e Universitário de Coimbra, E.P.E.","40.2191523, -8.4098211",Comissão de Serviço no âmbito do Código Trabalho,0.0,2020,9
+2020-09-01,Centro,"Centro Hospitalar e Universitário de Coimbra, E.P.E.","40.2191523, -8.4098211",CTR incerto no âmbito do Código Trabalho,172.0,2020,9
+2020-09-01,Centro,Centro Medicina de Reabilitação da Região Centro Rovisco Pais,"38.7313954, -9.1447467",Nomeação Transitória p/ Tempo determinado,0.0,2020,9
+2020-09-01,Centro,Centro Medicina de Reabilitação da Região Centro Rovisco Pais,"38.7313954, -9.1447467",CT em Funções Públicas p/ Tempo Indeterminado,180.0,2020,9
+2020-09-01,Centro,Centro Medicina de Reabilitação da Região Centro Rovisco Pais,"38.7313954, -9.1447467",CT em Funções Públicas a Termo Resolutivo Certo,16.0,2020,9
+2020-09-01,Centro,Centro Medicina de Reabilitação da Região Centro Rovisco Pais,"38.7313954, -9.1447467",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,0.0,2020,9
+2020-09-01,Centro,Hospital Arcebispo João Crisóstomo,"40.3470015, -8.5933462",Cargo Político / Mandato,1.0,2020,9
+2020-09-01,Centro,"Hospital Distrital da Figueira da Foz, E.P.E.","40.117897, -8.8586755",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,320.0,2020,9
+2020-09-01,Centro,"Hospital Distrital da Figueira da Foz, E.P.E.","40.117897, -8.8586755",P. Serviços (Avenças),6.0,2020,9
+2020-09-01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",Cargo Político / Mandato,1.0,2020,9
+2020-09-01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",CT em Funções Públicas a Termo Resolutivo Incerto,0.0,2020,9
+2020-09-01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",CTR certo no âmbito do Código Trabalho,0.0,2020,9
+2020-09-01,Centro,"Instituto Português Oncologia de Coimbra, E.P.E.","40.2162514, -8.4103814",Cargo Político / Mandato,3.0,2020,9
+2020-09-01,Centro,"Instituto Português Oncologia de Coimbra, E.P.E.","40.2162514, -8.4103814",Comissão de Serviço no âmbito do Código Trabalho,0.0,2020,9
+2020-09-01,Centro,"Instituto Português Oncologia de Coimbra, E.P.E.","40.2162514, -8.4103814",CTR incerto no âmbito do Código Trabalho,23.0,2020,9
+2020-09-01,Centro,"Unidade Local de Saúde da Guarda, E.P.E.","40.5309916, -7.2734793",CT em Funções Públicas a Termo Resolutivo Certo,1.0,2020,9
+2020-09-01,Centro,"Unidade Local de Saúde da Guarda, E.P.E.","40.5309916, -7.2734793",Comissão de Serviço no âmbito do LTFP,3.0,2020,9
+2020-09-01,Centro,"Unidade Local de Saúde da Guarda, E.P.E.","40.5309916, -7.2734793",Comissão de Serviço no âmbito do Código Trabalho,20.0,2020,9
+2020-09-01,Centro,"Unidade Local de Saúde da Guarda, E.P.E.","40.5309916, -7.2734793",CTR incerto no âmbito do Código Trabalho,18.0,2020,9
+2020-09-01,Centro,"Unidade Local de Saúde da Guarda, E.P.E.","40.5309916, -7.2734793",P. Serviços (Tarefas),0.0,2020,9
+2020-09-01,Centro,"Unidade Local de Saúde de Castelo Branco, E.P.E.","39.8212263, -7.4981271",Nomeação Transitória p/ Tempo determinado,0.0,2020,9
+2020-09-01,Centro,"Unidade Local de Saúde de Castelo Branco, E.P.E.","39.8212263, -7.4981271",Nomeação Transitória p/ Tempo determinável,0.0,2020,9
+2020-09-01,Centro,"Unidade Local de Saúde de Castelo Branco, E.P.E.","39.8212263, -7.4981271",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,9
+2020-09-01,Centro,"Unidade Local de Saúde de Castelo Branco, E.P.E.","39.8212263, -7.4981271",Comissão de Serviço no âmbito do LTFP,6.0,2020,9
+2020-10-01,Lisboa e Vale do Tejo,"Administração Regional Saúde Lisboa Vale Tejo, I.P.","38.748879, -9.139606",CT em Funções Públicas a Termo Resolutivo Incerto,710.0,2020,10
+2020-10-01,Lisboa e Vale do Tejo,"Administração Regional Saúde Lisboa Vale Tejo, I.P.","38.748879, -9.139606",CT p/ tempo Indeterminado no âmbito Cód. Trabalho,88.0,2020,10
+2020-10-01,Lisboa e Vale do Tejo,"Administração Regional Saúde Lisboa Vale Tejo, I.P.","38.748879, -9.139606",CTR incerto no âmbito do Código Trabalho,0.0,2020,10
+2020-10-01,Lisboa e Vale do Tejo,Ação Governativa - MS,"38.7362218, -9.1463126",CT em Funções Públicas p/ Tempo Indeterminado,30.0,2020,10
+2020-10-01,Lisboa e Vale do Tejo,Ação Governativa - MS,"38.7362218, -9.1463126",CT em Funções Públicas a Termo Resolutivo Certo,0.0,2020,10
+2020-10-01,Lisboa e Vale do Tejo,Ação Governativa - MS,"38.7362218, -9.1463126",P. Serviços (Avenças),0.0,2020,10
+2020-10-01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, E.P.E.","38.6554005, -9.0592392",Cargo Político / Mandato,5.0,2020,10
+2020-10-01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, E.P.E.","38.6554005, -9.0592392",P. Serviços (Tarefas),117.0,2020,10
+2020-10-01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, E.P.E.","38.6554005, -9.0592392",P. Serviços (Avenças),0.0,2020,10
+2020-10-01,Lisboa e Vale do Tejo,"Centro Hospitalar Médio Tejo, E.P.E.","39.478072, -8.5404429",Nomeação Transitória p/ Tempo determinável,0.0,2020,10
+2020-10-01,Lisboa e Vale do Tejo,"Centro Hospitalar Médio Tejo, E.P.E.","39.478072, -8.5404429",CT em Funções Públicas a Termo Resolutivo Certo,2.0,2020,10
+2020-10-01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",Cargo Político / Mandato,2.0,2020,10
+2020-10-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, E.P.E.","38.7166948, -9.1371248",Nomeação Transitória p/ Tempo determinável,0.0,2020,10
+2020-10-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, E.P.E.","38.7166948, -9.1371248",CTR incerto no âmbito do Código Trabalho,206.0,2020,10
+2020-10-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, E.P.E.","38.708454, -9.216985",Comissão de Serviço no âmbito do LTFP,6.0,2020,10
+2020-10-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, E.P.E.","38.708454, -9.216985",Comissão de Serviço no âmbito do Código Trabalho,1.0,2020,10
+2020-10-01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, E.P.E.","39.4054629, -9.1258493",CT em Funções Públicas p/ Tempo Indeterminado,1452.0,2020,10
+2020-10-01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, E.P.E.","39.4054629, -9.1258493",CT em Funções Públicas a Termo Resolutivo Certo,1.0,2020,10
+2020-10-01,Região de Sa,,,,,2020,10

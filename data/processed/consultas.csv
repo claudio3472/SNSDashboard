@@ -1,0 +1,778 @@
+tempo,periodo_format_2,regiao,instituicao,localizacao_geografica,no_de_consultas_medicas_total,no_de_primeiras_consultas,no_de_consultas_subsequentes,ano,mes
+2024-01-01,2024/01/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Arrábida, EPE","38.529351, -8.881073",25384.0,7062.0,18322.0,2024,1
+2024-01-01,2024/01/01,Centro,"Unidade Local de Saúde de Coimbra, EPE","40.217426, -8.410075",88052.0,21700.0,66352.0,2024,1
+2024-01-01,2024/01/01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",26143.0,7878.0,18265.0,2024,1
+2024-01-01,2024/01/01,Norte,"Unidade Local de Saúde de Entre Douro e Vouga, EPE","40.9295, -8.54567",31435.0,9861.0,21574.0,2024,1
+2024-01-01,2024/01/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Lisboa Ocidental, EPE","38.7084, -9.21711",44750.0,10345.0,34405.0,2024,1
+2024-01-01,2024/01/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Loures-Odivelas, EPE","38.821769, -9.176301",21236.0,5751.0,15485.0,2024,1
+2024-01-01,2024/01/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Oeste, EPE","39.4055519104004, -9.0",14706.0,4330.0,10376.0,2024,1
+2025-01-01,2025/01/01,Lisboa e Vale do Tejo,"Instituto Português Oncologia  F. Gentil - Lisboa, E.P.E.","38.739946, -9.161139",31689.0,6458.0,25231.0,2025,1
+2025-01-01,2025/01/01,Norte,"Instituto Português Oncologia  F. Gentil - Porto, E.P.E.","41.1811, -8.60469",32641.0,10119.0,22522.0,2025,1
+2025-01-01,2025/01/01,Centro,"Unidade Local de Saúde da Cova da Beira, EPE","40.2776794433594, -7.0",14789.0,4106.0,10683.0,2025,1
+2025-01-01,2025/01/01,Centro,"Unidade Local de Saúde da Região de Leiria, EPE","39.7418, -8.79444",30431.0,8442.0,21989.0,2025,1
+2025-01-01,2025/01/01,Norte,"Unidade Local de Saúde de São João, EPE","41.1833, -8.60193",85884.0,21901.0,63983.0,2025,1
+2025-01-01,2025/01/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de São José, EPE","38.7169, -9.13654",78250.0,21356.0,56894.0,2025,1
+2025-01-01,2025/01/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Estuário do Tejo, EPE","38.977344, -8.984882",13359.0,3414.0,9945.0,2025,1
+2025-01-01,2025/01/01,Norte,"Unidade Local de Saúde do Médio Ave, EPE","41.3422317504883, -8.0",16339.0,4882.0,11457.0,2025,1
+2024-02-01,2024/02/01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.730076, -9.418207",32208.0,9115.0,23093.0,2024,2
+2024-02-01,2024/02/01,Norte,"Instituto Português Oncologia  F. Gentil - Porto, E.P.E.","41.1811, -8.60469",59273.0,17984.0,41289.0,2024,2
+2024-02-01,2024/02/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",26028.0,7943.0,18085.0,2024,2
+2024-02-01,2024/02/01,Norte,"Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde, EPE","41.383183, -8.758784",19601.0,7004.0,12597.0,2024,2
+2024-02-01,2024/02/01,Norte,"Unidade Local de Saúde de Entre Douro e Vouga, EPE","40.9295, -8.54567",61598.0,19540.0,42058.0,2024,2
+2024-02-01,2024/02/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Santa Maria, EPE","38.7500648498535, -9.0",142903.0,40922.0,101981.0,2024,2
+2024-02-01,2024/02/01,Norte,"Unidade Local de Saúde de Santo António, EPE","41.147283, -8.619536",138335.0,34323.0,104012.0,2024,2
+2024-02-01,2024/02/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Oeste, EPE","39.4055519104004, -9.0",29210.0,8800.0,20410.0,2024,2
+2025-02-01,2025/02/01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",16671.0,6097.0,10574.0,2025,2
+2025-02-01,2025/02/01,Centro,"Unidade Local de Saúde de Coimbra, EPE","40.217426, -8.410075",174004.0,45119.0,128885.0,2025,2
+2025-02-01,2025/02/01,Norte,"Unidade Local de Saúde de Trás-os-Montes e Alto Douro, EPE","41.310331, -7.760103",68903.0,16829.0,52074.0,2025,2
+2025-02-01,2025/02/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Estuário do Tejo, EPE","38.977344, -8.984882",25840.0,6810.0,19030.0,2025,2
+2025-02-01,2025/02/01,Norte,"Unidade Local de Saúde do Médio Ave, EPE","41.3422317504883, -8.0",31280.0,9393.0,21887.0,2025,2
+2025-02-01,2025/02/01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.802452, -6.768198",21331.0,8479.0,12852.0,2025,2
+2024-03-01,2024/03/01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.730076, -9.418207",48411.0,13673.0,34738.0,2024,3
+2024-03-01,2024/03/01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",23747.0,8888.0,14859.0,2024,3
+2024-03-01,2024/03/01,Centro,"Unidade Local de Saúde da Região de Aveiro, EPE","40.636332, -8.654388",79435.0,24107.0,55328.0,2024,3
+2024-03-01,2024/03/01,Centro,"Unidade Local de Saúde da Região de Leiria, EPE","39.7418, -8.79444",81691.0,23588.0,58103.0,2024,3
+2024-03-01,2024/03/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Almada-Seixal, EPE","38.67381, -9.17597",89307.0,28169.0,61138.0,2024,3
+2024-03-01,2024/03/01,Norte,"Unidade Local de Saúde de Barcelos/Esposende, EPE","41.533438, -8.616604",20819.0,6936.0,13883.0,2024,3
+2024-03-01,2024/03/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Lisboa Ocidental, EPE","38.7084, -9.21711",126310.0,29851.0,96459.0,2024,3
+2024-03-01,2024/03/01,Norte,"Unidade Local de Saúde de Vila Nova de Gaia/Espinho, EPE","41.1254463195801, -8.0",157056.0,49305.0,107751.0,2024,3
+2024-03-01,2024/03/01,Norte,"Unidade Local de Saúde do Alto Ave, EPE","41.488574, -8.338685",86542.0,22099.0,64443.0,2024,3
+2024-03-01,2024/03/01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.039936, -8.731693",24060.0,8244.0,15816.0,2024,3
+2025-03-01,2025/03/01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",24817.0,8983.0,15834.0,2025,3
+2025-03-01,2025/03/01,Norte,"Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde, EPE","41.383183, -8.758784",30213.0,10377.0,19836.0,2025,3
+2025-03-01,2025/03/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Amadora/Sintra, EPE","38.7436332060551, -9.0",95248.0,27962.0,67286.0,2025,3
+2025-03-01,2025/03/01,Norte,"Unidade Local de Saúde de Entre Douro e Vouga, EPE","40.9295, -8.54567",97289.0,30486.0,66803.0,2025,3
+2025-03-01,2025/03/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Santa Maria, EPE","38.7500648498535, -9.0",212484.0,59871.0,152613.0,2025,3
+2025-03-01,2025/03/01,Norte,"Unidade Local de Saúde de Vila Nova de Gaia/Espinho, EPE","41.1254463195801, -8.0",170947.0,52410.0,118537.0,2025,3
+2025-03-01,2025/03/01,Alentejo,"Unidade Local de Saúde do Alto Alentejo, EPE","39.2999, -7.4267",33172.0,10172.0,23000.0,2025,3
+2025-03-01,2025/03/01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.697519, -8.832517",81383.0,22948.0,58435.0,2025,3
+2025-03-01,2025/03/01,Centro,"Unidade Local de Saúde do Baixo Mondego, EPE","40.130297609, -8.8606",29305.0,12489.0,16816.0,2025,3
+2025-03-01,2025/03/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Estuário do Tejo, EPE","38.977344, -8.984882",38011.0,10000.0,28011.0,2025,3
+2024-04-01,2024/04/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Arrábida, EPE","38.529351, -8.881073",97645.0,27743.0,69902.0,2024,4
+2024-04-01,2024/04/01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309943471486, -7.0",32105.0,8838.0,23267.0,2024,4
+2024-04-01,2024/04/01,Norte,"Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde, EPE","41.383183, -8.758784",39167.0,13764.0,25403.0,2024,4
+2024-04-01,2024/04/01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.181859, -8.663374",109933.0,30301.0,79632.0,2024,4
+2024-04-01,2024/04/01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.697519, -8.832517",102048.0,28920.0,73128.0,2024,4
+2024-04-01,2024/04/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Estuário do Tejo, EPE","38.977344, -8.984882",51963.0,15094.0,36869.0,2024,4
+2025-04-01,2025/04/01,Centro,"Unidade Local de Saúde da Cova da Beira, EPE","40.2776794433594, -7.0",55286.0,15224.0,40062.0,2025,4
+2025-04-01,2025/04/01,Norte,"Unidade Local de Saúde de Entre Douro e Vouga, EPE","40.9295, -8.54567",129152.0,39995.0,89157.0,2025,4
+2025-04-01,2025/04/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Loures-Odivelas, EPE","38.821769, -9.176301",82818.0,22088.0,60730.0,2025,4
+2025-04-01,2025/04/01,Norte,"Unidade Local de Saúde de Trás-os-Montes e Alto Douro, EPE","41.310331, -7.760103",134403.0,32703.0,101700.0,2025,4
+2025-04-01,2025/04/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Arco Ribeirinho, EPE","38.6527214050293, -9.0",56533.0,13906.0,42627.0,2025,4
+2025-04-01,2025/04/01,Norte,"Unidade Local de Saúde do Médio Ave, EPE","41.3422317504883, -8.0",59035.0,17661.0,41374.0,2025,4
+2025-04-01,2025/04/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Médio Tejo, EPE","39.605565, -8.404399",67211.0,23491.0,43720.0,2025,4
+2025-04-01,2025/04/01,Norte,"Unidade Local de Saúde do Tâmega e Sousa, EPE","41.1971153671548, -8.0",128964.0,46914.0,82050.0,2025,4
+2024-05-01,2024/05/01,Norte,"Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde, EPE","41.383183, -8.758784",49664.0,17468.0,32196.0,2024,5
+2024-05-01,2024/05/01,Centro,"Unidade Local de Saúde da Região de Aveiro, EPE","40.636332, -8.654388",133291.0,40312.0,92979.0,2024,5
+2024-05-01,2024/05/01,Centro,"Unidade Local de Saúde da Região de Leiria, EPE","39.7418, -8.79444",133392.0,38363.0,95029.0,2024,5
+2024-05-01,2024/05/01,Norte,"Unidade Local de Saúde de Barcelos/Esposende, EPE","41.533438, -8.616604",33842.0,11155.0,22687.0,2024,5
+2024-05-01,2024/05/01,Norte,"Unidade Local de Saúde de Braga, EPE","41.562328338623, -8.3",240681.0,66473.0,174208.0,2024,5
+2024-05-01,2024/05/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de São José, EPE","38.7169, -9.13654",374838.0,103515.0,271323.0,2024,5
+2024-05-01,2024/05/01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",39376.0,15354.0,24022.0,2024,5
+2024-05-01,2024/05/01,Centro,"Unidade Local de Saúde do Baixo Mondego, EPE","40.130297609, -8.8606",46946.0,19247.0,27699.0,2024,5
+2025-05-01,2025/05/01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.730076, -9.418207",100203.0,30472.0,69731.0,2025,5
+2025-05-01,2025/05/01,Centro,"Instituto Português Oncologia  F. Gentil - Centro, E.P.E.","40.217, -8.40991",87843.0,13203.0,74640.0,2025,5
+2025-05-01,2025/05/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Almada-Seixal, EPE","38.67381, -9.17597",162340.0,48101.0,114239.0,2025,5
+2025-05-01,2025/05/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Loures-Odivelas, EPE","38.821769, -9.176301",104615.0,27903.0,76712.0,2025,5
+2025-05-01,2025/05/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Santa Maria, EPE","38.7500648498535, -9.0",357735.0,100753.0,256982.0,2025,5
+2025-05-01,2025/05/01,Alentejo,"Unidade Local de Saúde do Alto Alentejo, EPE","39.2999, -7.4267",54535.0,16493.0,38042.0,2025,5
+2025-05-01,2025/05/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Estuário do Tejo, EPE","38.977344, -8.984882",60915.0,15791.0,45124.0,2025,5
+2025-05-01,2025/05/01,Norte,"Unidade Local de Saúde do Médio Ave, EPE","41.3422317504883, -8.0",73922.0,21976.0,51946.0,2025,5
+2025-05-01,2025/05/01,Norte,"Unidade Local de Saúde do Tâmega e Sousa, EPE","41.1971153671548, -8.0",162714.0,59074.0,103640.0,2025,5
+2024-06-01,2024/06/01,Norte,"Instituto Português Oncologia  F. Gentil - Porto, E.P.E.","41.1811, -8.60469",175624.0,54568.0,121056.0,2024,6
+2024-06-01,2024/06/01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",46466.0,17036.0,29430.0,2024,6
+2024-06-01,2024/06/01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309943471486, -7.0",51390.0,13832.0,37558.0,2024,6
+2024-06-01,2024/06/01,Norte,"Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde, EPE","41.383183, -8.758784",58253.0,20518.0,37735.0,2024,6
+2024-06-01,2024/06/01,Norte,"Unidade Local de Saúde de Braga, EPE","41.562328338623, -8.3",281209.0,78792.0,202417.0,2024,6
+2024-06-01,2024/06/01,Norte,"Unidade Local de Saúde de Entre Douro e Vouga, EPE","40.9295, -8.54567",181696.0,56374.0,125322.0,2024,6
+2024-06-01,2024/06/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Loures-Odivelas, EPE","38.821769, -9.176301",120683.0,32197.0,88486.0,2024,6
+2024-06-01,2024/06/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Santa Maria, EPE","38.7500648498535, -9.0",420388.0,121787.0,298601.0,2024,6
+2024-06-01,2024/06/01,Norte,"Unidade Local de Saúde de Santo António, EPE","41.147283, -8.619536",395600.0,98879.0,296721.0,2024,6
+2024-06-01,2024/06/01,Norte,"Unidade Local de Saúde de Trás-os-Montes e Alto Douro, EPE","41.310331, -7.760103",187593.0,46408.0,141185.0,2024,6
+2024-06-01,2024/06/01,Norte,"Unidade Local de Saúde de Vila Nova de Gaia/Espinho, EPE","41.1254463195801, -8.0",308565.0,94583.0,213982.0,2024,6
+2024-06-01,2024/06/01,Alentejo,"Unidade Local de Saúde do Alto Alentejo, EPE","39.2999, -7.4267",65164.0,20849.0,44315.0,2024,6
+2024-06-01,2024/06/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Oeste, EPE","39.4055519104004, -9.0",85374.0,25554.0,59820.0,2024,6
+2025-06-01,2025/06/01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.730076, -9.418207",117588.0,35956.0,81632.0,2025,6
+2025-06-01,2025/06/01,Centro,"Instituto Português Oncologia  F. Gentil - Centro, E.P.E.","40.217, -8.40991",105439.0,15708.0,89731.0,2025,6
+2025-06-01,2025/06/01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",48488.0,17381.0,31107.0,2025,6
+2025-06-01,2025/06/01,Norte,"Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde, EPE","41.383183, -8.758784",58599.0,20099.0,38500.0,2025,6
+2025-06-01,2025/06/01,Norte,"Unidade Local de Saúde de São João, EPE","41.1833, -8.60193",477271.0,125917.0,351354.0,2025,6
+2025-06-01,2025/06/01,Alentejo,"Unidade Local de Saúde do Alentejo Central, EPE","38.568838, -7.903064",91803.0,24721.0,67082.0,2025,6
+2025-06-01,2025/06/01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",47845.0,17862.0,29983.0,2025,6
+2025-06-01,2025/06/01,Norte,"Unidade Local de Saúde do Médio Ave, EPE","41.3422317504883, -8.0",86331.0,25575.0,60756.0,2025,6
+2024-07-01,2024/07/01,Centro,"Instituto Português Oncologia  F. Gentil - Centro, E.P.E.","40.217, -8.40991",110322.0,17324.0,92998.0,2024,7
+2024-07-01,2024/07/01,Centro,"Unidade Local de Saúde da Cova da Beira, EPE","40.2776794433594, -7.0",93810.0,26811.0,66999.0,2024,7
+2024-07-01,2024/07/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",87100.0,26127.0,60973.0,2024,7
+2024-07-01,2024/07/01,Norte,"Unidade Local de Saúde de Barcelos/Esposende, EPE","41.533438, -8.616604",46010.0,14975.0,31035.0,2024,7
+2024-07-01,2024/07/01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",172438.0,51221.0,121217.0,2024,7
+2024-07-01,2024/07/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Loures-Odivelas, EPE","38.821769, -9.176301",140530.0,37631.0,102899.0,2024,7
+2024-07-01,2024/07/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de São José, EPE","38.7169, -9.13654",516992.0,141472.0,375520.0,2024,7
+2024-07-01,2024/07/01,Algarve,"Unidade Local de Saúde do Algarve, EPE","37.024668, -7.928949",218938.0,57495.0,161443.0,2024,7
+2024-07-01,2024/07/01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.697519, -8.832517",176237.0,48518.0,127719.0,2024,7
+2024-07-01,2024/07/01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.039936, -8.731693",54743.0,18253.0,36490.0,2024,7
+2024-07-01,2024/07/01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.802452, -6.768198",68331.0,27769.0,40562.0,2024,7
+2025-07-01,2025/07/01,Centro,"Instituto Português Oncologia  F. Gentil - Centro, E.P.E.","40.217, -8.40991",124560.0,18554.0,106006.0,2025,7
+2025-07-01,2025/07/01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309943471486, -7.0",64816.0,17885.0,46931.0,2025,7
+2025-07-01,2025/07/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Amadora/Sintra, EPE","38.7436332060551, -9.0",222245.0,64753.0,157492.0,2025,7
+2025-07-01,2025/07/01,Norte,"Unidade Local de Saúde de Braga, EPE","41.562328338623, -8.3",340160.0,91523.0,248637.0,2025,7
+2025-07-01,2025/07/01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",186846.0,58266.0,128580.0,2025,7
+2025-07-01,2025/07/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Santa Maria, EPE","38.7500648498535, -9.0",498655.0,141288.0,357367.0,2025,7
+2025-07-01,2025/07/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de São José, EPE","38.7169, -9.13654",514190.0,140726.0,373464.0,2025,7
+2025-07-01,2025/07/01,Norte,"Unidade Local de Saúde de Trás-os-Montes e Alto Douro, EPE","41.310331, -7.760103",232505.0,55652.0,176853.0,2025,7
+2025-07-01,2025/07/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Arco Ribeirinho, EPE","38.6527214050293, -9.0",99239.0,24424.0,74815.0,2025,7
+2025-07-01,2025/07/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Estuário do Tejo, EPE","38.977344, -8.984882",86147.0,22130.0,64017.0,2025,7
+2024-08-01,2024/08/01,Centro,"Unidade Local de Saúde da Cova da Beira, EPE","40.2776794433594, -7.0",104552.0,29723.0,74829.0,2024,8
+2024-08-01,2024/08/01,Centro,"Unidade Local de Saúde de Coimbra, EPE","40.217426, -8.410075",644345.0,166471.0,477874.0,2024,8
+2024-08-01,2024/08/01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.181859, -8.663374",209396.0,56512.0,152884.0,2024,8
+2024-08-01,2024/08/01,Algarve,"Unidade Local de Saúde do Algarve, EPE","37.024668, -7.928949",247168.0,64772.0,182396.0,2024,8
+2024-08-01,2024/08/01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",61544.0,24125.0,37419.0,2024,8
+2024-08-01,2024/08/01,Norte,"Unidade Local de Saúde do Tâmega e Sousa, EPE","41.1971153671548, -8.0",247758.0,89870.0,157888.0,2024,8
+2025-08-01,2025/08/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",100275.0,28412.0,71863.0,2025,8
+2025-08-01,2025/08/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Almada-Seixal, EPE","38.67381, -9.17597",252327.0,75492.0,176835.0,2025,8
+2025-08-01,2025/08/01,Norte,"Unidade Local de Saúde de Trás-os-Montes e Alto Douro, EPE","41.310331, -7.760103",257559.0,61550.0,196009.0,2025,8
+2025-08-01,2025/08/01,Norte,"Unidade Local de Saúde do Médio Ave, EPE","41.3422317504883, -8.0",111281.0,33534.0,77747.0,2025,8
+2024-09-01,2024/09/01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.730076, -9.418207",151646.0,46027.0,105619.0,2024,9
+2024-09-01,2024/09/01,Norte,"Instituto Português Oncologia  F. Gentil - Porto, E.P.E.","41.1811, -8.60469",261117.0,80722.0,180395.0,2024,9
+2024-09-01,2024/09/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Arrábida, EPE","38.529351, -8.881073",213619.0,59833.0,153786.0,2024,9
+2024-09-01,2024/09/01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309943471486, -7.0",74863.0,19954.0,54909.0,2024,9
+2024-09-01,2024/09/01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",214846.0,63563.0,151283.0,2024,9
+2024-09-01,2024/09/01,Norte,"Unidade Local de Saúde de Entre Douro e Vouga, EPE","40.9295, -8.54567",267118.0,82548.0,184570.0,2024,9
+2024-09-01,2024/09/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Loures-Odivelas, EPE","38.821769, -9.176301",174275.0,46852.0,127423.0,2024,9
+2024-09-01,2024/09/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de São José, EPE","38.7169, -9.13654",645717.0,175850.0,469867.0,2024,9
+2024-09-01,2024/09/01,Norte,"Unidade Local de Saúde do Alto Ave, EPE","41.488574, -8.338685",255791.0,66990.0,188801.0,2024,9
+2024-09-01,2024/09/01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.697519, -8.832517",218957.0,59673.0,159284.0,2024,9
+2024-09-01,2024/09/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Arco Ribeirinho, EPE","38.6527214050293, -9.0",120619.0,31010.0,89609.0,2024,9
+2024-09-01,2024/09/01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",69237.0,27300.0,41937.0,2024,9
+2025-09-01,2025/09/01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",71233.0,25569.0,45664.0,2025,9
+2025-09-01,2025/09/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Arrábida, EPE","38.529351, -8.881073",218662.0,61007.0,157655.0,2025,9
+2025-09-01,2025/09/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Almada-Seixal, EPE","38.67381, -9.17597",286808.0,86110.0,200698.0,2025,9
+2025-09-01,2025/09/01,Norte,"Unidade Local de Saúde de Barcelos/Esposende, EPE","41.533438, -8.616604",71460.0,29138.0,42322.0,2025,9
+2025-09-01,2025/09/01,Norte,"Unidade Local de Saúde de Braga, EPE","41.562328338623, -8.3",421492.0,109934.0,311558.0,2025,9
+2025-09-01,2025/09/01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",234075.0,72838.0,161237.0,2025,9
+2025-09-01,2025/09/01,Norte,"Unidade Local de Saúde de São João, EPE","41.1833, -8.60193",711140.0,189902.0,521238.0,2025,9
+2025-09-01,2025/09/01,Norte,"Unidade Local de Saúde de Trás-os-Montes e Alto Douro, EPE","41.310331, -7.760103",290070.0,69219.0,220851.0,2025,9
+2025-09-01,2025/09/01,Norte,"Unidade Local de Saúde do Alto Ave, EPE","41.488574, -8.338685",277353.0,72653.0,204700.0,2025,9
+2025-09-01,2025/09/01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.039936, -8.731693",73497.0,22877.0,50620.0,2025,9
+2025-09-01,2025/09/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Oeste, EPE","39.4055519104004, -9.0",127221.0,36496.0,90725.0,2025,9
+2024-10-01,2024/10/01,Centro,"Instituto Português Oncologia  F. Gentil - Centro, E.P.E.","40.217, -8.40991",157821.0,25037.0,132784.0,2024,10
+2024-10-01,2024/10/01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309943471486, -7.0",84339.0,22396.0,61943.0,2024,10
+2024-10-01,2024/10/01,Centro,"Unidade Local de Saúde da Região de Leiria, EPE","39.7418, -8.79444",259964.0,75127.0,184837.0,2024,10
+2024-10-01,2024/10/01,Norte,"Unidade Local de Saúde de Barcelos/Esposende, EPE","41.533438, -8.616604",65965.0,22327.0,43638.0,2024,10
+2024-10-01,2024/10/01,Norte,"Unidade Local de Saúde de Braga, EPE","41.562328338623, -8.3",473377.0,133561.0,339816.0,2024,10
+2024-10-01,2024/10/01,Centro,"Unidade Local de Saúde de Coimbra, EPE","40.217426, -8.410075",820987.0,211722.0,609265.0,2024,10
+2024-10-01,2024/10/01,Norte,"Unidade Local de Saúde de Santo António, EPE","41.147283, -8.619536",646716.0,160278.0,486438.0,2024,10
+2024-10-01,2024/10/01,Norte,"Unidade Local de Saúde de São João, EPE","41.1833, -8.60193",765862.0,208789.0,557073.0,2024,10
+2024-10-01,2024/10/01,Alentejo,"Unidade Local de Saúde do Alto Alentejo, EPE","39.2999, -7.4267",108002.0,33691.0,74311.0,2024,10
+2024-10-01,2024/10/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Estuário do Tejo, EPE","38.977344, -8.984882",127128.0,36116.0,91012.0,2024,10
+2025-10-01,2025/10/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",127833.0,36207.0,91626.0,2025,10
+2025-10-01,2025/10/01,Centro,"Unidade Local de Saúde da Região de Leiria, EPE","39.7418, -8.79444",274089.0,76869.0,197220.0,2025,10
+2025-10-01,2025/10/01,Centro,"Unidade Local de Saúde de Coimbra, EPE","40.217426, -8.410075",844007.0,221528.0,622479.0,2025,10
+2025-10-01,2025/10/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Lisboa Ocidental, EPE","38.7084, -9.21711",418468.0,96429.0,322039.0,2025,10
+2025-10-01,2025/10/01,Norte,"Unidade Local de Saúde de São João, EPE","41.1833, -8.60193",801994.0,214665.0,587329.0,2025,10
+2025-10-01,2025/10/01,Norte,"Unidade Local de Saúde de Vila Nova de Gaia/Espinho, EPE","41.1254463195801, -8.0",545045.0,162720.0,382325.0,2025,10
+2025-10-01,2025/10/01,Alentejo,"Unidade Local de Saúde do Alto Alentejo, EPE","39.2999, -7.4267",105768.0,32122.0,73646.0,2025,10
+2025-10-01,2025/10/01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.697519, -8.832517",262803.0,72761.0,190042.0,2025,10
+2025-10-01,2025/10/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Médio Tejo, EPE","39.605565, -8.404399",164031.0,56450.0,107581.0,2025,10
+2025-10-01,2025/10/01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.802452, -6.768198",107014.0,40676.0,66338.0,2025,10
+2024-11-01,2024/11/01,Norte,"Instituto Português Oncologia  F. Gentil - Porto, E.P.E.","41.1811, -8.60469",324119.0,99743.0,224376.0,2024,11
+2024-11-01,2024/11/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",134687.0,39989.0,94698.0,2024,11
+2024-11-01,2024/11/01,Centro,"Unidade Local de Saúde da Região de Aveiro, EPE","40.636332, -8.654388",282369.0,81487.0,200882.0,2024,11
+2024-11-01,2024/11/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Loures-Odivelas, EPE","38.821769, -9.176301",217948.0,58861.0,159087.0,2024,11
+2024-11-01,2024/11/01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.181859, -8.663374",291747.0,78669.0,213078.0,2024,11
+2024-11-01,2024/11/01,Norte,"Unidade Local de Saúde de Santo António, EPE","41.147283, -8.619536",713291.0,176650.0,536641.0,2024,11
+2024-11-01,2024/11/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de São José, EPE","38.7169, -9.13654",807539.0,218851.0,588688.0,2024,11
+2024-11-01,2024/11/01,Norte,"Unidade Local de Saúde do Alto Ave, EPE","41.488574, -8.338685",321545.0,84293.0,237252.0,2024,11
+2024-11-01,2024/11/01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.697519, -8.832517",260105.0,71277.0,188828.0,2024,11
+2024-11-01,2024/11/01,Norte,"Unidade Local de Saúde do Médio Ave, EPE","41.3422317504883, -8.0",152246.0,47269.0,104977.0,2024,11
+2024-11-01,2024/11/01,Norte,"Unidade Local de Saúde do Tâmega e Sousa, EPE","41.1971153671548, -8.0",342531.0,123041.0,219490.0,2024,11
+2025-11-01,2025/11/01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.730076, -9.418207",217562.0,66985.0,150577.0,2025,11
+2025-11-01,2025/11/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",141042.0,39670.0,101372.0,2025,11
+2025-11-01,2025/11/01,Centro,"Unidade Local de Saúde da Região de Aveiro, EPE","40.636332, -8.654388",267740.0,69152.0,198588.0,2025,11
+2025-11-01,2025/11/01,Norte,"Unidade Local de Saúde de Entre Douro e Vouga, EPE","40.9295, -8.54567",358939.0,109005.0,249934.0,2025,11
+2025-11-01,2025/11/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Loures-Odivelas, EPE","38.821769, -9.176301",219186.0,59179.0,160007.0,2025,11
+2025-11-01,2025/11/01,Norte,"Unidade Local de Saúde de Santo António, EPE","41.147283, -8.619536",705632.0,160499.0,545133.0,2025,11
+2025-11-01,2025/11/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de São José, EPE","38.7169, -9.13654",822893.0,224250.0,598643.0,2025,11
+2025-11-01,2025/11/01,Algarve,"Unidade Local de Saúde do Algarve, EPE","37.024668, -7.928949",353315.0,91142.0,262173.0,2025,11
+2025-11-01,2025/11/01,Alentejo,"Unidade Local de Saúde do Alto Alentejo, EPE","39.2999, -7.4267",116076.0,35043.0,81033.0,2025,11
+2025-11-01,2025/11/01,Norte,"Unidade Local de Saúde do Alto Ave, EPE","41.488574, -8.338685",351345.0,91696.0,259649.0,2025,11
+2025-11-01,2025/11/01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.039936, -8.731693",91287.0,28467.0,62820.0,2025,11
+2024-12-01,2024/12/01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",92833.0,33503.0,59330.0,2024,12
+2024-12-01,2024/12/01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309943471486, -7.0",100993.0,26782.0,74211.0,2024,12
+2024-12-01,2024/12/01,Norte,"Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde, EPE","41.383183, -8.758784",113040.0,39321.0,73719.0,2024,12
+2024-12-01,2024/12/01,Norte,"Unidade Local de Saúde de Barcelos/Esposende, EPE","41.533438, -8.616604",80795.0,27901.0,52894.0,2024,12
+2024-12-01,2024/12/01,Norte,"Unidade Local de Saúde de Braga, EPE","41.562328338623, -8.3",567237.0,159203.0,408034.0,2024,12
+2024-12-01,2024/12/01,Centro,"Unidade Local de Saúde de Coimbra, EPE","40.217426, -8.410075",984524.0,253280.0,731244.0,2024,12
+2024-12-01,2024/12/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Lisboa Ocidental, EPE","38.7084, -9.21711",500683.0,117138.0,383545.0,2024,12
+2024-12-01,2024/12/01,Norte,"Unidade Local de Saúde de São João, EPE","41.1833, -8.60193",919476.0,251152.0,668324.0,2024,12
+2024-12-01,2024/12/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de São José, EPE","38.7169, -9.13654",875502.0,236291.0,639211.0,2024,12
+2024-12-01,2024/12/01,Alentejo,"Unidade Local de Saúde do Alentejo Central, EPE","38.568838, -7.903064",178489.0,49735.0,128754.0,2024,12
+2024-12-01,2024/12/01,Norte,"Unidade Local de Saúde do Alto Ave, EPE","41.488574, -8.338685",350031.0,92056.0,257975.0,2024,12
+2025-12-01,2025/12/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Amadora/Sintra, EPE","38.7436332060551, -9.0",380296.0,112187.0,268109.0,2025,12
+2025-12-01,2025/12/01,Norte,"Unidade Local de Saúde de Barcelos/Esposende, EPE","41.533438, -8.616604",97330.0,39368.0,57962.0,2025,12
+2025-12-01,2025/12/01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",312830.0,96598.0,216232.0,2025,12
+2025-12-01,2025/12/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Lisboa Ocidental, EPE","38.7084, -9.21711",495681.0,113383.0,382298.0,2025,12
+2025-12-01,2025/12/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Loures-Odivelas, EPE","38.821769, -9.176301",219186.0,59179.0,160007.0,2025,12
+2025-12-01,2025/12/01,Norte,"Unidade Local de Saúde de São João, EPE","41.1833, -8.60193",951133.0,254075.0,697058.0,2025,12
+2025-12-01,2025/12/01,Norte,"Unidade Local de Saúde de Vila Nova de Gaia/Espinho, EPE","41.1254463195801, -8.0",643301.0,189844.0,453457.0,2025,12
+2025-12-01,2025/12/01,Alentejo,"Unidade Local de Saúde do Alentejo Central, EPE","38.568838, -7.903064",182896.0,49024.0,133872.0,2025,12
+2025-12-01,2025/12/01,Norte,"Unidade Local de Saúde do Alto Ave, EPE","41.488574, -8.338685",379539.0,99170.0,280369.0,2025,12
+2025-12-01,2025/12/01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Estuário do Tejo, EPE","38.977344, -8.984882",145267.0,37199.0,108068.0,2025,12
+2013-01-01,2013/01/01,Alentejo,"Hospital Espírito Santo de Évora, EPE","38.5684861, -7.9032848",15980.0,5135.0,10845.0,2013,1
+2013-01-01,2013/01/01,Centro,"Centro Hospitalar e Universitário de Coimbra, EPE","40.2191523, -8.4098211",81136.0,19336.0,61800.0,2013,1
+2013-01-01,2013/01/01,Centro,Centro Medicina de Reabilitação da Região Centro Rovisco Pais,"40.297919, -8.7707806",232.0,95.0,137.0,2013,1
+2013-01-01,2013/01/01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, EPE","38.708454, -9.216985",43490.0,9919.0,33571.0,2013,1
+2013-01-01,2013/01/01,Lisboa e Vale do Tejo,"Centro Hospitalar de Setúbal, EPE","38.5283754, -8.8818638",19250.0,5800.0,13450.0,2013,1
+2013-01-01,2013/01/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, EPE","38.7500861, -9.1616116",66044.0,18081.0,47963.0,2013,1
+2013-01-01,2013/01/01,Lisboa e Vale do Tejo,"Hospital de Vila Franca de Xira, PPP","38.977235, -8.984506",9231.0,3521.0,5710.0,2013,1
+2013-01-01,2013/01/01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, EPE","38.7422257, -9.2264834",25665.0,6855.0,18810.0,2013,1
+2013-01-01,2013/01/01,Lisboa e Vale do Tejo,"Hospital Garcia de Orta, EPE","38.6658713, -9.1822554",24763.0,7058.0,17705.0,2013,1
+2013-01-01,2013/01/01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, EPE","38.7396768, -9.1634516",20678.0,3634.0,17044.0,2013,1
+2013-01-01,2013/01/01,Norte,"Centro Hospitalar Universitário do Porto, EPE","41.1472498, -8.6172617",58837.0,14858.0,43979.0,2013,1
+2013-01-01,2013/01/01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, EPE","41.3828711, -8.7589945",6684.0,2442.0,4242.0,2013,1
+2013-01-01,2013/01/01,Norte,"Hospital de Braga, PPP","41.56785, -8.398982",32909.0,10502.0,22407.0,2013,1
+2013-01-01,2013/01/01,Norte,"Instituto Português Oncologia do Porto, EPE","41.1785642, -8.6062881",24498.0,6872.0,17626.0,2013,1
+2013-02-01,2013/02/01,Alentejo,"Hospital Espírito Santo de Évora, EPE","38.5684861, -7.9032848",30586.0,10061.0,20525.0,2013,2
+2013-02-01,2013/02/01,Centro,"Centro Hospitalar Universitário Cova da Beira, EPE","40.2804158, -7.4922407",28642.0,9068.0,19574.0,2013,2
+2013-02-01,2013/02/01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",4998.0,1618.0,3380.0,2013,2
+2013-02-01,2013/02/01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, EPE","39.4054629, -9.1258493",24005.0,8004.0,16001.0,2013,2
+2013-02-01,2013/02/01,Lisboa e Vale do Tejo,"Centro Hospitalar Médio Tejo, EPE","39.478072, -8.5404429",29134.0,11213.0,17921.0,2013,2
+2013-02-01,2013/02/01,Lisboa e Vale do Tejo,"Hospital de Vila Franca de Xira, PPP","38.977235, -8.984506",17533.0,6887.0,10646.0,2013,2
+2013-02-01,2013/02/01,Norte,"Centro Hospitalar Universitário de São João, EPE","41.1831056, -8.6010558",120353.0,30327.0,90026.0,2013,2
+2013-02-01,2013/02/01,Norte,"Centro Hospitalar do Alto Ave, EPE","41.4387173, -8.3086907",43531.0,12806.0,30725.0,2013,2
+2013-02-01,2013/02/01,Norte,"Instituto Português Oncologia do Porto, EPE","41.1785642, -8.6062881",45920.0,13353.0,32567.0,2013,2
+2013-02-01,2013/02/01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.8056532, -6.7888197",18633.0,6768.0,11865.0,2013,2
+2013-03-01,2013/03/01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.0162314, -8.6956768",15370.0,4250.0,11120.0,2013,3
+2013-03-01,2013/03/01,Algarve,"Centro Hospitalar Universitário do Algarve,EPE","37.0238973, -7.9281554",78470.0,24786.0,53684.0,2013,3
+2013-03-01,2013/03/01,Centro,"Centro Hospitalar Universitário Cova da Beira, EPE","40.2804158, -7.4922407",42365.0,13404.0,28961.0,2013,3
+2013-03-01,2013/03/01,Centro,"Centro Hospitalar Tondela-Viseu, EPE","40.516364, -8.0827433",64412.0,20600.0,43812.0,2013,3
+2013-03-01,2013/03/01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",7333.0,2334.0,4999.0,2013,3
+2013-03-01,2013/03/01,Lisboa e Vale do Tejo,"Centro Hospitalar Médio Tejo, EPE","39.478072, -8.5404429",42686.0,16361.0,26325.0,2013,3
+2013-03-01,2013/03/01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, EPE","38.7396768, -9.1634516",56446.0,10104.0,46342.0,2013,3
+2013-04-01,2013/04/01,Centro,"Centro Hospitalar Universitário Cova da Beira, EPE","40.2804158, -7.4922407",57077.0,17892.0,39185.0,2013,4
+2013-04-01,2013/04/01,Centro,"Centro Hospitalar de Leiria, EPE","39.7414812, -8.7982706",73270.0,26180.0,47090.0,2013,4
+2013-04-01,2013/04/01,Centro,Hospital Arcebispo João Crisóstomo,"40.3470015, -8.5933462",5002.0,2655.0,2347.0,2013,4
+2013-04-01,2013/04/01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",10108.0,3174.0,6934.0,2013,4
+2013-04-01,2013/04/01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",21690.0,1707.0,19983.0,2013,4
+2013-04-01,2013/04/01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, EPE","39.2410946, -8.6937515",49635.0,12985.0,36650.0,2013,4
+2013-04-01,2013/04/01,Norte,"Centro Hospitalar Universitário de São João, EPE","41.1831056, -8.6010558",236339.0,58912.0,177427.0,2013,4
+2013-04-01,2013/04/01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, EPE","41.3031784, -7.7515252",100054.0,28292.0,71762.0,2013,4
+2013-04-01,2013/04/01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, EPE","41.1094138, -8.5972617",161424.0,49025.0,112399.0,2013,4
+2013-04-01,2013/04/01,Norte,"Instituto Português Oncologia do Porto, EPE","41.1785642, -8.6062881",90255.0,26624.0,63631.0,2013,4
+2013-05-01,2013/05/01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.014123, -7.8721227",40963.0,13850.0,27113.0,2013,5
+2013-05-01,2013/05/01,Centro,"Centro Hospitalar do Baixo Vouga, EPE","40.6362453, -8.6543716",91182.0,27020.0,64162.0,2013,5
+2013-05-01,2013/05/01,Centro,"Centro Hospitalar Tondela-Viseu, EPE","40.516364, -8.0827433",108344.0,34387.0,73957.0,2013,5
+2013-05-01,2013/05/01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, EPE","38.708454, -9.216985",206462.0,47845.0,158617.0,2013,5
+2013-05-01,2013/05/01,Lisboa e Vale do Tejo,"Hospital de Loures, PPP","38.821455, -9.176296",99424.0,38914.0,60510.0,2013,5
+2013-05-01,2013/05/01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, EPE","38.7422257, -9.2264834",125362.0,39226.0,86136.0,2013,5
+2013-05-01,2013/05/01,Lisboa e Vale do Tejo,Instituto Gama Pinto,"38.7218793, -9.144249",23949.0,12602.0,11347.0,2013,5
+2013-05-01,2013/05/01,Norte,"Centro Hospitalar Universitário do Porto, EPE","41.1472498, -8.6172617",273471.0,69725.0,203746.0,2013,5
+2013-05-01,2013/05/01,Norte,"Centro Hospitalar Entre Douro e Vouga, EPE","40.9293884, -8.5458794",136381.0,50681.0,85700.0,2013,5
+2013-05-01,2013/05/01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, EPE","41.3828711, -8.7589945",31648.0,11480.0,20168.0,2013,5
+2013-05-01,2013/05/01,Norte,"Instituto Português Oncologia do Porto, EPE","41.1785642, -8.6062881",114053.0,33564.0,80489.0,2013,5
+2013-05-01,2013/05/01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.1794456, -8.6745115",102079.0,30494.0,71585.0,2013,5
+2013-06-01,2013/06/01,Alentejo,"Hospital Espírito Santo de Évora, EPE","38.5684861, -7.9032848",92821.0,29754.0,63067.0,2013,6
+2013-06-01,2013/06/01,Algarve,"Centro Hospitalar Universitário do Algarve,EPE","37.0238973, -7.9281554",158248.0,49635.0,108613.0,2013,6
+2013-06-01,2013/06/01,Centro,"Centro Hospitalar de Leiria, EPE","39.7414812, -8.7982706",108305.0,38451.0,69854.0,2013,6
+2013-06-01,2013/06/01,Centro,"Hospital Distrital da Figueira da Foz, EPE","40.117897, -8.8586755",42918.0,12419.0,30499.0,2013,6
+2013-06-01,2013/06/01,Centro,"Unidade Local de Saúde de Castelo Branco, EPE","39.8212263, -7.4981271",44726.0,13437.0,31289.0,2013,6
+2013-06-01,2013/06/01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, EPE","38.708454, -9.216985",239843.0,55086.0,184757.0,2013,6
+2013-06-01,2013/06/01,Lisboa e Vale do Tejo,"Centro Hospitalar Médio Tejo, EPE","39.478072, -8.5404429",87666.0,33506.0,54160.0,2013,6
+2013-06-01,2013/06/01,Norte,"Centro Hospitalar Universitário do Porto, EPE","41.1472498, -8.6172617",318961.0,81597.0,237364.0,2013,6
+2013-06-01,2013/06/01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, EPE","41.3828711, -8.7589945",37063.0,13546.0,23517.0,2013,6
+2013-06-01,2013/06/01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, EPE","41.3031784, -7.7515252",148495.0,42205.0,106290.0,2013,6
+2013-06-01,2013/06/01,Norte,"Hospital de Magalhães Lemos, EPE","41.1764649, -8.6649823",24734.0,2150.0,22584.0,2013,6
+2013-06-01,2013/06/01,Norte,"Hospital Santa Maria Maior, EPE","41.5324234, -8.6171561",31572.0,9340.0,22232.0,2013,6
+2013-07-01,2013/07/01,Centro,"Centro Hospitalar de Leiria, EPE","39.7414812, -8.7982706",127390.0,44793.0,82597.0,2013,7
+2013-07-01,2013/07/01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309916, -7.2734793",62999.0,22905.0,40094.0,2013,7
+2013-07-01,2013/07/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, EPE","38.7166948, -9.1371248",475154.0,122083.0,353071.0,2013,7
+2013-07-01,2013/07/01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, EPE","39.4054629, -9.1258493",88295.0,27268.0,61027.0,2013,7
+2013-07-01,2013/07/01,Lisboa e Vale do Tejo,"Hospital de Loures, PPP","38.821455, -9.176296",138503.0,53449.0,85054.0,2013,7
+2013-07-01,2013/07/01,Lisboa e Vale do Tejo,"Hospital de Vila Franca de Xira, PPP","38.977235, -8.984506",61069.0,24039.0,37030.0,2013,7
+2013-07-01,2013/07/01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, EPE","39.2410946, -8.6937515",80988.0,21068.0,59920.0,2013,7
+2013-07-01,2013/07/01,Norte,"Centro Hospitalar Universitário de São João, EPE","41.1831056, -8.6010558",412667.0,104252.0,308415.0,2013,7
+2013-07-01,2013/07/01,Norte,"Centro Hospitalar Entre Douro e Vouga, EPE","40.9293884, -8.5458794",186841.0,69867.0,116974.0,2013,7
+2013-07-01,2013/07/01,Norte,"Hospital Santa Maria Maior, EPE","41.5324234, -8.6171561",36536.0,10774.0,25762.0,2013,7
+2013-08-01,2013/08/01,Alentejo,"Hospital Espírito Santo de Évora, EPE","38.5684861, -7.9032848",120064.0,38134.0,81930.0,2013,8
+2013-08-01,2013/08/01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.014123, -7.8721227",61300.0,20658.0,40642.0,2013,8
+2013-08-01,2013/08/01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.0162314, -8.6956768",40255.0,11325.0,28930.0,2013,8
+2013-08-01,2013/08/01,Alentejo,"Unidade Local de Saúde do Norte Alentejano, EPE","39.3003425, -7.4263845",68681.0,18872.0,49809.0,2013,8
+2013-08-01,2013/08/01,Centro,"Centro Hospitalar Universitário Cova da Beira, EPE","40.2804158, -7.4922407",110340.0,33076.0,77264.0,2013,8
+2013-08-01,2013/08/01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",19877.0,6412.0,13465.0,2013,8
+2013-08-01,2013/08/01,Centro,"Unidade Local de Saúde de Castelo Branco, EPE","39.8212263, -7.4981271",56707.0,16998.0,39709.0,2013,8
+2013-08-01,2013/08/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, EPE","38.7500861, -9.1616116",463055.0,126288.0,336767.0,2013,8
+2013-08-01,2013/08/01,Lisboa e Vale do Tejo,"Hospital de Loures, PPP","38.821455, -9.176296",154347.0,59470.0,94877.0,2013,8
+2013-08-01,2013/08/01,Lisboa e Vale do Tejo,"Hospital de Vila Franca de Xira, PPP","38.977235, -8.984506",64369.0,27264.0,37105.0,2013,8
+2013-08-01,2013/08/01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, EPE","39.2410946, -8.6937515",97114.0,25376.0,71738.0,2013,8
+2013-08-01,2013/08/01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, EPE","38.7396768, -9.1634516",146978.0,27050.0,119928.0,2013,8
+2013-08-01,2013/08/01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, EPE","41.1094138, -8.5972617",308783.0,92273.0,216510.0,2013,8
+2013-09-01,2013/09/01,Centro,Hospital Arcebispo João Crisóstomo,"40.3470015, -8.5933462",11511.0,6068.0,5443.0,2013,9
+2013-09-01,2013/09/01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, EPE","38.708454, -9.216985",349509.0,80853.0,268656.0,2013,9
+2013-09-01,2013/09/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, EPE","38.7500861, -9.1616116",518174.0,140376.0,377798.0,2013,9
+2013-09-01,2013/09/01,Norte,"Hospital Santa Maria Maior, EPE","41.5324234, -8.6171561",44767.0,13057.0,31710.0,2013,9
+2013-09-01,2013/09/01,Norte,"Instituto Português Oncologia do Porto, EPE","41.1785642, -8.6062881",197525.0,58551.0,138974.0,2013,9
+2013-10-01,2013/10/01,Alentejo,"Unidade Local de Saúde do Norte Alentejano, EPE","39.3003425, -7.4263845",86788.0,23496.0,63292.0,2013,10
+2013-10-01,2013/10/01,Centro,Centro Medicina de Reabilitação da Região Centro Rovisco Pais,"40.297919, -8.7707806",3250.0,1354.0,1896.0,2013,10
+2013-10-01,2013/10/01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",25154.0,8160.0,16994.0,2013,10
+2013-10-01,2013/10/01,Centro,"Instituto Português Oncologia de Coimbra, EPE","40.2162514, -8.4103814",106496.0,18525.0,87971.0,2013,10
+2013-10-01,2013/10/01,Centro,"Unidade Local de Saúde de Castelo Branco, EPE","39.8212263, -7.4981271",71535.0,21445.0,50090.0,2013,10
+2013-10-01,2013/10/01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",52080.0,3671.0,48409.0,2013,10
+2013-10-01,2013/10/01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, EPE","38.7422257, -9.2264834",242840.0,76202.0,166638.0,2013,10
+2013-10-01,2013/10/01,Norte,"Centro Hospitalar Universitário de São João, EPE","41.1831056, -8.6010558",579086.0,148412.0,430674.0,2013,10
+2013-10-01,2013/10/01,Norte,"Instituto Português Oncologia do Porto, EPE","41.1785642, -8.6062881",222551.0,66107.0,156444.0,2013,10
+2013-10-01,2013/10/01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.7056054, -8.8252713",185045.0,62324.0,122721.0,2013,10
+2013-11-01,2013/11/01,Centro,"Centro Hospitalar do Baixo Vouga, EPE","40.6362453, -8.6543716",189189.0,54341.0,134848.0,2013,11
+2013-11-01,2013/11/01,Centro,"Centro Hospitalar e Universitário de Coimbra, EPE","40.2191523, -8.4098211",811859.0,189085.0,622774.0,2013,11
+2013-11-01,2013/11/01,Centro,"Hospital Distrital da Figueira da Foz, EPE","40.117897, -8.8586755",75361.0,22002.0,53359.0,2013,11
+2013-11-01,2013/11/01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, EPE","39.2410946, -8.6937515",137387.0,35755.0,101632.0,2013,11
+2013-11-01,2013/11/01,Lisboa e Vale do Tejo,"Hospital Garcia de Orta, EPE","38.6658713, -9.1822554",257887.0,78661.0,179226.0,2013,11
+2013-11-01,2013/11/01,Norte,"Centro Hospitalar Entre Douro e Vouga, EPE","40.9293884, -8.5458794",284129.0,106080.0,178049.0,2013,11
+2013-11-01,2013/11/01,Norte,"Centro Hospitalar Tâmega e Sousa, EPE","41.2494561, -8.264901",251020.0,89012.0,162008.0,2013,11
+2013-11-01,2013/11/01,Norte,"Hospital de Braga, PPP","41.56785, -8.398982",348335.0,110909.0,237426.0,2013,11
+2013-12-01,2013/12/01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.014123, -7.8721227",90175.0,29788.0,60387.0,2013,12
+2013-12-01,2013/12/01,Centro,Hospital José Luciano de Castro,"40.4422767, -8.4438729",13557.0,5032.0,8525.0,2013,12
+2013-12-01,2013/12/01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, EPE","38.6554005, -9.0592392",168920.0,40673.0,128247.0,2013,12
+2013-12-01,2013/12/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, EPE","38.7166948, -9.1371248",800394.0,202035.0,598359.0,2013,12
+2013-12-01,2013/12/01,Lisboa e Vale do Tejo,"Centro Hospitalar Médio Tejo, EPE","39.478072, -8.5404429",170155.0,65089.0,105066.0,2013,12
+2013-12-01,2013/12/01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",62430.0,4358.0,58072.0,2013,12
+2013-12-01,2013/12/01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.729006, -9.418267",133603.0,47325.0,86278.0,2013,12
+2013-12-01,2013/12/01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, EPE","39.2410946, -8.6937515",148788.0,38452.0,110336.0,2013,12
+2013-12-01,2013/12/01,Lisboa e Vale do Tejo,"Hospital Garcia de Orta, EPE","38.6658713, -9.1822554",275682.0,84891.0,190791.0,2013,12
+2013-12-01,2013/12/01,Norte,"Centro Hospitalar Universitário de São João, EPE","41.1831056, -8.6010558",693297.0,179000.0,514297.0,2013,12
+2013-12-01,2013/12/01,Norte,"Hospital de Braga, PPP","41.56785, -8.398982",382124.0,123406.0,258718.0,2013,12
+2013-12-01,2013/12/01,Norte,"Instituto Português Oncologia do Porto, EPE","41.1785642, -8.6062881",266897.0,79889.0,187008.0,2013,12
+2013-12-01,2013/12/01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.7056054, -8.8252713",220294.0,74463.0,145831.0,2013,12
+2014-01-01,2014/01/01,Centro,"Centro Hospitalar Tondela-Viseu, EPE","40.516364, -8.0827433",24061.0,7544.0,16517.0,2014,1
+2014-01-01,2014/01/01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, EPE","39.4054629, -9.1258493",12407.0,4350.0,8057.0,2014,1
+2014-01-01,2014/01/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, EPE","38.7500861, -9.1616116",62785.0,15265.0,47520.0,2014,1
+2014-01-01,2014/01/01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",5851.0,439.0,5412.0,2014,1
+2014-01-01,2014/01/01,Lisboa e Vale do Tejo,"Hospital de Loures, PPP","38.821455, -9.176296",24662.0,8490.0,16172.0,2014,1
+2014-01-01,2014/01/01,Norte,"Centro Hospitalar do Alto Ave, EPE","41.4387173, -8.3086907",22889.0,6452.0,16437.0,2014,1
+2014-01-01,2014/01/01,Norte,"Centro Hospitalar do Médio Ave, EPE","41.3423984, -8.4802503",15594.0,4419.0,11175.0,2014,1
+2014-02-01,2014/02/01,Centro,"Centro Hospitalar Universitário Cova da Beira, EPE","40.2804158, -7.4922407",29454.0,8181.0,21273.0,2014,2
+2014-02-01,2014/02/01,Lisboa e Vale do Tejo,"Centro Hospitalar Médio Tejo, EPE","39.478072, -8.5404429",29318.0,12361.0,16957.0,2014,2
+2014-02-01,2014/02/01,Lisboa e Vale do Tejo,"Hospital de Loures, PPP","38.821455, -9.176296",47592.0,16329.0,31263.0,2014,2
+2014-02-01,2014/02/01,Lisboa e Vale do Tejo,"Hospital de Vila Franca de Xira, PPP","38.977235, -8.984506",21283.0,8075.0,13208.0,2014,2
+2014-02-01,2014/02/01,Lisboa e Vale do Tejo,Instituto Gama Pinto,"38.7218793, -9.144249",9858.0,5071.0,4787.0,2014,2
+2014-02-01,2014/02/01,Norte,"Centro Hospitalar Tâmega e Sousa, EPE","41.2494561, -8.264901",50597.0,19060.0,31537.0,2014,2
+2014-02-01,2014/02/01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, EPE","41.1094138, -8.5972617",81589.0,24916.0,56673.0,2014,2
+2014-02-01,2014/02/01,Norte,"Hospital Santa Maria Maior, EPE","41.5324234, -8.6171561",10305.0,3239.0,7066.0,2014,2
+2014-02-01,2014/02/01,Norte,"Instituto Português Oncologia do Porto, EPE","41.1785642, -8.6062881",46674.0,14407.0,32267.0,2014,2
+2014-03-01,2014/03/01,Centro,"Centro Hospitalar Universitário Cova da Beira, EPE","40.2804158, -7.4922407",44431.0,12386.0,32045.0,2014,3
+2014-03-01,2014/03/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, EPE","38.7500861, -9.1616116",179076.0,44833.0,134243.0,2014,3
+2014-03-01,2014/03/01,Lisboa e Vale do Tejo,"Hospital de Loures, PPP","38.821455, -9.176296",71283.0,24281.0,47002.0,2014,3
+2014-03-01,2014/03/01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, EPE","38.7422257, -9.2264834",75919.0,24509.0,51410.0,2014,3
+2014-03-01,2014/03/01,Norte,"Hospital de Magalhães Lemos, EPE","41.1764649, -8.6649823",12853.0,1055.0,11798.0,2014,3
+2014-04-01,2014/04/01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.014123, -7.8721227",30904.0,10695.0,20209.0,2014,4
+2014-04-01,2014/04/01,Lisboa e Vale do Tejo,"Hospital de Loures, PPP","38.821455, -9.176296",93454.0,31553.0,61901.0,2014,4
+2014-04-01,2014/04/01,Lisboa e Vale do Tejo,"Hospital de Vila Franca de Xira, PPP","38.977235, -8.984506",42630.0,16006.0,26624.0,2014,4
+2014-04-01,2014/04/01,Norte,"Centro Hospitalar do Alto Ave, EPE","41.4387173, -8.3086907",86379.0,23917.0,62462.0,2014,4
+2014-04-01,2014/04/01,Norte,"Centro Hospitalar Entre Douro e Vouga, EPE","40.9293884, -8.5458794",103640.0,38148.0,65492.0,2014,4
+2014-04-01,2014/04/01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, EPE","41.3031784, -7.7515252",106615.0,30084.0,76531.0,2014,4
+2014-04-01,2014/04/01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.8056532, -6.7888197",39862.0,14493.0,25369.0,2014,4
+2014-05-01,2014/05/01,Lisboa e Vale do Tejo,"Centro Hospitalar Médio Tejo, EPE","39.478072, -8.5404429",73564.0,31018.0,42546.0,2014,5
+2014-05-01,2014/05/01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",27917.0,1976.0,25941.0,2014,5
+2014-05-01,2014/05/01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, EPE","38.7396768, -9.1634516",101916.0,19579.0,82337.0,2014,5
+2014-05-01,2014/05/01,Norte,"Centro Hospitalar Universitário de São João, EPE","41.1831056, -8.6010558",312660.0,83042.0,229618.0,2014,5
+2014-05-01,2014/05/01,Norte,"Centro Hospitalar Entre Douro e Vouga, EPE","40.9293884, -8.5458794",129732.0,47475.0,82257.0,2014,5
+2014-05-01,2014/05/01,Norte,"Hospital de Magalhães Lemos, EPE","41.1764649, -8.6649823",21517.0,1721.0,19796.0,2014,5
+2014-06-01,2014/06/01,Alentejo,"Hospital Espírito Santo de Évora, EPE","38.5684861, -7.9032848",96596.0,28191.0,68405.0,2014,6
+2014-06-01,2014/06/01,Alentejo,"Unidade Local de Saúde do Norte Alentejano, EPE","39.3003425, -7.4263845",52057.0,14066.0,37991.0,2014,6
+2014-06-01,2014/06/01,Centro,"Centro Hospitalar Tondela-Viseu, EPE","40.516364, -8.0827433",131864.0,41706.0,90158.0,2014,6
+2014-06-01,2014/06/01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",15372.0,5252.0,10120.0,2014,6
+2014-06-01,2014/06/01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, EPE","38.708454, -9.216985",240550.0,54898.0,185652.0,2014,6
+2014-06-01,2014/06/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, EPE","38.7500861, -9.1616116",347968.0,86713.0,261255.0,2014,6
+2014-06-01,2014/06/01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, EPE","38.7396768, -9.1634516",122805.0,23577.0,99228.0,2014,6
+2014-06-01,2014/06/01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, EPE","41.1094138, -8.5972617",238710.0,72320.0,166390.0,2014,6
+2014-06-01,2014/06/01,Norte,"Hospital de Magalhães Lemos, EPE","41.1764649, -8.6649823",25225.0,2041.0,23184.0,2014,6
+2014-07-01,2014/07/01,Centro,Centro Medicina de Reabilitação da Região Centro Rovisco Pais,"40.297919, -8.7707806",2354.0,958.0,1396.0,2014,7
+2014-07-01,2014/07/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, EPE","38.7500861, -9.1616116",402510.0,100247.0,302263.0,2014,7
+2014-07-01,2014/07/01,Lisboa e Vale do Tejo,"Hospital de Loures, PPP","38.821455, -9.176296",163512.0,54476.0,109036.0,2014,7
+2014-07-01,2014/07/01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, EPE","41.1094138, -8.5972617",279117.0,84340.0,194777.0,2014,7
+2014-07-01,2014/07/01,Norte,"Instituto Português Oncologia do Porto, EPE","41.1785642, -8.6062881",163728.0,51391.0,112337.0,2014,7
+2014-07-01,2014/07/01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.1794456, -8.6745115",155919.0,44847.0,111072.0,2014,7
+2014-07-01,2014/07/01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.7056054, -8.8252713",135708.0,47377.0,88331.0,2014,7
+2014-08-01,2014/08/01,Centro,"Centro Hospitalar de Leiria, EPE","39.7414812, -8.7982706",161502.0,57133.0,104369.0,2014,8
+2014-08-01,2014/08/01,Centro,"Centro Hospitalar e Universitário de Coimbra, EPE","40.2191523, -8.4098211",584511.0,140278.0,444233.0,2014,8
+2014-08-01,2014/08/01,Centro,Centro Medicina de Reabilitação da Região Centro Rovisco Pais,"40.297919, -8.7707806",2569.0,1027.0,1542.0,2014,8
+2014-08-01,2014/08/01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",19582.0,6738.0,12844.0,2014,8
+2014-08-01,2014/08/01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, EPE","38.6554005, -9.0592392",114826.0,28434.0,86392.0,2014,8
+2014-08-01,2014/08/01,Lisboa e Vale do Tejo,"Centro Hospitalar de Setúbal, EPE","38.5283754, -8.8818638",143395.0,41059.0,102336.0,2014,8
+2014-08-01,2014/08/01,Lisboa e Vale do Tejo,"Hospital de Loures, PPP","38.821455, -9.176296",179621.0,59884.0,119737.0,2014,8
+2014-08-01,2014/08/01,Norte,"Centro Hospitalar Universitário do Porto, EPE","41.1472498, -8.6172617",420192.0,103168.0,317024.0,2014,8
+2014-08-01,2014/08/01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, EPE","41.3031784, -7.7515252",199819.0,54771.0,145048.0,2014,8
+2014-08-01,2014/08/01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.8056532, -6.7888197",74536.0,27062.0,47474.0,2014,8
+2014-09-01,2014/09/01,Centro,"Centro Hospitalar de Leiria, EPE","39.7414812, -8.7982706",182431.0,64592.0,117839.0,2014,9
+2014-09-01,2014/09/01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, EPE","38.708454, -9.216985",347624.0,78915.0,268709.0,2014,9
+2014-09-01,2014/09/01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, EPE","41.3828711, -8.7589945",56510.0,19776.0,36734.0,2014,9
+2014-09-01,2014/09/01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, EPE","41.3031784, -7.7515252",224429.0,61036.0,163393.0,2014,9
+2014-09-01,2014/09/01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.8056532, -6.7888197",84218.0,30333.0,53885.0,2014,9
+2014-10-01,2014/10/01,Alentejo,"Unidade Local de Saúde do Norte Alentejano, EPE","39.3003425, -7.4263845",85920.0,23327.0,62593.0,2014,10
+2014-10-01,2014/10/01,Centro,Hospital José Luciano de Castro,"40.4422767, -8.4438729",9590.0,3769.0,5821.0,2014,10
+2014-10-01,2014/10/01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, EPE","38.6554005, -9.0592392",146223.0,36246.0,109977.0,2014,10
+2014-10-01,2014/10/01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, EPE","38.708454, -9.216985",390870.0,88586.0,302284.0,2014,10
+2014-10-01,2014/10/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, EPE","38.7500861, -9.1616116",562937.0,141126.0,421811.0,2014,10
+2014-10-01,2014/10/01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",53023.0,3699.0,49324.0,2014,10
+2014-10-01,2014/10/01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.729006, -9.418267",114678.0,41065.0,73613.0,2014,10
+2014-10-01,2014/10/01,Lisboa e Vale do Tejo,Instituto Gama Pinto,"38.7218793, -9.144249",44044.0,21644.0,22400.0,2014,10
+2014-10-01,2014/10/01,Norte,"Centro Hospitalar do Alto Ave, EPE","41.4387173, -8.3086907",214127.0,57936.0,156191.0,2014,10
+2014-10-01,2014/10/01,Norte,"Hospital de Magalhães Lemos, EPE","41.1764649, -8.6649823",40584.0,3231.0,37353.0,2014,10
+2014-10-01,2014/10/01,Norte,"Hospital Santa Maria Maior, EPE","41.5324234, -8.6171561",50402.0,15526.0,34876.0,2014,10
+2014-11-01,2014/11/01,Alentejo,"Hospital Espírito Santo de Évora, EPE","38.5684861, -7.9032848",174692.0,51378.0,123314.0,2014,11
+2014-11-01,2014/11/01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.729006, -9.418267",126985.0,45688.0,81297.0,2014,11
+2014-11-01,2014/11/01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, EPE","38.7422257, -9.2264834",267882.0,87604.0,180278.0,2014,11
+2014-11-01,2014/11/01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, EPE","38.7396768, -9.1634516",224483.0,43090.0,181393.0,2014,11
+2014-11-01,2014/11/01,Norte,"Centro Hospitalar Universitário do Porto, EPE","41.1472498, -8.6172617",590676.0,145595.0,445081.0,2014,11
+2014-11-01,2014/11/01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, EPE","41.3031784, -7.7515252",277540.0,74778.0,202762.0,2014,11
+2014-11-01,2014/11/01,Norte,"Hospital de Magalhães Lemos, EPE","41.1764649, -8.6649823",44547.0,3522.0,41025.0,2014,11
+2014-11-01,2014/11/01,Norte,"Hospital Santa Maria Maior, EPE","41.5324234, -8.6171561",55953.0,17353.0,38600.0,2014,11
+2014-11-01,2014/11/01,Norte,"Instituto Português Oncologia do Porto, EPE","41.1785642, -8.6062881",254026.0,80648.0,173378.0,2014,11
+2014-11-01,2014/11/01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.8056532, -6.7888197",103744.0,37170.0,66574.0,2014,11
+2014-12-01,2014/12/01,Centro,"Centro Hospitalar do Baixo Vouga, EPE","40.6362453, -8.6543716",207527.0,60802.0,146725.0,2014,12
+2014-12-01,2014/12/01,Centro,Centro Medicina de Reabilitação da Região Centro Rovisco Pais,"40.297919, -8.7707806",4050.0,1669.0,2381.0,2014,12
+2014-12-01,2014/12/01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",30110.0,10384.0,19726.0,2014,12
+2014-12-01,2014/12/01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309916, -7.2734793",103544.0,36822.0,66722.0,2014,12
+2014-12-01,2014/12/01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, EPE","38.6554005, -9.0592392",175432.0,43447.0,131985.0,2014,12
+2014-12-01,2014/12/01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, EPE","38.708454, -9.216985",464400.0,105167.0,359233.0,2014,12
+2014-12-01,2014/12/01,Lisboa e Vale do Tejo,"Hospital de Loures, PPP","38.821455, -9.176296",273176.0,90238.0,182938.0,2014,12
+2014-12-01,2014/12/01,Norte,"Centro Hospitalar Entre Douro e Vouga, EPE","40.9293884, -8.5458794",300156.0,113035.0,187121.0,2014,12
+2014-12-01,2014/12/01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, EPE","41.3828711, -8.7589945",76691.0,26940.0,49751.0,2014,12
+2014-12-01,2014/12/01,Norte,"Instituto Português Oncologia do Porto, EPE","41.1785642, -8.6062881",275688.0,87168.0,188520.0,2014,12
+2014-12-01,2014/12/01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.7056054, -8.8252713",226754.0,79538.0,147216.0,2014,12
+2015-01-01,2015/01/01,Alentejo,"Hospital Espírito Santo de Évora, EPE","38.5684861, -7.9032848",16134.0,5132.0,11002.0,2015,1
+2015-01-01,2015/01/01,Centro,"Centro Hospitalar de Leiria, EPE","39.7414812, -8.7982706",21837.0,7762.0,14075.0,2015,1
+2015-01-01,2015/01/01,Centro,"Centro Hospitalar Tondela-Viseu, EPE","40.516364, -8.0827433",23525.0,7282.0,16243.0,2015,1
+2015-01-01,2015/01/01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",2841.0,1126.0,1715.0,2015,1
+2015-01-01,2015/01/01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, EPE","39.4054629, -9.1258493",11078.0,3941.0,7137.0,2015,1
+2015-01-01,2015/01/01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, EPE","41.3031784, -7.7515252",25729.0,6692.0,19037.0,2015,1
+2015-01-01,2015/01/01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, EPE","41.1094138, -8.5972617",42309.0,12331.0,29978.0,2015,1
+2015-01-01,2015/01/01,Norte,"Hospital da Senhora da Oliveira, Guimarães, EPE","41.4387173, -8.3086907",21827.0,6076.0,15751.0,2015,1
+2015-01-01,2015/01/01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.8056532, -6.7888197",9156.0,3384.0,5772.0,2015,1
+2015-02-01,2015/02/01,Centro,"Centro Hospitalar e Universitário de Coimbra, EPE","40.2191523, -8.4098211",154220.0,36312.0,117908.0,2015,2
+2015-02-01,2015/02/01,Centro,"Hospital Distrital da Figueira da Foz, EPE","40.117897, -8.8586755",15105.0,4833.0,10272.0,2015,2
+2015-02-01,2015/02/01,Lisboa e Vale do Tejo,"Centro Hospitalar de Setúbal, EPE","38.5283754, -8.8818638",35870.0,10560.0,25310.0,2015,2
+2015-02-01,2015/02/01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, EPE","39.4054629, -9.1258493",21687.0,7584.0,14103.0,2015,2
+2015-02-01,2015/02/01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, EPE","38.7422257, -9.2264834",48546.0,15010.0,33536.0,2015,2
+2015-02-01,2015/02/01,Lisboa e Vale do Tejo,Instituto Gama Pinto,"38.7218793, -9.144249",8836.0,4564.0,4272.0,2015,2
+2015-02-01,2015/02/01,Norte,"Hospital Santa Maria Maior, EPE","41.5324234, -8.6171561",10849.0,3444.0,7405.0,2015,2
+2015-02-01,2015/02/01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.8056532, -6.7888197",18089.0,6667.0,11422.0,2015,2
+2015-03-01,2015/03/01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",8364.0,3330.0,5034.0,2015,3
+2015-03-01,2015/03/01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, EPE","38.708454, -9.216985",119122.0,28105.0,91017.0,2015,3
+2015-03-01,2015/03/01,Lisboa e Vale do Tejo,"Hospital Garcia de Orta, EPE","38.6658713, -9.1822554",72484.0,20994.0,51490.0,2015,3
+2015-03-01,2015/03/01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, EPE","38.7396768, -9.1634516",62412.0,11391.0,51021.0,2015,3
+2015-03-01,2015/03/01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, EPE","41.1094138, -8.5972617",122276.0,36196.0,86080.0,2015,3
+2015-03-01,2015/03/01,Norte,"Hospital Santa Maria Maior, EPE","41.5324234, -8.6171561",17243.0,5385.0,11858.0,2015,3
+2015-04-01,2015/04/01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.0162314, -8.6956768",21536.0,6763.0,14773.0,2015,4
+2015-04-01,2015/04/01,Centro,"Centro Hospitalar Tondela-Viseu, EPE","40.516364, -8.0827433",92048.0,28573.0,63475.0,2015,4
+2015-04-01,2015/04/01,Centro,Hospital Arcebispo João Crisóstomo,"40.3470015, -8.5933462",6068.0,2806.0,3262.0,2015,4
+2015-04-01,2015/04/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, EPE","38.7166948, -9.1371248",266891.0,66855.0,200036.0,2015,4
+2015-04-01,2015/04/01,Lisboa e Vale do Tejo,"Hospital de Vila Franca de Xira, PPP","38.977235, -8.984506",50977.0,19178.0,31799.0,2015,4
+2015-04-01,2015/04/01,Norte,"Hospital de Magalhães Lemos, EPE","41.1764649, -8.6649823",16680.0,1225.0,15455.0,2015,4
+2015-04-01,2015/04/01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.7056054, -8.8252713",83119.0,30688.0,52431.0,2015,4
+2015-05-01,2015/05/01,Centro,Hospital Arcebispo João Crisóstomo,"40.3470015, -8.5933462",7714.0,3638.0,4076.0,2015,5
+2015-05-01,2015/05/01,Lisboa e Vale do Tejo,"Centro Hospitalar de Setúbal, EPE","38.5283754, -8.8818638",93900.0,27975.0,65925.0,2015,5
+2015-05-01,2015/05/01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.729006, -9.418267",59278.0,20585.0,38693.0,2015,5
+2015-05-01,2015/05/01,Lisboa e Vale do Tejo,Instituto Gama Pinto,"38.7218793, -9.144249",22830.0,11669.0,11161.0,2015,5
+2015-05-01,2015/05/01,Norte,"Hospital da Senhora da Oliveira, Guimarães, EPE","41.4387173, -8.3086907",108231.0,29786.0,78445.0,2015,5
+2015-06-01,2015/06/01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.0162314, -8.6956768",32001.0,10036.0,21965.0,2015,6
+2015-06-01,2015/06/01,Centro,"Centro Hospitalar Tondela-Viseu, EPE","40.516364, -8.0827433",135910.0,41749.0,94161.0,2015,6
+2015-06-01,2015/06/01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, EPE","38.6554005, -9.0592392",91522.0,22503.0,69019.0,2015,6
+2015-06-01,2015/06/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, EPE","38.7166948, -9.1371248",396262.0,98489.0,297773.0,2015,6
+2015-06-01,2015/06/01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",33112.0,2228.0,30884.0,2015,6
+2015-06-01,2015/06/01,Lisboa e Vale do Tejo,Instituto Gama Pinto,"38.7218793, -9.144249",27217.0,13933.0,13284.0,2015,6
+2015-06-01,2015/06/01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, EPE","38.7396768, -9.1634516",126516.0,23090.0,103426.0,2015,6
+2015-06-01,2015/06/01,Norte,"Hospital de Magalhães Lemos, EPE","41.1764649, -8.6649823",24723.0,1848.0,22875.0,2015,6
+2015-06-01,2015/06/01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.7056054, -8.8252713",122686.0,45459.0,77227.0,2015,6
+2015-06-01,2015/06/01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.8056532, -6.7888197",54426.0,19929.0,34497.0,2015,6
+2015-07-01,2015/07/01,Centro,"Instituto Português Oncologia de Coimbra, EPE","40.2162514, -8.4103814",75606.0,12962.0,62644.0,2015,7
+2015-07-01,2015/07/01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, EPE","38.708454, -9.216985",275437.0,64690.0,210747.0,2015,7
+2015-07-01,2015/07/01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, EPE","39.4054629, -9.1258493",78632.0,26015.0,52617.0,2015,7
+2015-07-01,2015/07/01,Lisboa e Vale do Tejo,"Hospital Garcia de Orta, EPE","38.6658713, -9.1822554",166128.0,46726.0,119402.0,2015,7
+2015-07-01,2015/07/01,Norte,"Centro Hospitalar Tâmega e Sousa, EPE","41.2494561, -8.264901",181173.0,69134.0,112039.0,2015,7
+2015-07-01,2015/07/01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, EPE","41.1094138, -8.5972617",282880.0,84187.0,198693.0,2015,7
+2015-08-01,2015/08/01,Centro,Centro Medicina de Reabilitação da Região Centro Rovisco Pais,"40.297919, -8.7707806",2569.0,1027.0,1542.0,2015,8
+2015-08-01,2015/08/01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",21421.0,8397.0,13024.0,2015,8
+2015-08-01,2015/08/01,Centro,"Unidade Local de Saúde de Castelo Branco, EPE","39.8212263, -7.4981271",57502.0,17669.0,39833.0,2015,8
+2015-08-01,2015/08/01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, EPE","38.708454, -9.216985",303737.0,71548.0,232189.0,2015,8
+2015-08-01,2015/08/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, EPE","38.7500861, -9.1616116",455326.0,121863.0,333463.0,2015,8
+2015-08-01,2015/08/01,Lisboa e Vale do Tejo,"Centro Hospitalar Médio Tejo, EPE","39.478072, -8.5404429",112897.0,45775.0,67122.0,2015,8
+2015-08-01,2015/08/01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, EPE","39.2410946, -8.6937515",95497.0,25227.0,70270.0,2015,8
+2015-08-01,2015/08/01,Norte,"Centro Hospitalar Universitário de São João, EPE","41.1831056, -8.6010558",480928.0,126011.0,354917.0,2015,8
+2015-08-01,2015/08/01,Norte,"Centro Hospitalar do Médio Ave, EPE","41.3423984, -8.4802503",112613.0,34238.0,78375.0,2015,8
+2015-08-01,2015/08/01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, EPE","41.1094138, -8.5972617",315199.0,93934.0,221265.0,2015,8
+2015-08-01,2015/08/01,Norte,"Hospital da Senhora da Oliveira, Guimarães, EPE","41.4387173, -8.3086907",167554.0,46779.0,120775.0,2015,8
+2015-08-01,2015/08/01,Norte,"Hospital de Magalhães Lemos, EPE","41.1764649, -8.6649823",31925.0,2472.0,29453.0,2015,8
+2015-08-01,2015/08/01,Norte,"Hospital Santa Maria Maior, EPE","41.5324234, -8.6171561",42804.0,14001.0,28803.0,2015,8
+2015-08-01,2015/08/01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.8056532, -6.7888197",69467.0,25520.0,43947.0,2015,8
+2015-09-01,2015/09/01,Centro,"Centro Hospitalar Universitário Cova da Beira, EPE","40.2804158, -7.4922407",122042.0,38853.0,83189.0,2015,9
+2015-09-01,2015/09/01,Centro,"Centro Hospitalar do Baixo Vouga, EPE","40.6362453, -8.6543716",154354.0,44402.0,109952.0,2015,9
+2015-09-01,2015/09/01,Centro,"Centro Hospitalar e Universitário de Coimbra, EPE","40.2191523, -8.4098211",675015.0,158593.0,516422.0,2015,9
+2015-09-01,2015/09/01,Centro,Centro Medicina de Reabilitação da Região Centro Rovisco Pais,"40.297919, -8.7707806",2904.0,1164.0,1740.0,2015,9
+2015-09-01,2015/09/01,Centro,"Instituto Português Oncologia de Coimbra, EPE","40.2162514, -8.4103814",94291.0,16213.0,78078.0,2015,9
+2015-09-01,2015/09/01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309916, -7.2734793",75105.0,26762.0,48343.0,2015,9
+2015-09-01,2015/09/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, EPE","38.7500861, -9.1616116",514294.0,137820.0,376474.0,2015,9
+2015-09-01,2015/09/01,Norte,"Centro Hospitalar Tâmega e Sousa, EPE","41.2494561, -8.264901",226843.0,85769.0,141074.0,2015,9
+2015-09-01,2015/09/01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, EPE","41.3031784, -7.7515252",220426.0,57949.0,162477.0,2015,9
+2015-09-01,2015/09/01,Norte,"Instituto Português Oncologia do Porto, EPE","41.1785642, -8.6062881",209114.0,64526.0,144588.0,2015,9
+2015-10-01,2015/10/01,Centro,"Centro Hospitalar e Universitário de Coimbra, EPE","40.2191523, -8.4098211",760339.0,178287.0,582052.0,2015,10
+2015-10-01,2015/10/01,Lisboa e Vale do Tejo,"Centro Hospitalar de Setúbal, EPE","38.5283754, -8.8818638",185698.0,55259.0,130439.0,2015,10
+2015-10-01,2015/10/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, EPE","38.7500861, -9.1616116",578700.0,154939.0,423761.0,2015,10
+2015-10-01,2015/10/01,Lisboa e Vale do Tejo,"Hospital de Vila Franca de Xira, PPP","38.977235, -8.984506",126369.0,47462.0,78907.0,2015,10
+2015-10-01,2015/10/01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, EPE","39.2410946, -8.6937515",120351.0,31934.0,88417.0,2015,10
+2015-10-01,2015/10/01,Norte,"Centro Hospitalar do Médio Ave, EPE","41.3423984, -8.4802503",140296.0,42414.0,97882.0,2015,10
+2015-10-01,2015/10/01,Norte,"Hospital de Magalhães Lemos, EPE","41.1764649, -8.6649823",40779.0,3151.0,37628.0,2015,10
+2015-10-01,2015/10/01,Norte,"Instituto Português Oncologia do Porto, EPE","41.1785642, -8.6062881",233204.0,71884.0,161320.0,2015,10
+2015-10-01,2015/10/01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.7056054, -8.8252713",198902.0,73055.0,125847.0,2015,10
+2015-11-01,2015/11/01,Alentejo,"Unidade Local de Saúde do Norte Alentejano, EPE","39.3003425, -7.4263845",93389.0,26955.0,66434.0,2015,11
+2015-11-01,2015/11/01,Centro,"Centro Hospitalar do Baixo Vouga, EPE","40.6362453, -8.6543716",191166.0,54571.0,136595.0,2015,11
+2015-11-01,2015/11/01,Centro,Hospital Arcebispo João Crisóstomo,"40.3470015, -8.5933462",17662.0,8157.0,9505.0,2015,11
+2015-11-01,2015/11/01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",30403.0,11588.0,18815.0,2015,11
+2015-11-01,2015/11/01,Lisboa e Vale do Tejo,"Centro Hospitalar Médio Tejo, EPE","39.478072, -8.5404429",159452.0,64560.0,94892.0,2015,11
+2015-11-01,2015/11/01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",59386.0,4076.0,55310.0,2015,11
+2015-11-01,2015/11/01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.729006, -9.418267",127633.0,45016.0,82617.0,2015,11
+2015-11-01,2015/11/01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, EPE","38.7422257, -9.2264834",274950.0,85304.0,189646.0,2015,11
+2015-11-01,2015/11/01,Lisboa e Vale do Tejo,Instituto Gama Pinto,"38.7218793, -9.144249",49049.0,24796.0,24253.0,2015,11
+2015-11-01,2015/11/01,Norte,"Centro Hospitalar Universitário de São João, EPE","41.1831056, -8.6010558",677992.0,177679.0,500313.0,2015,11
+2015-11-01,2015/11/01,Norte,"Centro Hospitalar Entre Douro e Vouga, EPE","40.9293884, -8.5458794",269473.0,101929.0,167544.0,2015,11
+2015-11-01,2015/11/01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.1794456, -8.6745115",247506.0,71761.0,175745.0,2015,11
+2015-11-01,2015/11/01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.8056532, -6.7888197",99087.0,36419.0,62668.0,2015,11
+2015-12-01,2015/12/01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.0162314, -8.6956768",64261.0,20074.0,44187.0,2015,12
+2015-12-01,2015/12/01,Alentejo,"Unidade Local de Saúde do Norte Alentejano, EPE","39.3003425, -7.4263845",101357.0,29051.0,72306.0,2015,12
+2015-12-01,2015/12/01,Centro,"Centro Hospitalar do Baixo Vouga, EPE","40.6362453, -8.6543716",206391.0,58641.0,147750.0,2015,12
+2015-12-01,2015/12/01,Centro,"Centro Hospitalar Tondela-Viseu, EPE","40.516364, -8.0827433",262118.0,79100.0,183018.0,2015,12
+2015-12-01,2015/12/01,Centro,Centro Medicina de Reabilitação da Região Centro Rovisco Pais,"40.297919, -8.7707806",3786.0,1543.0,2243.0,2015,12
+2015-12-01,2015/12/01,Centro,Hospital Arcebispo João Crisóstomo,"40.3470015, -8.5933462",19018.0,8735.0,10283.0,2015,12
+2015-12-01,2015/12/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, EPE","38.7166948, -9.1371248",768309.0,189295.0,579014.0,2015,12
+2015-12-01,2015/12/01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, EPE","39.4054629, -9.1258493",132962.0,43420.0,89542.0,2015,12
+2015-12-01,2015/12/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, EPE","38.7500861, -9.1616116",694608.0,184283.0,510325.0,2015,12
+2015-12-01,2015/12/01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, EPE","38.7396768, -9.1634516",252954.0,47128.0,205826.0,2015,12
+2015-12-01,2015/12/01,Norte,"Centro Hospitalar do Médio Ave, EPE","41.3423984, -8.4802503",166243.0,49749.0,116494.0,2015,12
+2015-12-01,2015/12/01,Norte,"Centro Hospitalar Universitário do Porto, EPE","41.1472498, -8.6172617",662819.0,168388.0,494431.0,2015,12
+2015-12-01,2015/12/01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, EPE","41.3828711, -8.7589945",79754.0,26666.0,53088.0,2015,12
+2015-12-01,2015/12/01,Norte,"Centro Hospitalar Tâmega e Sousa, EPE","41.2494561, -8.264901",303323.0,113470.0,189853.0,2015,12
+2016-01-01,2016/01/01,Alentejo,"Hospital Espírito Santo de Évora, EPE","38.5684861, -7.9032848",15669.0,4855.0,10814.0,2016,1
+2016-01-01,2016/01/01,Centro,"Centro Hospitalar e Universitário de Coimbra, EPE","40.2191523, -8.4098211",78954.0,19181.0,59773.0,2016,1
+2016-01-01,2016/01/01,Centro,"Instituto Português Oncologia de Coimbra, EPE","40.2162514, -8.4103814",10634.0,1771.0,8863.0,2016,1
+2016-01-01,2016/01/01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, EPE","38.6554005, -9.0592392",14494.0,3574.0,10920.0,2016,1
+2016-01-01,2016/01/01,Lisboa e Vale do Tejo,"Centro Hospitalar Médio Tejo, EPE","39.478072, -8.5404429",14821.0,6018.0,8803.0,2016,1
+2016-01-01,2016/01/01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, EPE","39.2410946, -8.6937515",12548.0,3436.0,9112.0,2016,1
+2016-01-01,2016/01/01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, EPE","41.3031784, -7.7515252",25853.0,6587.0,19266.0,2016,1
+2016-01-01,2016/01/01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, EPE","41.1094138, -8.5972617",41429.0,12121.0,29308.0,2016,1
+2016-02-01,2016/02/01,Alentejo,"Unidade Local de Saúde do Norte Alentejano, EPE","39.3003425, -7.4263845",16780.0,4787.0,11993.0,2016,2
+2016-02-01,2016/02/01,Centro,Centro Medicina de Reabilitação da Região Centro Rovisco Pais,"40.297919, -8.7707806",663.0,249.0,414.0,2016,2
+2016-02-01,2016/02/01,Centro,"Hospital Distrital da Figueira da Foz, EPE","40.117897, -8.8586755",15154.0,5195.0,9959.0,2016,2
+2016-02-01,2016/02/01,Centro,"Unidade Local de Saúde de Castelo Branco, EPE","39.8212263, -7.4981271",15153.0,4703.0,10450.0,2016,2
+2016-02-01,2016/02/01,Lisboa e Vale do Tejo,"Centro Hospitalar de Setúbal, EPE","38.5283754, -8.8818638",37381.0,10942.0,26439.0,2016,2
+2016-02-01,2016/02/01,Lisboa e Vale do Tejo,"Centro Hospitalar Médio Tejo, EPE","39.478072, -8.5404429",29726.0,11913.0,17813.0,2016,2
+2016-02-01,2016/02/01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, EPE","39.2410946, -8.6937515",24719.0,6982.0,17737.0,2016,2
+2016-02-01,2016/02/01,Norte,"Centro Hospitalar Universitário do Porto, EPE","41.1472498, -8.6172617",116210.0,29939.0,86271.0,2016,2
+2016-02-01,2016/02/01,Norte,"Centro Hospitalar Entre Douro e Vouga, EPE","40.9293884, -8.5458794",46413.0,17696.0,28717.0,2016,2
+2016-02-01,2016/02/01,Norte,"Centro Hospitalar Tâmega e Sousa, EPE","41.2494561, -8.264901",50496.0,18408.0,32088.0,2016,2
+2016-03-01,2016/03/01,Centro,Centro Medicina de Reabilitação da Região Centro Rovisco Pais,"40.297919, -8.7707806",1104.0,431.0,673.0,2016,3
+2016-03-01,2016/03/01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, EPE","38.6554005, -9.0592392",44827.0,10980.0,33847.0,2016,3
+2016-03-01,2016/03/01,Lisboa e Vale do Tejo,"Hospital de Vila Franca de Xira, PPP","38.977235, -8.984506",39883.0,14604.0,25279.0,2016,3
+2016-03-01,2016/03/01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, EPE","38.7422257, -9.2264834",79948.0,25196.0,54752.0,2016,3
+2016-03-01,2016/03/01,Lisboa e Vale do Tejo,"Hospital Garcia de Orta, EPE","38.6658713, -9.1822554",71623.0,20721.0,50902.0,2016,3
+2016-03-01,2016/03/01,Norte,"Centro Hospitalar Tâmega e Sousa, EPE","41.2494561, -8.264901",76797.0,28079.0,48718.0,2016,3
+2016-03-01,2016/03/01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.7056054, -8.8252713",62827.0,21658.0,41169.0,2016,3
+2016-04-01,2016/04/01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.0162314, -8.6956768",24988.0,8288.0,16700.0,2016,4
+2016-04-01,2016/04/01,Algarve,"Centro Hospitalar Universitário do Algarve,EPE","37.0238973, -7.9281554",99197.0,27817.0,71380.0,2016,4
+2016-04-01,2016/04/01,Centro,"Centro Hospitalar do Baixo Vouga, EPE","40.6362453, -8.6543716",68723.0,18911.0,49812.0,2016,4
+2016-04-01,2016/04/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, EPE","38.7166948, -9.1371248",257878.0,65446.0,192432.0,2016,4
+2016-04-01,2016/04/01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, EPE","38.708454, -9.216985",157017.0,37779.0,119238.0,2016,4
+2016-04-01,2016/04/01,Lisboa e Vale do Tejo,"Hospital de Loures, PPP","38.821455, -9.176296",98920.0,30968.0,67952.0,2016,4
+2016-04-01,2016/04/01,Lisboa e Vale do Tejo,"Hospital Garcia de Orta, EPE","38.6658713, -9.1822554",94948.0,27553.0,67395.0,2016,4
+2016-04-01,2016/04/01,Norte,"Hospital de Magalhães Lemos, EPE","41.1764649, -8.6649823",16131.0,1250.0,14881.0,2016,4
+2016-05-01,2016/05/01,Algarve,"Centro Hospitalar Universitário do Algarve,EPE","37.0238973, -7.9281554",125205.0,35093.0,90112.0,2016,5
+2016-05-01,2016/05/01,Centro,"Centro Hospitalar de Leiria, EPE","39.7414812, -8.7982706",112302.0,38215.0,74087.0,2016,5
+2016-05-01,2016/05/01,Centro,"Centro Hospitalar do Baixo Vouga, EPE","40.6362453, -8.6543716",86262.0,23940.0,62322.0,2016,5
+2016-05-01,2016/05/01,Centro,"Centro Hospitalar e Universitário de Coimbra, EPE","40.2191523, -8.4098211",400641.0,99095.0,301546.0,2016,5
+2016-05-01,2016/05/01,Centro,Hospital Arcebispo João Crisóstomo,"40.3470015, -8.5933462",8422.0,3636.0,4786.0,2016,5
+2016-05-01,2016/05/01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",13796.0,5646.0,8150.0,2016,5
+2016-05-01,2016/05/01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, EPE","38.6554005, -9.0592392",76161.0,18488.0,57673.0,2016,5
+2016-05-01,2016/05/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, EPE","38.7166948, -9.1371248",325983.0,82793.0,243190.0,2016,5
+2016-05-01,2016/05/01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, EPE","39.2410946, -8.6937515",62802.0,17742.0,45060.0,2016,5
+2016-05-01,2016/05/01,Norte,"Centro Hospitalar Universitário do Porto, EPE","41.1472498, -8.6172617",291406.0,75726.0,215680.0,2016,5
+2016-05-01,2016/05/01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.8056532, -6.7888197",45048.0,17014.0,28034.0,2016,5
+2016-06-01,2016/06/01,Centro,"Centro Hospitalar Universitário Cova da Beira, EPE","40.2804158, -7.4922407",80362.0,26794.0,53568.0,2016,6
+2016-06-01,2016/06/01,Centro,"Unidade Local de Saúde de Castelo Branco, EPE","39.8212263, -7.4981271",46793.0,14696.0,32097.0,2016,6
+2016-06-01,2016/06/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, EPE","38.7500861, -9.1616116",364762.0,96999.0,267763.0,2016,6
+2016-06-01,2016/06/01,Lisboa e Vale do Tejo,"Hospital de Loures, PPP","38.821455, -9.176296",148161.0,47264.0,100897.0,2016,6
+2016-06-01,2016/06/01,Norte,"Centro Hospitalar Universitário de São João, EPE","41.1831056, -8.6010558",382047.0,99667.0,282380.0,2016,6
+2016-06-01,2016/06/01,Norte,"Centro Hospitalar Universitário do Porto, EPE","41.1472498, -8.6172617",348060.0,89927.0,258133.0,2016,6
+2016-06-01,2016/06/01,Norte,"Centro Hospitalar Entre Douro e Vouga, EPE","40.9293884, -8.5458794",146276.0,56114.0,90162.0,2016,6
+2016-06-01,2016/06/01,Norte,"Hospital de Magalhães Lemos, EPE","41.1764649, -8.6649823",24701.0,1965.0,22736.0,2016,6
+2016-07-01,2016/07/01,Algarve,"Centro Hospitalar Universitário do Algarve,EPE","37.0238973, -7.9281554",173346.0,48642.0,124704.0,2016,7
+2016-07-01,2016/07/01,Centro,"Centro Hospitalar de Leiria, EPE","39.7414812, -8.7982706",155295.0,52669.0,102626.0,2016,7
+2016-07-01,2016/07/01,Centro,"Centro Hospitalar e Universitário de Coimbra, EPE","40.2191523, -8.4098211",551511.0,137441.0,414070.0,2016,7
+2016-07-01,2016/07/01,Centro,"Hospital Distrital da Figueira da Foz, EPE","40.117897, -8.8586755",52770.0,17814.0,34956.0,2016,7
+2016-07-01,2016/07/01,Centro,"Instituto Português Oncologia de Coimbra, EPE","40.2162514, -8.4103814",72707.0,12234.0,60473.0,2016,7
+2016-07-01,2016/07/01,Centro,"Unidade Local de Saúde de Castelo Branco, EPE","39.8212263, -7.4981271",53218.0,16609.0,36609.0,2016,7
+2016-07-01,2016/07/01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, EPE","38.7422257, -9.2264834",186916.0,59118.0,127798.0,2016,7
+2016-07-01,2016/07/01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, EPE","41.3828711, -8.7589945",47846.0,15962.0,31884.0,2016,7
+2016-07-01,2016/07/01,Norte,"Hospital da Senhora da Oliveira, Guimarães, EPE","41.4387173, -8.3086907",153945.0,42972.0,110973.0,2016,7
+2016-07-01,2016/07/01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.1794456, -8.6745115",166743.0,48583.0,118160.0,2016,7
+2016-07-01,2016/07/01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.7056054, -8.8252713",144129.0,49077.0,95052.0,2016,7
+2016-08-01,2016/08/01,Alentejo,"Hospital Espírito Santo de Évora, EPE","38.5684861, -7.9032848",126441.0,38765.0,87676.0,2016,8
+2016-08-01,2016/08/01,Centro,"Centro Hospitalar Tondela-Viseu, EPE","40.516364, -8.0827433",172201.0,50750.0,121451.0,2016,8
+2016-08-01,2016/08/01,Lisboa e Vale do Tejo,"Centro Hospitalar de Setúbal, EPE","38.5283754, -8.8818638",150001.0,42777.0,107224.0,2016,8
+2016-08-01,2016/08/01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",44092.0,3713.0,40379.0,2016,8
+2016-08-01,2016/08/01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.729006, -9.418267",91502.0,32847.0,58655.0,2016,8
+2016-08-01,2016/08/01,Lisboa e Vale do Tejo,"Hospital de Loures, PPP","38.821455, -9.176296",189519.0,60695.0,128824.0,2016,8
+2016-08-01,2016/08/01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, EPE","39.2410946, -8.6937515",96089.0,27691.0,68398.0,2016,8
+2016-08-01,2016/08/01,Norte,"Centro Hospitalar Universitário de São João, EPE","41.1831056, -8.6010558",492040.0,129682.0,362358.0,2016,8
+2016-08-01,2016/08/01,Norte,"Centro Hospitalar Universitário do Porto, EPE","41.1472498, -8.6172617",445483.0,115441.0,330042.0,2016,8
+2016-09-01,2016/09/01,Alentejo,"Unidade Local de Saúde do Norte Alentejano, EPE","39.3003425, -7.4263845",73070.0,20053.0,53017.0,2016,9
+2016-09-01,2016/09/01,Centro,"Hospital Distrital da Figueira da Foz, EPE","40.117897, -8.8586755",66751.0,22786.0,43965.0,2016,9
+2016-09-01,2016/09/01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, EPE","38.7422257, -9.2264834",237357.0,74518.0,162839.0,2016,9
+2016-09-01,2016/09/01,Lisboa e Vale do Tejo,"Hospital Garcia de Orta, EPE","38.6658713, -9.1822554",208691.0,60494.0,148197.0,2016,9
+2016-09-01,2016/09/01,Norte,"Centro Hospitalar Universitário do Porto, EPE","41.1472498, -8.6172617",502828.0,130136.0,372692.0,2016,9
+2016-09-01,2016/09/01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, EPE","41.3828711, -8.7589945",60530.0,20279.0,40251.0,2016,9
+2016-09-01,2016/09/01,Norte,"Centro Hospitalar Tâmega e Sousa, EPE","41.2494561, -8.264901",226071.0,81840.0,144231.0,2016,9
+2016-09-01,2016/09/01,Norte,"Hospital de Magalhães Lemos, EPE","41.1764649, -8.6649823",35676.0,2850.0,32826.0,2016,9
+2016-09-01,2016/09/01,Norte,"Hospital Santa Maria Maior, EPE","41.5324234, -8.6171561",51464.0,18473.0,32991.0,2016,9
+2016-09-01,2016/09/01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.8056532, -6.7888197",77988.0,29241.0,48747.0,2016,9
+2016-10-01,2016/10/01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.0162314, -8.6956768",63308.0,20562.0,42746.0,2016,10
+2016-10-01,2016/10/01,Centro,Centro Medicina de Reabilitação da Região Centro Rovisco Pais,"40.297919, -8.7707806",3457.0,1495.0,1962.0,2016,10
+2016-10-01,2016/10/01,Centro,Hospital Arcebispo João Crisóstomo,"40.3470015, -8.5933462",16371.0,7313.0,9058.0,2016,10
+2016-10-01,2016/10/01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",25899.0,10566.0,15333.0,2016,10
+2016-10-01,2016/10/01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309916, -7.2734793",87808.0,29369.0,58439.0,2016,10
+2016-10-01,2016/10/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, EPE","38.7166948, -9.1371248",622077.0,156728.0,465349.0,2016,10
+2016-10-01,2016/10/01,Lisboa e Vale do Tejo,"Hospital de Vila Franca de Xira, PPP","38.977235, -8.984506",125388.0,44937.0,80451.0,2016,10
+2016-10-01,2016/10/01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, EPE","38.7422257, -9.2264834",264857.0,82726.0,182131.0,2016,10
+2016-10-01,2016/10/01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, EPE","41.3031784, -7.7515252",247010.0,62752.0,184258.0,2016,10
+2016-10-01,2016/10/01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.1794456, -8.6745115",234021.0,67323.0,166698.0,2016,10
+2016-11-01,2016/11/01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.014123, -7.8721227",86138.0,33045.0,53093.0,2016,11
+2016-11-01,2016/11/01,Algarve,"Centro Hospitalar Universitário do Algarve,EPE","37.0238973, -7.9281554",271460.0,75424.0,196036.0,2016,11
+2016-11-01,2016/11/01,Centro,"Centro Hospitalar e Universitário de Coimbra, EPE","40.2191523, -8.4098211",843869.0,211593.0,632276.0,2016,11
+2016-11-01,2016/11/01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309916, -7.2734793",97432.0,32422.0,65010.0,2016,11
+2016-11-01,2016/11/01,Lisboa e Vale do Tejo,"Centro Hospitalar Médio Tejo, EPE","39.478072, -8.5404429",165092.0,66634.0,98458.0,2016,11
+2016-11-01,2016/11/01,Norte,"Centro Hospitalar Universitário de São João, EPE","41.1831056, -8.6010558",685543.0,179706.0,505837.0,2016,11
+2016-11-01,2016/11/01,Norte,"Hospital de Magalhães Lemos, EPE","41.1764649, -8.6649823",44209.0,3506.0,40703.0,2016,11
+2016-12-01,2016/12/01,Algarve,"Centro Hospitalar Universitário do Algarve,EPE","37.0238973, -7.9281554",291978.0,80527.0,211451.0,2016,12
+2016-12-01,2016/12/01,Centro,"Centro Hospitalar do Baixo Vouga, EPE","40.6362453, -8.6543716",203465.0,58316.0,145149.0,2016,12
+2016-12-01,2016/12/01,Centro,"Centro Hospitalar Tondela-Viseu, EPE","40.516364, -8.0827433",257220.0,75090.0,182130.0,2016,12
+2016-12-01,2016/12/01,Centro,"Hospital Distrital da Figueira da Foz, EPE","40.117897, -8.8586755",89783.0,30427.0,59356.0,2016,12
+2016-12-01,2016/12/01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",31145.0,12693.0,18452.0,2016,12
+2016-12-01,2016/12/01,Centro,"Instituto Português Oncologia de Coimbra, EPE","40.2162514, -8.4103814",120204.0,20221.0,99983.0,2016,12
+2016-12-01,2016/12/01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, EPE","38.6554005, -9.0592392",174865.0,41911.0,132954.0,2016,12
+2016-12-01,2016/12/01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, EPE","39.2410946, -8.6937515",146409.0,42217.0,104192.0,2016,12
+2016-12-01,2016/12/01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, EPE","38.7396768, -9.1634516",262293.0,47349.0,214944.0,2016,12
+2017-01-01,2017/01/01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.0162314, -8.6956768",6792.0,2320.0,4472.0,2017,1
+2017-01-01,2017/01/01,Centro,"Centro Hospitalar do Baixo Vouga, EPE","40.6362453, -8.6543716",20321.0,5913.0,14408.0,2017,1
+2017-01-01,2017/01/01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",2917.0,1233.0,1684.0,2017,1
+2017-01-01,2017/01/01,Centro,"Instituto Português Oncologia de Coimbra, EPE","40.2162514, -8.4103814",10880.0,1997.0,8883.0,2017,1
+2017-01-01,2017/01/01,Centro,"Unidade Local de Saúde de Castelo Branco, EPE","39.8212263, -7.4981271",8215.0,2538.0,5677.0,2017,1
+2017-01-01,2017/01/01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, EPE","39.4054629, -9.1258493",13327.0,4420.0,8907.0,2017,1
+2017-01-01,2017/01/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, EPE","38.7500861, -9.1616116",65869.0,17326.0,48543.0,2017,1
+2017-01-01,2017/01/01,Lisboa e Vale do Tejo,"Centro Hospitalar Médio Tejo, EPE","39.478072, -8.5404429",16814.0,6887.0,9927.0,2017,1
+2017-01-01,2017/01/01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.729006, -9.418267",13042.0,4973.0,8069.0,2017,1
+2017-01-01,2017/01/01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, EPE","38.7396768, -9.1634516",22043.0,3774.0,18269.0,2017,1
+2017-01-01,2017/01/01,Norte,"Centro Hospitalar Entre Douro e Vouga, EPE","40.9293884, -8.5458794",23770.0,7899.0,15871.0,2017,1
+2017-01-01,2017/01/01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, EPE","41.1094138, -8.5972617",46816.0,13350.0,33466.0,2017,1
+2017-01-01,2017/01/01,Norte,"Hospital de Magalhães Lemos, EPE","41.1764649, -8.6649823",4348.0,338.0,4010.0,2017,1
+2017-02-01,2017/02/01,Alentejo,"Hospital Espírito Santo de Évora, EPE","38.5684861, -7.9032848",32399.0,9868.0,22531.0,2017,2
+2017-02-01,2017/02/01,Centro,Hospital Dr. Francisco Zagalo,"40.8571967, -8.6318023",5301.0,2317.0,2984.0,2017,2
+2017-02-01,2017/02/01,Centro,"Unidade Local de Saúde de Castelo Branco, EPE","39.8212263, -7.4981271",15255.0,4846.0,10409.0,2017,2
+2017-02-01,2017/02/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, EPE","38.7166948, -9.1371248",128734.0,34561.0,94173.0,2017,2
+2017-02-01,2017/02/01,Lisboa e Vale do Tejo,"Hospital Garcia de Orta, EPE","38.6658713, -9.1822554",51110.0,16346.0,34764.0,2017,2
+2017-02-01,2017/02/01,Norte,"Centro Hospitalar do Médio Ave, EPE","41.3423984, -8.4802503",28813.0,8495.0,20318.0,2017,2
+2017-02-01,2017/02/01,Norte,"Centro Hospitalar Universitário do Porto, EPE","41.1472498, -8.6172617",116326.0,31067.0,85259.0,2017,2
+2017-02-01,2017/02/01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, EPE","41.3828711, -8.7589945",15268.0,5052.0,10216.0,2017,2
+2017-02-01,2017/02/01,Norte,"Hospital da Senhora da Oliveira, Guimarães, EPE","41.4387173, -8.3086907",45564.0,12756.0,32808.0,2017,2
+2017-02-01,2017/02/01,Norte,"Hospital Santa Maria Maior, EPE","41.5324234, -8.6171561",12420.0,4592.0,7828.0,2017,2
+2017-02-01,2017/02/01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.7056054, -8.8252713",42316.0,13832.0,28484.0,2017,2
+2017-03-01,2017/03/01,Centro,"Centro Hospitalar Universitário Cova da Beira, EPE","40.2804158, -7.4922407",40937.0,14806.0,26131.0,2017,3
+2017-03-01,2017/03/01,Centro,"Centro Hospitalar e Universitário de Coimbra, EPE","40.2191523, -8.4098211",246024.0,62790.0,183234.0,2017,3
+2017-03-01,2017/03/01,Centro,Hospital Arcebispo João Crisóstomo,"40.3470015, -8.5933462",5329.0,2605.0,2724.0,2017,3
+2017-03-01,2017/03/01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309916, -7.2734793",28246.0,9789.0,18457.0,2017,3
+2017-03-01,2017/03/01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, EPE","39.4054629, -9.1258493",40114.0,13375.0,26739.0,2017,3
+2017-03-01,2017/03/01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.729006, -9.418267",39779.0,14517.0,25262.0,2017,3
+2017-03-01,2017/03/01,Lisboa e Vale do Tejo,"Hospital Garcia de Orta, EPE","38.6658713, -9.1822554",79432.0,25287.0,54145.0,2017,3
+2017-03-01,2017/03/01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, EPE","38.7396768, -9.1634516",64356.0,11825.0,52531.0,2017,3
+2017-03-01,2017/03/01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, EPE","41.3828711, -8.7589945",23795.0,7809.0,15986.0,2017,3
+2017-03-01,2017/03/01,Norte,"Hospital de Magalhães Lemos, EPE","41.1764649, -8.6649823",12715.0,1018.0,11697.0,2017,3
+2017-03-01,2017/03/01,Norte,"Hospital Santa Maria Maior, EPE","41.5324234, -8.6171561",19195.0,6981.0,12214.0,2017,3
+2017-04-01,2017/04/01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.014123, -7.8721227",31729.0,12409.0,19320.0,2017,4
+2017-04-01,2017/04/01,Centro,Centro Medicina de Reabilitação da Região Centro Rovisco Pais,"40.297919, -8.7707806",1654.0,682.0,972.0,2017,4
+2017-04-01,2017/04/01,Centro,"Hospital Distrital da Figueira da Foz, EPE","40.117897, -8.8586755",33505.0,12000.0,21505.0,2017,4
+2017-04-01,2017/04/01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, EPE","38.6554005, -9.0592392",61220.0,14831.0,46389.0,2017,4
+2017-04-01,2017/04/01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, EPE","39.4054629, -9.1258493",50597.0,16826.0,33771.0,2017,4
+2017-04-01,2017/04/01,Lisboa e Vale do Tejo,Centro Hospitalar Psiquiátrico de Lisboa,"38.7569771, -9.1460705",22674.0,1604.0,21070.0,2017,4
+2017-04-01,2017/04/01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, EPE","41.3828711, -8.7589945",29683.0,9829.0,19854.0,2017,4
+2017-04-01,2017/04/01,Norte,"Centro Hospitalar Tâmega e Sousa, EPE","41.2494561, -8.264901",104823.0,38457.0,66366.0,2017,4
+2017-04-01,2017/04/01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, EPE","41.3031784, -7.7515252",103781.0,26625.0,77156.0,2017,4
+2017-04-01,2017/04/01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.7056054, -8.8252713",83654.0,27264.0,56390.0,2017,4
+2017-05-01,2017/05/01,Centro,"Centro Hospitalar Tondela-Viseu, EPE","40.516364, -8.0827433",110890.0,32689.0,78201.0,2017,5
+2017-05-01,2017/05/01,Lisboa e Vale do Tejo,"Hospital de Vila Franca de Xira, PPP","38.977235, -8.984506",66497.0,22142.0,44355.0,2017,5
+2017-05-01,2017/05/01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, EPE","39.2410946, -8.6937515",67519.0,20137.0,47382.0,2017,5
+2017-05-01,2017/05/01,Norte,"Centro Hospitalar Universitário de São João, EPE","41.1831056, -8.6010558",319603.0,85671.0,233932.0,2017,5
+2017-05-01,2017/05/01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, EPE","41.3031784, -7.7515252",131397.0,33523.0,97874.0,2017,5
+2017-05-01,2017/05/01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, EPE","41.1094138, -8.5972617",215109.0,61446.0,153663.0,2017,5
+2017-05-01,2017/05/01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.8056532, -6.7888197",44233.0,15996.0,28237.0,2017,5
+2017-06-01,2017/06/01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.014123, -7.8721227",47683.0,18834.0,28849.0,2017,6
+2017-06-01,2017/06/01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.0162314, -8.6956768",38813.0,11944.0,26869.0,2017,6
+2017-06-01,2017/06/01,Algarve,"Centro Hospitalar Universitário do Algarve,EPE","37.0238973, -7.9281554",148829.0,41542.0,107287.0,2017,6
+2017-06-01,2017/06/01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, EPE","38.708454, -9.216985",237477.0,59247.0,178230.0,2017,6
+2017-06-01,2017/06/01,Norte,"Centro Hospitalar do Médio Ave, EPE","41.3423984, -8.4802503",86613.0,24636.0,61977.0,2017,6
+2017-06-01,2017/06/01,Norte,"Centro Hospitalar Tâmega e Sousa, EPE","41.2494561, -8.264901",158566.0,58119.0,100447.0,2017,6
+2017-06-01,2017/06/01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.7056054, -8.8252713",125754.0,40672.0,85082.0,2017,6
+2017-07-01,2017/07/01,Alentejo,"Hospital Espírito Santo de Évora, EPE","38.5684861, -7.9032848",111086.0,33410.0,77676.0,2017,7
+2017-07-01,2017/07/01,Centro,"Centro Hospitalar do Baixo Vouga, EPE","40.6362453, -8.6543716",127962.0,37878.0,90084.0,2017,7
+2017-07-01,2017/07/01,Centro,"Centro Hospitalar Tondela-Viseu, EPE","40.516364, -8.0827433",152316.0,44806.0,107510.0,2017,7
+2017-07-01,2017/07/01,Lisboa e Vale do Tejo,"Hospital de Loures, PPP","38.821455, -9.176296",165112.0,50679.0,114433.0,2017,7
+2017-07-01,2017/07/01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, EPE","38.7422257, -9.2264834",188904.0,57397.0,131507.0,2017,7
+2017-07-01,2017/07/01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, EPE","38.7396768, -9.1634516",148111.0,24885.0,123226.0,2017,7
+2017-07-01,2017/07/01,Norte,"Centro Hospitalar Entre Douro e Vouga, EPE","40.9293884, -8.5458794",160465.0,50478.0,109987.0,2017,7
+2017-07-01,2017/07/01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, EPE","41.3031784, -7.7515252",180532.0,46257.0,134275.0,2017,7
+2017-08-01,2017/08/01,Centro,"Centro Hospitalar Universitário Cova da Beira, EPE","40.2804158, -7.4922407",102632.0,36277.0,66355.0,2017,8
+2017-08-01,2017/08/01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309916, -7.2734793",68445.0,23002.0,45443.0,2017,8
+2017-08-01,2017/08/01,Centro,"Unidade Local de Saúde de Castelo Branco, EPE","39.8212263, -7.4981271",57925.0,18098.0,39827.0,2017,8
+2017-08-01,2017/08/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, EPE","38.7166948, -9.1371248",492982.0,130844.0,362138.0,2017,8
+2017-08-01,2017/08/01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.729006, -9.418267",96154.0,33665.0,62489.0,2017,8
+2017-08-01,2017/08/01,Lisboa e Vale do Tejo,"Hospital de Loures, PPP","38.821455, -9.176296",184560.0,57753.0,126807.0,2017,8
+2017-08-01,2017/08/01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, EPE","39.2410946, -8.6937515",101715.0,29811.0,71904.0,2017,8
+2017-08-01,2017/08/01,Norte,"Centro Hospitalar Universitário do Porto, EPE","41.1472498, -8.6172617",450929.0,119393.0,331536.0,2017,8
+2017-08-01,2017/08/01,Norte,"Centro Hospitalar Entre Douro e Vouga, EPE","40.9293884, -8.5458794",181471.0,56862.0,124609.0,2017,8
+2017-09-01,2017/09/01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.0162314, -8.6956768",55960.0,17015.0,38945.0,2017,9
+2017-09-01,2017/09/01,Centro,"Centro Hospitalar de Leiria, EPE","39.7414812, -8.7982706",195340.0,64031.0,131309.0,2017,9
+2017-09-01,2017/09/01,Centro,"Centro Hospitalar e Universitário de Coimbra, EPE","40.2191523, -8.4098211",670380.0,171301.0,499079.0,2017,9
+2017-09-01,2017/09/01,Centro,"Unidade Local de Saúde de Castelo Branco, EPE","39.8212263, -7.4981271",65044.0,20419.0,44625.0,2017,9
+2017-09-01,2017/09/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, EPE","38.7166948, -9.1371248",553057.0,146059.0,406998.0,2017,9
+2017-09-01,2017/09/01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.729006, -9.418267",108118.0,37744.0,70374.0,2017,9
+2017-09-01,2017/09/01,Norte,"Centro Hospitalar do Médio Ave, EPE","41.3423984, -8.4802503",124266.0,34942.0,89324.0,2017,9
+2017-09-01,2017/09/01,Norte,"Centro Hospitalar Tâmega e Sousa, EPE","41.2494561, -8.264901",230984.0,84129.0,146855.0,2017,9
+2017-09-01,2017/09/01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, EPE","41.1094138, -8.5972617",373059.0,108943.0,264116.0,2017,9
+2017-09-01,2017/09/01,Norte,"Hospital de Braga, PPP","41.56785, -8.398982",336944.0,111424.0,225520.0,2017,9
+2017-10-01,2017/10/01,Alentejo,"Hospital Espírito Santo de Évora, EPE","38.5684861, -7.9032848",155581.0,46552.0,109029.0,2017,10
+2017-10-01,2017/10/01,Centro,"Centro Hospitalar Universitário Cova da Beira, EPE","40.2804158, -7.4922407",127865.0,44650.0,83215.0,2017,10
+2017-10-01,2017/10/01,Centro,"Centro Hospitalar do Baixo Vouga, EPE","40.6362453, -8.6543716",179093.0,53018.0,126075.0,2017,10
+2017-10-01,2017/10/01,Centro,"Centro Hospitalar Tondela-Viseu, EPE","40.516364, -8.0827433",210709.0,61411.0,149298.0,2017,10
+2017-10-01,2017/10/01,Centro,Centro Medicina de Reabilitação da Região Centro Rovisco Pais,"40.297919, -8.7707806",4304.0,1822.0,2482.0,2017,10
+2017-10-01,2017/10/01,Centro,"Instituto Português Oncologia de Coimbra, EPE","40.2162514, -8.4103814",99397.0,16989.0,82408.0,2017,10
+2017-10-01,2017/10/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, EPE","38.7166948, -9.1371248",618200.0,162682.0,455518.0,2017,10
+2017-10-01,2017/10/01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, EPE","38.7500861, -9.1616116",596408.0,155177.0,441231.0,2017,10
+2017-10-01,2017/10/01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, EPE","38.7422257, -9.2264834",267268.0,81046.0,186222.0,2017,10
+2017-10-01,2017/10/01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, EPE","38.7396768, -9.1634516",212556.0,34545.0,178011.0,2017,10
+2017-10-01,2017/10/01,Norte,"Centro Hospitalar Universitário do Porto, EPE","41.1472498, -8.6172617",565737.0,149615.0,416122.0,2017,10
+2017-10-01,2017/10/01,Norte,"Centro Hospitalar Entre Douro e Vouga, EPE","40.9293884, -8.5458794",226695.0,70904.0,155791.0,2017,10
+2017-10-01,2017/10/01,Norte,"Hospital de Braga, PPP","41.56785, -8.398982",378623.0,125694.0,252929.0,2017,10
+2017-10-01,2017/10/01,Norte,"Hospital de Magalhães Lemos, EPE","41.1764649, -8.6649823",38605.0,3076.0,35529.0,2017,10
+2017-11-01,2017/11/01,Algarve,"Centro Hospitalar Universitário do Algarve,EPE","37.0238973, -7.9281554",264994.0,72705.0,192289.0,2017,11
+2017-11-01,2017/11/01,Centro,"Centro Hospitalar de Leiria, EPE","39.7414812, -8.7982706",241686.0,79470.0,162216.0,2017,11
+2017-11-01,2017/11/01,Centro,"Centro Hospitalar e Universitário de Coimbra, EPE","40.2191523, -8.4098211",831432.0,211906.0,619526.0,2017,11
+2017-11-01,2017/11/01,Centro,Hospital Arcebispo João Crisóstomo,"40.3470015, -8.5933462",17867.0,9032.0,8835.0,2017,11
+2017-11-01,2017/11/01,Centro,"Hospital Distrital da Figueira da Foz, EPE","40.117897, -8.8586755",88177.0,30878.0,57299.0,2017,11
+2017-11-01,2017/11/01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, EPE","39.4054629, -9.1258493",132904.0,42420.0,90484.0,2017,11
+2017-11-01,2017/11/01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.729006, -9.418267",134522.0,46769.0,87753.0,2017,11
+2017-11-01,2017/11/01,Lisboa e Vale do Tejo,"Hospital de Vila Franca de Xira, PPP","38.977235, -8.984506",147132.0,49588.0,97544.0,2017,11
+2017-11-01,2017/11/01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, EPE","39.2410946, -8.6937515",139624.0,40692.0,98932.0,2017,11
+2017-11-01,2017/11/01,Norte,"Centro Hospitalar Entre Douro e Vouga, EPE","40.9293884, -8.5458794",251166.0,78486.0,172680.0,2017,11
+2017-11-01,2017/11/01,Norte,"Hospital Santa Maria Maior, EPE","41.5324234, -8.6171561",66934.0,22433.0,44501.0,2017,11
+2017-12-01,2017/12/01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.0162314, -8.6956768",73954.0,21649.0,52305.0,2017,12
+2017-12-01,2017/12/01,Centro,"Centro Hospitalar de Leiria, EPE","39.7414812, -8.7982706",259888.0,85129.0,174759.0,2017,12
+2017-12-01,2017/12/01,Centro,"Unidade Local de Saúde de Castelo Branco, EPE","39.8212263, -7.4981271",88070.0,27838.0,60232.0,2017,12
+2017-12-01,2017/12/01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, EPE","38.708454, -9.216985",456700.0,114126.0,342574.0,2017,12
+2017-12-01,2017/12/01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.729006, -9.418267",145055.0,50616.0,94439.0,2017,12
+2017-12-01,2017/12/01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, EPE","38.7396768, -9.1634516",256734.0,47357.0,209377.0,2017,12
+2017-12-01,2017/12/01,Norte,"Centro Hospitalar Universitário de São João, EPE","41.1831056, -8.6010558",729798.0,193351.0,536447.0,2017,12
+2017-12-01,2017/12/01,Norte,"Centro Hospitalar do Médio Ave, EPE",,,,,2017,12

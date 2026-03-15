@@ -1,5 +1,10 @@
-requests
-ipython
-pandas
-matplotlib
-plotly
+# Data Processing & API
+pandas==3.0.1
+requests==2.32.5
+
+# Data Visualization & Notebooks
+plotly==6.6.0
+nbformat==5.10.4
+
+# Dashboard (A usar na próxima fase)
+dash==4.0.0

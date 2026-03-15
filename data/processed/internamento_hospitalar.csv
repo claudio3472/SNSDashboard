@@ -1,0 +1,760 @@
+tempo,regiao,instituicao,localizacao_geografica,tipo_de_especialidade,doentes_saidos,dias_de_internamento,ano,mes
+2024-01-01,Norte,"Instituto Português Oncologia  F. Gentil - Porto, E.P.E.","41.1811, -8.60469",Especialidade Cirurgica,530.0,4130.0,2024,1
+2024-01-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Arrábida, EPE","38.529351, -8.881073",Especialidade Cirurgica,374.0,2648.0,2024,1
+2024-01-01,Norte,"Unidade Local de Saúde de Braga, EPE","41.562328338623, -8.3",Especialidade Cirurgica,1103.0,8161.0,2024,1
+2024-01-01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",Especialidade Cirurgica,797.0,5588.0,2024,1
+2024-01-01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.181859, -8.663374",Especialidade Cirurgica,554.0,3638.0,2024,1
+2024-01-01,Alentejo,"Unidade Local de Saúde do Alentejo Central, EPE","38.568838, -7.903064",Especialidade Cirurgica,497.0,3108.0,2024,1
+2024-01-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",Especialidade Cirurgica,353.0,2107.0,2024,1
+2024-01-01,Centro,"Unidade Local de Saúde do Baixo Mondego, EPE","40.130297609, -8.8606",Especialidade Cirurgica,152.0,1139.0,2024,1
+2025-01-01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309943471486, -7.0",Especialidade Cirurgica,262.0,2023.0,2025,1
+2025-01-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",Especialidade Cirurgica,484.0,4261.0,2025,1
+2025-01-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Almada-Seixal, EPE","38.67381, -9.17597",Especialidade Cirurgica,720.0,5064.0,2025,1
+2025-01-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Amadora/Sintra, EPE","38.7436332060551, -9.0",Especialidade Cirurgica,786.0,5242.0,2025,1
+2025-01-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Santa Maria, EPE","38.7500648498535, -9.0",Especialidade Cirurgica,1294.0,7624.0,2025,1
+2025-01-01,Norte,"Unidade Local de Saúde de São João, EPE","41.1833, -8.60193",Especialidade Cirurgica,2464.0,14310.0,2025,1
+2025-01-01,Algarve,"Unidade Local de Saúde do Algarve, EPE","37.024668, -7.928949",Especialidade Cirurgica,1139.0,9327.0,2025,1
+2025-01-01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.697519, -8.832517",Especialidade Cirurgica,792.0,5179.0,2025,1
+2025-01-01,Centro,"Unidade Local de Saúde do Baixo Mondego, EPE","40.130297609, -8.8606",Especialidade Cirurgica,169.0,1294.0,2025,1
+2025-01-01,Norte,"Unidade Local de Saúde do Médio Ave, EPE","41.3422317504883, -8.0",Especialidade Cirurgica,474.0,2628.0,2025,1
+2025-01-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Médio Tejo, EPE","39.605565, -8.404399",Especialidade Cirurgica,536.0,3076.0,2025,1
+2025-01-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Oeste, EPE","39.4055519104004, -9.0",Especialidade Cirurgica,452.0,2846.0,2025,1
+2024-02-01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.730076, -9.418207",Especialidade Cirurgica,1167.0,5703.0,2024,2
+2024-02-01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",Especialidade Cirurgica,580.0,4033.0,2024,2
+2024-02-01,Norte,"Unidade Local de Saúde de Barcelos/Esposende, EPE","41.533438, -8.616604",Especialidade Cirurgica,229.0,2003.0,2024,2
+2024-02-01,Norte,"Unidade Local de Saúde de Braga, EPE","41.562328338623, -8.3",Especialidade Cirurgica,2248.0,15982.0,2024,2
+2024-02-01,Norte,"Unidade Local de Saúde de Entre Douro e Vouga, EPE","40.9295, -8.54567",Especialidade Cirurgica,1480.0,8240.0,2024,2
+2024-02-01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.181859, -8.663374",Especialidade Cirurgica,1145.0,7208.0,2024,2
+2024-02-01,Alentejo,"Unidade Local de Saúde do Alentejo Central, EPE","38.568838, -7.903064",Especialidade Cirurgica,934.0,5580.0,2024,2
+2024-02-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.039936, -8.731693",Especialidade Cirurgica,357.0,2296.0,2024,2
+2024-02-01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.802452, -6.768198",Especialidade Cirurgica,785.0,4838.0,2024,2
+2024-02-01,Norte,"Unidade Local de Saúde do Tâmega e Sousa, EPE","41.1971153671548, -8.0",Especialidade Cirurgica,1733.0,10820.0,2024,2
+2025-02-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Almada-Seixal, EPE","38.67381, -9.17597",Especialidade Cirurgica,1374.0,9421.0,2025,2
+2025-02-01,Norte,"Unidade Local de Saúde de Braga, EPE","41.562328338623, -8.3",Especialidade Cirurgica,2722.0,16329.0,2025,2
+2025-02-01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.181859, -8.663374",Especialidade Cirurgica,1196.0,6573.0,2025,2
+2025-02-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Santa Maria, EPE","38.7500648498535, -9.0",Especialidade Cirurgica,2517.0,15109.0,2025,2
+2025-02-01,Algarve,"Unidade Local de Saúde do Algarve, EPE","37.024668, -7.928949",Especialidade Cirurgica,2273.0,18411.0,2025,2
+2025-02-01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.697519, -8.832517",Especialidade Cirurgica,1593.0,9919.0,2025,2
+2025-02-01,Centro,"Unidade Local de Saúde do Baixo Mondego, EPE","40.130297609, -8.8606",Especialidade Cirurgica,311.0,2350.0,2025,2
+2025-02-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Estuário do Tejo, EPE","38.977344, -8.984882",Especialidade Cirurgica,918.0,5217.0,2025,2
+2024-03-01,Centro,"Instituto Português Oncologia  F. Gentil - Centro, E.P.E.","40.217, -8.40991",Especialidade Cirurgica,800.0,4765.0,2024,3
+2024-03-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",Especialidade Cirurgica,1484.0,10418.0,2024,3
+2024-03-01,Norte,"Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde, EPE","41.383183, -8.758784",Especialidade Cirurgica,1240.0,5738.0,2024,3
+2024-03-01,Centro,"Unidade Local de Saúde da Região de Aveiro, EPE","40.636332, -8.654388",Especialidade Cirurgica,2091.0,11114.0,2024,3
+2024-03-01,Centro,"Unidade Local de Saúde da Região de Leiria, EPE","39.7418, -8.79444",Especialidade Cirurgica,2040.0,12054.0,2024,3
+2024-03-01,Norte,"Unidade Local de Saúde de Braga, EPE","41.562328338623, -8.3",Especialidade Cirurgica,3627.0,24901.0,2024,3
+2024-03-01,Centro,"Unidade Local de Saúde de Coimbra, EPE","40.217426, -8.410075",Especialidade Cirurgica,7242.0,48251.0,2024,3
+2024-03-01,Alentejo,"Unidade Local de Saúde do Alentejo Central, EPE","38.568838, -7.903064",Especialidade Cirurgica,1337.0,8292.0,2024,3
+2024-03-01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.697519, -8.832517",Especialidade Cirurgica,2211.0,15125.0,2024,3
+2024-03-01,Norte,"Unidade Local de Saúde do Tâmega e Sousa, EPE","41.1971153671548, -8.0",Especialidade Cirurgica,2665.0,16220.0,2024,3
+2025-03-01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.730076, -9.418207",Especialidade Cirurgica,1707.0,7564.0,2025,3
+2025-03-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia  F. Gentil - Lisboa, E.P.E.","38.739946, -9.161139",Especialidade Cirurgica,1453.0,7937.0,2025,3
+2025-03-01,Norte,"Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde, EPE","41.383183, -8.758784",Especialidade Cirurgica,1197.0,5323.0,2025,3
+2025-03-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Almada-Seixal, EPE","38.67381, -9.17597",Especialidade Cirurgica,2132.0,14708.0,2025,3
+2025-03-01,Norte,"Unidade Local de Saúde de Vila Nova de Gaia/Espinho, EPE","41.1254463195801, -8.0",Especialidade Cirurgica,4167.0,20457.0,2025,3
+2025-03-01,Algarve,"Unidade Local de Saúde do Algarve, EPE","37.024668, -7.928949",Especialidade Cirurgica,3368.0,28174.0,2025,3
+2025-03-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",Especialidade Cirurgica,1126.0,6607.0,2025,3
+2024-04-01,Centro,"Instituto Português Oncologia  F. Gentil - Centro, E.P.E.","40.217, -8.40991",Especialidade Cirurgica,1081.0,6340.0,2024,4
+2024-04-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia  F. Gentil - Lisboa, E.P.E.","38.739946, -9.161139",Especialidade Cirurgica,2065.0,10761.0,2024,4
+2024-04-01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",Especialidade Cirurgica,1163.0,8247.0,2024,4
+2024-04-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Almada-Seixal, EPE","38.67381, -9.17597",Especialidade Cirurgica,3081.0,22255.0,2024,4
+2024-04-01,Norte,"Unidade Local de Saúde de Santo António, EPE","41.147283, -8.619536",Especialidade Cirurgica,6382.0,40710.0,2024,4
+2024-04-01,Algarve,"Unidade Local de Saúde do Algarve, EPE","37.024668, -7.928949",Especialidade Cirurgica,4926.0,39120.0,2024,4
+2024-04-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Oeste, EPE","39.4055519104004, -9.0",Especialidade Cirurgica,1974.0,11832.0,2024,4
+2025-04-01,Centro,"Unidade Local de Saúde da Cova da Beira, EPE","40.2776794433594, -7.0",Especialidade Cirurgica,1358.0,9605.0,2025,4
+2025-04-01,Centro,"Unidade Local de Saúde da Região de Aveiro, EPE","40.636332, -8.654388",Especialidade Cirurgica,2743.0,14589.0,2025,4
+2025-04-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Lisboa Ocidental, EPE","38.7084, -9.21711",Especialidade Cirurgica,4116.0,31404.0,2025,4
+2025-04-01,Norte,"Unidade Local de Saúde de Trás-os-Montes e Alto Douro, EPE","41.310331, -7.760103",Especialidade Cirurgica,3169.0,20269.0,2025,4
+2025-04-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.039936, -8.731693",Especialidade Cirurgica,717.0,,2025,4
+2024-05-01,Centro,"Instituto Português Oncologia  F. Gentil - Centro, E.P.E.","40.217, -8.40991",Especialidade Cirurgica,1405.0,7944.0,2024,5
+2024-05-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Arrábida, EPE","38.529351, -8.881073",Especialidade Cirurgica,2085.0,14148.0,2024,5
+2024-05-01,Centro,"Unidade Local de Saúde da Região de Aveiro, EPE","40.636332, -8.654388",Especialidade Cirurgica,3743.0,18811.0,2024,5
+2024-05-01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",Especialidade Cirurgica,4448.0,32627.0,2024,5
+2024-05-01,Norte,"Unidade Local de Saúde de Entre Douro e Vouga, EPE","40.9295, -8.54567",Especialidade Cirurgica,4091.0,22186.0,2024,5
+2024-05-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Santa Maria, EPE","38.7500648498535, -9.0",Especialidade Cirurgica,5766.0,35056.0,2024,5
+2024-05-01,Norte,"Unidade Local de Saúde de São João, EPE","41.1833, -8.60193",Especialidade Cirurgica,11968.0,70184.0,2024,5
+2024-05-01,Centro,"Unidade Local de Saúde do Baixo Mondego, EPE","40.130297609, -8.8606",Especialidade Cirurgica,1018.0,6793.0,2024,5
+2024-05-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Estuário do Tejo, EPE","38.977344, -8.984882",Especialidade Cirurgica,2065.0,14781.0,2024,5
+2024-05-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.039936, -8.731693",Especialidade Cirurgica,952.0,5877.0,2024,5
+2024-05-01,Norte,"Unidade Local de Saúde do Médio Ave, EPE","41.3422317504883, -8.0",Especialidade Cirurgica,2326.0,13760.0,2024,5
+2025-05-01,Norte,"Instituto Português Oncologia  F. Gentil - Porto, E.P.E.","41.1811, -8.60469",Especialidade Cirurgica,2772.0,19249.0,2025,5
+2025-05-01,Centro,"Unidade Local de Saúde da Cova da Beira, EPE","40.2776794433594, -7.0",Especialidade Cirurgica,1742.0,12241.0,2025,5
+2025-05-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",Especialidade Cirurgica,2414.0,19211.0,2025,5
+2025-05-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Almada-Seixal, EPE","38.67381, -9.17597",Especialidade Cirurgica,3696.0,24684.0,2025,5
+2025-05-01,Norte,"Unidade Local de Saúde de Braga, EPE","41.562328338623, -8.3",Especialidade Cirurgica,7121.0,41758.0,2025,5
+2025-05-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Santa Maria, EPE","38.7500648498535, -9.0",Especialidade Cirurgica,6746.0,39136.0,2025,5
+2025-05-01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.697519, -8.832517",Especialidade Cirurgica,3908.0,25420.0,2025,5
+2025-05-01,Norte,"Unidade Local de Saúde do Médio Ave, EPE","41.3422317504883, -8.0",Especialidade Cirurgica,2366.0,13849.0,2025,5
+2025-05-01,Norte,"Unidade Local de Saúde do Tâmega e Sousa, EPE","41.1971153671548, -8.0",Especialidade Cirurgica,4541.0,28218.0,2025,5
+2024-06-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia  F. Gentil - Lisboa, E.P.E.","38.739946, -9.161139",Especialidade Cirurgica,3110.0,16094.0,2024,6
+2024-06-01,Centro,"Unidade Local de Saúde da Cova da Beira, EPE","40.2776794433594, -7.0",Especialidade Cirurgica,1929.0,15290.0,2024,6
+2024-06-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de São José, EPE","38.7169, -9.13654",Especialidade Cirurgica,12469.0,75450.0,2024,6
+2024-06-01,Norte,"Unidade Local de Saúde do Alto Ave, EPE","41.488574, -8.338685",Especialidade Cirurgica,5913.0,33034.0,2024,6
+2024-06-01,Centro,"Unidade Local de Saúde do Baixo Mondego, EPE","40.130297609, -8.8606",Especialidade Cirurgica,1216.0,8179.0,2024,6
+2024-06-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Médio Tejo, EPE","39.605565, -8.404399",Especialidade Cirurgica,3633.0,20319.0,2024,6
+2025-06-01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.730076, -9.418207",Especialidade Cirurgica,3394.0,14912.0,2025,6
+2025-06-01,Centro,"Unidade Local de Saúde da Cova da Beira, EPE","40.2776794433594, -7.0",Especialidade Cirurgica,2119.0,14786.0,2025,6
+2025-06-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",Especialidade Cirurgica,2820.0,22582.0,2025,6
+2025-06-01,Norte,"Unidade Local de Saúde de Entre Douro e Vouga, EPE","40.9295, -8.54567",Especialidade Cirurgica,5323.0,26285.0,2025,6
+2025-06-01,Algarve,"Unidade Local de Saúde do Algarve, EPE","37.024668, -7.928949",Especialidade Cirurgica,6751.0,56832.0,2025,6
+2025-06-01,Centro,"Unidade Local de Saúde do Baixo Mondego, EPE","40.130297609, -8.8606",Especialidade Cirurgica,1133.0,7601.0,2025,6
+2025-06-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Oeste, EPE","39.4055519104004, -9.0",Especialidade Cirurgica,2790.0,17959.0,2025,6
+2024-07-01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309943471486, -7.0",Especialidade Cirurgica,1581.0,14578.0,2024,7
+2024-07-01,Norte,"Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde, EPE","41.383183, -8.758784",Especialidade Cirurgica,2932.0,13407.0,2024,7
+2024-07-01,Centro,"Unidade Local de Saúde da Região de Aveiro, EPE","40.636332, -8.654388",Especialidade Cirurgica,5235.0,26244.0,2024,7
+2024-07-01,Norte,"Unidade Local de Saúde de São João, EPE","41.1833, -8.60193",Especialidade Cirurgica,16738.0,98169.0,2024,7
+2024-07-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Arco Ribeirinho, EPE","38.6527214050293, -9.0",Especialidade Cirurgica,3086.0,19493.0,2024,7
+2024-07-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.039936, -8.731693",Especialidade Cirurgica,,8260.0,2024,7
+2024-07-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Oeste, EPE","39.4055519104004, -9.0",Especialidade Cirurgica,3485.0,21105.0,2024,7
+2025-07-01,Centro,"Instituto Português Oncologia  F. Gentil - Centro, E.P.E.","40.217, -8.40991",Especialidade Cirurgica,2209.0,10499.0,2025,7
+2025-07-01,Norte,"Instituto Português Oncologia  F. Gentil - Porto, E.P.E.","41.1811, -8.60469",Especialidade Cirurgica,3822.0,27025.0,2025,7
+2025-07-01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",Especialidade Cirurgica,2010.0,14076.0,2025,7
+2025-07-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Amadora/Sintra, EPE","38.7436332060551, -9.0",Especialidade Cirurgica,5668.0,39609.0,2025,7
+2025-07-01,Norte,"Unidade Local de Saúde de Barcelos/Esposende, EPE","41.533438, -8.616604",Especialidade Cirurgica,1002.0,7934.0,2025,7
+2025-07-01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.181859, -8.663374",Especialidade Cirurgica,4254.0,25667.0,2025,7
+2025-07-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de São José, EPE","38.7169, -9.13654",Especialidade Cirurgica,14579.0,86251.0,2025,7
+2025-07-01,Alentejo,"Unidade Local de Saúde do Alentejo Central, EPE","38.568838, -7.903064",Especialidade Cirurgica,3044.0,19317.0,2025,7
+2025-07-01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.697519, -8.832517",Especialidade Cirurgica,5523.0,35967.0,2025,7
+2025-07-01,Centro,"Unidade Local de Saúde do Baixo Mondego, EPE","40.130297609, -8.8606",Especialidade Cirurgica,1345.0,8873.0,2025,7
+2025-07-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Estuário do Tejo, EPE","38.977344, -8.984882",Especialidade Cirurgica,2918.0,18448.0,2025,7
+2024-08-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia  F. Gentil - Lisboa, E.P.E.","38.739946, -9.161139",Especialidade Cirurgica,4156.0,21752.0,2024,8
+2024-08-01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309943471486, -7.0",Especialidade Cirurgica,1801.0,16637.0,2024,8
+2024-08-01,Norte,"Unidade Local de Saúde de Entre Douro e Vouga, EPE","40.9295, -8.54567",Especialidade Cirurgica,6600.0,35203.0,2024,8
+2024-08-01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.181859, -8.663374",Especialidade Cirurgica,4759.0,29383.0,2024,8
+2024-08-01,Norte,"Unidade Local de Saúde de Santo António, EPE","41.147283, -8.619536",Especialidade Cirurgica,12023.0,79275.0,2024,8
+2024-08-01,Algarve,"Unidade Local de Saúde do Algarve, EPE","37.024668, -7.928949",Especialidade Cirurgica,9627.0,78055.0,2024,8
+2024-08-01,Norte,"Unidade Local de Saúde do Alto Ave, EPE","41.488574, -8.338685",Especialidade Cirurgica,7952.0,45149.0,2024,8
+2024-08-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Estuário do Tejo, EPE","38.977344, -8.984882",Especialidade Cirurgica,3494.0,23601.0,2024,8
+2024-08-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.039936, -8.731693",Especialidade Cirurgica,1479.0,9402.0,2024,8
+2024-08-01,Norte,"Unidade Local de Saúde do Médio Ave, EPE","41.3422317504883, -8.0",Especialidade Cirurgica,3634.0,21620.0,2024,8
+2024-08-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Médio Tejo, EPE","39.605565, -8.404399",Especialidade Cirurgica,4773.0,27216.0,2024,8
+2025-08-01,Centro,"Unidade Local de Saúde da Região de Leiria, EPE","39.7418, -8.79444",Especialidade Cirurgica,5696.0,33621.0,2025,8
+2025-08-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Amadora/Sintra, EPE","38.7436332060551, -9.0",Especialidade Cirurgica,6508.0,45844.0,2025,8
+2025-08-01,Centro,"Unidade Local de Saúde de Coimbra, EPE","40.217426, -8.410075",Especialidade Cirurgica,20360.0,132909.0,2025,8
+2025-08-01,Norte,"Unidade Local de Saúde de Entre Douro e Vouga, EPE","40.9295, -8.54567",Especialidade Cirurgica,7172.0,34987.0,2025,8
+2025-08-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Lisboa Ocidental, EPE","38.7084, -9.21711",Especialidade Cirurgica,8275.0,63445.0,2025,8
+2025-08-01,Norte,"Unidade Local de Saúde de Trás-os-Montes e Alto Douro, EPE","41.310331, -7.760103",Especialidade Cirurgica,6538.0,41065.0,2025,8
+2025-08-01,Alentejo,"Unidade Local de Saúde do Alentejo Central, EPE","38.568838, -7.903064",Especialidade Cirurgica,3476.0,22068.0,2025,8
+2025-08-01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.697519, -8.832517",Especialidade Cirurgica,6235.0,41129.0,2025,8
+2025-08-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Arco Ribeirinho, EPE","38.6527214050293, -9.0",Especialidade Cirurgica,3155.0,20704.0,2025,8
+2025-08-01,Norte,"Unidade Local de Saúde do Tâmega e Sousa, EPE","41.1971153671548, -8.0",Especialidade Cirurgica,7455.0,46032.0,2025,8
+2024-09-01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.730076, -9.418207",Especialidade Cirurgica,5307.0,24519.0,2024,9
+2024-09-01,Centro,"Instituto Português Oncologia  F. Gentil - Centro, E.P.E.","40.217, -8.40991",Especialidade Cirurgica,2648.0,16578.0,2024,9
+2024-09-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Arrábida, EPE","38.529351, -8.881073",Especialidade Cirurgica,3627.0,23705.0,2024,9
+2024-09-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Almada-Seixal, EPE","38.67381, -9.17597",Especialidade Cirurgica,7050.0,49368.0,2024,9
+2024-09-01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",Especialidade Cirurgica,8142.0,59043.0,2024,9
+2024-09-01,Norte,"Unidade Local de Saúde de Vila Nova de Gaia/Espinho, EPE","41.1254463195801, -8.0",Especialidade Cirurgica,11729.0,60081.0,2024,9
+2024-09-01,Alentejo,"Unidade Local de Saúde do Alto Alentejo, EPE","39.2999, -7.4267",Especialidade Cirurgica,2350.0,18198.0,2024,9
+2024-09-01,Norte,"Unidade Local de Saúde do Alto Ave, EPE","41.488574, -8.338685",Especialidade Cirurgica,9001.0,51089.0,2024,9
+2024-09-01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.697519, -8.832517",Especialidade Cirurgica,6683.0,44336.0,2024,9
+2024-09-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",Especialidade Cirurgica,3269.0,20093.0,2024,9
+2025-09-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",Especialidade Cirurgica,4222.0,33203.0,2025,9
+2025-09-01,Norte,"Unidade Local de Saúde de Braga, EPE","41.562328338623, -8.3",Especialidade Cirurgica,12745.0,92855.0,2025,9
+2025-09-01,Centro,"Unidade Local de Saúde de Coimbra, EPE","40.217426, -8.410075",Especialidade Cirurgica,22972.0,150333.0,2025,9
+2025-09-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Loures-Odivelas, EPE","38.821769, -9.176301",Especialidade Cirurgica,5225.0,30480.0,2025,9
+2025-09-01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.181859, -8.663374",Especialidade Cirurgica,5493.0,33696.0,2025,9
+2025-09-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de São José, EPE","38.7169, -9.13654",Especialidade Cirurgica,18777.0,111740.0,2025,9
+2025-09-01,Algarve,"Unidade Local de Saúde do Algarve, EPE","37.024668, -7.928949",Especialidade Cirurgica,10364.0,87202.0,2025,9
+2025-09-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Estuário do Tejo, EPE","38.977344, -8.984882",Especialidade Cirurgica,3629.0,23316.0,2025,9
+2025-09-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.039936, -8.731693",Especialidade Cirurgica,1577.0,9810.0,2025,9
+2024-10-01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.730076, -9.418207",Especialidade Cirurgica,5951.0,27411.0,2024,10
+2024-10-01,Norte,"Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde, EPE","41.383183, -8.758784",Especialidade Cirurgica,4209.0,18737.0,2024,10
+2024-10-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Almada-Seixal, EPE","38.67381, -9.17597",Especialidade Cirurgica,7879.0,54835.0,2024,10
+2024-10-01,Norte,"Unidade Local de Saúde de Braga, EPE","41.562328338623, -8.3",Especialidade Cirurgica,15136.0,88298.0,2024,10
+2024-10-01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",Especialidade Cirurgica,9174.0,65828.0,2024,10
+2024-10-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Santa Maria, EPE","38.7500648498535, -9.0",Especialidade Cirurgica,11455.0,68786.0,2024,10
+2024-10-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de São José, EPE","38.7169, -9.13654",Especialidade Cirurgica,21490.0,127602.0,2024,10
+2024-10-01,Alentejo,"Unidade Local de Saúde do Alto Alentejo, EPE","39.2999, -7.4267",Especialidade Cirurgica,2604.0,20093.0,2024,10
+2024-10-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.039936, -8.731693",Especialidade Cirurgica,1851.0,11762.0,2024,10
+2025-10-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia  F. Gentil - Lisboa, E.P.E.","38.739946, -9.161139",Especialidade Cirurgica,4801.0,25713.0,2025,10
+2025-10-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Santa Maria, EPE","38.7500648498535, -9.0",Especialidade Cirurgica,13195.0,75138.0,2025,10
+2025-10-01,Norte,"Unidade Local de Saúde de Trás-os-Montes e Alto Douro, EPE","41.310331, -7.760103",Especialidade Cirurgica,8193.0,51085.0,2025,10
+2025-10-01,Norte,"Unidade Local de Saúde de Vila Nova de Gaia/Espinho, EPE","41.1254463195801, -8.0",Especialidade Cirurgica,13739.0,68509.0,2025,10
+2025-10-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Arco Ribeirinho, EPE","38.6527214050293, -9.0",Especialidade Cirurgica,4043.0,26145.0,2025,10
+2025-10-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",Especialidade Cirurgica,3826.0,21921.0,2025,10
+2025-10-01,Centro,"Unidade Local de Saúde do Baixo Mondego, EPE","40.130297609, -8.8606",Especialidade Cirurgica,1924.0,12584.0,2025,10
+2025-10-01,Norte,"Unidade Local de Saúde do Tâmega e Sousa, EPE","41.1971153671548, -8.0",Especialidade Cirurgica,9443.0,57651.0,2025,10
+2024-11-01,Centro,"Unidade Local de Saúde da Cova da Beira, EPE","40.2776794433594, -7.0",Especialidade Cirurgica,3572.0,28154.0,2024,11
+2024-11-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",Especialidade Cirurgica,5416.0,39818.0,2024,11
+2024-11-01,Centro,"Unidade Local de Saúde da Região de Aveiro, EPE","40.636332, -8.654388",Especialidade Cirurgica,6089.0,41485.0,2024,11
+2024-11-01,Centro,"Unidade Local de Saúde da Região de Leiria, EPE","39.7418, -8.79444",Especialidade Cirurgica,7431.0,45452.0,2024,11
+2024-11-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Almada-Seixal, EPE","38.67381, -9.17597",Especialidade Cirurgica,8657.0,60197.0,2024,11
+2024-11-01,Norte,"Unidade Local de Saúde de Barcelos/Esposende, EPE","41.533438, -8.616604",Especialidade Cirurgica,1508.0,11524.0,2024,11
+2024-11-01,Centro,"Unidade Local de Saúde de Coimbra, EPE","40.217426, -8.410075",Especialidade Cirurgica,27784.0,188139.0,2024,11
+2024-11-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Loures-Odivelas, EPE","38.821769, -9.176301",Especialidade Cirurgica,6634.0,39112.0,2024,11
+2024-11-01,Norte,"Unidade Local de Saúde de Santo António, EPE","41.147283, -8.619536",Especialidade Cirurgica,16744.0,109147.0,2024,11
+2024-11-01,Norte,"Unidade Local de Saúde de Vila Nova de Gaia/Espinho, EPE","41.1254463195801, -8.0",Especialidade Cirurgica,14563.0,73376.0,2024,11
+2024-11-01,Alentejo,"Unidade Local de Saúde do Alentejo Central, EPE","38.568838, -7.903064",Especialidade Cirurgica,4661.0,29645.0,2024,11
+2024-11-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",Especialidade Cirurgica,4078.0,24500.0,2024,11
+2024-11-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Médio Tejo, EPE","39.605565, -8.404399",Especialidade Cirurgica,6482.0,36943.0,2024,11
+2025-11-01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.730076, -9.418207",Especialidade Cirurgica,6173.0,26963.0,2025,11
+2025-11-01,Centro,"Unidade Local de Saúde da Cova da Beira, EPE","40.2776794433594, -7.0",Especialidade Cirurgica,4009.0,27588.0,2025,11
+2025-11-01,Centro,"Unidade Local de Saúde da Região de Leiria, EPE","39.7418, -8.79444",Especialidade Cirurgica,7934.0,46536.0,2025,11
+2025-11-01,Centro,"Unidade Local de Saúde de Coimbra, EPE","40.217426, -8.410075",Especialidade Cirurgica,28300.0,184201.0,2025,11
+2025-11-01,Norte,"Unidade Local de Saúde de Entre Douro e Vouga, EPE","40.9295, -8.54567",Especialidade Cirurgica,10086.0,48336.0,2025,11
+2025-11-01,Norte,"Unidade Local de Saúde de Vila Nova de Gaia/Espinho, EPE","41.1254463195801, -8.0",Especialidade Cirurgica,14996.0,75012.0,2025,11
+2025-11-01,Algarve,"Unidade Local de Saúde do Algarve, EPE","37.024668, -7.928949",Especialidade Cirurgica,12727.0,107145.0,2025,11
+2025-11-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Estuário do Tejo, EPE","38.977344, -8.984882",Especialidade Cirurgica,4304.0,27855.0,2025,11
+2025-11-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.039936, -8.731693",Especialidade Cirurgica,1935.0,11801.0,2025,11
+2025-11-01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.802452, -6.768198",Especialidade Cirurgica,4610.0,31374.0,2025,11
+2024-12-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",Especialidade Cirurgica,5935.0,43990.0,2024,12
+2024-12-01,Norte,"Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde, EPE","41.383183, -8.758784",Especialidade Cirurgica,4994.0,22274.0,2024,12
+2024-12-01,Norte,"Unidade Local de Saúde de Barcelos/Esposende, EPE","41.533438, -8.616604",Especialidade Cirurgica,1666.0,12591.0,2024,12
+2024-12-01,Norte,"Unidade Local de Saúde de Braga, EPE","41.562328338623, -8.3",Especialidade Cirurgica,18418.0,106380.0,2024,12
+2024-12-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Santa Maria, EPE","38.7500648498535, -9.0",Especialidade Cirurgica,13956.0,83559.0,2024,12
+2024-12-01,Norte,"Unidade Local de Saúde de Vila Nova de Gaia/Espinho, EPE","41.1254463195801, -8.0",Especialidade Cirurgica,15907.0,79673.0,2024,12
+2024-12-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",Especialidade Cirurgica,4433.0,26654.0,2024,12
+2025-12-01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.730076, -9.418207",Especialidade Cirurgica,6672.0,29120.0,2025,12
+2025-12-01,Norte,"Instituto Português Oncologia  F. Gentil - Porto, E.P.E.","41.1811, -8.60469",Especialidade Cirurgica,6463.0,45830.0,2025,12
+2025-12-01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",Especialidade Cirurgica,3463.0,23922.0,2025,12
+2025-12-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Arrábida, EPE","38.529351, -8.881073",Especialidade Cirurgica,4792.0,33042.0,2025,12
+2025-12-01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309943471486, -7.0",Especialidade Cirurgica,3051.0,24940.0,2025,12
+2025-12-01,Centro,"Unidade Local de Saúde da Região de Leiria, EPE","39.7418, -8.79444",Especialidade Cirurgica,8590.0,50846.0,2025,12
+2025-12-01,Norte,"Unidade Local de Saúde de Barcelos/Esposende, EPE","41.533438, -8.616604",Especialidade Cirurgica,1769.0,13637.0,2025,12
+2025-12-01,Norte,"Unidade Local de Saúde de Trás-os-Montes e Alto Douro, EPE","41.310331, -7.760103",Especialidade Cirurgica,9676.0,60498.0,2025,12
+2025-12-01,Norte,"Unidade Local de Saúde de Vila Nova de Gaia/Espinho, EPE","41.1254463195801, -8.0",Especialidade Cirurgica,16042.0,81270.0,2025,12
+2025-12-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Arco Ribeirinho, EPE","38.6527214050293, -9.0",Especialidade Cirurgica,4831.0,31072.0,2025,12
+2024-01-01,Centro,"Instituto Português Oncologia  F. Gentil - Centro, E.P.E.","40.217, -8.40991",Especialidade Médica,123.0,604.0,2024,1
+2024-01-01,Centro,"Unidade Local de Saúde da Cova da Beira, EPE","40.2776794433594, -7.0",Especialidade Médica,535.0,4035.0,2024,1
+2024-01-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",Especialidade Médica,827.0,9718.0,2024,1
+2024-01-01,Centro,"Unidade Local de Saúde da Região de Aveiro, EPE","40.636332, -8.654388",Especialidade Médica,692.0,7874.0,2024,1
+2024-01-01,Norte,"Unidade Local de Saúde de Trás-os-Montes e Alto Douro, EPE","41.310331, -7.760103",Especialidade Médica,1335.0,11135.0,2024,1
+2024-01-01,Alentejo,"Unidade Local de Saúde do Alentejo Central, EPE","38.568838, -7.903064",Especialidade Médica,431.0,3772.0,2024,1
+2024-01-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Arco Ribeirinho, EPE","38.6527214050293, -9.0",Especialidade Médica,469.0,6562.0,2024,1
+2024-01-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Estuário do Tejo, EPE","38.977344, -8.984882",Especialidade Médica,680.0,8923.0,2024,1
+2024-01-01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.802452, -6.768198",Especialidade Médica,478.0,4852.0,2024,1
+2025-01-01,Centro,"Instituto Português Oncologia  F. Gentil - Centro, E.P.E.","40.217, -8.40991",Especialidade Médica,157.0,619.0,2025,1
+2025-01-01,Centro,"Unidade Local de Saúde da Região de Leiria, EPE","39.7418, -8.79444",Especialidade Médica,747.0,7724.0,2025,1
+2025-01-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Almada-Seixal, EPE","38.67381, -9.17597",Especialidade Médica,937.0,11789.0,2025,1
+2025-01-01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.181859, -8.663374",Especialidade Médica,629.0,6178.0,2025,1
+2025-01-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Santa Maria, EPE","38.7500648498535, -9.0",Especialidade Médica,1645.0,15353.0,2025,1
+2025-01-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de São José, EPE","38.7169, -9.13654",Especialidade Médica,1454.0,20474.0,2025,1
+2025-01-01,Norte,"Unidade Local de Saúde de Vila Nova de Gaia/Espinho, EPE","41.1254463195801, -8.0",Especialidade Médica,822.0,11000.0,2025,1
+2025-01-01,Alentejo,"Unidade Local de Saúde do Alto Alentejo, EPE","39.2999, -7.4267",Especialidade Médica,418.0,4180.0,2025,1
+2025-01-01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.802452, -6.768198",Especialidade Médica,456.0,4527.0,2025,1
+2024-02-01,Centro,"Instituto Português Oncologia  F. Gentil - Centro, E.P.E.","40.217, -8.40991",Especialidade Médica,261.0,1277.0,2024,2
+2024-02-01,Norte,"Instituto Português Oncologia  F. Gentil - Porto, E.P.E.","41.1811, -8.60469",Especialidade Médica,779.0,7869.0,2024,2
+2024-02-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Almada-Seixal, EPE","38.67381, -9.17597",Especialidade Médica,1777.0,22241.0,2024,2
+2024-02-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Amadora/Sintra, EPE","38.7436332060551, -9.0",Especialidade Médica,2250.0,22649.0,2024,2
+2024-02-01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",Especialidade Médica,1811.0,18297.0,2024,2
+2024-02-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Santa Maria, EPE","38.7500648498535, -9.0",Especialidade Médica,3049.0,32193.0,2024,2
+2024-02-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.039936, -8.731693",Especialidade Médica,517.0,4184.0,2024,2
+2024-02-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Médio Tejo, EPE","39.605565, -8.404399",Especialidade Médica,1691.0,16644.0,2024,2
+2025-02-01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.730076, -9.418207",Especialidade Médica,781.0,8968.0,2025,2
+2025-02-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia  F. Gentil - Lisboa, E.P.E.","38.739946, -9.161139",Especialidade Médica,942.0,7588.0,2025,2
+2025-02-01,Norte,"Instituto Português Oncologia  F. Gentil - Porto, E.P.E.","41.1811, -8.60469",Especialidade Médica,804.0,7967.0,2025,2
+2025-02-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Arrábida, EPE","38.529351, -8.881073",Especialidade Médica,1372.0,12700.0,2025,2
+2025-02-01,Norte,"Unidade Local de Saúde de Braga, EPE","41.562328338623, -8.3",Especialidade Médica,2104.0,19036.0,2025,2
+2025-02-01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",Especialidade Médica,1763.0,14409.0,2025,2
+2025-02-01,Norte,"Unidade Local de Saúde de Entre Douro e Vouga, EPE","40.9295, -8.54567",Especialidade Médica,1642.0,16119.0,2025,2
+2025-02-01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.181859, -8.663374",Especialidade Médica,1210.0,12155.0,2025,2
+2025-02-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Arco Ribeirinho, EPE","38.6527214050293, -9.0",Especialidade Médica,677.0,11806.0,2025,2
+2025-02-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Estuário do Tejo, EPE","38.977344, -8.984882",Especialidade Médica,1168.0,15571.0,2025,2
+2025-02-01,Norte,"Unidade Local de Saúde do Tâmega e Sousa, EPE","41.1971153671548, -8.0",Especialidade Médica,2365.0,29104.0,2025,2
+2024-03-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia  F. Gentil - Lisboa, E.P.E.","38.739946, -9.161139",Especialidade Médica,1365.0,11199.0,2024,3
+2024-03-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Arrábida, EPE","38.529351, -8.881073",Especialidade Médica,2262.0,19540.0,2024,3
+2024-03-01,Centro,"Unidade Local de Saúde da Região de Aveiro, EPE","40.636332, -8.654388",Especialidade Médica,2082.0,22834.0,2024,3
+2024-03-01,Centro,"Unidade Local de Saúde da Região de Leiria, EPE","39.7418, -8.79444",Especialidade Médica,2154.0,23509.0,2024,3
+2024-03-01,Centro,"Unidade Local de Saúde de Coimbra, EPE","40.217426, -8.410075",Especialidade Médica,5153.0,54346.0,2024,3
+2024-03-01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.697519, -8.832517",Especialidade Médica,1894.0,19022.0,2024,3
+2024-03-01,Centro,"Unidade Local de Saúde do Baixo Mondego, EPE","40.130297609, -8.8606",Especialidade Médica,713.0,7137.0,2024,3
+2025-03-01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309943471486, -7.0",Especialidade Médica,1313.0,15375.0,2025,3
+2025-03-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",Especialidade Médica,2099.0,25052.0,2025,3
+2025-03-01,Centro,"Unidade Local de Saúde da Região de Aveiro, EPE","40.636332, -8.654388",Especialidade Médica,2055.0,21018.0,2025,3
+2025-03-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Amadora/Sintra, EPE","38.7436332060551, -9.0",Especialidade Médica,3225.0,41718.0,2025,3
+2025-03-01,Norte,"Unidade Local de Saúde de Santo António, EPE","41.147283, -8.619536",Especialidade Médica,2955.0,44814.0,2025,3
+2025-03-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Arco Ribeirinho, EPE","38.6527214050293, -9.0",Especialidade Médica,1000.0,17762.0,2025,3
+2025-03-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Médio Tejo, EPE","39.605565, -8.404399",Especialidade Médica,2265.0,24276.0,2025,3
+2025-03-01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.802452, -6.768198",Especialidade Médica,1254.0,13119.0,2025,3
+2024-04-01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.730076, -9.418207",Especialidade Médica,1623.0,18730.0,2024,4
+2024-04-01,Norte,"Unidade Local de Saúde de Braga, EPE","41.562328338623, -8.3",Especialidade Médica,4095.0,40282.0,2024,4
+2024-04-01,Centro,"Unidade Local de Saúde de Coimbra, EPE","40.217426, -8.410075",Especialidade Médica,6840.0,74572.0,2024,4
+2024-04-01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",Especialidade Médica,3528.0,35330.0,2024,4
+2024-04-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Lisboa Ocidental, EPE","38.7084, -9.21711",Especialidade Médica,3544.0,41848.0,2024,4
+2024-04-01,Alentejo,"Unidade Local de Saúde do Alto Alentejo, EPE","39.2999, -7.4267",Especialidade Médica,1216.0,14242.0,2024,4
+2024-04-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",Especialidade Médica,1161.0,12411.0,2024,4
+2024-04-01,Centro,"Unidade Local de Saúde do Baixo Mondego, EPE","40.130297609, -8.8606",Especialidade Médica,940.0,9330.0,2024,4
+2024-04-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Oeste, EPE","39.4055519104004, -9.0",Especialidade Médica,2579.0,27793.0,2024,4
+2024-04-01,Norte,"Unidade Local de Saúde do Tâmega e Sousa, EPE","41.1971153671548, -8.0",Especialidade Médica,4182.0,48025.0,2024,4
+2025-04-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia  F. Gentil - Lisboa, E.P.E.","38.739946, -9.161139",Especialidade Médica,1922.0,15354.0,2025,4
+2025-04-01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",Especialidade Médica,1355.0,10397.0,2025,4
+2025-04-01,Centro,"Unidade Local de Saúde da Região de Leiria, EPE","39.7418, -8.79444",Especialidade Médica,2909.0,30795.0,2025,4
+2025-04-01,Norte,"Unidade Local de Saúde de Santo António, EPE","41.147283, -8.619536",Especialidade Médica,3899.0,59532.0,2025,4
+2025-04-01,Norte,"Unidade Local de Saúde de São João, EPE","41.1833, -8.60193",Especialidade Médica,5133.0,58605.0,2025,4
+2025-04-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de São José, EPE","38.7169, -9.13654",Especialidade Médica,6737.0,82002.0,2025,4
+2025-04-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Médio Tejo, EPE","39.605565, -8.404399",Especialidade Médica,3060.0,32295.0,2025,4
+2025-04-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Oeste, EPE","39.4055519104004, -9.0",Especialidade Médica,2463.0,29738.0,2025,4
+2024-05-01,Centro,"Unidade Local de Saúde da Cova da Beira, EPE","40.2776794433594, -7.0",Especialidade Médica,2516.0,20305.0,2024,5
+2024-05-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Amadora/Sintra, EPE","38.7436332060551, -9.0",Especialidade Médica,5632.0,61519.0,2024,5
+2024-05-01,Norte,"Unidade Local de Saúde de Trás-os-Montes e Alto Douro, EPE","41.310331, -7.760103",Especialidade Médica,5658.0,48834.0,2024,5
+2024-05-01,Norte,"Unidade Local de Saúde de Vila Nova de Gaia/Espinho, EPE","41.1254463195801, -8.0",Especialidade Médica,4106.0,47296.0,2024,5
+2024-05-01,Alentejo,"Unidade Local de Saúde do Alentejo Central, EPE","38.568838, -7.903064",Especialidade Médica,1990.0,18818.0,2024,5
+2024-05-01,Algarve,"Unidade Local de Saúde do Algarve, EPE","37.024668, -7.928949",Especialidade Médica,6458.0,75495.0,2024,5
+2024-05-01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.697519, -8.832517",Especialidade Médica,3193.0,30880.0,2024,5
+2024-05-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Oeste, EPE","39.4055519104004, -9.0",Especialidade Médica,3183.0,34637.0,2024,5
+2025-05-01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.730076, -9.418207",Especialidade Médica,1893.0,22733.0,2025,5
+2025-05-01,Norte,"Unidade Local de Saúde de Braga, EPE","41.562328338623, -8.3",Especialidade Médica,4978.0,46551.0,2025,5
+2025-05-01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",Especialidade Médica,4244.0,37159.0,2025,5
+2025-05-01,Norte,"Unidade Local de Saúde de Vila Nova de Gaia/Espinho, EPE","41.1254463195801, -8.0",Especialidade Médica,3736.0,50457.0,2025,5
+2025-05-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.039936, -8.731693",Especialidade Médica,1175.0,11018.0,2025,5
+2025-05-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Médio Tejo, EPE","39.605565, -8.404399",Especialidade Médica,3847.0,40563.0,2025,5
+2025-05-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Oeste, EPE","39.4055519104004, -9.0",Especialidade Médica,3034.0,36997.0,2025,5
+2024-06-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia  F. Gentil - Lisboa, E.P.E.","38.739946, -9.161139",Especialidade Médica,2702.0,22173.0,2024,6
+2024-06-01,Norte,"Instituto Português Oncologia  F. Gentil - Porto, E.P.E.","41.1811, -8.60469",Especialidade Médica,2376.0,23536.0,2024,6
+2024-06-01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",Especialidade Médica,2134.0,15644.0,2024,6
+2024-06-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Arrábida, EPE","38.529351, -8.881073",Especialidade Médica,4426.0,38347.0,2024,6
+2024-06-01,Centro,"Unidade Local de Saúde da Cova da Beira, EPE","40.2776794433594, -7.0",Especialidade Médica,2992.0,24261.0,2024,6
+2024-06-01,Norte,"Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde, EPE","41.383183, -8.758784",Especialidade Médica,1433.0,13962.0,2024,6
+2024-06-01,Centro,"Unidade Local de Saúde da Região de Leiria, EPE","39.7418, -8.79444",Especialidade Médica,4100.0,45023.0,2024,6
+2024-06-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Almada-Seixal, EPE","38.67381, -9.17597",Especialidade Médica,5151.0,65443.0,2024,6
+2024-06-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Loures-Odivelas, EPE","38.821769, -9.176301",Especialidade Médica,3364.0,46477.0,2024,6
+2024-06-01,Alentejo,"Unidade Local de Saúde do Alto Alentejo, EPE","39.2999, -7.4267",Especialidade Médica,1851.0,21271.0,2024,6
+2024-06-01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.697519, -8.832517",Especialidade Médica,3745.0,36426.0,2024,6
+2024-06-01,Centro,"Unidade Local de Saúde do Baixo Mondego, EPE","40.130297609, -8.8606",Especialidade Médica,1330.0,13418.0,2024,6
+2024-06-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.039936, -8.731693",Especialidade Médica,1350.0,12955.0,2024,6
+2025-06-01,Norte,"Instituto Português Oncologia  F. Gentil - Porto, E.P.E.","41.1811, -8.60469",Especialidade Médica,2395.0,24049.0,2025,6
+2025-06-01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",Especialidade Médica,2004.0,15577.0,2025,6
+2025-06-01,Centro,"Unidade Local de Saúde da Região de Aveiro, EPE","40.636332, -8.654388",Especialidade Médica,3835.0,40252.0,2025,6
+2025-06-01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",Especialidade Médica,4998.0,43985.0,2025,6
+2025-06-01,Norte,"Unidade Local de Saúde de Santo António, EPE","41.147283, -8.619536",Especialidade Médica,5660.0,87835.0,2025,6
+2025-06-01,Alentejo,"Unidade Local de Saúde do Alentejo Central, EPE","38.568838, -7.903064",Especialidade Médica,2359.0,23233.0,2025,6
+2025-06-01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.697519, -8.832517",Especialidade Médica,3439.0,34039.0,2025,6
+2025-06-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Arco Ribeirinho, EPE","38.6527214050293, -9.0",Especialidade Médica,1839.0,33462.0,2025,6
+2025-06-01,Centro,"Unidade Local de Saúde do Baixo Mondego, EPE","40.130297609, -8.8606",Especialidade Médica,1343.0,13546.0,2025,6
+2025-06-01,Norte,"Unidade Local de Saúde do Tâmega e Sousa, EPE","41.1971153671548, -8.0",Especialidade Médica,6472.0,84936.0,2025,6
+2024-07-01,Centro,"Instituto Português Oncologia  F. Gentil - Centro, E.P.E.","40.217, -8.40991",Especialidade Médica,889.0,4447.0,2024,7
+2024-07-01,Norte,"Unidade Local de Saúde de Barcelos/Esposende, EPE","41.533438, -8.616604",Especialidade Médica,2081.0,18518.0,2024,7
+2024-07-01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",Especialidade Médica,5982.0,59129.0,2024,7
+2024-07-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de São José, EPE","38.7169, -9.13654",Especialidade Médica,11594.0,132313.0,2024,7
+2024-07-01,Norte,"Unidade Local de Saúde de Vila Nova de Gaia/Espinho, EPE","41.1254463195801, -8.0",Especialidade Médica,5446.0,63685.0,2024,7
+2024-07-01,Alentejo,"Unidade Local de Saúde do Alentejo Central, EPE","38.568838, -7.903064",Especialidade Médica,2745.0,26172.0,2024,7
+2024-07-01,Alentejo,"Unidade Local de Saúde do Alto Alentejo, EPE","39.2999, -7.4267",Especialidade Médica,2174.0,24891.0,2024,7
+2024-07-01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.697519, -8.832517",Especialidade Médica,4330.0,42041.0,2024,7
+2025-07-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Arrábida, EPE","38.529351, -8.881073",Especialidade Médica,4502.0,41444.0,2025,7
+2025-07-01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309943471486, -7.0",Especialidade Médica,2914.0,34150.0,2025,7
+2025-07-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Amadora/Sintra, EPE","38.7436332060551, -9.0",Especialidade Médica,7364.0,95193.0,2025,7
+2025-07-01,Norte,"Unidade Local de Saúde de Barcelos/Esposende, EPE","41.533438, -8.616604",Especialidade Médica,2015.0,17675.0,2025,7
+2025-07-01,Norte,"Unidade Local de Saúde de Santo António, EPE","41.147283, -8.619536",Especialidade Médica,6538.0,102302.0,2025,7
+2025-07-01,Norte,"Unidade Local de Saúde de São João, EPE","41.1833, -8.60193",Especialidade Médica,8626.0,101505.0,2025,7
+2025-07-01,Alentejo,"Unidade Local de Saúde do Alto Alentejo, EPE","39.2999, -7.4267",Especialidade Médica,2390.0,26382.0,2025,7
+2025-07-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",Especialidade Médica,2104.0,20533.0,2025,7
+2025-07-01,Norte,"Unidade Local de Saúde do Médio Ave, EPE","41.3422317504883, -8.0",Especialidade Médica,2301.0,43145.0,2025,7
+2025-07-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Médio Tejo, EPE","39.605565, -8.404399",Especialidade Médica,5387.0,55802.0,2025,7
+2024-08-01,Centro,"Instituto Português Oncologia  F. Gentil - Centro, E.P.E.","40.217, -8.40991",Especialidade Médica,1001.0,5028.0,2024,8
+2024-08-01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",Especialidade Médica,2770.0,20368.0,2024,8
+2024-08-01,Norte,"Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde, EPE","41.383183, -8.758784",Especialidade Médica,1834.0,18201.0,2024,8
+2024-08-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Amadora/Sintra, EPE","38.7436332060551, -9.0",Especialidade Médica,8678.0,103381.0,2024,8
+2024-08-01,Norte,"Unidade Local de Saúde de Braga, EPE","41.562328338623, -8.3",Especialidade Médica,7615.0,76170.0,2024,8
+2024-08-01,Centro,"Unidade Local de Saúde de Coimbra, EPE","40.217426, -8.410075",Especialidade Médica,13639.0,155310.0,2024,8
+2024-08-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",Especialidade Médica,2206.0,23909.0,2024,8
+2025-08-01,Norte,"Instituto Português Oncologia  F. Gentil - Porto, E.P.E.","41.1811, -8.60469",Especialidade Médica,3192.0,31901.0,2025,8
+2025-08-01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",Especialidade Médica,2688.0,20558.0,2025,8
+2025-08-01,Norte,"Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde, EPE","41.383183, -8.758784",Especialidade Médica,1818.0,17283.0,2025,8
+2025-08-01,Norte,"Unidade Local de Saúde de Entre Douro e Vouga, EPE","40.9295, -8.54567",Especialidade Médica,5613.0,58670.0,2025,8
+2025-08-01,Norte,"Unidade Local de Saúde de Vila Nova de Gaia/Espinho, EPE","41.1254463195801, -8.0",Especialidade Médica,5664.0,77285.0,2025,8
+2025-08-01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.697519, -8.832517",Especialidade Médica,4544.0,45627.0,2025,8
+2025-08-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Estuário do Tejo, EPE","38.977344, -8.984882",Especialidade Médica,4270.0,58536.0,2025,8
+2025-08-01,Norte,"Unidade Local de Saúde do Médio Ave, EPE","41.3422317504883, -8.0",Especialidade Médica,2576.0,49255.0,2025,8
+2025-08-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Oeste, EPE","39.4055519104004, -9.0",Especialidade Médica,4713.0,57448.0,2025,8
+2024-09-01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",Especialidade Médica,3063.0,22352.0,2024,9
+2024-09-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",Especialidade Médica,6047.0,72782.0,2024,9
+2024-09-01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",Especialidade Médica,7522.0,73001.0,2024,9
+2024-09-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Lisboa Ocidental, EPE","38.7084, -9.21711",Especialidade Médica,7509.0,88960.0,2024,9
+2024-09-01,Norte,"Unidade Local de Saúde de Vila Nova de Gaia/Espinho, EPE","41.1254463195801, -8.0",Especialidade Médica,6804.0,81196.0,2024,9
+2024-09-01,Alentejo,"Unidade Local de Saúde do Alto Alentejo, EPE","39.2999, -7.4267",Especialidade Médica,2785.0,31363.0,2024,9
+2024-09-01,Norte,"Unidade Local de Saúde do Alto Ave, EPE","41.488574, -8.338685",Especialidade Médica,8839.0,68636.0,2024,9
+2024-09-01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.697519, -8.832517",Especialidade Médica,5399.0,52733.0,2024,9
+2025-09-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Arrábida, EPE","38.529351, -8.881073",Especialidade Médica,5649.0,51397.0,2025,9
+2025-09-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Amadora/Sintra, EPE","38.7436332060551, -9.0",Especialidade Médica,9366.0,120618.0,2025,9
+2025-09-01,Norte,"Unidade Local de Saúde de Braga, EPE","41.562328338623, -8.3",Especialidade Médica,8856.0,101871.0,2025,9
+2025-09-01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",Especialidade Médica,7380.0,65029.0,2025,9
+2025-09-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Lisboa Ocidental, EPE","38.7084, -9.21711",Especialidade Médica,7691.0,87981.0,2025,9
+2025-09-01,Algarve,"Unidade Local de Saúde do Algarve, EPE","37.024668, -7.928949",Especialidade Médica,10601.0,127854.0,2025,9
+2025-09-01,Centro,"Unidade Local de Saúde do Baixo Mondego, EPE","40.130297609, -8.8606",Especialidade Médica,1957.0,19516.0,2025,9
+2025-09-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Estuário do Tejo, EPE","38.977344, -8.984882",Especialidade Médica,4691.0,65599.0,2025,9
+2025-09-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.039936, -8.731693",Especialidade Médica,2030.0,20068.0,2025,9
+2024-10-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia  F. Gentil - Lisboa, E.P.E.","38.739946, -9.161139",Especialidade Médica,4641.0,37539.0,2024,10
+2024-10-01,Norte,"Instituto Português Oncologia  F. Gentil - Porto, E.P.E.","41.1811, -8.60469",Especialidade Médica,3958.0,39717.0,2024,10
+2024-10-01,Centro,"Unidade Local de Saúde da Cova da Beira, EPE","40.2776794433594, -7.0",Especialidade Médica,4830.0,39486.0,2024,10
+2024-10-01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309943471486, -7.0",Especialidade Médica,3968.0,48402.0,2024,10
+2024-10-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",Especialidade Médica,6656.0,80285.0,2024,10
+2024-10-01,Centro,"Unidade Local de Saúde da Região de Aveiro, EPE","40.636332, -8.654388",Especialidade Médica,6547.0,69621.0,2024,10
+2024-10-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Almada-Seixal, EPE","38.67381, -9.17597",Especialidade Médica,8399.0,108786.0,2024,10
+2024-10-01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",Especialidade Médica,8300.0,80142.0,2024,10
+2024-10-01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.181859, -8.663374",Especialidade Médica,5492.0,55129.0,2024,10
+2024-10-01,Norte,"Unidade Local de Saúde de Trás-os-Montes e Alto Douro, EPE","41.310331, -7.760103",Especialidade Médica,10758.0,91511.0,2024,10
+2024-10-01,Algarve,"Unidade Local de Saúde do Algarve, EPE","37.024668, -7.928949",Especialidade Médica,12178.0,144542.0,2024,10
+2024-10-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",Especialidade Médica,2675.0,28850.0,2024,10
+2024-10-01,Norte,"Unidade Local de Saúde do Médio Ave, EPE","41.3422317504883, -8.0",Especialidade Médica,3456.0,56390.0,2024,10
+2024-10-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Oeste, EPE","39.4055519104004, -9.0",Especialidade Médica,6106.0,66892.0,2024,10
+2025-10-01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.730076, -9.418207",Especialidade Médica,3618.0,44333.0,2025,10
+2025-10-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia  F. Gentil - Lisboa, E.P.E.","38.739946, -9.161139",Especialidade Médica,4703.0,37546.0,2025,10
+2025-10-01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",Especialidade Médica,3359.0,25431.0,2025,10
+2025-10-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",Especialidade Médica,6404.0,75759.0,2025,10
+2025-10-01,Norte,"Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde, EPE","41.383183, -8.758784",Especialidade Médica,2231.0,21198.0,2025,10
+2025-10-01,Centro,"Unidade Local de Saúde da Região de Aveiro, EPE","40.636332, -8.654388",Especialidade Médica,6172.0,65098.0,2025,10
+2025-10-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Almada-Seixal, EPE","38.67381, -9.17597",Especialidade Médica,8437.0,108483.0,2025,10
+2025-10-01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",Especialidade Médica,8194.0,72498.0,2025,10
+2025-10-01,Norte,"Unidade Local de Saúde de Entre Douro e Vouga, EPE","40.9295, -8.54567",Especialidade Médica,6798.0,71814.0,2025,10
+2025-10-01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.181859, -8.663374",Especialidade Médica,5335.0,56016.0,2025,10
+2025-10-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Santa Maria, EPE","38.7500648498535, -9.0",Especialidade Médica,14877.0,146747.0,2025,10
+2025-10-01,Norte,"Unidade Local de Saúde de Vila Nova de Gaia/Espinho, EPE","41.1254463195801, -8.0",Especialidade Médica,7017.0,95499.0,2025,10
+2025-10-01,Alentejo,"Unidade Local de Saúde do Alentejo Central, EPE","38.568838, -7.903064",Especialidade Médica,3875.0,38379.0,2025,10
+2025-10-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",Especialidade Médica,2897.0,28624.0,2025,10
+2025-10-01,Centro,"Unidade Local de Saúde do Baixo Mondego, EPE","40.130297609, -8.8606",Especialidade Médica,2183.0,21318.0,2025,10
+2025-10-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Estuário do Tejo, EPE","38.977344, -8.984882",Especialidade Médica,5280.0,73183.0,2025,10
+2025-10-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.039936, -8.731693",Especialidade Médica,2253.0,22487.0,2025,10
+2025-10-01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.802452, -6.768198",Especialidade Médica,3913.0,41583.0,2025,10
+2024-11-01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.730076, -9.418207",Especialidade Médica,4229.0,50163.0,2024,11
+2024-11-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia  F. Gentil - Lisboa, E.P.E.","38.739946, -9.161139",Especialidade Médica,5090.0,41136.0,2024,11
+2024-11-01,Norte,"Instituto Português Oncologia  F. Gentil - Porto, E.P.E.","41.1811, -8.60469",Especialidade Médica,4329.0,43753.0,2024,11
+2024-11-01,Centro,"Unidade Local de Saúde da Cova da Beira, EPE","40.2776794433594, -7.0",Especialidade Médica,5259.0,43244.0,2024,11
+2024-11-01,Norte,"Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde, EPE","41.383183, -8.758784",Especialidade Médica,2463.0,24712.0,2024,11
+2024-11-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Almada-Seixal, EPE","38.67381, -9.17597",Especialidade Médica,9238.0,119910.0,2024,11
+2024-11-01,Norte,"Unidade Local de Saúde de Barcelos/Esposende, EPE","41.533438, -8.616604",Especialidade Médica,3117.0,28320.0,2024,11
+2024-11-01,Centro,"Unidade Local de Saúde de Coimbra, EPE","40.217426, -8.410075",Especialidade Médica,18542.0,210182.0,2024,11
+2024-11-01,Norte,"Unidade Local de Saúde de Trás-os-Montes e Alto Douro, EPE","41.310331, -7.760103",Especialidade Médica,11729.0,100373.0,2024,11
+2024-11-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Arco Ribeirinho, EPE","38.6527214050293, -9.0",Especialidade Médica,3711.0,60544.0,2024,11
+2024-11-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",Especialidade Médica,2938.0,31383.0,2024,11
+2024-11-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Médio Tejo, EPE","39.605565, -8.404399",Especialidade Médica,8276.0,81920.0,2024,11
+2025-11-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Arrábida, EPE","38.529351, -8.881073",Especialidade Médica,6895.0,63400.0,2025,11
+2025-11-01,Centro,"Unidade Local de Saúde da Cova da Beira, EPE","40.2776794433594, -7.0",Especialidade Médica,4292.0,39833.0,2025,11
+2025-11-01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",Especialidade Médica,8934.0,79259.0,2025,11
+2025-11-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Loures-Odivelas, EPE","38.821769, -9.176301",Especialidade Médica,5293.0,72392.0,2025,11
+2025-11-01,Norte,"Unidade Local de Saúde de Vila Nova de Gaia/Espinho, EPE","41.1254463195801, -8.0",Especialidade Médica,7727.0,104850.0,2025,11
+2025-11-01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.802452, -6.768198",Especialidade Médica,4284.0,45597.0,2025,11
+2024-12-01,Centro,"Unidade Local de Saúde de Coimbra, EPE","40.217426, -8.410075",Especialidade Médica,20128.0,236488.0,2024,12
+2024-12-01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",Especialidade Médica,9954.0,95226.0,2024,12
+2024-12-01,Norte,"Unidade Local de Saúde de Entre Douro e Vouga, EPE","40.9295, -8.54567",Especialidade Médica,7873.0,84257.0,2024,12
+2024-12-01,Norte,"Unidade Local de Saúde de São João, EPE","41.1833, -8.60193",Especialidade Médica,15393.0,170394.0,2024,12
+2024-12-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Médio Tejo, EPE","39.605565, -8.404399",Especialidade Médica,9019.0,89325.0,2024,12
+2025-12-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia  F. Gentil - Lisboa, E.P.E.","38.739946, -9.161139",Especialidade Médica,5590.0,44236.0,2025,12
+2025-12-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Arrábida, EPE","38.529351, -8.881073",Especialidade Médica,7561.0,72043.0,2025,12
+2025-12-01,Norte,"Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde, EPE","41.383183, -8.758784",Especialidade Médica,2795.0,25986.0,2025,12
+2025-12-01,Centro,"Unidade Local de Saúde da Região de Aveiro, EPE","40.636332, -8.654388",Especialidade Médica,7423.0,82260.0,2025,12
+2025-12-01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",Especialidade Médica,9928.0,87923.0,2025,12
+2025-12-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Arco Ribeirinho, EPE","38.6527214050293, -9.0",Especialidade Médica,3566.0,65648.0,2025,12
+2025-12-01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.802452, -6.768198",Especialidade Médica,4714.0,49985.0,2025,12
+2025-12-01,Norte,"Unidade Local de Saúde do Tâmega e Sousa, EPE","41.1971153671548, -8.0",Especialidade Médica,12510.0,163905.0,2025,12
+2024-01-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia  F. Gentil - Lisboa, E.P.E.","38.739946, -9.161139",Outras Camas,1.0,150.0,2024,1
+2024-01-01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",Outras Camas,11.0,330.0,2024,1
+2024-01-01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309943471486, -7.0",Outras Camas,43.0,515.0,2024,1
+2024-01-01,Centro,"Unidade Local de Saúde da Região de Leiria, EPE","39.7418, -8.79444",Outras Camas,178.0,1664.0,2024,1
+2024-01-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Almada-Seixal, EPE","38.67381, -9.17597",Outras Camas,80.0,1225.0,2024,1
+2024-01-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Amadora/Sintra, EPE","38.7436332060551, -9.0",Outras Camas,70.0,1784.0,2024,1
+2024-01-01,Centro,"Unidade Local de Saúde de Coimbra, EPE","40.217426, -8.410075",Outras Camas,220.0,2415.0,2024,1
+2024-01-01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",Outras Camas,36.0,1190.0,2024,1
+2024-01-01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.181859, -8.663374",Outras Camas,62.0,495.0,2024,1
+2024-01-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Arco Ribeirinho, EPE","38.6527214050293, -9.0",Outras Camas,182.0,1845.0,2024,1
+2025-01-01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.730076, -9.418207",Outras Camas,25.0,426.0,2025,1
+2025-01-01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",Outras Camas,17.0,327.0,2025,1
+2025-01-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Arrábida, EPE","38.529351, -8.881073",Outras Camas,58.0,1099.0,2025,1
+2025-01-01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309943471486, -7.0",Outras Camas,35.0,414.0,2025,1
+2025-01-01,Centro,"Unidade Local de Saúde da Região de Leiria, EPE","39.7418, -8.79444",Outras Camas,80.0,1311.0,2025,1
+2025-01-01,Norte,"Unidade Local de Saúde de Braga, EPE","41.562328338623, -8.3",Outras Camas,111.0,1496.0,2025,1
+2025-01-01,Centro,"Unidade Local de Saúde de Coimbra, EPE","40.217426, -8.410075",Outras Camas,250.0,2969.0,2025,1
+2025-01-01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",Outras Camas,48.0,1050.0,2025,1
+2025-01-01,Norte,"Unidade Local de Saúde de Entre Douro e Vouga, EPE","40.9295, -8.54567",Outras Camas,34.0,791.0,2025,1
+2025-01-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Lisboa Ocidental, EPE","38.7084, -9.21711",Outras Camas,73.0,1877.0,2025,1
+2025-01-01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.697519, -8.832517",Outras Camas,55.0,565.0,2025,1
+2025-01-01,Norte,"Unidade Local de Saúde do Tâmega e Sousa, EPE","41.1971153671548, -8.0",Outras Camas,164.0,755.0,2025,1
+2024-02-01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309943471486, -7.0",Outras Camas,71.0,958.0,2024,2
+2024-02-01,Centro,"Unidade Local de Saúde de Coimbra, EPE","40.217426, -8.410075",Outras Camas,458.0,5416.0,2024,2
+2024-02-01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.181859, -8.663374",Outras Camas,107.0,954.0,2024,2
+2024-02-01,Norte,"Unidade Local de Saúde de São João, EPE","41.1833, -8.60193",Outras Camas,240.0,6835.0,2024,2
+2025-02-01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.730076, -9.418207",Outras Camas,52.0,815.0,2025,2
+2025-02-01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",Outras Camas,40.0,604.0,2025,2
+2025-02-01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309943471486, -7.0",Outras Camas,78.0,873.0,2025,2
+2025-02-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",Outras Camas,63.0,735.0,2025,2
+2025-02-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Amadora/Sintra, EPE","38.7436332060551, -9.0",Outras Camas,139.0,2149.0,2025,2
+2025-02-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Loures-Odivelas, EPE","38.821769, -9.176301",Outras Camas,89.0,838.0,2025,2
+2025-02-01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.181859, -8.663374",Outras Camas,83.0,1626.0,2025,2
+2025-02-01,Norte,"Unidade Local de Saúde de Vila Nova de Gaia/Espinho, EPE","41.1254463195801, -8.0",Outras Camas,398.0,5959.0,2025,2
+2025-02-01,Alentejo,"Unidade Local de Saúde do Alentejo Central, EPE","38.568838, -7.903064",Outras Camas,170.0,1300.0,2025,2
+2025-02-01,Algarve,"Unidade Local de Saúde do Algarve, EPE","37.024668, -7.928949",Outras Camas,238.0,4377.0,2025,2
+2025-02-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Arco Ribeirinho, EPE","38.6527214050293, -9.0",Outras Camas,393.0,3408.0,2025,2
+2025-02-01,Centro,"Unidade Local de Saúde do Baixo Mondego, EPE","40.130297609, -8.8606",Outras Camas,56.0,657.0,2025,2
+2024-03-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia  F. Gentil - Lisboa, E.P.E.","38.739946, -9.161139",Outras Camas,7.0,471.0,2024,3
+2024-03-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",Outras Camas,23.0,545.0,2024,3
+2024-03-01,Centro,"Unidade Local de Saúde da Região de Leiria, EPE","39.7418, -8.79444",Outras Camas,481.0,4881.0,2024,3
+2024-03-01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",Outras Camas,107.0,2813.0,2024,3
+2024-03-01,Norte,"Unidade Local de Saúde de São João, EPE","41.1833, -8.60193",Outras Camas,354.0,10067.0,2024,3
+2024-03-01,Norte,"Unidade Local de Saúde do Alto Ave, EPE","41.488574, -8.338685",Outras Camas,251.0,2478.0,2024,3
+2024-03-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",Outras Camas,12.0,510.0,2024,3
+2024-03-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Médio Tejo, EPE","39.605565, -8.404399",Outras Camas,127.0,1676.0,2024,3
+2024-03-01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.802452, -6.768198",Outras Camas,186.0,2691.0,2024,3
+2025-03-01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",Outras Camas,54.0,855.0,2025,3
+2025-03-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Arrábida, EPE","38.529351, -8.881073",Outras Camas,138.0,2775.0,2025,3
+2025-03-01,Centro,"Unidade Local de Saúde da Região de Aveiro, EPE","40.636332, -8.654388",Outras Camas,286.0,3088.0,2025,3
+2025-03-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Amadora/Sintra, EPE","38.7436332060551, -9.0",Outras Camas,224.0,4636.0,2025,3
+2025-03-01,Norte,"Unidade Local de Saúde do Alto Ave, EPE","41.488574, -8.338685",Outras Camas,265.0,3096.0,2025,3
+2025-03-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",Outras Camas,21.0,464.0,2025,3
+2025-03-01,Centro,"Unidade Local de Saúde do Baixo Mondego, EPE","40.130297609, -8.8606",Outras Camas,91.0,1016.0,2025,3
+2025-03-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.039936, -8.731693",Outras Camas,105.0,1503.0,2025,3
+2025-03-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Médio Tejo, EPE","39.605565, -8.404399",Outras Camas,159.0,1515.0,2025,3
+2025-03-01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.802452, -6.768198",Outras Camas,151.0,2979.0,2025,3
+2025-03-01,Norte,"Unidade Local de Saúde do Tâmega e Sousa, EPE","41.1971153671548, -8.0",Outras Camas,93.0,2036.0,2025,3
+2024-04-01,Centro,"Instituto Português Oncologia  F. Gentil - Centro, E.P.E.","40.217, -8.40991",Outras Camas,127.0,1597.0,2024,4
+2024-04-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",Outras Camas,28.0,676.0,2024,4
+2024-04-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Almada-Seixal, EPE","38.67381, -9.17597",Outras Camas,330.0,4513.0,2024,4
+2024-04-01,Norte,"Unidade Local de Saúde de São João, EPE","41.1833, -8.60193",Outras Camas,492.0,13374.0,2024,4
+2024-04-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de São José, EPE","38.7169, -9.13654",Outras Camas,600.0,13019.0,2024,4
+2024-04-01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.802452, -6.768198",Outras Camas,224.0,3591.0,2024,4
+2024-04-01,Norte,"Unidade Local de Saúde do Tâmega e Sousa, EPE","41.1971153671548, -8.0",Outras Camas,86.0,2313.0,2024,4
+2025-04-01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",Outras Camas,167.0,3713.0,2025,4
+2025-04-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Santa Maria, EPE","38.7500648498535, -9.0",Outras Camas,787.0,13618.0,2025,4
+2025-04-01,Alentejo,"Unidade Local de Saúde do Alentejo Central, EPE","38.568838, -7.903064",Outras Camas,316.0,2463.0,2025,4
+2025-04-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",Outras Camas,25.0,597.0,2025,4
+2025-04-01,Centro,"Unidade Local de Saúde do Baixo Mondego, EPE","40.130297609, -8.8606",Outras Camas,138.0,1338.0,2025,4
+2025-04-01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.802452, -6.768198",Outras Camas,203.0,3796.0,2025,4
+2024-05-01,Centro,"Instituto Português Oncologia  F. Gentil - Centro, E.P.E.","40.217, -8.40991",Outras Camas,162.0,2026.0,2024,5
+2024-05-01,Centro,"Unidade Local de Saúde da Cova da Beira, EPE","40.2776794433594, -7.0",Outras Camas,199.0,2910.0,2024,5
+2024-05-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de São José, EPE","38.7169, -9.13654",Outras Camas,739.0,16049.0,2024,5
+2024-05-01,Norte,"Unidade Local de Saúde de Trás-os-Montes e Alto Douro, EPE","41.310331, -7.760103",Outras Camas,403.0,4625.0,2024,5
+2024-05-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Arco Ribeirinho, EPE","38.6527214050293, -9.0",Outras Camas,988.0,8581.0,2024,5
+2024-05-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",Outras Camas,24.0,859.0,2024,5
+2024-05-01,Norte,"Unidade Local de Saúde do Médio Ave, EPE","41.3422317504883, -8.0",Outras Camas,59.0,736.0,2024,5
+2024-05-01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.802452, -6.768198",Outras Camas,272.0,4558.0,2024,5
+2025-05-01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",Outras Camas,80.0,1468.0,2025,5
+2025-05-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Almada-Seixal, EPE","38.67381, -9.17597",Outras Camas,339.0,5862.0,2025,5
+2025-05-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Amadora/Sintra, EPE","38.7436332060551, -9.0",Outras Camas,367.0,7796.0,2025,5
+2025-05-01,Norte,"Unidade Local de Saúde do Alto Ave, EPE","41.488574, -8.338685",Outras Camas,409.0,4714.0,2025,5
+2025-05-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Estuário do Tejo, EPE","38.977344, -8.984882",Outras Camas,163.0,1872.0,2025,5
+2024-06-01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309943471486, -7.0",Outras Camas,201.0,2394.0,2024,6
+2024-06-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",Outras Camas,,989.0,2024,6
+2024-06-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Almada-Seixal, EPE","38.67381, -9.17597",Outras Camas,496.0,6724.0,2024,6
+2024-06-01,Norte,"Unidade Local de Saúde de Entre Douro e Vouga, EPE","40.9295, -8.54567",Outras Camas,209.0,5000.0,2024,6
+2024-06-01,Norte,"Unidade Local de Saúde de Trás-os-Montes e Alto Douro, EPE","41.310331, -7.760103",Outras Camas,486.0,5476.0,2024,6
+2024-06-01,Alentejo,"Unidade Local de Saúde do Alentejo Central, EPE","38.568838, -7.903064",Outras Camas,536.0,4193.0,2024,6
+2024-06-01,Norte,"Unidade Local de Saúde do Médio Ave, EPE","41.3422317504883, -8.0",Outras Camas,75.0,864.0,2024,6
+2024-06-01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.802452, -6.768198",Outras Camas,315.0,5414.0,2024,6
+2025-06-01,Lisboa e Vale do Tejo,"Hospital de Cascais, PPP","38.730076, -9.418207",Outras Camas,144.0,2388.0,2025,6
+2025-06-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Arrábida, EPE","38.529351, -8.881073",Outras Camas,280.0,5619.0,2025,6
+2025-06-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Lisboa Ocidental, EPE","38.7084, -9.21711",Outras Camas,439.0,10581.0,2025,6
+2025-06-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Estuário do Tejo, EPE","38.977344, -8.984882",Outras Camas,192.0,2104.0,2025,6
+2025-06-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.039936, -8.731693",Outras Camas,204.0,2985.0,2025,6
+2024-07-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Amadora/Sintra, EPE","38.7436332060551, -9.0",Outras Camas,518.0,10039.0,2024,7
+2024-07-01,Norte,"Unidade Local de Saúde de Trás-os-Montes e Alto Douro, EPE","41.310331, -7.760103",Outras Camas,574.0,6339.0,2024,7
+2024-07-01,Norte,"Unidade Local de Saúde do Alto Ave, EPE","41.488574, -8.338685",Outras Camas,562.0,6278.0,2024,7
+2024-07-01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.697519, -8.832517",Outras Camas,225.0,3769.0,2024,7
+2024-07-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",Outras Camas,39.0,1027.0,2024,7
+2024-07-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Estuário do Tejo, EPE","38.977344, -8.984882",Outras Camas,138.0,2243.0,2024,7
+2024-07-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Médio Tejo, EPE","39.605565, -8.404399",Outras Camas,305.0,3963.0,2024,7
+2025-07-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia  F. Gentil - Lisboa, E.P.E.","38.739946, -9.161139",Outras Camas,22.0,1010.0,2025,7
+2025-07-01,Norte,"Instituto Português Oncologia  F. Gentil - Porto, E.P.E.","41.1811, -8.60469",Outras Camas,518.0,8686.0,2025,7
+2025-07-01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309943471486, -7.0",Outras Camas,251.0,3103.0,2025,7
+2025-07-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",Outras Camas,202.0,2554.0,2025,7
+2025-07-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Lisboa Ocidental, EPE","38.7084, -9.21711",Outras Camas,497.0,12358.0,2025,7
+2025-07-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Santa Maria, EPE","38.7500648498535, -9.0",Outras Camas,1460.0,23044.0,2025,7
+2025-07-01,Norte,"Unidade Local de Saúde de Santo António, EPE","41.147283, -8.619536",Outras Camas,773.0,15568.0,2025,7
+2025-07-01,Norte,"Unidade Local de Saúde de São João, EPE","41.1833, -8.60193",Outras Camas,890.0,23587.0,2025,7
+2025-07-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.039936, -8.731693",Outras Camas,246.0,3553.0,2025,7
+2025-07-01,Norte,"Unidade Local de Saúde do Médio Ave, EPE","41.3422317504883, -8.0",Outras Camas,84.0,983.0,2025,7
+2025-07-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Médio Tejo, EPE","39.605565, -8.404399",Outras Camas,276.0,3119.0,2025,7
+2024-08-01,Centro,"Unidade Local de Saúde da Cova da Beira, EPE","40.2776794433594, -7.0",Outras Camas,318.0,4579.0,2024,8
+2024-08-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Loures-Odivelas, EPE","38.821769, -9.176301",Outras Camas,380.0,3051.0,2024,8
+2024-08-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de São José, EPE","38.7169, -9.13654",Outras Camas,1175.0,25071.0,2024,8
+2024-08-01,Norte,"Unidade Local de Saúde de Trás-os-Montes e Alto Douro, EPE","41.310331, -7.760103",Outras Camas,665.0,7208.0,2024,8
+2024-08-01,Norte,"Unidade Local de Saúde de Vila Nova de Gaia/Espinho, EPE","41.1254463195801, -8.0",Outras Camas,1286.0,19820.0,2024,8
+2025-08-01,Centro,"Unidade Local de Saúde de Coimbra, EPE","40.217426, -8.410075",Outras Camas,1831.0,21216.0,2025,8
+2025-08-01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",Outras Camas,340.0,7641.0,2025,8
+2025-08-01,Norte,"Unidade Local de Saúde de Entre Douro e Vouga, EPE","40.9295, -8.54567",Outras Camas,281.0,5998.0,2025,8
+2025-08-01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.181859, -8.663374",Outras Camas,342.0,6238.0,2025,8
+2025-08-01,Norte,"Unidade Local de Saúde de São João, EPE","41.1833, -8.60193",Outras Camas,1007.0,26764.0,2025,8
+2025-08-01,Alentejo,"Unidade Local de Saúde do Alentejo Central, EPE","38.568838, -7.903064",Outras Camas,637.0,4956.0,2025,8
+2025-08-01,Centro,"Unidade Local de Saúde do Baixo Mondego, EPE","40.130297609, -8.8606",Outras Camas,291.0,2667.0,2025,8
+2025-08-01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.802452, -6.768198",Outras Camas,409.0,7123.0,2025,8
+2024-09-01,Centro,"Unidade Local de Saúde da Região de Leiria, EPE","39.7418, -8.79444",Outras Camas,1299.0,13220.0,2024,9
+2024-09-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Almada-Seixal, EPE","38.67381, -9.17597",Outras Camas,712.0,9887.0,2024,9
+2024-09-01,Norte,"Unidade Local de Saúde de São João, EPE","41.1833, -8.60193",Outras Camas,1138.0,30443.0,2024,9
+2024-09-01,Alentejo,"Unidade Local de Saúde do Alentejo Central, EPE","38.568838, -7.903064",Outras Camas,773.0,6150.0,2024,9
+2024-09-01,Alentejo,"Unidade Local de Saúde do Alto Alentejo, EPE","39.2999, -7.4267",Outras Camas,210.0,3501.0,2024,9
+2024-09-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Médio Tejo, EPE","39.605565, -8.404399",Outras Camas,379.0,4915.0,2024,9
+2025-09-01,Centro,"Instituto Português Oncologia  F. Gentil - Centro, E.P.E.","40.217, -8.40991",Outras Camas,283.0,4037.0,2025,9
+2025-09-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia  F. Gentil - Lisboa, E.P.E.","38.739946, -9.161139",Outras Camas,27.0,1270.0,2025,9
+2025-09-01,Norte,"Instituto Português Oncologia  F. Gentil - Porto, E.P.E.","41.1811, -8.60469",Outras Camas,680.0,11555.0,2025,9
+2025-09-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Arrábida, EPE","38.529351, -8.881073",Outras Camas,436.0,8292.0,2025,9
+2025-09-01,Centro,"Unidade Local de Saúde da Região de Aveiro, EPE","40.636332, -8.654388",Outras Camas,761.0,8033.0,2025,9
+2025-09-01,Centro,"Unidade Local de Saúde de Coimbra, EPE","40.217426, -8.410075",Outras Camas,2056.0,23829.0,2025,9
+2025-09-01,Alentejo,"Unidade Local de Saúde do Alentejo Central, EPE","38.568838, -7.903064",Outras Camas,712.0,5528.0,2025,9
+2025-09-01,Algarve,"Unidade Local de Saúde do Algarve, EPE","37.024668, -7.928949",Outras Camas,1179.0,19973.0,2025,9
+2025-09-01,Alentejo,"Unidade Local de Saúde do Alto Alentejo, EPE","39.2999, -7.4267",Outras Camas,156.0,2778.0,2025,9
+2025-09-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Arco Ribeirinho, EPE","38.6527214050293, -9.0",Outras Camas,1800.0,15156.0,2025,9
+2025-09-01,Norte,"Unidade Local de Saúde do Médio Ave, EPE","41.3422317504883, -8.0",Outras Camas,108.0,1273.0,2025,9
+2025-09-01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.802452, -6.768198",Outras Camas,448.0,8058.0,2025,9
+2024-10-01,Centro,"Instituto Português Oncologia  F. Gentil - Centro, E.P.E.","40.217, -8.40991",Outras Camas,335.0,4318.0,2024,10
+2024-10-01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",Outras Camas,150.0,2718.0,2024,10
+2024-10-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Arrábida, EPE","38.529351, -8.881073",Outras Camas,390.0,8513.0,2024,10
+2024-10-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",Outras Camas,102.0,1915.0,2024,10
+2024-10-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Amadora/Sintra, EPE","38.7436332060551, -9.0",Outras Camas,721.0,14729.0,2024,10
+2024-10-01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.181859, -8.663374",Outras Camas,472.0,4000.0,2024,10
+2024-10-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",Outras Camas,52.0,1402.0,2024,10
+2024-10-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Estuário do Tejo, EPE","38.977344, -8.984882",Outras Camas,188.0,2963.0,2024,10
+2024-10-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Médio Tejo, EPE","39.605565, -8.404399",Outras Camas,418.0,5408.0,2024,10
+2025-10-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Arrábida, EPE","38.529351, -8.881073",Outras Camas,487.0,9285.0,2025,10
+2025-10-01,Centro,"Unidade Local de Saúde da Cova da Beira, EPE","40.2776794433594, -7.0",Outras Camas,382.0,5815.0,2025,10
+2025-10-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Lezíria, EPE","39.232503, -8.715083",Outras Camas,293.0,3515.0,2025,10
+2025-10-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Lisboa Ocidental, EPE","38.7084, -9.21711",Outras Camas,685.0,17339.0,2025,10
+2025-10-01,Norte,"Unidade Local de Saúde de São João, EPE","41.1833, -8.60193",Outras Camas,1263.0,33582.0,2025,10
+2025-10-01,Norte,"Unidade Local de Saúde de Trás-os-Montes e Alto Douro, EPE","41.310331, -7.760103",Outras Camas,862.0,9602.0,2025,10
+2025-10-01,Alentejo,"Unidade Local de Saúde do Alentejo Central, EPE","38.568838, -7.903064",Outras Camas,791.0,6100.0,2025,10
+2025-10-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Arco Ribeirinho, EPE","38.6527214050293, -9.0",Outras Camas,1998.0,16831.0,2025,10
+2025-10-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",Outras Camas,64.0,1449.0,2025,10
+2024-11-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde da Arrábida, EPE","38.529351, -8.881073",Outras Camas,442.0,9412.0,2024,11
+2024-11-01,Centro,"Unidade Local de Saúde da Região de Leiria, EPE","39.7418, -8.79444",Outras Camas,1468.0,15405.0,2024,11
+2024-11-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Santa Maria, EPE","38.7500648498535, -9.0",Outras Camas,2025.0,34983.0,2024,11
+2024-11-01,Norte,"Unidade Local de Saúde de Santo António, EPE","41.147283, -8.619536",Outras Camas,1144.0,25236.0,2024,11
+2024-11-01,Algarve,"Unidade Local de Saúde do Algarve, EPE","37.024668, -7.928949",Outras Camas,1287.0,20184.0,2024,11
+2024-11-01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.697519, -8.832517",Outras Camas,342.0,5731.0,2024,11
+2024-11-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",Outras Camas,55.0,1552.0,2024,11
+2024-11-01,Norte,"Unidade Local de Saúde do Médio Ave, EPE","41.3422317504883, -8.0",Outras Camas,132.0,1553.0,2024,11
+2025-11-01,Norte,"Instituto Português Oncologia  F. Gentil - Porto, E.P.E.","41.1811, -8.60469",Outras Camas,841.0,14247.0,2025,11
+2025-11-01,Centro,"Unidade Local de Saúde Castelo Branco, EPE","39.822737, -7.499876",Outras Camas,166.0,3144.0,2025,11
+2025-11-01,Centro,"Unidade Local de Saúde da Região de Aveiro, EPE","40.636332, -8.654388",Outras Camas,981.0,10351.0,2025,11
+2025-11-01,Centro,"Unidade Local de Saúde de Dão-Lafões, EPE","40.6509, -7.91039",Outras Camas,442.0,10466.0,2025,11
+2025-11-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Lisboa Ocidental, EPE","38.7084, -9.21711",Outras Camas,764.0,19063.0,2025,11
+2025-11-01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.181859, -8.663374",Outras Camas,473.0,8451.0,2025,11
+2025-11-01,Centro,"Unidade Local de Saúde do Baixo Mondego, EPE","40.130297609, -8.8606",Outras Camas,398.0,3618.0,2025,11
+2025-11-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.039936, -8.731693",Outras Camas,390.0,5535.0,2025,11
+2025-11-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Médio Tejo, EPE","39.605565, -8.404399",Outras Camas,449.0,4951.0,2025,11
+2025-11-01,Norte,"Unidade Local de Saúde do Tâmega e Sousa, EPE","41.1971153671548, -8.0",Outras Camas,276.0,6773.0,2025,11
+2024-12-01,Centro,"Instituto Português Oncologia  F. Gentil - Centro, E.P.E.","40.217, -8.40991",Outras Camas,412.0,5244.0,2024,12
+2024-12-01,Centro,"Unidade Local de Saúde da Cova da Beira, EPE","40.2776794433594, -7.0",Outras Camas,455.0,6952.0,2024,12
+2024-12-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Amadora/Sintra, EPE","38.7436332060551, -9.0",Outras Camas,866.0,17611.0,2024,12
+2024-12-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Lisboa Ocidental, EPE","38.7084, -9.21711",Outras Camas,679.0,19847.0,2024,12
+2024-12-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de Santa Maria, EPE","38.7500648498535, -9.0",Outras Camas,2216.0,38352.0,2024,12
+2024-12-01,Norte,"Unidade Local de Saúde de São João, EPE","41.1833, -8.60193",Outras Camas,1565.0,40880.0,2024,12
+2024-12-01,Algarve,"Unidade Local de Saúde do Algarve, EPE","37.024668, -7.928949",Outras Camas,1417.0,22423.0,2024,12
+2024-12-01,Alentejo,"Unidade Local de Saúde do Alto Alentejo, EPE","39.2999, -7.4267",Outras Camas,283.0,4718.0,2024,12
+2024-12-01,Norte,"Unidade Local de Saúde do Alto Ave, EPE","41.488574, -8.338685",Outras Camas,928.0,10765.0,2024,12
+2025-12-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde de São José, EPE","38.7169, -9.13654",Outras Camas,1868.0,36735.0,2025,12
+2025-12-01,Norte,"Unidade Local de Saúde de Trás-os-Montes e Alto Douro, EPE","41.310331, -7.760103",Outras Camas,1064.0,11613.0,2025,12
+2025-12-01,Alentejo,"Unidade Local de Saúde do Alentejo Central, EPE","38.568838, -7.903064",Outras Camas,946.0,7527.0,2025,12
+2025-12-01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.697519, -8.832517",Outras Camas,377.0,6368.0,2025,12
+2025-12-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.0146, -7.86863",Outras Camas,76.0,1797.0,2025,12
+2025-12-01,Lisboa e Vale do Tejo,"Unidade Local de Saúde do Estuário do Tejo, EPE","38.977344, -8.984882",Outras Camas,405.0,3855.0,2025,12
+2025-12-01,Norte,"Unidade Local de Saúde do Médio Ave, EPE","41.3422317504883, -8.0",Outras Camas,157.0,1740.0,2025,12
+2015-01-01,Centro,"Centro Hospitalar Universitário Cova da Beira, EPE","40.2804158, -7.4922407",Especialidade Cirurgica,352.0,2626.0,2015,1
+2015-01-01,Centro,"Centro Hospitalar do Baixo Vouga, EPE","40.6362453, -8.6543716",Especialidade Cirurgica,651.0,3958.0,2015,1
+2015-01-01,Centro,"Unidade Local de Saúde de Castelo Branco, EPE","39.8212263, -7.4981271",Especialidade Cirurgica,265.0,1941.0,2015,1
+2015-01-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, EPE","38.7166948, -9.1371248",Especialidade Cirurgica,2290.0,16871.0,2015,1
+2015-01-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, EPE","38.7396768, -9.1634516",Especialidade Cirurgica,437.0,2733.0,2015,1
+2015-01-01,Norte,"Centro Hospitalar Universitário do Porto, EPE","41.1472498, -8.6172617",Especialidade Cirurgica,1739.0,8640.0,2015,1
+2015-01-01,Norte,"Hospital da Senhora da Oliveira, Guimarães, EPE","41.4387173, -8.3086907",Especialidade Cirurgica,838.0,5018.0,2015,1
+2015-02-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.014123, -7.8721227",Especialidade Cirurgica,698.0,3844.0,2015,2
+2015-02-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.0162314, -8.6956768",Especialidade Cirurgica,372.0,2065.0,2015,2
+2015-02-01,Centro,"Centro Hospitalar de Leiria, EPE","39.7414812, -8.7982706",Especialidade Cirurgica,1506.0,8509.0,2015,2
+2015-02-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Setúbal, EPE","38.5283754, -8.8818638",Especialidade Cirurgica,1051.0,6757.0,2015,2
+2015-02-01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, EPE","39.4054629, -9.1258493",Especialidade Cirurgica,1105.0,6578.0,2015,2
+2015-02-01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, EPE","39.2410946, -8.6937515",Especialidade Cirurgica,946.0,7326.0,2015,2
+2015-02-01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, EPE","38.7422257, -9.2264834",Especialidade Cirurgica,1749.0,13295.0,2015,2
+2015-02-01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, EPE","41.3828711, -8.7589945",Especialidade Cirurgica,657.0,3131.0,2015,2
+2015-02-01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, EPE","41.1094138, -8.5972617",Especialidade Cirurgica,2008.0,12551.0,2015,2
+2015-02-01,Norte,"Hospital da Senhora da Oliveira, Guimarães, EPE","41.4387173, -8.3086907",Especialidade Cirurgica,1625.0,9792.0,2015,2
+2015-03-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.0162314, -8.6956768",Especialidade Cirurgica,577.0,3239.0,2015,3
+2015-03-01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, EPE","38.6554005, -9.0592392",Especialidade Cirurgica,1413.0,8800.0,2015,3
+2015-03-01,Lisboa e Vale do Tejo,"Hospital de Vila Franca de Xira, PPP","38.977235, -8.984506",Especialidade Cirurgica,1572.0,7944.0,2015,3
+2015-03-01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, EPE","39.2410946, -8.6937515",Especialidade Cirurgica,1490.0,11744.0,2015,3
+2015-04-01,Algarve,"Centro Hospitalar Universitário do Algarve,EPE","37.0238973, -7.9281554",Especialidade Cirurgica,4563.0,33698.0,2015,4
+2015-04-01,Centro,"Centro Hospitalar Universitário Cova da Beira, EPE","40.2804158, -7.4922407",Especialidade Cirurgica,1437.0,10385.0,2015,4
+2015-04-01,Centro,"Centro Hospitalar Tondela-Viseu, EPE","40.516364, -8.0827433",Especialidade Cirurgica,3352.0,24144.0,2015,4
+2015-04-01,Lisboa e Vale do Tejo,"Hospital de Vila Franca de Xira, PPP","38.977235, -8.984506",Especialidade Cirurgica,2101.0,10741.0,2015,4
+2015-04-01,Norte,"Centro Hospitalar do Médio Ave, EPE","41.3423984, -8.4802503",Especialidade Cirurgica,2315.0,13369.0,2015,4
+2015-04-01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.7056054, -8.8252713",Especialidade Cirurgica,3088.0,18208.0,2015,4
+2015-05-01,Alentejo,"Unidade Local de Saúde do Norte Alentejano, EPE","39.3003425, -7.4263845",Especialidade Cirurgica,1593.0,11291.0,2015,5
+2015-05-01,Centro,"Hospital Distrital da Figueira da Foz, EPE","40.117897, -8.8586755",Especialidade Cirurgica,1141.0,7160.0,2015,5
+2015-05-01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, EPE","39.4054629, -9.1258493",Especialidade Cirurgica,2783.0,16968.0,2015,5
+2015-05-01,Lisboa e Vale do Tejo,"Hospital de Loures, PPP","38.821455, -9.176296",Especialidade Cirurgica,3513.0,20365.0,2015,5
+2015-05-01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, EPE","39.2410946, -8.6937515",Especialidade Cirurgica,2553.0,19464.0,2015,5
+2015-05-01,Norte,"Centro Hospitalar do Médio Ave, EPE","41.3423984, -8.4802503",Especialidade Cirurgica,2916.0,16568.0,2015,5
+2015-05-01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, EPE","41.1094138, -8.5972617",Especialidade Cirurgica,5415.0,33386.0,2015,5
+2015-05-01,Norte,"Hospital da Senhora da Oliveira, Guimarães, EPE","41.4387173, -8.3086907",Especialidade Cirurgica,4392.0,27470.0,2015,5
+2015-05-01,Norte,"Instituto Português Oncologia do Porto, EPE","41.1785642, -8.6062881",Especialidade Cirurgica,2718.0,21130.0,2015,5
+2015-05-01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.7056054, -8.8252713",Especialidade Cirurgica,3875.0,22901.0,2015,5
+2015-06-01,Alentejo,"Hospital Espírito Santo de Évora, EPE","38.5684861, -7.9032848",Especialidade Cirurgica,3079.0,19699.0,2015,6
+2015-06-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, EPE","38.7166948, -9.1371248",Especialidade Cirurgica,13254.0,95934.0,2015,6
+2015-06-01,Norte,"Hospital Santa Maria Maior, EPE","41.5324234, -8.6171561",Especialidade Cirurgica,880.0,5451.0,2015,6
+2015-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, EPE","38.6554005, -9.0592392",Especialidade Cirurgica,3177.0,19308.0,2015,7
+2015-07-01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, EPE","39.4054629, -9.1258493",Especialidade Cirurgica,3830.0,24000.0,2015,7
+2015-07-01,Lisboa e Vale do Tejo,"Hospital Garcia de Orta, EPE","38.6658713, -9.1822554",Especialidade Cirurgica,6334.0,36406.0,2015,7
+2015-07-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, EPE","38.7396768, -9.1634516",Especialidade Cirurgica,3117.0,19229.0,2015,7
+2015-07-01,Norte,"Centro Hospitalar Trás-os-Montes e Alto Douro, EPE","41.3031784, -7.7515252",Especialidade Cirurgica,5350.0,32646.0,2015,7
+2015-07-01,Norte,"Hospital de Braga, PPP","41.56785, -8.398982",Especialidade Cirurgica,9376.0,56615.0,2015,7
+2015-08-01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309916, -7.2734793",Especialidade Cirurgica,2662.0,18862.0,2015,8
+2015-08-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, EPE","38.708454, -9.216985",Especialidade Cirurgica,8527.0,66693.0,2015,8
+2015-08-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Setúbal, EPE","38.5283754, -8.8818638",Especialidade Cirurgica,4281.0,27401.0,2015,8
+2015-08-01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, EPE","39.2410946, -8.6937515",Especialidade Cirurgica,4177.0,31479.0,2015,8
+2015-08-01,Norte,"Centro Hospitalar Universitário de São João, EPE","41.1831056, -8.6010558",Especialidade Cirurgica,16937.0,106143.0,2015,8
+2015-08-01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, EPE","41.3828711, -8.7589945",Especialidade Cirurgica,2886.0,13381.0,2015,8
+2015-09-01,Alentejo,"Hospital Espírito Santo de Évora, EPE","38.5684861, -7.9032848",Especialidade Cirurgica,4564.0,29241.0,2015,9
+2015-09-01,Centro,"Centro Hospitalar e Universitário de Coimbra, EPE","40.2191523, -8.4098211",Especialidade Cirurgica,25422.0,180488.0,2015,9
+2015-09-01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, EPE","38.6554005, -9.0592392",Especialidade Cirurgica,4008.0,24042.0,2015,9
+2015-09-01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, EPE","39.2410946, -8.6937515",Especialidade Cirurgica,4682.0,35491.0,2015,9
+2015-09-01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, EPE","41.3828711, -8.7589945",Especialidade Cirurgica,3297.0,14849.0,2015,9
+2015-09-01,Norte,"Centro Hospitalar Vila Nova de Gaia/Espinho, EPE","41.1094138, -8.5972617",Especialidade Cirurgica,9797.0,59719.0,2015,9
+2015-09-01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.7056054, -8.8252713",Especialidade Cirurgica,6758.0,40521.0,2015,9
+2015-09-01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.8056532, -6.7888197",Especialidade Cirurgica,4096.0,24797.0,2015,9
+2015-10-01,Alentejo,"Hospital Espírito Santo de Évora, EPE","38.5684861, -7.9032848",Especialidade Cirurgica,5059.0,32209.0,2015,10
+2015-10-01,Alentejo,"Unidade Local de Saúde do Litoral Alentejano, EPE","38.0162314, -8.6956768",Especialidade Cirurgica,1837.0,10110.0,2015,10
+2015-10-01,Alentejo,"Unidade Local de Saúde do Norte Alentejano, EPE","39.3003425, -7.4263845",Especialidade Cirurgica,3204.0,22761.0,2015,10
+2015-10-01,Centro,"Centro Hospitalar de Leiria, EPE","39.7414812, -8.7982706",Especialidade Cirurgica,8819.0,47325.0,2015,10
+2015-10-01,Centro,"Centro Hospitalar do Baixo Vouga, EPE","40.6362453, -8.6543716",Especialidade Cirurgica,6933.0,40168.0,2015,10
+2015-10-01,Centro,"Centro Hospitalar e Universitário de Coimbra, EPE","40.2191523, -8.4098211",Especialidade Cirurgica,28574.0,201336.0,2015,10
+2015-10-01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309916, -7.2734793",Especialidade Cirurgica,3330.0,23273.0,2015,10
+2015-10-01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, EPE","38.6554005, -9.0592392",Especialidade Cirurgica,4474.0,26826.0,2015,10
+2015-10-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário Lisboa Central, EPE","38.7166948, -9.1371248",Especialidade Cirurgica,21866.0,157587.0,2015,10
+2015-10-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Setúbal, EPE","38.5283754, -8.8818638",Especialidade Cirurgica,5502.0,34562.0,2015,10
+2015-10-01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, EPE","39.2410946, -8.6937515",Especialidade Cirurgica,5264.0,39878.0,2015,10
+2015-10-01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, EPE","38.7422257, -9.2264834",Especialidade Cirurgica,10762.0,70162.0,2015,10
+2015-10-01,Lisboa e Vale do Tejo,"Hospital Garcia de Orta, EPE","38.6658713, -9.1822554",Especialidade Cirurgica,9197.0,53618.0,2015,10
+2015-10-01,Norte,"Instituto Português Oncologia do Porto, EPE","41.1785642, -8.6062881",Especialidade Cirurgica,5275.0,41763.0,2015,10
+2015-11-01,Centro,"Centro Hospitalar e Universitário de Coimbra, EPE","40.2191523, -8.4098211",Especialidade Cirurgica,31589.0,221746.0,2015,11
+2015-11-01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, EPE","39.2410946, -8.6937515",Especialidade Cirurgica,5817.0,43854.0,2015,11
+2015-11-01,Norte,"Centro Hospitalar do Médio Ave, EPE","41.3423984, -8.4802503",Especialidade Cirurgica,6266.0,34934.0,2015,11
+2015-11-01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, EPE","41.3828711, -8.7589945",Especialidade Cirurgica,4174.0,18395.0,2015,11
+2015-11-01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.1794456, -8.6745115",Especialidade Cirurgica,8311.0,46850.0,2015,11
+2015-12-01,Centro,"Centro Hospitalar Universitário Cova da Beira, EPE","40.2804158, -7.4922407",Especialidade Cirurgica,4301.0,28617.0,2015,12
+2015-12-01,Centro,"Centro Hospitalar Tondela-Viseu, EPE","40.516364, -8.0827433",Especialidade Cirurgica,11056.0,78251.0,2015,12
+2015-12-01,Centro,"Instituto Português Oncologia de Coimbra, EPE","40.2162514, -8.4103814",Especialidade Cirurgica,4057.0,26977.0,2015,12
+2015-12-01,Centro,"Unidade Local de Saúde de Castelo Branco, EPE","39.8212263, -7.4981271",Especialidade Cirurgica,3923.0,26181.0,2015,12
+2015-12-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Setúbal, EPE","38.5283754, -8.8818638",Especialidade Cirurgica,6678.0,41344.0,2015,12
+2015-12-01,Lisboa e Vale do Tejo,"Hospital de Loures, PPP","38.821455, -9.176296",Especialidade Cirurgica,8672.0,48032.0,2015,12
+2015-12-01,Lisboa e Vale do Tejo,"Hospital de Vila Franca de Xira, PPP","38.977235, -8.984506",Especialidade Cirurgica,6524.0,36421.0,2015,12
+2015-12-01,Norte,"Centro Hospitalar Universitário do Porto, EPE","41.1472498, -8.6172617",Especialidade Cirurgica,19797.0,105296.0,2015,12
+2015-12-01,Norte,"Instituto Português Oncologia do Porto, EPE","41.1785642, -8.6062881",Especialidade Cirurgica,6440.0,50315.0,2015,12
+2015-12-01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.7056054, -8.8252713",Especialidade Cirurgica,9259.0,54817.0,2015,12
+2015-12-01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.8056532, -6.7888197",Especialidade Cirurgica,5496.0,33765.0,2015,12
+2016-01-01,Centro,"Centro Hospitalar Universitário Cova da Beira, EPE","40.2804158, -7.4922407",Especialidade Cirurgica,332.0,2516.0,2016,1
+2016-01-01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, EPE","38.6554005, -9.0592392",Especialidade Cirurgica,408.0,2390.0,2016,1
+2016-01-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Lisboa Ocidental, EPE","38.708454, -9.216985",Especialidade Cirurgica,1080.0,8060.0,2016,1
+2016-01-01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, EPE","39.4054629, -9.1258493",Especialidade Cirurgica,516.0,3468.0,2016,1
+2016-01-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, EPE","38.7500861, -9.1616116",Especialidade Cirurgica,1497.0,9178.0,2016,1
+2016-01-01,Lisboa e Vale do Tejo,"Hospital de Loures, PPP","38.821455, -9.176296",Especialidade Cirurgica,699.0,3851.0,2016,1
+2016-01-01,Lisboa e Vale do Tejo,"Hospital Distrital de Santarém, EPE","39.2410946, -8.6937515",Especialidade Cirurgica,506.0,3789.0,2016,1
+2016-01-01,Lisboa e Vale do Tejo,"Instituto Português Oncologia de Lisboa, EPE","38.7396768, -9.1634516",Especialidade Cirurgica,417.0,2492.0,2016,1
+2016-01-01,Norte,"Centro Hospitalar Universitário de São João, EPE","41.1831056, -8.6010558",Especialidade Cirurgica,2041.0,13487.0,2016,1
+2016-01-01,Norte,"Centro Hospitalar Entre Douro e Vouga, EPE","40.9293884, -8.5458794",Especialidade Cirurgica,929.0,4158.0,2016,1
+2016-01-01,Norte,"Centro Hospitalar Póvoa de Varzim/Vila do Conde, EPE","41.3828711, -8.7589945",Especialidade Cirurgica,329.0,1472.0,2016,1
+2016-01-01,Norte,"Unidade Local de Saúde de Matosinhos, EPE","41.1794456, -8.6745115",Especialidade Cirurgica,716.0,3920.0,2016,1
+2016-01-01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.7056054, -8.8252713",Especialidade Cirurgica,766.0,4653.0,2016,1
+2016-01-01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.8056532, -6.7888197",Especialidade Cirurgica,412.0,2932.0,2016,1
+2016-02-01,Alentejo,"Hospital Espírito Santo de Évora, EPE","38.5684861, -7.9032848",Especialidade Cirurgica,1010.0,6150.0,2016,2
+2016-02-01,Lisboa e Vale do Tejo,"Centro Hospitalar Barreiro/Montijo, EPE","38.6554005, -9.0592392",Especialidade Cirurgica,822.0,4780.0,2016,2
+2016-02-01,Lisboa e Vale do Tejo,"Centro Hospitalar de Setúbal, EPE","38.5283754, -8.8818638",Especialidade Cirurgica,1017.0,6643.0,2016,2
+2016-02-01,Lisboa e Vale do Tejo,"Hospital de Loures, PPP","38.821455, -9.176296",Especialidade Cirurgica,1401.0,7058.0,2016,2
+2016-02-01,Lisboa e Vale do Tejo,"Hospital Professor Doutor Fernando Fonseca, EPE","38.7422257, -9.2264834",Especialidade Cirurgica,2027.0,13320.0,2016,2
+2016-02-01,Norte,"Hospital Santa Maria Maior, EPE","41.5324234, -8.6171561",Especialidade Cirurgica,321.0,2261.0,2016,2
+2016-02-01,Norte,"Unidade Local de Saúde do Alto Minho, EPE","41.7056054, -8.8252713",Especialidade Cirurgica,1540.0,9267.0,2016,2
+2016-03-01,Alentejo,"Unidade Local de Saúde do Norte Alentejano, EPE","39.3003425, -7.4263845",Especialidade Cirurgica,899.0,7208.0,2016,3
+2016-03-01,Centro,"Unidade Local de Saúde da Guarda, EPE","40.5309916, -7.2734793",Especialidade Cirurgica,1011.0,6786.0,2016,3
+2016-03-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, EPE","38.7500861, -9.1616116",Especialidade Cirurgica,4518.0,27094.0,2016,3
+2016-03-01,Norte,"Centro Hospitalar Universitário do Porto, EPE","41.1472498, -8.6172617",Especialidade Cirurgica,4931.0,26357.0,2016,3
+2016-04-01,Centro,"Unidade Local de Saúde de Castelo Branco, EPE","39.8212263, -7.4981271",Especialidade Cirurgica,1305.0,9077.0,2016,4
+2016-04-01,Lisboa e Vale do Tejo,"Centro Hospitalar do Oeste, EPE","39.4054629, -9.1258493",Especialidade Cirurgica,2097.0,14168.0,2016,4
+2016-04-01,Lisboa e Vale do Tejo,"Centro Hospitalar Universitário de Lisboa Norte, EPE","38.7500861, -9.1616116",Especialidade Cirurgica,6051.0,36050.0,2016,4
+2016-04-01,Norte,"Instituto Português Oncologia do Porto, EPE","41.1785642, -8.6062881",Especialidade Cirurgica,2162.0,17176.0,2016,4
+2016-04-01,Norte,"Unidade Local de Saúde do Nordeste, EPE","41.8056532, -6.7888197",Especialidade Cirurgica,1797.0,11742.0,2016,4
+2016-05-01,Alentejo,"Unidade Local de Saúde do Baixo Alentejo, EPE","38.014123, -7.8721227",Especialidade Cirurgica,1777.0,10920.0,2016,5
+2016-05-01,Algarve,"Centro Hospitalar Universitário do Algarve,EPE","37.0238973, -7.9281554",Especialidade Cirurgica,5546.0,42400.0,2016,5
+2016-05-01,Centro,"Centro Hospitalar Universitário Cova da Beira, EPE","40.2804158, -7.4922407",Especialidade Cirurgica,1873.0,11695.0,2016,5
+2016-05-01,Região de Saúde do,,,,,,2016,5

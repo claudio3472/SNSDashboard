@@ -41,7 +41,6 @@ A dashboard foi concebida para responder a um conjunto conciso de questões anal
 
 | Categoria | Dataset | Perguntas que Ajuda a Responder | Utilizadores Beneficiados |
 |----------|---------|----------------------------------|----------------------------|
-| **Finanças** | dados-financeiros | Evolução da despesa hospitalar; relação entre despesa e produtividade | Gestores Hospitalares; Decisores |
 | **Finanças** | agregados-economico-financeiros | Composição da despesa; análise de eficiência financeira | Gestores Hospitalares; Analistas |
 | **Finanças** | conta-do-servico-nacional-de-saude | Tendências gerais de despesa e orçamento | Decisores; Analistas |
 | **Finanças** | divida-total-vencida-e-pagamentos | Identificação das causas de aumento da dívida | Gestores; Decisores |

@@ -6,7 +6,7 @@ def create_master_dataset():
     root_dir = os.path.dirname(src_dir)
     data_dir = os.path.join(root_dir, "data", "processed")
     
-    target_datasets = ['dados_financeiros', 'atendimento_urgencia', 'internamento_hospitalar', 'cirurgias', 'consultas']
+    target_datasets = ['dados_financeiros', 'atendimento_urgencia', 'internamento_hospitalar', 'cirurgias', 'consultas', 'divida', 'contas_sns', 'medicamento_hospitalar', 'trabalhadores_grupo_profissional', 'utentes_cuidados_primarios', 'trabalhadores_modalidade', 'acesso_consultas', 'cirurgias_ambulatorio']
     master_df = None
 
     print(f"Reading datasets from {data_dir}...\n")

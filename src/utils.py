@@ -417,11 +417,6 @@ def standardize_all_datasets(datasets_list: list[tuple[str, pd.DataFrame]]) -> N
         # ============================================================
         "Hospital de Cascais": "Hospital de Cascais",
         "Hospital José Luciano de Castro - Anadia": "Hospital José Luciano de Castro - Anadia",
-        "Centro Hospitalar Universitário do Algarve": "Centro Hospitalar Universitário do Algarve",
-        "Centro Hospitalar Tondela-Viseu": "Centro Hospitalar Tondela-Viseu",
-        "Centro Hospitalar Universitário Cova da Beira": "Centro Hospitalar Universitário Cova da Beira",
-        "Centro Hospitalar de Leiria": "Centro Hospitalar de Leiria",
-        "Centro Hospitalar do Baixo Vouga": "Centro Hospitalar do Baixo Vouga",
 
         # ============================================================
         # 10) HOTFIXES FINAIS — ULS Castelo Branco (artigo/esp./NBSP)

@@ -426,45 +426,6 @@ def standardize_all_datasets(datasets_list: list[tuple[str, pd.DataFrame]]) -> N
         "Unidade Local de Saúde\u00A0Castelo Branco": "Unidade Local de Saúde de Castelo Branco",  # NBSP entre palavras
 
         # ============================================================
-        # 11) NOVAS ENTRADAS — “Área dos CSP da ULS …” → ULS
-        # ============================================================
-        "Área dos CSP da ULS Cova da Beira": "Unidade Local de Saúde da Cova da Beira",
-        "Área dos CSP da ULS Guarda": "Unidade Local de Saúde da Guarda",
-        "Área dos CSP da ULS Região de Aveiro": "Unidade Local de Saúde da Região de Aveiro",
-        "Área dos CSP da ULS Viseu Dão-Lafões": "Unidade Local de Saúde de Viseu Dão-Lafões",
-        "Área dos CSP da ULS Almada / Seixal": "Unidade Local de Saúde de Almada-Seixal",
-        "Área dos CSP da ULS Arco Ribeirinho": "Unidade Local de Saúde do Arco Ribeirinho",
-        "Área dos CSP da ULS Arrábida": "Unidade Local de Saúde da Arrábida",
-        "Área dos CSP da ULS Estuário do Tejo": "Unidade Local de Saúde do Estuário do Tejo",
-        "Área dos CSP da ULS Lezíria": "Unidade Local de Saúde da Lezíria",
-        "Área dos CSP da ULS Barcelos / Esposende": "Unidade Local de Saúde de Barcelos/Esposende",
-        "Área dos CSP da ULS Matosinhos": "Unidade Local de Saúde de Matosinhos",
-        "Área dos CSP da ULS Nordeste": "Unidade Local de Saúde do Nordeste",
-        "Área dos CSP da ULS Póvoa Varzim / Vila Conde": "Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde",
-        "Área dos CSP da ULS Alto Minho": "Unidade Local de Saúde do Alto Minho",
-        "Área dos CSP da ULS Baixo Mondego": "Unidade Local de Saúde do Baixo Mondego",
-        "Área dos CSP da ULS Castelo Branco": "Unidade Local de Saúde de Castelo Branco",
-        "Área dos CSP da ULS Coimbra": "Unidade Local de Saúde de Coimbra",
-        "Área dos CSP da ULS Região de Leiria": "Unidade Local de Saúde da Região de Leiria",
-        "Área dos CSP da ULS Amadora / Sintra": "Unidade Local de Saúde de Amadora/Sintra",
-        "Área dos CSP da ULS Lisboa Ocidental": "Unidade Local de Saúde de Lisboa Ocidental",
-        "Área dos CSP da ULS Loures / Odivelas": "Unidade Local de Saúde de Loures-Odivelas",
-        "Área dos CSP da ULS Médio Tejo": "Unidade Local de Saúde do Médio Tejo",
-        "Área dos CSP da ULS Oeste": "Unidade Local de Saúde do Oeste",
-        "Área dos CSP da ULS Santa Maria": "Unidade Local de Saúde de Santa Maria",
-        "Área dos CSP da ULS São José": "Unidade Local de Saúde de São José",
-        "Área dos CSP da ULS Santo António": "Unidade Local de Saúde de Santo António",
-        "Área dos CSP da ULS São João": "Unidade Local de Saúde de São João",
-        "Área dos CSP da ULS Trás-os-Montes Alto Douro": "Unidade Local de Saúde de Trás-os-Montes e Alto Douro",
-        "Área dos CSP da ULS Tâmega e Sousa": "Unidade Local de Saúde do Tâmega e Sousa",
-        "Área dos CSP da ULS Alto Ave": "Unidade Local de Saúde do Alto Ave",
-        "Área dos CSP da ULS Braga": "Unidade Local de Saúde de Braga",
-        "Área dos CSP da ULS Entre Douro e Vouga": "Unidade Local de Saúde de Entre Douro e Vouga",
-        "Área dos CSP da ULS Gaia / Espinho": "Unidade Local de Saúde de Vila Nova de Gaia/Espinho",
-        "Área dos CSP da ULS Médio Ave": "Unidade Local de Saúde do Médio Ave",
-        "Área dos CSP da ULS Algarve": "Unidade Local de Saúde do Algarve",
-
-        # ============================================================
         # 12) NOVAS ENTRADAS — “ACES …” → ULS
         # ============================================================
         # Algarve

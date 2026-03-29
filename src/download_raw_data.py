@@ -3,7 +3,7 @@ from utils import load_sns_dataset
 
 if __name__ == "__main__":
     print("Downloading datasets to data/raw...")
-    
+
     datasets_info = [
         ("dados_financeiros", "agregados-economico-financeiros"),
         ("medicamento_hospitalar", "despesa-com-medicamentos-nos-hospitais-do-sns"),

@@ -48,7 +48,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2025-03-01,Norte,Unidade Local de Saúde do Nordeste,"41.802452, -6.768198",718,820,2025,3
 2024-04-01,Norte,Instituto Português de Oncologia do Porto F. G.,"41.1811, -8.60469",168,535,2024,4
 2024-04-01,Centro,Unidade Local de Saúde da Guarda,"40.5309943471486, -7.0",240,282,2024,4
-2024-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821769, -9.176301",1089,1275,2024,4
+2024-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821769, -9.176301",1089,1275,2024,4
 2024-04-01,Norte,Unidade Local de Saúde de Matosinhos,"41.181859, -8.663374",2206,2378,2024,4
 2024-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500648498535, -9.0",2456,2820,2024,4
 2024-04-01,Norte,Unidade Local de Saúde de Santo António,"41.147283, -8.619536",4155,4676,2024,4
@@ -60,7 +60,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2025-04-01,Centro,Unidade Local de Saúde da Guarda,"40.5309943471486, -7.0",244,284,2025,4
 2025-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.232503, -8.715083",818,871,2025,4
 2025-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Almada-Seixal,"38.67381, -9.17597",1625,1720,2025,4
-2025-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821769, -9.176301",1211,1385,2025,4
+2025-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821769, -9.176301",1211,1385,2025,4
 2025-04-01,Norte,Unidade Local de Saúde do Alto Minho,"41.697519, -8.832517",1875,2108,2025,4
 2025-04-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.0146, -7.86863",467,559,2025,4
 2025-04-01,Norte,Unidade Local de Saúde do Nordeste,"41.802452, -6.768198",953,1096,2025,4
@@ -94,7 +94,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2025-06-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7418, -8.79444",3432,3564,2025,6
 2025-06-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.533438, -8.616604",1648,1671,2025,6
 2025-06-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.6509, -7.91039",2796,2932,2025,6
-2025-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821769, -9.176301",1783,2035,2025,6
+2025-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821769, -9.176301",1783,2035,2025,6
 2025-06-01,Algarve,Unidade Local de Saúde do Algarve,"37.024668, -7.928949",1444,1716,2025,6
 2025-06-01,Norte,Unidade Local de Saúde do Alto Ave,"41.488574, -8.338685",2790,3320,2025,6
 2025-06-01,Norte,Unidade Local de Saúde do Médio Ave,"41.3422317504883, -8.0",1293,1535,2025,6
@@ -113,7 +113,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2025-07-01,Centro,Unidade Local de Saúde de Castelo Branco,"39.822737, -7.499876",731,881,2025,7
 2025-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Almada-Seixal,"38.67381, -9.17597",2844,3022,2025,7
 2025-07-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.6509, -7.91039",3285,3445,2025,7
-2025-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821769, -9.176301",2068,2369,2025,7
+2025-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821769, -9.176301",2068,2369,2025,7
 2025-07-01,Norte,Unidade Local de Saúde de Trás-os-Montes e Alto Douro,"41.310331, -7.760103",3972,4507,2025,7
 2025-07-01,Norte,Unidade Local de Saúde de Vila Nova de Gaia/Espinho,"41.1254463195801, -8.0",4546,5343,2025,7
 2025-07-01,Norte,Unidade Local de Saúde do Alto Minho,"41.697519, -8.832517",3354,3767,2025,7
@@ -205,7 +205,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2024-01-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.533438, -8.616604",260,261,2024,1
 2024-01-01,Norte,Unidade Local de Saúde de Braga,"41.562328338623, -8.3",641,698,2024,1
 2024-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.7084, -9.21711",427,523,2024,1
-2024-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821769, -9.176301",266,300,2024,1
+2024-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821769, -9.176301",266,300,2024,1
 2024-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500648498535, -9.0",598,677,2024,1
 2024-01-01,Norte,Unidade Local de Saúde de Santo António,"41.147283, -8.619536",1053,1173,2024,1
 2024-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7169, -9.13654",422,461,2024,1
@@ -218,7 +218,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2025-01-01,Norte,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,"41.383183, -8.758784",104,148,2025,1
 2025-01-01,Centro,Unidade Local de Saúde de Coimbra,"40.217426, -8.410075",1047,1179,2025,1
 2025-01-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9295, -8.54567",607,666,2025,1
-2025-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821769, -9.176301",336,372,2025,1
+2025-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821769, -9.176301",336,372,2025,1
 2025-01-01,Norte,Unidade Local de Saúde de Vila Nova de Gaia/Espinho,"41.1254463195801, -8.0",783,916,2025,1
 2025-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6527214050293, -9.0",193,216,2025,1
 2025-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977344, -8.984882",0,0,2025,1
@@ -299,7 +299,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2024-05-01,Norte,Unidade Local de Saúde do Nordeste,"41.802452, -6.768198",1334,1614,2024,5
 2025-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.232503, -8.715083",1039,1114,2025,5
 2025-05-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9295, -8.54567",3083,3431,2025,5
-2025-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821769, -9.176301",1494,1709,2025,5
+2025-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821769, -9.176301",1494,1709,2025,5
 2025-05-01,Norte,Unidade Local de Saúde de Matosinhos,"41.181859, -8.663374",955,962,2025,5
 2025-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500648498535, -9.0",3613,4006,2025,5
 2025-05-01,Norte,Unidade Local de Saúde de Santo António,"41.147283, -8.619536",4956,5491,2025,5
@@ -316,7 +316,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2024-06-01,Norte,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,"41.383183, -8.758784",708,1024,2024,6
 2024-06-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.533438, -8.616604",1377,1412,2024,6
 2024-06-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9295, -8.54567",3386,3808,2024,6
-2024-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821769, -9.176301",1667,1947,2024,6
+2024-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821769, -9.176301",1667,1947,2024,6
 2024-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7169, -9.13654",4416,4715,2024,6
 2024-06-01,Norte,Unidade Local de Saúde de Vila Nova de Gaia/Espinho,"41.1254463195801, -8.0",4587,5368,2024,6
 2024-06-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.568838, -7.903064",1596,1817,2024,6
@@ -353,7 +353,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2025-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4055519104004, -9.0",2355,2503,2025,7
 2024-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.232503, -8.715083",1624,1901,2024,8
 2024-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.7084, -9.21711",3014,3594,2024,8
-2024-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821769, -9.176301",2232,2587,2024,8
+2024-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821769, -9.176301",2232,2587,2024,8
 2024-08-01,Norte,Unidade Local de Saúde de Matosinhos,"41.181859, -8.663374",3879,4197,2024,8
 2024-08-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.568838, -7.903064",2006,2292,2024,8
 2024-08-01,Algarve,Unidade Local de Saúde do Algarve,"37.024668, -7.928949",3398,3910,2024,8
@@ -384,7 +384,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2024-10-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.6509, -7.91039",4462,4808,2024,10
 2024-10-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9295, -8.54567",5559,6225,2024,10
 2024-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.7084, -9.21711",3723,4423,2024,10
-2024-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821769, -9.176301",2771,3219,2024,10
+2024-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821769, -9.176301",2771,3219,2024,10
 2024-10-01,Norte,Unidade Local de Saúde de Trás-os-Montes e Alto Douro,"41.310331, -7.760103",5621,6315,2024,10
 2024-10-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.0146, -7.86863",1250,1544,2024,10
 2025-10-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.730076, -9.418207",5381,5600,2025,10
@@ -437,7 +437,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2016-01-01,Norte,Unidade Local de Saúde de Santo António,"41.1764649, -8.6649823",0,0,2016,1
 2016-01-01,Norte,Instituto Português de Oncologia do Porto F. G.,"41.1785642, -8.6062881",107,128,2016,1
 2016-02-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",206,254,2016,2
-2016-02-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",302,360,2016,2
+2016-02-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",302,360,2016,2
 2016-02-01,Centro,Instituto Português de Oncologia de Coimbra F. G.,"40.2162514, -8.4103814",10,66,2016,2
 2016-02-01,Centro,Unidade Local de Saúde da Guarda,"40.5309916, -7.2734793",288,363,2016,2
 2016-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Arrábida,"38.5283754, -8.8818638",467,561,2016,2
@@ -454,11 +454,11 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2016-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Arrábida,"38.5283754, -8.8818638",755,898,2016,3
 2016-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",326,436,2016,3
 2016-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",590,754,2016,3
-2016-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",904,1095,2016,3
+2016-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",904,1095,2016,3
 2016-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",1171,1494,2016,3
 2016-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",719,719,2016,3
 2016-03-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",389,480,2016,3
-2016-04-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",622,745,2016,4
+2016-04-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",622,745,2016,4
 2016-04-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.516364, -8.0827433",1843,2027,2016,4
 2016-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500861, -9.1616116",1746,2341,2016,4
 2016-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7569771, -9.1460705",0,0,2016,4
@@ -488,14 +488,14 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2016-06-01,Norte,Unidade Local de Saúde do Alto Ave,"41.4387173, -8.3086907",1514,2082,2016,6
 2016-06-01,Norte,Unidade Local de Saúde de Santo António,"41.1764649, -8.6649823",0,0,2016,6
 2016-06-01,Norte,Unidade Local de Saúde do Alto Minho,"41.7056054, -8.8252713",2195,2650,2016,6
-2016-07-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",959,1169,2016,7
+2016-07-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",959,1169,2016,7
 2016-07-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",1375,1725,2016,7
 2016-07-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",5580,7135,2016,7
 2016-07-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.516364, -8.0827433",3252,3600,2016,7
 2016-07-01,Centro,Instituto Português de Oncologia de Coimbra F. G.,"40.2162514, -8.4103814",44,228,2016,7
 2016-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Arrábida,"38.5283754, -8.8818638",1768,2108,2016,7
 2016-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500861, -9.1616116",2892,3875,2016,7
-2016-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2211,2620,2016,7
+2016-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2211,2620,2016,7
 2016-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.2410946, -8.6937515",1242,1358,2016,7
 2016-07-01,Norte,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,"41.3828711, -8.7589945",676,1046,2016,7
 2016-07-01,Norte,Unidade Local de Saúde do Alto Ave,"41.4387173, -8.3086907",1742,2417,2016,7
@@ -507,7 +507,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2016-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Arrábida,"38.5283754, -8.8818638",1985,2358,2016,8
 2016-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500861, -9.1616116",3173,4246,2016,8
 2016-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",1650,2135,2016,8
-2016-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2523,2997,2016,8
+2016-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2523,2997,2016,8
 2016-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",2146,2692,2016,8
 2016-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.2410946, -8.6937515",1382,1508,2016,8
 2016-08-01,Norte,Unidade Local de Saúde de Santo António,"41.1472498, -8.6172617",5072,6423,2016,8
@@ -519,7 +519,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2016-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500861, -9.1616116",3624,4815,2016,9
 2016-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",1929,2467,2016,9
 2016-09-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",2158,2444,2016,9
-2016-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2806,3356,2016,9
+2016-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2806,3356,2016,9
 2016-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",2463,3076,2016,9
 2016-09-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9293884, -8.5458794",3454,4388,2016,9
 2016-10-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",2008,2549,2016,10
@@ -534,14 +534,14 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2016-11-01,Centro,Unidade Local de Saúde de Coimbra,"40.297919, -8.7707806",0,0,2016,11
 2016-11-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.8571967, -8.6318023",697,772,2016,11
 2016-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7166948, -9.1371248",7196,8453,2016,11
-2016-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",3429,4107,2016,11
+2016-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",3429,4107,2016,11
 2016-11-01,Lisboa e Vale do Tejo,Instituto Português de Oncologia de Lisboa F. G.,"38.7396768, -9.1634516",766,1093,2016,11
 2016-11-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",4887,6772,2016,11
 2016-11-01,Norte,Unidade Local de Saúde do Alto Minho,"41.7056054, -8.8252713",4580,5382,2016,11
 2016-11-01,Norte,Unidade Local de Saúde do Nordeste,"41.8056532, -6.7888197",1990,2402,2016,11
 2016-12-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",2097,2872,2016,12
 2016-12-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",1258,1512,2016,12
-2016-12-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1490,1850,2016,12
+2016-12-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1490,1850,2016,12
 2016-12-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2804158, -7.4922407",1044,1671,2016,12
 2016-12-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.516364, -8.0827433",5389,5918,2016,12
 2016-12-01,Centro,Unidade Local de Saúde de Coimbra,"40.297919, -8.7707806",0,0,2016,12
@@ -570,7 +570,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2017-02-01,Norte,Unidade Local de Saúde de Vila Nova de Gaia/Espinho,"41.1094138, -8.5972617",1219,1532,2017,2
 2017-03-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",777,1061,2017,3
 2017-03-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",381,454,2017,3
-2017-03-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",398,500,2017,3
+2017-03-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",398,500,2017,3
 2017-03-01,Centro,Unidade Local de Saúde de Coimbra,"40.297919, -8.7707806",0,0,2017,3
 2017-03-01,Centro,Unidade Local de Saúde do Baixo Mondego,"40.117897, -8.8586755",606,701,2017,3
 2017-03-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.8571967, -8.6318023",210,225,2017,3
@@ -578,7 +578,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2017-03-01,Norte,Unidade Local de Saúde de Vila Nova de Gaia/Espinho,"41.1094138, -8.5972617",1884,2396,2017,3
 2017-03-01,Norte,Unidade Local de Saúde de Santo António,"41.1764649, -8.6649823",0,0,2017,3
 2017-03-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",460,615,2017,3
-2017-04-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",487,620,2017,4
+2017-04-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",487,620,2017,4
 2017-04-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",868,1097,2017,4
 2017-04-01,Centro,Unidade Local de Saúde de Coimbra,"40.297919, -8.7707806",0,0,2017,4
 2017-04-01,Centro,Unidade Local de Saúde do Baixo Mondego,"40.117897, -8.8586755",791,935,2017,4
@@ -589,7 +589,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2017-04-01,Norte,Unidade Local de Saúde do Médio Ave,"41.3423984, -8.4802503",875,1063,2017,4
 2017-05-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",1133,1574,2017,5
 2017-05-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",801,938,2017,5
-2017-05-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",607,765,2017,5
+2017-05-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",607,765,2017,5
 2017-05-01,Centro,Unidade Local de Saúde de Coimbra,"40.3470015, -8.5933462",276,276,2017,5
 2017-05-01,Centro,Instituto Português de Oncologia de Coimbra F. G.,"40.2162514, -8.4103814",44,201,2017,5
 2017-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",1253,1563,2017,5
@@ -639,7 +639,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2017-09-01,Norte,Unidade Local de Saúde de Santo António,"41.1472498, -8.6172617",5141,6403,2017,9
 2017-09-01,Norte,Unidade Local de Saúde de Braga,"41.56785, -8.398982",4946,5767,2017,9
 2017-10-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",1137,1319,2017,10
-2017-10-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1212,1511,2017,10
+2017-10-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1212,1511,2017,10
 2017-10-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2804158, -7.4922407",940,1266,2017,10
 2017-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6554005, -9.0592392",1303,1859,2017,10
 2017-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7166948, -9.1371248",7081,8191,2017,10
@@ -651,7 +651,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2017-10-01,Norte,Unidade Local de Saúde do Nordeste,"41.8056532, -6.7888197",1456,1808,2017,10
 2017-11-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",1854,2563,2017,11
 2017-11-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",1238,1438,2017,11
-2017-11-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1349,1684,2017,11
+2017-11-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1349,1684,2017,11
 2017-11-01,Centro,Unidade Local de Saúde de Coimbra,"40.3470015, -8.5933462",568,568,2017,11
 2017-11-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.8571967, -8.6318023",716,752,2017,11
 2017-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Arrábida,"38.5283754, -8.8818638",2715,3293,2017,11
@@ -659,7 +659,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2017-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",3924,5278,2017,11
 2017-11-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",5043,6026,2017,11
 2017-12-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",1386,1601,2017,12
-2017-12-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1397,1760,2017,12
+2017-12-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1397,1760,2017,12
 2017-12-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",2193,2788,2017,12
 2017-12-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7414812, -8.7982706",4044,4992,2017,12
 2017-12-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.6362453, -8.6543716",3327,4013,2017,12
@@ -698,7 +698,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2018-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Arrábida,"38.5283754, -8.8818638",764,889,2018,3
 2018-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",827,992,2018,3
 2018-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7569771, -9.1460705",0,0,2018,3
-2018-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1135,1342,2018,3
+2018-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1135,1342,2018,3
 2018-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",1339,1716,2018,3
 2018-03-01,Norte,Unidade Local de Saúde do Alto Ave,"41.4387173, -8.3086907",817,1025,2018,3
 2018-04-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",3179,4012,2018,4
@@ -707,7 +707,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2018-04-01,Centro,Unidade Local de Saúde do Baixo Mondego,"40.117897, -8.8586755",764,888,2018,4
 2018-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",1241,1592,2018,4
 2018-04-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",803,905,2018,4
-2018-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1505,1764,2018,4
+2018-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1505,1764,2018,4
 2018-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",1025,1025,2018,4
 2018-04-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",2705,3343,2018,4
 2018-04-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",1948,2198,2018,4
@@ -747,7 +747,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2018-08-01,Centro,Unidade Local de Saúde do Baixo Mondego,"40.117897, -8.8586755",1439,1646,2018,8
 2018-08-01,Centro,Unidade Local de Saúde da Guarda,"40.5309916, -7.2734793",704,865,2018,8
 2018-08-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",1874,2086,2018,8
-2018-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2972,3453,2018,8
+2018-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2972,3453,2018,8
 2018-08-01,Lisboa e Vale do Tejo,Instituto Português de Oncologia de Lisboa F. G.,"38.7396768, -9.1634516",203,678,2018,8
 2018-08-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",3580,4136,2018,8
 2018-08-01,Norte,Unidade Local de Saúde de Braga,"41.56785, -8.398982",4476,5314,2018,8
@@ -769,7 +769,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2018-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7166948, -9.1371248",5125,6099,2018,10
 2018-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Arrábida,"38.5283754, -8.8818638",2725,3088,2018,10
 2018-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",2636,3506,2018,10
-2018-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",3631,4255,2018,10
+2018-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",3631,4255,2018,10
 2018-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",2951,3457,2018,10
 2018-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",3350,3350,2018,10
 2018-10-01,Norte,Unidade Local de Saúde de Vila Nova de Gaia/Espinho,"41.1094138, -8.5972617",5385,6366,2018,10
@@ -795,11 +795,11 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2019-01-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.6362453, -8.6543716",358,460,2019,1
 2019-01-01,Centro,Instituto Português de Oncologia de Coimbra F. G.,"40.2162514, -8.4103814",4,34,2019,1
 2019-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500861, -9.1616116",363,437,2019,1
-2019-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",353,414,2019,1
+2019-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",353,414,2019,1
 2019-01-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9293884, -8.5458794",397,468,2019,1
 2019-01-01,Norte,Unidade Local de Saúde do Nordeste,"41.8056532, -6.7888197",118,159,2019,1
 2019-02-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",262,334,2019,2
-2019-02-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",253,297,2019,2
+2019-02-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",253,297,2019,2
 2019-02-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2804158, -7.4922407",282,353,2019,2
 2019-02-01,Centro,Unidade Local de Saúde de Coimbra,"40.3470015, -8.5933462",71,71,2019,2
 2019-02-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.8571967, -8.6318023",120,130,2019,2
@@ -812,14 +812,14 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2019-02-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9293884, -8.5458794",598,693,2019,2
 2019-02-01,Norte,Unidade Local de Saúde do Alto Minho,"41.7056054, -8.8252713",931,1080,2019,2
 2019-03-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",808,1090,2019,3
-2019-03-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",381,462,2019,3
+2019-03-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",381,462,2019,3
 2019-03-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2804158, -7.4922407",391,492,2019,3
 2019-03-01,Centro,Unidade Local de Saúde de Coimbra,"40.297919, -8.7707806",0,0,2019,3
 2019-03-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.8571967, -8.6318023",177,191,2019,3
 2019-03-01,Centro,Instituto Português de Oncologia de Coimbra F. G.,"40.2162514, -8.4103814",11,113,2019,3
 2019-03-01,Centro,Unidade Local de Saúde da Guarda,"40.5309916, -7.2734793",334,366,2019,3
 2019-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",720,924,2019,3
-2019-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1004,1201,2019,3
+2019-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1004,1201,2019,3
 2019-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",1122,1122,2019,3
 2019-03-01,Norte,Unidade Local de Saúde de Braga,"41.56785, -8.398982",2674,3070,2019,3
 2019-03-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",678,784,2019,3
@@ -843,7 +843,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2019-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7166948, -9.1371248",2930,3518,2019,6
 2019-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",770,1061,2019,6
 2019-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7569771, -9.1460705",0,0,2019,6
-2019-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1900,2256,2019,6
+2019-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1900,2256,2019,6
 2019-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",2198,2198,2019,6
 2019-06-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",1242,1462,2019,6
 2019-06-01,Norte,Instituto Português de Oncologia do Porto F. G.,"41.1785642, -8.6062881",619,1112,2019,6
@@ -851,7 +851,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2019-07-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",5143,6295,2019,7
 2019-07-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.8571967, -8.6318023",472,493,2019,7
 2019-07-01,Centro,Unidade Local de Saúde da Guarda,"40.5309916, -7.2734793",636,728,2019,7
-2019-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2158,2562,2019,7
+2019-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2158,2562,2019,7
 2019-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",2539,3006,2019,7
 2019-07-01,Norte,Unidade Local de Saúde de Trás-os-Montes e Alto Douro,"41.3031784, -7.7515252",2897,3379,2019,7
 2019-07-01,Norte,Unidade Local de Saúde de Braga,"41.56785, -8.398982",7342,8402,2019,7
@@ -865,12 +865,12 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2019-08-01,Norte,Unidade Local de Saúde do Nordeste,"41.8056532, -6.7888197",1461,1777,2019,8
 2019-09-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",1091,1365,2019,9
 2019-09-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",762,857,2019,9
-2019-09-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",905,1173,2019,9
+2019-09-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",905,1173,2019,9
 2019-09-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",2400,2784,2019,9
 2019-09-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2804158, -7.4922407",991,1281,2019,9
 2019-09-01,Centro,Unidade Local de Saúde da Guarda,"40.5309916, -7.2734793",810,931,2019,9
 2019-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",2396,2932,2019,9
-2019-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2663,3169,2019,9
+2019-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2663,3169,2019,9
 2019-09-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",4933,6692,2019,9
 2019-09-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",4331,5103,2019,9
 2019-09-01,Norte,Unidade Local de Saúde de Trás-os-Montes e Alto Douro,"41.3031784, -7.7515252",3483,4068,2019,9
@@ -905,7 +905,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2020-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6554005, -9.0592392",208,260,2020,1
 2020-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Arrábida,"38.5283754, -8.8818638",278,320,2020,1
 2020-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",303,367,2020,1
-2020-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",336,394,2020,1
+2020-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",336,394,2020,1
 2020-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",276,344,2020,1
 2020-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.2410946, -8.6937515",150,159,2020,1
 2020-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Almada-Seixal,"38.6658713, -9.1822554",383,436,2020,1
@@ -921,12 +921,12 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2020-02-01,Norte,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,"41.3828711, -8.7589945",196,283,2020,2
 2020-02-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",399,454,2020,2
 2020-03-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",311,352,2020,3
-2020-03-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",284,379,2020,3
+2020-03-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",284,379,2020,3
 2020-03-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2804158, -7.4922407",332,403,2020,3
 2020-03-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7414812, -8.7982706",1374,1516,2020,3
 2020-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6554005, -9.0592392",463,612,2020,3
 2020-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",719,876,2020,3
-2020-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",814,969,2020,3
+2020-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",814,969,2020,3
 2020-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.2410946, -8.6937515",460,504,2020,3
 2020-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",1045,1219,2020,3
 2020-03-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",1804,2430,2020,3
@@ -946,7 +946,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2020-04-01,Norte,Unidade Local de Saúde de Santo António,"41.1764649, -8.6649823",0,0,2020,4
 2020-04-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",491,567,2020,4
 2020-04-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",995,1090,2020,4
-2020-05-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",287,401,2020,5
+2020-05-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",287,401,2020,5
 2020-05-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7414812, -8.7982706",1798,1978,2020,5
 2020-05-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",1980,2508,2020,5
 2020-05-01,Centro,Instituto Português de Oncologia de Coimbra F. G.,"40.2162514, -8.4103814",10,164,2020,5
@@ -962,7 +962,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2020-06-01,Centro,Unidade Local de Saúde do Baixo Mondego,"40.117897, -8.8586755",937,1039,2020,6
 2020-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",923,1205,2020,6
 2020-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",976,1161,2020,6
-2020-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1119,1337,2020,6
+2020-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1119,1337,2020,6
 2020-06-01,Lisboa e Vale do Tejo,Instituto Português de Oncologia de Lisboa F. G.,"38.7396768, -9.1634516",87,334,2020,6
 2020-06-01,Norte,Unidade Local de Saúde de Trás-os-Montes e Alto Douro,"41.3031784, -7.7515252",1305,1625,2020,6
 2020-06-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",1275,1405,2020,6
@@ -981,7 +981,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2020-08-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",3051,3795,2020,8
 2020-08-01,Centro,Unidade Local de Saúde da Guarda,"40.5309916, -7.2734793",178,236,2020,8
 2020-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",1355,1611,2020,8
-2020-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1719,2026,2020,8
+2020-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1719,2026,2020,8
 2020-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",1784,2095,2020,8
 2020-08-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9293884, -8.5458794",3204,3651,2020,8
 2020-08-01,Norte,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,"41.3828711, -8.7589945",523,758,2020,8
@@ -1038,13 +1038,13 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2021-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",955,955,2021,3
 2021-03-01,Norte,Unidade Local de Saúde do Alto Minho,"41.7056054, -8.8252713",594,646,2021,3
 2021-04-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",868,982,2021,4
-2021-04-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",607,682,2021,4
+2021-04-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",607,682,2021,4
 2021-04-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.516364, -8.0827433",1183,1283,2021,4
 2021-04-01,Centro,Unidade Local de Saúde de Coimbra,"40.3470015, -8.5933462",195,195,2021,4
 2021-04-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.8571967, -8.6318023",219,226,2021,4
 2021-04-01,Centro,Unidade Local de Saúde de Castelo Branco,"39.8212263, -7.4981271",120,219,2021,4
 2021-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",793,921,2021,4
-2021-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",814,916,2021,4
+2021-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",814,916,2021,4
 2021-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",661,783,2021,4
 2021-04-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",3154,4092,2021,4
 2021-04-01,Norte,Unidade Local de Saúde de Santo António,"41.1472498, -8.6172617",3136,3624,2021,4
@@ -1054,13 +1054,13 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2021-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",570,652,2021,5
 2021-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",876,1068,2021,5
 2021-05-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",1555,1703,2021,5
-2021-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1123,1284,2021,5
+2021-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1123,1284,2021,5
 2021-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",1029,1257,2021,5
 2021-05-01,Norte,Unidade Local de Saúde de Santo António,"41.1472498, -8.6172617",4000,4645,2021,5
 2021-05-01,Norte,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,"41.3828711, -8.7589945",434,571,2021,5
 2021-05-01,Norte,Unidade Local de Saúde de Santo António,"41.1764649, -8.6649823",0,0,2021,5
 2021-05-01,Norte,Unidade Local de Saúde do Nordeste,"41.8056532, -6.7888197",1005,1149,2021,5
-2021-06-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",887,997,2021,6
+2021-06-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",887,997,2021,6
 2021-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.2410946, -8.6937515",1318,1494,2021,6
 2021-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",1884,1884,2021,6
 2021-06-01,Norte,Unidade Local de Saúde do Médio Ave,"41.3423984, -8.4802503",1553,1797,2021,6
@@ -1114,7 +1114,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2021-11-01,Centro,Unidade Local de Saúde de Castelo Branco,"39.8212263, -7.4981271",525,833,2021,11
 2021-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",2596,3116,2021,11
 2021-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7569771, -9.1460705",0,0,2021,11
-2021-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2904,3364,2021,11
+2021-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2904,3364,2021,11
 2021-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.2410946, -8.6937515",1911,2201,2021,11
 2021-11-01,Norte,Unidade Local de Saúde do Médio Ave,"41.3423984, -8.4802503",2621,3066,2021,11
 2021-11-01,Norte,Unidade Local de Saúde de Santo António,"41.1472498, -8.6172617",8325,9630,2021,11
@@ -1230,7 +1230,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2022-11-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",3933,4260,2022,11
 2022-11-01,Norte,Unidade Local de Saúde de Santo António,"41.1472498, -8.6172617",9219,10410,2022,11
 2022-12-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",1185,1455,2022,12
-2022-12-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1514,1661,2022,12
+2022-12-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1514,1661,2022,12
 2022-12-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",9276,10983,2022,12
 2022-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7166948, -9.1371248",5999,6805,2022,12
 2022-12-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",4136,4491,2022,12
@@ -1324,7 +1324,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2023-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",3673,4375,2023,11
 2023-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500861, -9.1616116",6444,7300,2023,11
 2023-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7569771, -9.1460705",0,0,2023,11
-2023-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2577,2890,2023,11
+2023-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2577,2890,2023,11
 2023-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Almada-Seixal,"38.6658713, -9.1822554",4242,4698,2023,11
 2023-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",3592,3592,2023,11
 2023-11-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",6620,7342,2023,11
@@ -1362,12 +1362,12 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2016-02-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",1563,2018,2016,2
 2016-02-01,Centro,Unidade Local de Saúde de Coimbra,"40.297919, -8.7707806",0,0,2016,2
 2016-02-01,Centro,Unidade Local de Saúde de Castelo Branco,"39.8212263, -7.4981271",124,200,2016,2
-2016-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",591,722,2016,2
+2016-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",591,722,2016,2
 2016-02-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",1193,1614,2016,2
 2016-02-01,Norte,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,"41.3828711, -8.7589945",205,286,2016,2
 2016-02-01,Norte,Unidade Local de Saúde de Trás-os-Montes e Alto Douro,"41.3031784, -7.7515252",818,944,2016,2
 2016-02-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",537,688,2016,2
-2016-03-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",451,540,2016,3
+2016-03-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",451,540,2016,3
 2016-03-01,Centro,Unidade Local de Saúde da Guarda,"40.5309916, -7.2734793",452,566,2016,3
 2016-03-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",784,865,2016,3
 2016-03-01,Lisboa e Vale do Tejo,Instituto Português de Oncologia de Lisboa F. G.,"38.7396768, -9.1634516",285,372,2016,3
@@ -1377,7 +1377,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2016-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",1120,1395,2016,4
 2016-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.2410946, -8.6937515",585,648,2016,4
 2016-04-01,Norte,Unidade Local de Saúde de Trás-os-Montes e Alto Douro,"41.3031784, -7.7515252",1704,1956,2016,4
-2016-05-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",765,926,2016,5
+2016-05-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",765,926,2016,5
 2016-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",983,1279,2016,5
 2016-05-01,Norte,Unidade Local de Saúde de Santo António,"41.1472498, -8.6172617",3416,4284,2016,5
 2016-05-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9293884, -8.5458794",1667,2148,2016,5
@@ -1389,7 +1389,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2016-06-01,Centro,Unidade Local de Saúde de Castelo Branco,"39.8212263, -7.4981271",495,735,2016,6
 2016-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",1171,1555,2016,6
 2016-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7569771, -9.1460705",0,0,2016,6
-2016-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1905,2250,2016,6
+2016-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1905,2250,2016,6
 2016-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",2287,2940,2016,6
 2016-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",1428,1428,2016,6
 2016-06-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",3510,4803,2016,6
@@ -1517,7 +1517,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2017-06-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.8571967, -8.6318023",409,431,2017,6
 2017-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6554005, -9.0592392",899,1257,2017,6
 2017-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7569771, -9.1460705",0,0,2017,6
-2017-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1971,2382,2017,6
+2017-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1971,2382,2017,6
 2017-06-01,Norte,Unidade Local de Saúde do Médio Ave,"41.3423984, -8.4802503",1332,1588,2017,6
 2017-06-01,Norte,Unidade Local de Saúde de Vila Nova de Gaia/Espinho,"41.1094138, -8.5972617",3512,4491,2017,6
 2017-06-01,Norte,Unidade Local de Saúde do Alto Ave,"41.4387173, -8.3086907",1877,2282,2017,6
@@ -1530,7 +1530,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2017-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Almada-Seixal,"38.6658713, -9.1822554",2550,2907,2017,7
 2017-07-01,Norte,Unidade Local de Saúde do Médio Ave,"41.3423984, -8.4802503",1547,1846,2017,7
 2017-07-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9293884, -8.5458794",3193,3940,2017,7
-2017-08-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",925,1169,2017,8
+2017-08-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",925,1169,2017,8
 2017-08-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.8571967, -8.6318023",501,528,2017,8
 2017-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7569771, -9.1460705",0,0,2017,8
 2017-08-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",1790,2146,2017,8
@@ -1565,7 +1565,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2017-11-01,Centro,Unidade Local de Saúde de Castelo Branco,"39.8212263, -7.4981271",928,1320,2017,11
 2017-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6554005, -9.0592392",1447,2069,2017,11
 2017-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7569771, -9.1460705",0,0,2017,11
-2017-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",3551,4257,2017,11
+2017-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",3551,4257,2017,11
 2017-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",3094,3094,2017,11
 2017-11-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",5411,7119,2017,11
 2017-11-01,Norte,Unidade Local de Saúde de Trás-os-Montes e Alto Douro,"41.3031784, -7.7515252",4900,5504,2017,11
@@ -1621,7 +1621,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2018-05-01,Centro,Instituto Português de Oncologia de Coimbra F. G.,"40.2162514, -8.4103814",8,163,2018,5
 2018-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",1360,1808,2018,5
 2018-05-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",1091,1216,2018,5
-2018-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1863,2177,2018,5
+2018-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1863,2177,2018,5
 2018-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",1447,1686,2018,5
 2018-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.2410946, -8.6937515",912,1113,2018,5
 2018-05-01,Norte,Unidade Local de Saúde do Médio Ave,"41.3423984, -8.4802503",1235,1462,2018,5
@@ -1629,7 +1629,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2018-06-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",713,943,2018,6
 2018-06-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.6362453, -8.6543716",2757,3193,2018,6
 2018-06-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.516364, -8.0827433",2076,2265,2018,6
-2018-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2236,2616,2018,6
+2018-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2236,2616,2018,6
 2018-06-01,Lisboa e Vale do Tejo,Instituto Português de Oncologia de Lisboa F. G.,"38.7396768, -9.1634516",141,477,2018,6
 2018-06-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",3992,4940,2018,6
 2018-06-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",2859,3258,2018,6
@@ -1640,7 +1640,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2018-07-01,Centro,Instituto Português de Oncologia de Coimbra F. G.,"40.2162514, -8.4103814",14,222,2018,7
 2018-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500861, -9.1616116",2736,3307,2018,7
 2018-07-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",1583,1773,2018,7
-2018-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2596,3031,2018,7
+2018-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2596,3031,2018,7
 2018-07-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",4526,5623,2018,7
 2018-07-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9293884, -8.5458794",3537,4090,2018,7
 2018-07-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",3274,3764,2018,7
@@ -1657,7 +1657,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2018-09-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.516364, -8.0827433",2825,3084,2018,9
 2018-09-01,Centro,Unidade Local de Saúde de Coimbra,"40.297919, -8.7707806",0,0,2018,9
 2018-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6554005, -9.0592392",1090,1517,2018,9
-2018-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",3282,3836,2018,9
+2018-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",3282,3836,2018,9
 2018-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",2915,2915,2018,9
 2018-09-01,Norte,Unidade Local de Saúde de Santo António,"41.1472498, -8.6172617",5484,6798,2018,9
 2018-09-01,Norte,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,"41.3828711, -8.7589945",1078,1469,2018,9
@@ -1672,7 +1672,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2018-10-01,Norte,Unidade Local de Saúde do Nordeste,"41.8056532, -6.7888197",2035,2409,2018,10
 2018-11-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",2571,3343,2018,11
 2018-11-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",1092,1251,2018,11
-2018-11-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1404,1695,2018,11
+2018-11-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1404,1695,2018,11
 2018-11-01,Centro,Unidade Local de Saúde de Coimbra,"40.3470015, -8.5933462",311,311,2018,11
 2018-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",2888,3842,2018,11
 2018-11-01,Norte,Unidade Local de Saúde de Santo António,"41.1472498, -8.6172617",6692,8287,2018,11
@@ -1682,7 +1682,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2018-12-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",2122,2648,2018,12
 2018-12-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7414812, -8.7982706",4248,4872,2018,12
 2018-12-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",7762,9778,2018,12
-2018-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",4218,4957,2018,12
+2018-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",4218,4957,2018,12
 2018-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",3311,3914,2018,12
 2018-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.2410946, -8.6937515",2058,2528,2018,12
 2018-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",4419,5535,2018,12
@@ -1691,7 +1691,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2018-12-01,Norte,Unidade Local de Saúde de Braga,"41.56785, -8.398982",6950,8196,2018,12
 2018-12-01,Norte,Unidade Local de Saúde do Alto Minho,"41.7056054, -8.8252713",4867,5785,2018,12
 2018-12-01,Norte,Unidade Local de Saúde do Nordeste,"41.8056532, -6.7888197",2412,2857,2018,12
-2019-01-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",100,125,2019,1
+2019-01-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",100,125,2019,1
 2019-01-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7414812, -8.7982706",398,441,2019,1
 2019-01-01,Centro,Unidade Local de Saúde de Coimbra,"40.297919, -8.7707806",0,0,2019,1
 2019-01-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.8571967, -8.6318023",61,65,2019,1
@@ -1762,7 +1762,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2019-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",1949,2472,2019,8
 2019-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Arrábida,"38.5283754, -8.8818638",2168,2469,2019,8
 2019-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",2105,2566,2019,8
-2019-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2418,2878,2019,8
+2019-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2418,2878,2019,8
 2019-08-01,Norte,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,"41.3828711, -8.7589945",712,1059,2019,8
 2019-08-01,Norte,Unidade Local de Saúde de Braga,"41.56785, -8.398982",8466,9678,2019,8
 2019-08-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",1612,1897,2019,8
@@ -1813,7 +1813,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2019-12-01,Norte,Unidade Local de Saúde do Alto Ave,"41.4387173, -8.3086907",3721,4542,2019,12
 2019-12-01,Norte,Unidade Local de Saúde do Alto Minho,"41.7056054, -8.8252713",4832,5691,2019,12
 2020-01-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",57,90,2020,1
-2020-01-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",114,141,2020,1
+2020-01-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",114,141,2020,1
 2020-01-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2804158, -7.4922407",163,192,2020,1
 2020-01-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7414812, -8.7982706",540,600,2020,1
 2020-01-01,Centro,Unidade Local de Saúde de Coimbra,"40.297919, -8.7707806",0,0,2020,1
@@ -1906,7 +1906,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2020-10-01,Centro,Unidade Local de Saúde da Guarda,"40.5309916, -7.2734793",262,335,2020,10
 2020-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7166948, -9.1371248",4019,4750,2020,10
 2020-10-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",2549,2759,2020,10
-2020-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2346,2739,2020,10
+2020-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2346,2739,2020,10
 2020-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",1872,1872,2020,10
 2020-10-01,Norte,Unidade Local de Saúde de Santo António,"41.1472498, -8.6172617",5729,6834,2020,10
 2020-10-01,Norte,Unidade Local de Saúde de Trás-os-Montes e Alto Douro,"41.3031784, -7.7515252",3212,3780,2020,10
@@ -1914,17 +1914,17 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2020-10-01,Norte,Unidade Local de Saúde de Santo António,"41.1764649, -8.6649823",0,0,2020,10
 2020-11-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",2064,2492,2020,11
 2020-11-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",976,1087,2020,11
-2020-11-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1136,1326,2020,11
+2020-11-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1136,1326,2020,11
 2020-11-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.6362453, -8.6543716",3268,4024,2020,11
 2020-11-01,Centro,Unidade Local de Saúde de Coimbra,"40.3470015, -8.5933462",320,320,2020,11
 2020-11-01,Centro,Unidade Local de Saúde da Guarda,"40.5309916, -7.2734793",310,386,2020,11
-2020-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2651,3092,2020,11
+2020-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2651,3092,2020,11
 2020-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Almada-Seixal,"38.6658713, -9.1822554",2564,2866,2020,11
 2020-11-01,Norte,Unidade Local de Saúde de Trás-os-Montes e Alto Douro,"41.3031784, -7.7515252",3437,4073,2020,11
 2020-11-01,Norte,Unidade Local de Saúde de Vila Nova de Gaia/Espinho,"41.1094138, -8.5972617",5202,6317,2020,11
 2020-11-01,Norte,Unidade Local de Saúde do Alto Ave,"41.4387173, -8.3086907",2681,3170,2020,11
 2020-11-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",2835,3166,2020,11
-2020-12-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1201,1396,2020,12
+2020-12-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1201,1396,2020,12
 2020-12-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",5312,6586,2020,12
 2020-12-01,Centro,Unidade Local de Saúde de Coimbra,"40.3470015, -8.5933462",343,343,2020,12
 2020-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",2417,2894,2020,12
@@ -1946,7 +1946,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2021-01-01,Norte,Unidade Local de Saúde de Vila Nova de Gaia/Espinho,"41.1094138, -8.5972617",649,687,2021,1
 2021-01-01,Norte,Unidade Local de Saúde do Alto Ave,"41.4387173, -8.3086907",330,343,2021,1
 2021-02-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",278,304,2021,2
-2021-02-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",260,272,2021,2
+2021-02-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",260,272,2021,2
 2021-02-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",158,201,2021,2
 2021-02-01,Centro,Unidade Local de Saúde do Baixo Mondego,"40.117897, -8.8586755",241,244,2021,2
 2021-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",89,96,2021,2
@@ -1990,14 +1990,14 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2021-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7166948, -9.1371248",3160,3650,2021,6
 2021-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500861, -9.1616116",2707,3025,2021,6
 2021-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",1080,1325,2021,6
-2021-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1421,1629,2021,6
+2021-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1421,1629,2021,6
 2021-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",1264,1563,2021,6
 2021-06-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9293884, -8.5458794",3426,3807,2021,6
 2021-06-01,Norte,Unidade Local de Saúde de Trás-os-Montes e Alto Douro,"41.3031784, -7.7515252",2840,3270,2021,6
 2021-06-01,Norte,Unidade Local de Saúde do Alto Ave,"41.4387173, -8.3086907",1908,2146,2021,6
 2021-06-01,Norte,Instituto Português de Oncologia do Porto F. G.,"41.1785642, -8.6062881",236,698,2021,6
 2021-07-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",629,812,2021,7
-2021-07-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",971,1106,2021,7
+2021-07-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",971,1106,2021,7
 2021-07-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",4364,5303,2021,7
 2021-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500861, -9.1616116",3212,3607,2021,7
 2021-07-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",5257,6795,2021,7
@@ -2011,7 +2011,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2021-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",1709,2066,2021,8
 2021-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Arrábida,"38.5283754, -8.8818638",2002,2148,2021,8
 2021-08-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",2548,2775,2021,8
-2021-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1999,2287,2021,8
+2021-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1999,2287,2021,8
 2021-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.2410946, -8.6937515",1579,1819,2021,8
 2021-08-01,Lisboa e Vale do Tejo,Instituto Português de Oncologia de Lisboa F. G.,"38.7396768, -9.1634516",110,602,2021,8
 2021-08-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",5470,7128,2021,8
@@ -2083,7 +2083,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2022-02-01,Centro,Unidade Local de Saúde da Guarda,"40.5309916, -7.2734793",132,143,2022,2
 2022-03-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",217,276,2022,3
 2022-03-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.516364, -8.0827433",1362,1439,2022,3
-2022-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1490,1622,2022,3
+2022-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1490,1622,2022,3
 2022-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",685,777,2022,3
 2022-03-01,Norte,Unidade Local de Saúde do Nordeste,"41.8056532, -6.7888197",771,882,2022,3
 2022-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6554005, -9.0592392",582,735,2022,4
@@ -2138,7 +2138,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2022-08-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",1771,1830,2022,8
 2022-08-01,Norte,Instituto Português de Oncologia do Porto F. G.,"41.1785642, -8.6062881",433,1130,2022,8
 2022-09-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",830,1017,2022,9
-2022-09-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1094,1209,2022,9
+2022-09-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1094,1209,2022,9
 2022-09-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.6362453, -8.6543716",4080,4652,2022,9
 2022-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6554005, -9.0592392",1201,1520,2022,9
 2022-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",2506,3102,2022,9
@@ -2160,7 +2160,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2022-11-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7414812, -8.7982706",6306,6764,2022,11
 2022-11-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",8599,10188,2022,11
 2022-11-01,Centro,Unidade Local de Saúde da Guarda,"40.5309916, -7.2734793",549,612,2022,11
-2022-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",3690,4122,2022,11
+2022-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",3690,4122,2022,11
 2022-12-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",1525,1666,2022,12
 2022-12-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",3930,4693,2022,12
 2022-12-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2804158, -7.4922407",1706,1966,2022,12
@@ -2175,7 +2175,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2023-01-01,Centro,Unidade Local de Saúde de Coimbra,"40.3470015, -8.5933462",47,47,2023,1
 2023-01-01,Centro,Unidade Local de Saúde do Baixo Mondego,"40.117897, -8.8586755",138,154,2023,1
 2023-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Arrábida,"38.5283754, -8.8818638",424,458,2023,1
-2023-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",178,205,2023,1
+2023-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",178,205,2023,1
 2023-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",238,272,2023,1
 2023-01-01,Lisboa e Vale do Tejo,Instituto Português de Oncologia de Lisboa F. G.,"38.7396768, -9.1634516",43,120,2023,1
 2023-01-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",395,424,2023,1
@@ -2196,7 +2196,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2023-03-01,Centro,Unidade Local de Saúde da Guarda,"40.5309916, -7.2734793",148,186,2023,3
 2023-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6554005, -9.0592392",467,570,2023,3
 2023-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7166948, -9.1371248",1449,1649,2023,3
-2023-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",529,607,2023,3
+2023-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",529,607,2023,3
 2023-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.2410946, -8.6937515",229,337,2023,3
 2023-03-01,Lisboa e Vale do Tejo,Instituto Português de Oncologia de Lisboa F. G.,"38.7396768, -9.1634516",90,294,2023,3
 2023-03-01,Norte,Unidade Local de Saúde de Vila Nova de Gaia/Espinho,"41.1094138, -8.5972617",1844,2283,2023,3
@@ -2226,13 +2226,13 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2023-06-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9293884, -8.5458794",3358,3785,2023,6
 2023-06-01,Norte,Unidade Local de Saúde de Braga,"41.56785, -8.398982",6085,6541,2023,6
 2023-06-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",2333,2586,2023,6
-2023-07-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",967,1054,2023,7
+2023-07-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",967,1054,2023,7
 2023-07-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.516364, -8.0827433",3405,3693,2023,7
 2023-07-01,Centro,Instituto Português de Oncologia de Coimbra F. G.,"40.2162514, -8.4103814",95,264,2023,7
 2023-07-01,Centro,Unidade Local de Saúde de Castelo Branco,"39.8212263, -7.4981271",593,856,2023,7
 2023-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",2092,2309,2023,7
 2023-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7569771, -9.1460705",0,0,2023,7
-2023-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1653,1843,2023,7
+2023-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1653,1843,2023,7
 2023-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.2410946, -8.6937515",796,1053,2023,7
 2023-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Almada-Seixal,"38.6658713, -9.1822554",2555,2868,2023,7
 2023-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",2345,2345,2023,7
@@ -2248,7 +2248,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2023-08-01,Centro,Unidade Local de Saúde da Guarda,"40.5309916, -7.2734793",564,659,2023,8
 2023-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",2575,3083,2023,8
 2023-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7569771, -9.1460705",0,0,2023,8
-2023-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1822,2039,2023,8
+2023-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1822,2039,2023,8
 2023-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",1767,1993,2023,8
 2023-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Almada-Seixal,"38.6658713, -9.1822554",2953,3306,2023,8
 2023-08-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9293884, -8.5458794",4182,4701,2023,8
@@ -2260,17 +2260,17 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2023-09-01,Norte,Unidade Local de Saúde de Trás-os-Montes e Alto Douro,"41.3031784, -7.7515252",4489,4988,2023,9
 2023-09-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",2178,2245,2023,9
 2023-09-01,Norte,Unidade Local de Saúde do Alto Minho,"41.7056054, -8.8252713",3998,4418,2023,9
-2023-10-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1407,1527,2023,10
+2023-10-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1407,1527,2023,10
 2023-10-01,Centro,Unidade Local de Saúde de Coimbra,"40.3470015, -8.5933462",310,310,2023,10
 2023-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",3275,3916,2023,10
 2023-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500861, -9.1616116",5791,6576,2023,10
-2023-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2313,2602,2023,10
+2023-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2313,2602,2023,10
 2023-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",2346,2629,2023,10
 2023-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",4101,4636,2023,10
 2023-10-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9293884, -8.5458794",5350,6007,2023,10
 2023-10-01,Norte,Instituto Português de Oncologia do Porto F. G.,"41.1785642, -8.6062881",415,1086,2023,10
 2023-11-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",1416,1791,2023,11
-2023-11-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1566,1702,2023,11
+2023-11-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1566,1702,2023,11
 2023-11-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.8571967, -8.6318023",665,673,2023,11
 2023-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7166948, -9.1371248",5173,5768,2023,11
 2023-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",3344,3689,2023,11
@@ -2381,12 +2381,12 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2016-09-01,Norte,Unidade Local de Saúde de Santo António,"41.1764649, -8.6649823",0,0,2016,9
 2016-09-01,Norte,Instituto Português de Oncologia do Porto F. G.,"41.1785642, -8.6062881",901,1077,2016,9
 2016-10-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",2015,2743,2016,10
-2016-10-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1292,1575,2016,10
+2016-10-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1292,1575,2016,10
 2016-10-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.8571967, -8.6318023",642,710,2016,10
 2016-10-01,Centro,Unidade Local de Saúde de Castelo Branco,"39.8212263, -7.4981271",759,1155,2016,10
 2016-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Arrábida,"38.5283754, -8.8818638",2513,2965,2016,10
 2016-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",1080,1486,2016,10
-2016-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",3119,3724,2016,10
+2016-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",3119,3724,2016,10
 2016-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",3746,4942,2016,10
 2016-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Almada-Seixal,"38.6658713, -9.1822554",3566,4060,2016,10
 2016-10-01,Norte,Unidade Local de Saúde do Médio Ave,"41.3423984, -8.4802503",1910,2394,2016,10
@@ -2427,11 +2427,11 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2017-01-01,Norte,Instituto Português de Oncologia do Porto F. G.,"41.1785642, -8.6062881",114,183,2017,1
 2017-01-01,Norte,Unidade Local de Saúde do Nordeste,"41.8056532, -6.7888197",163,195,2017,1
 2017-02-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",308,361,2017,2
-2017-02-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",232,303,2017,2
+2017-02-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",232,303,2017,2
 2017-02-01,Centro,Unidade Local de Saúde de Coimbra,"40.297919, -8.7707806",0,0,2017,2
 2017-02-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.8571967, -8.6318023",130,142,2017,2
 2017-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6554005, -9.0592392",297,397,2017,2
-2017-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",705,822,2017,2
+2017-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",705,822,2017,2
 2017-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Almada-Seixal,"38.6658713, -9.1822554",719,776,2017,2
 2017-02-01,Norte,Unidade Local de Saúde do Médio Ave,"41.3423984, -8.4802503",404,489,2017,2
 2017-02-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",954,1141,2017,2
@@ -2452,7 +2452,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2017-04-01,Centro,Unidade Local de Saúde da Guarda,"40.5309916, -7.2734793",453,576,2017,4
 2017-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",470,614,2017,4
 2017-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7569771, -9.1460705",0,0,2017,4
-2017-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1359,1631,2017,4
+2017-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1359,1631,2017,4
 2017-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",1026,1252,2017,4
 2017-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",1580,2132,2017,4
 2017-04-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",2262,2974,2017,4
@@ -2471,7 +2471,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2017-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Almada-Seixal,"38.6658713, -9.1822554",1800,2034,2017,5
 2017-05-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",2053,2388,2017,5
 2017-06-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",808,935,2017,6
-2017-06-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",736,929,2017,6
+2017-06-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",736,929,2017,6
 2017-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500861, -9.1616116",2742,3412,2017,6
 2017-06-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",881,1154,2017,6
 2017-06-01,Norte,Unidade Local de Saúde do Nordeste,"41.8056532, -6.7888197",897,1097,2017,6
@@ -2482,7 +2482,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2017-07-01,Centro,Unidade Local de Saúde da Guarda,"40.5309916, -7.2734793",755,945,2017,7
 2017-07-01,Centro,Unidade Local de Saúde de Castelo Branco,"39.8212263, -7.4981271",692,936,2017,7
 2017-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7166948, -9.1371248",5379,6155,2017,7
-2017-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2261,2735,2017,7
+2017-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2261,2735,2017,7
 2017-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",2612,3456,2017,7
 2017-07-01,Norte,Unidade Local de Saúde de Santo António,"41.1472498, -8.6172617",4352,5469,2017,7
 2017-07-01,Norte,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,"41.3828711, -8.7589945",886,1256,2017,7
@@ -2497,7 +2497,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2017-08-01,Norte,Unidade Local de Saúde de Santo António,"41.1472498, -8.6172617",4591,5759,2017,8
 2017-08-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",2978,3498,2017,8
 2017-09-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",1466,2049,2017,9
-2017-09-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1067,1334,2017,9
+2017-09-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1067,1334,2017,9
 2017-09-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",1765,2235,2017,9
 2017-09-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2804158, -7.4922407",849,1149,2017,9
 2017-09-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",6333,8174,2017,9
@@ -2534,14 +2534,14 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2017-12-01,Centro,Unidade Local de Saúde de Castelo Branco,"39.8212263, -7.4981271",1047,1472,2017,12
 2017-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",1443,1872,2017,12
 2017-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500861, -9.1616116",4737,5863,2017,12
-2017-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",3866,4624,2017,12
+2017-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",3866,4624,2017,12
 2017-12-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9293884, -8.5458794",5376,6654,2017,12
 2017-12-01,Norte,Unidade Local de Saúde do Alto Minho,"41.7056054, -8.8252713",6156,7060,2017,12
 2017-12-01,Norte,Unidade Local de Saúde do Nordeste,"41.8056532, -6.7888197",2021,2449,2017,12
 2018-01-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",188,255,2018,1
 2018-01-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",90,140,2018,1
 2018-01-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",111,136,2018,1
-2018-01-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",144,162,2018,1
+2018-01-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",144,162,2018,1
 2018-01-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",210,254,2018,1
 2018-01-01,Centro,Unidade Local de Saúde do Baixo Mondego,"40.117897, -8.8586755",190,226,2018,1
 2018-01-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9293884, -8.5458794",492,541,2018,1
@@ -2549,15 +2549,15 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2018-01-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",177,216,2018,1
 2018-01-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",374,420,2018,1
 2018-01-01,Norte,Unidade Local de Saúde do Alto Minho,"41.7056054, -8.8252713",372,443,2018,1
-2018-02-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",267,313,2018,2
+2018-02-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",267,313,2018,2
 2018-02-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.6362453, -8.6543716",987,1142,2018,2
 2018-02-01,Centro,Unidade Local de Saúde de Coimbra,"40.297919, -8.7707806",0,0,2018,2
 2018-02-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.8571967, -8.6318023",92,95,2018,2
 2018-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",617,789,2018,2
-2018-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",729,862,2018,2
+2018-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",729,862,2018,2
 2018-02-01,Norte,Unidade Local de Saúde de Santo António,"41.1472498, -8.6172617",1400,1747,2018,2
 2018-02-01,Norte,Unidade Local de Saúde do Alto Minho,"41.7056054, -8.8252713",826,983,2018,2
-2018-03-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",402,479,2018,3
+2018-03-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",402,479,2018,3
 2018-03-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",536,664,2018,3
 2018-03-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7414812, -8.7982706",1161,1352,2018,3
 2018-03-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.516364, -8.0827433",1112,1209,2018,3
@@ -2566,7 +2566,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2018-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",718,718,2018,3
 2018-03-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",1498,1679,2018,3
 2018-04-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",438,598,2018,4
-2018-04-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",505,618,2018,4
+2018-04-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",505,618,2018,4
 2018-04-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2804158, -7.4922407",421,596,2018,4
 2018-04-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.6362453, -8.6543716",1864,2173,2018,4
 2018-04-01,Centro,Unidade Local de Saúde de Coimbra,"40.297919, -8.7707806",0,0,2018,4
@@ -2580,7 +2580,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2018-04-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",1278,1504,2018,4
 2018-04-01,Norte,Unidade Local de Saúde do Alto Minho,"41.7056054, -8.8252713",1797,2137,2018,4
 2018-04-01,Norte,Unidade Local de Saúde do Nordeste,"41.8056532, -6.7888197",675,829,2018,4
-2018-05-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",636,773,2018,5
+2018-05-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",636,773,2018,5
 2018-05-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2804158, -7.4922407",529,756,2018,5
 2018-05-01,Centro,Unidade Local de Saúde de Coimbra,"40.3470015, -8.5933462",143,143,2018,5
 2018-05-01,Centro,Unidade Local de Saúde da Guarda,"40.5309916, -7.2734793",474,595,2018,5
@@ -2617,7 +2617,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2018-08-01,Norte,Instituto Português de Oncologia do Porto F. G.,"41.1785642, -8.6062881",908,1439,2018,8
 2018-08-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",2673,3087,2018,8
 2018-09-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",1839,2416,2018,9
-2018-09-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1085,1319,2018,9
+2018-09-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1085,1319,2018,9
 2018-09-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",1601,1964,2018,9
 2018-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",2695,3155,2018,9
 2018-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Almada-Seixal,"38.6658713, -9.1822554",2874,3230,2018,9
@@ -2643,7 +2643,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2018-11-01,Centro,Unidade Local de Saúde de Castelo Branco,"39.8212263, -7.4981271",893,1303,2018,11
 2018-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Arrábida,"38.5283754, -8.8818638",2948,3345,2018,11
 2018-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7569771, -9.1460705",0,0,2018,11
-2018-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",3960,4637,2018,11
+2018-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",3960,4637,2018,11
 2018-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",3173,3729,2018,11
 2018-11-01,Lisboa e Vale do Tejo,Instituto Português de Oncologia de Lisboa F. G.,"38.7396768, -9.1634516",317,948,2018,11
 2018-11-01,Norte,Unidade Local de Saúde de Braga,"41.56785, -8.398982",6179,7310,2018,11
@@ -2694,7 +2694,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2019-03-01,Norte,Unidade Local de Saúde do Alto Ave,"41.4387173, -8.3086907",1005,1199,2019,3
 2019-03-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",1207,1358,2019,3
 2019-03-01,Norte,Unidade Local de Saúde do Alto Minho,"41.7056054, -8.8252713",1346,1579,2019,3
-2019-04-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",508,629,2019,4
+2019-04-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",508,629,2019,4
 2019-04-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7414812, -8.7982706",1720,1909,2019,4
 2019-04-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.6362453, -8.6543716",1457,1869,2019,4
 2019-04-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.516364, -8.0827433",1212,1345,2019,4
@@ -2707,17 +2707,17 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2019-04-01,Norte,Unidade Local de Saúde de Vila Nova de Gaia/Espinho,"41.1094138, -8.5972617",2119,2413,2019,4
 2019-04-01,Norte,Instituto Português de Oncologia do Porto F. G.,"41.1785642, -8.6062881",441,780,2019,4
 2019-05-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",650,822,2019,5
-2019-05-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",596,761,2019,5
+2019-05-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",596,761,2019,5
 2019-05-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",1370,1595,2019,5
 2019-05-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.516364, -8.0827433",1747,1915,2019,5
 2019-05-01,Centro,Unidade Local de Saúde do Baixo Mondego,"40.117897, -8.8586755",1424,1641,2019,5
 2019-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",678,940,2019,5
-2019-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1622,1932,2019,5
+2019-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1622,1932,2019,5
 2019-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",1860,2187,2019,5
 2019-05-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",2783,3675,2019,5
 2019-05-01,Norte,Unidade Local de Saúde de Santo António,"41.1764649, -8.6649823",0,0,2019,5
 2019-06-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",724,914,2019,6
-2019-06-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",650,830,2019,6
+2019-06-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",650,830,2019,6
 2019-06-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",4540,5551,2019,6
 2019-06-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.8571967, -8.6318023",405,425,2019,6
 2019-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Arrábida,"38.5283754, -8.8818638",1662,1904,2019,6
@@ -2775,7 +2775,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2019-11-01,Centro,Instituto Português de Oncologia de Coimbra F. G.,"40.2162514, -8.4103814",48,422,2019,11
 2019-11-01,Centro,Unidade Local de Saúde de Castelo Branco,"39.8212263, -7.4981271",813,1285,2019,11
 2019-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6554005, -9.0592392",1864,2441,2019,11
-2019-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",3259,3879,2019,11
+2019-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",3259,3879,2019,11
 2019-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",2864,3465,2019,11
 2019-11-01,Norte,Unidade Local de Saúde do Médio Ave,"41.3423984, -8.4802503",2562,2932,2019,11
 2019-11-01,Norte,Unidade Local de Saúde de Braga,"41.56785, -8.398982",11986,13706,2019,11
@@ -2785,7 +2785,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2019-12-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.516364, -8.0827433",4524,4911,2019,12
 2019-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",2933,3765,2019,12
 2019-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",3301,4022,2019,12
-2019-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",3604,4267,2019,12
+2019-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",3604,4267,2019,12
 2019-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",3062,3715,2019,12
 2019-12-01,Lisboa e Vale do Tejo,Instituto Português de Oncologia de Lisboa F. G.,"38.7396768, -9.1634516",322,833,2019,12
 2019-12-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",7088,9592,2019,12
@@ -2805,7 +2805,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2020-02-01,Centro,Unidade Local de Saúde da Guarda,"40.5309916, -7.2734793",126,150,2020,2
 2020-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",554,713,2020,2
 2020-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7569771, -9.1460705",0,0,2020,2
-2020-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",637,759,2020,2
+2020-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",637,759,2020,2
 2020-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",860,1011,2020,2
 2020-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Almada-Seixal,"38.6658713, -9.1822554",710,806,2020,2
 2020-02-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",1043,1185,2020,2
@@ -2888,7 +2888,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2020-09-01,Norte,Unidade Local de Saúde do Alto Ave,"41.4387173, -8.3086907",2116,2518,2020,9
 2020-09-01,Norte,Unidade Local de Saúde de Santo António,"41.1764649, -8.6649823",0,0,2020,9
 2020-09-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",1320,1474,2020,9
-2020-10-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1049,1232,2020,10
+2020-10-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1049,1232,2020,10
 2020-10-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",1512,1874,2020,10
 2020-10-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2804158, -7.4922407",1008,1166,2020,10
 2020-10-01,Centro,Unidade Local de Saúde de Castelo Branco,"39.8212263, -7.4981271",467,722,2020,10
@@ -2947,7 +2947,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2021-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",290,350,2021,3
 2021-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7569771, -9.1460705",0,0,2021,3
 2021-03-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",833,908,2021,3
-2021-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",508,560,2021,3
+2021-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",508,560,2021,3
 2021-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.2410946, -8.6937515",673,705,2021,3
 2021-03-01,Norte,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,"41.3828711, -8.7589945",267,333,2021,3
 2021-03-01,Norte,Unidade Local de Saúde de Vila Nova de Gaia/Espinho,"41.1094138, -8.5972617",1993,2210,2021,3
@@ -2962,7 +2962,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2021-04-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",726,756,2021,4
 2021-04-01,Norte,Unidade Local de Saúde do Nordeste,"41.8056532, -6.7888197",731,830,2021,4
 2021-05-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",621,667,2021,5
-2021-05-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",776,873,2021,5
+2021-05-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",776,873,2021,5
 2021-05-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",945,1206,2021,5
 2021-05-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2804158, -7.4922407",625,749,2021,5
 2021-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",1077,1268,2021,5
@@ -3001,7 +3001,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2021-09-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2804158, -7.4922407",1226,1468,2021,9
 2021-09-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.6362453, -8.6543716",2671,3187,2021,9
 2021-09-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.516364, -8.0827433",3688,3932,2021,9
-2021-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2291,2623,2021,9
+2021-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2291,2623,2021,9
 2021-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",2864,2864,2021,9
 2021-09-01,Lisboa e Vale do Tejo,Instituto Português de Oncologia de Lisboa F. G.,"38.7396768, -9.1634516",120,679,2021,9
 2021-09-01,Norte,Unidade Local de Saúde de Braga,"41.56785, -8.398982",9860,10606,2021,9
@@ -3036,7 +3036,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2022-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",140,171,2022,1
 2022-01-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",339,373,2022,1
 2022-02-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",130,169,2022,2
-2022-02-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",224,244,2022,2
+2022-02-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",224,244,2022,2
 2022-02-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2804158, -7.4922407",257,291,2022,2
 2022-02-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",1735,2051,2022,2
 2022-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",460,593,2022,2
@@ -3048,7 +3048,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2022-02-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",1140,1248,2022,2
 2022-02-01,Norte,Unidade Local de Saúde de Braga,"41.56785, -8.398982",1450,1598,2022,2
 2022-02-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",712,790,2022,2
-2022-03-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",374,408,2022,3
+2022-03-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",374,408,2022,3
 2022-03-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7414812, -8.7982706",1707,1847,2022,3
 2022-03-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",2674,3155,2022,3
 2022-03-01,Centro,Unidade Local de Saúde de Coimbra,"40.297919, -8.7707806",0,0,2022,3
@@ -3066,7 +3066,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2022-03-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",1109,1224,2022,3
 2022-03-01,Norte,Unidade Local de Saúde do Alto Minho,"41.7056054, -8.8252713",1178,1347,2022,3
 2022-04-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",1023,1249,2022,4
-2022-04-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",479,534,2022,4
+2022-04-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",479,534,2022,4
 2022-04-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",1133,1461,2022,4
 2022-04-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2804158, -7.4922407",500,582,2022,4
 2022-04-01,Centro,Unidade Local de Saúde de Coimbra,"40.297919, -8.7707806",0,0,2022,4
@@ -3074,7 +3074,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2022-04-01,Centro,Unidade Local de Saúde de Castelo Branco,"39.8212263, -7.4981271",307,441,2022,4
 2022-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7166948, -9.1371248",2190,2453,2022,4
 2022-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500861, -9.1616116",2322,2565,2022,4
-2022-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1774,1944,2022,4
+2022-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1774,1944,2022,4
 2022-04-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",3011,3856,2022,4
 2022-04-01,Norte,Unidade Local de Saúde do Alto Ave,"41.4387173, -8.3086907",1114,1295,2022,4
 2022-04-01,Norte,Instituto Português de Oncologia do Porto F. G.,"41.1785642, -8.6062881",234,615,2022,4
@@ -3082,16 +3082,16 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2022-05-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",1267,1549,2022,5
 2022-05-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",396,489,2022,5
 2022-05-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",660,722,2022,5
-2022-05-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",601,671,2022,5
+2022-05-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",601,671,2022,5
 2022-05-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",1588,1973,2022,5
 2022-05-01,Centro,Unidade Local de Saúde do Baixo Mondego,"40.117897, -8.8586755",1255,1368,2022,5
 2022-05-01,Centro,Instituto Português de Oncologia de Coimbra F. G.,"40.2162514, -8.4103814",83,275,2022,5
 2022-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",1232,1503,2022,5
-2022-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2060,2256,2022,5
+2022-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2060,2256,2022,5
 2022-05-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9293884, -8.5458794",2818,3131,2022,5
 2022-05-01,Norte,Unidade Local de Saúde do Alto Minho,"41.7056054, -8.8252713",2107,2404,2022,5
 2022-06-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",818,892,2022,6
-2022-06-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",747,830,2022,6
+2022-06-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",747,830,2022,6
 2022-06-01,Centro,Unidade Local de Saúde do Baixo Mondego,"40.117897, -8.8586755",1503,1633,2022,6
 2022-06-01,Centro,Unidade Local de Saúde da Guarda,"40.5309916, -7.2734793",327,356,2022,6
 2022-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6554005, -9.0592392",849,1065,2022,6
@@ -3115,7 +3115,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2022-07-01,Norte,Unidade Local de Saúde de Santo António,"41.1764649, -8.6649823",0,0,2022,7
 2022-07-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",1565,1621,2022,7
 2022-08-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",947,1041,2022,8
-2022-08-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",949,1054,2022,8
+2022-08-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",949,1054,2022,8
 2022-08-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",2649,3199,2022,8
 2022-08-01,Centro,Unidade Local de Saúde de Coimbra,"40.3470015, -8.5933462",191,191,2022,8
 2022-08-01,Centro,Instituto Português de Oncologia de Coimbra F. G.,"40.2162514, -8.4103814",106,397,2022,8
@@ -3126,7 +3126,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2022-09-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.516364, -8.0827433",3623,3887,2022,9
 2022-09-01,Centro,Unidade Local de Saúde do Baixo Mondego,"40.117897, -8.8586755",2325,2501,2022,9
 2022-09-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",3216,3473,2022,9
-2022-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",3150,3512,2022,9
+2022-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",3150,3512,2022,9
 2022-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.2410946, -8.6937515",1548,1839,2022,9
 2022-09-01,Lisboa e Vale do Tejo,Instituto Português de Oncologia de Lisboa F. G.,"38.7396768, -9.1634516",160,755,2022,9
 2022-09-01,Norte,Unidade Local de Saúde de Santo António,"41.1472498, -8.6172617",7325,8296,2022,9
@@ -3166,7 +3166,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2022-12-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",6778,7552,2022,12
 2022-12-01,Norte,Unidade Local de Saúde de Braga,"41.56785, -8.398982",11560,12463,2022,12
 2023-01-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",236,288,2023,1
-2023-01-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",129,140,2023,1
+2023-01-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",129,140,2023,1
 2023-01-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2804158, -7.4922407",221,246,2023,1
 2023-01-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7414812, -8.7982706",807,846,2023,1
 2023-01-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",1035,1187,2023,1
@@ -3199,7 +3199,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2023-03-01,Norte,Unidade Local de Saúde do Alto Ave,"41.4387173, -8.3086907",959,1154,2023,3
 2023-03-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",775,805,2023,3
 2023-03-01,Norte,Unidade Local de Saúde do Alto Minho,"41.7056054, -8.8252713",1326,1488,2023,3
-2023-04-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",531,578,2023,4
+2023-04-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",531,578,2023,4
 2023-04-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.516364, -8.0827433",1921,2079,2023,4
 2023-04-01,Centro,Unidade Local de Saúde de Coimbra,"40.297919, -8.7707806",0,0,2023,4
 2023-04-01,Centro,Unidade Local de Saúde de Coimbra,"40.3470015, -8.5933462",140,140,2023,4
@@ -3219,7 +3219,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2023-05-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",1667,1803,2023,5
 2023-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",1047,1189,2023,5
 2023-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",1967,2246,2023,5
-2023-06-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",834,909,2023,6
+2023-06-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",834,909,2023,6
 2023-06-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",2070,2464,2023,6
 2023-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",2041,2448,2023,6
 2023-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500861, -9.1616116",3557,4086,2023,6
@@ -3246,7 +3246,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2023-09-01,Centro,Instituto Português de Oncologia de Coimbra F. G.,"40.2162514, -8.4103814",110,334,2023,9
 2023-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Arrábida,"38.5283754, -8.8818638",2857,3044,2023,9
 2023-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",2505,3034,2023,9
-2023-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2086,2337,2023,9
+2023-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2086,2337,2023,9
 2023-09-01,Norte,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,"41.3828711, -8.7589945",949,1275,2023,9
 2023-09-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",5460,6081,2023,9
 2023-09-01,Norte,Unidade Local de Saúde do Alto Ave,"41.4387173, -8.3086907",2953,3548,2023,9
@@ -3296,7 +3296,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2025-02-01,Centro,Unidade Local de Saúde da Guarda,"40.5309943471486, -7.0",119,137,2025,2
 2025-02-01,Norte,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,"41.383183, -8.758784",229,325,2025,2
 2025-02-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7418, -8.79444",1307,1386,2025,2
-2025-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821769, -9.176301",670,745,2025,2
+2025-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821769, -9.176301",670,745,2025,2
 2025-02-01,Algarve,Unidade Local de Saúde do Algarve,"37.024668, -7.928949",575,710,2025,2
 2025-02-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.2999, -7.4267",274,292,2025,2
 2024-03-01,Centro,Unidade Local de Saúde de Castelo Branco,"39.822737, -7.499876",402,528,2024,3
@@ -3304,7 +3304,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2024-03-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7418, -8.79444",1993,2122,2024,3
 2024-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Almada-Seixal,"38.67381, -9.17597",1092,1217,2024,3
 2024-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7436332060551, -9.0",1904,2074,2024,3
-2024-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821769, -9.176301",797,937,2024,3
+2024-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821769, -9.176301",797,937,2024,3
 2024-03-01,Norte,Unidade Local de Saúde de Matosinhos,"41.181859, -8.663374",1664,1790,2024,3
 2024-03-01,Norte,Unidade Local de Saúde de São João,"41.1833, -8.60193",2465,3236,2024,3
 2024-03-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.2999, -7.4267",690,730,2024,3
@@ -3447,7 +3447,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2025-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Arrábida,"38.529351, -8.881073",4207,4294,2025,10
 2025-10-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2776794433594, -7.0",1711,1879,2025,10
 2025-10-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9295, -8.54567",6187,6905,2025,10
-2025-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821769, -9.176301",2736,3116,2025,10
+2025-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821769, -9.176301",2736,3116,2025,10
 2025-10-01,Norte,Unidade Local de Saúde de Matosinhos,"41.181859, -8.663374",2231,2246,2025,10
 2025-10-01,Norte,Unidade Local de Saúde de São João,"41.1833, -8.60193",8077,10301,2025,10
 2025-10-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.568838, -7.903064",2426,2900,2025,10
@@ -3459,7 +3459,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2024-11-01,Centro,Unidade Local de Saúde de Coimbra,"40.217426, -8.410075",10687,12289,2024,11
 2024-11-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9295, -8.54567",6302,7028,2024,11
 2024-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.7084, -9.21711",4132,4882,2024,11
-2024-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821769, -9.176301",3075,3564,2024,11
+2024-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821769, -9.176301",3075,3564,2024,11
 2024-11-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.568838, -7.903064",2816,3234,2024,11
 2024-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6527214050293, -9.0",1679,2038,2024,11
 2024-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.605565, -8.404399",3419,4303,2024,11
@@ -3542,7 +3542,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2025-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.232503, -8.715083",662,696,2025,3
 2025-03-01,Norte,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,"41.383183, -8.758784",362,508,2025,3
 2025-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7436332060551, -9.0",1567,1709,2025,3
-2025-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821769, -9.176301",941,1066,2025,3
+2025-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821769, -9.176301",941,1066,2025,3
 2025-03-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.2999, -7.4267",407,436,2025,3
 2025-03-01,Norte,Unidade Local de Saúde do Alto Minho,"41.697519, -8.832517",1463,1640,2025,3
 2024-04-01,Centro,Unidade Local de Saúde de Castelo Branco,"39.822737, -7.499876",472,630,2024,4
@@ -3563,7 +3563,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2025-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6527214050293, -9.0",757,819,2025,4
 2025-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.605565, -8.404399",1202,1412,2025,4
 2024-05-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.533438, -8.616604",1151,1180,2024,5
-2024-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821769, -9.176301",1382,1603,2024,5
+2024-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821769, -9.176301",1382,1603,2024,5
 2024-05-01,Norte,Unidade Local de Saúde de Trás-os-Montes e Alto Douro,"41.310331, -7.760103",2941,3283,2024,5
 2025-05-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.730076, -9.418207",2622,2737,2025,5
 2025-05-01,Centro,Instituto Português de Oncologia de Coimbra F. G.,"40.217, -8.40991",15,152,2025,5
@@ -3591,7 +3591,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2025-06-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.039936, -8.731693",1502,1569,2025,6
 2024-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Almada-Seixal,"38.67381, -9.17597",2971,3269,2024,7
 2024-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7436332060551, -9.0",3910,4302,2024,7
-2024-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821769, -9.176301",1933,2251,2024,7
+2024-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821769, -9.176301",1933,2251,2024,7
 2024-07-01,Norte,Unidade Local de Saúde de Matosinhos,"41.181859, -8.663374",3561,3853,2024,7
 2024-07-01,Norte,Unidade Local de Saúde de Trás-os-Montes e Alto Douro,"41.310331, -7.760103",4104,4564,2024,7
 2024-07-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.568838, -7.903064",1796,2059,2024,7
@@ -3637,7 +3637,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2025-09-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2776794433594, -7.0",1558,1720,2025,9
 2025-09-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.6509, -7.91039",3911,4118,2025,9
 2025-09-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9295, -8.54567",5588,6224,2025,9
-2025-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821769, -9.176301",2505,2857,2025,9
+2025-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821769, -9.176301",2505,2857,2025,9
 2025-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7169, -9.13654",5485,5837,2025,9
 2025-09-01,Norte,Unidade Local de Saúde de Vila Nova de Gaia/Espinho,"41.1254463195801, -8.0",5588,6572,2025,9
 2025-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6527214050293, -9.0",1268,1423,2025,9
@@ -3672,14 +3672,14 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2025-11-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2776794433594, -7.0",1825,2002,2025,11
 2025-11-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.636332, -8.654388",4832,5382,2025,11
 2025-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7436332060551, -9.0",5251,5867,2025,11
-2025-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821769, -9.176301",3005,3421,2025,11
+2025-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821769, -9.176301",3005,3421,2025,11
 2025-11-01,Norte,Unidade Local de Saúde de São João,"41.1833, -8.60193",8508,10874,2025,11
 2025-11-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.039936, -8.731693",2258,2336,2025,11
 2024-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.232503, -8.715083",2303,2656,2024,12
 2024-12-01,Norte,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,"41.383183, -8.758784",1337,1927,2024,12
 2024-12-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9295, -8.54567",6983,7767,2024,12
 2024-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.7084, -9.21711",4415,5199,2024,12
-2024-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821769, -9.176301",3348,3868,2024,12
+2024-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821769, -9.176301",3348,3868,2024,12
 2024-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7169, -9.13654",9571,10214,2024,12
 2024-12-01,Algarve,Unidade Local de Saúde do Algarve,"37.024668, -7.928949",4589,5395,2024,12
 2024-12-01,Norte,Unidade Local de Saúde do Médio Ave,"41.3422317504883, -8.0",2810,3209,2024,12
@@ -3691,7 +3691,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2025-12-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.568838, -7.903064",2604,3132,2025,12
 2025-12-01,Algarve,Unidade Local de Saúde do Algarve,"37.024668, -7.928949",2352,2738,2025,12
 2025-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4055519104004, -9.0",3514,3717,2025,12
-2016-01-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",131,157,2016,1
+2016-01-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",131,157,2016,1
 2016-01-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.6362453, -8.6543716",268,349,2016,1
 2016-01-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.516364, -8.0827433",428,465,2016,1
 2016-01-01,Centro,Unidade Local de Saúde de Coimbra,"40.3470015, -8.5933462",64,64,2016,1
@@ -3701,7 +3701,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2016-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",155,208,2016,1
 2016-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7569771, -9.1460705",0,0,2016,1
 2016-01-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",229,256,2016,1
-2016-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",292,353,2016,1
+2016-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",292,353,2016,1
 2016-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",274,326,2016,1
 2016-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Almada-Seixal,"38.6658713, -9.1822554",317,337,2016,1
 2016-01-01,Norte,Unidade Local de Saúde do Médio Ave,"41.3423984, -8.4802503",180,244,2016,1
@@ -3750,7 +3750,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2016-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6554005, -9.0592392",757,1024,2016,5
 2016-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",1199,1544,2016,5
 2016-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500861, -9.1616116",2158,2908,2016,5
-2016-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1555,1839,2016,5
+2016-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1555,1839,2016,5
 2016-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.2410946, -8.6937515",808,894,2016,5
 2016-05-01,Lisboa e Vale do Tejo,Instituto Português de Oncologia de Lisboa F. G.,"38.7396768, -9.1634516",475,632,2016,5
 2016-05-01,Norte,Instituto Português de Oncologia do Porto F. G.,"41.1785642, -8.6062881",509,609,2016,5
@@ -3779,7 +3779,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2016-08-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",3647,4381,2016,8
 2016-08-01,Norte,Unidade Local de Saúde de Vila Nova de Gaia/Espinho,"41.1094138, -8.5972617",4716,5992,2016,8
 2016-08-01,Norte,Unidade Local de Saúde do Nordeste,"41.8056532, -6.7888197",1337,1637,2016,8
-2016-09-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1145,1393,2016,9
+2016-09-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1145,1393,2016,9
 2016-09-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.516364, -8.0827433",3897,4322,2016,9
 2016-09-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.8571967, -8.6318023",572,633,2016,9
 2016-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6554005, -9.0592392",1186,1630,2016,9
@@ -3819,7 +3819,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2017-01-01,Centro,Unidade Local de Saúde de Coimbra,"40.3470015, -8.5933462",68,68,2017,1
 2017-01-01,Centro,Unidade Local de Saúde de Castelo Branco,"39.8212263, -7.4981271",86,123,2017,1
 2017-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",266,331,2017,1
-2017-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",366,427,2017,1
+2017-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",366,427,2017,1
 2017-01-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9293884, -8.5458794",552,608,2017,1
 2017-01-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",497,574,2017,1
 2017-01-01,Norte,Unidade Local de Saúde de Braga,"41.56785, -8.398982",611,701,2017,1
@@ -3836,7 +3836,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2017-02-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9293884, -8.5458794",1038,1196,2017,2
 2017-03-01,Centro,Unidade Local de Saúde de Castelo Branco,"39.8212263, -7.4981271",315,438,2017,3
 2017-03-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",698,824,2017,3
-2017-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1102,1313,2017,3
+2017-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1102,1313,2017,3
 2017-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",1258,1684,2017,3
 2017-03-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",989,989,2017,3
 2017-03-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",1767,2307,2017,3
@@ -3878,7 +3878,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2017-06-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",3346,4361,2017,6
 2017-06-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9293884, -8.5458794",2810,3476,2017,6
 2017-06-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",2925,3473,2017,6
-2017-07-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",826,1043,2017,7
+2017-07-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",826,1043,2017,7
 2017-07-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.6362453, -8.6543716",1983,2360,2017,7
 2017-07-01,Centro,Unidade Local de Saúde do Baixo Mondego,"40.117897, -8.8586755",1324,1602,2017,7
 2017-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",1912,2510,2017,7
@@ -3888,7 +3888,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2017-08-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7414812, -8.7982706",2722,3394,2017,8
 2017-08-01,Centro,Unidade Local de Saúde da Guarda,"40.5309916, -7.2734793",804,1010,2017,8
 2017-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500861, -9.1616116",3325,4158,2017,8
-2017-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2574,3103,2017,8
+2017-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2574,3103,2017,8
 2017-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",2925,3883,2017,8
 2017-08-01,Norte,Unidade Local de Saúde do Médio Ave,"41.3423984, -8.4802503",1623,1936,2017,8
 2017-08-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9293884, -8.5458794",3450,4273,2017,8
@@ -3898,7 +3898,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2017-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7166948, -9.1371248",6438,7429,2017,9
 2017-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",2218,2706,2017,9
 2017-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7569771, -9.1460705",0,0,2017,9
-2017-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2844,3428,2017,9
+2017-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2844,3428,2017,9
 2017-09-01,Norte,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,"41.3828711, -8.7589945",1029,1472,2017,9
 2017-09-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",4071,4858,2017,9
 2017-09-01,Norte,Unidade Local de Saúde de Santo António,"41.1764649, -8.6649823",0,0,2017,9
@@ -3908,7 +3908,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2017-10-01,Centro,Unidade Local de Saúde de Coimbra,"40.297919, -8.7707806",0,0,2017,10
 2017-10-01,Centro,Unidade Local de Saúde de Coimbra,"40.3470015, -8.5933462",560,560,2017,10
 2017-10-01,Centro,Unidade Local de Saúde do Baixo Mondego,"40.117897, -8.8586755",1803,2177,2017,10
-2017-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",3171,3816,2017,10
+2017-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",3171,3816,2017,10
 2017-10-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",4843,6374,2017,10
 2017-10-01,Norte,Unidade Local de Saúde do Médio Ave,"41.3423984, -8.4802503",2057,2457,2017,10
 2017-10-01,Norte,Unidade Local de Saúde de Santo António,"41.1764649, -8.6649823",0,0,2017,10
@@ -3939,7 +3939,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2018-01-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.8571967, -8.6318023",47,48,2018,1
 2018-01-01,Centro,Unidade Local de Saúde da Guarda,"40.5309916, -7.2734793",82,112,2018,1
 2018-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",332,421,2018,1
-2018-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",353,414,2018,1
+2018-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",353,414,2018,1
 2018-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",268,268,2018,1
 2018-01-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",706,845,2018,1
 2018-01-01,Norte,Unidade Local de Saúde de Santo António,"41.1472498, -8.6172617",799,976,2018,1
@@ -3974,7 +3974,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2018-05-01,Norte,Unidade Local de Saúde de Braga,"41.56785, -8.398982",2839,3301,2018,5
 2018-05-01,Norte,Unidade Local de Saúde de Santo António,"41.1764649, -8.6649823",0,0,2018,5
 2018-05-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",1619,1896,2018,5
-2018-06-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",773,941,2018,6
+2018-06-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",773,941,2018,6
 2018-06-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",4703,5893,2018,6
 2018-06-01,Centro,Unidade Local de Saúde de Coimbra,"40.3470015, -8.5933462",160,160,2018,6
 2018-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",1777,2069,2018,6
@@ -4040,7 +4040,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2018-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",3806,3806,2018,11
 2018-11-01,Norte,Unidade Local de Saúde do Médio Ave,"41.3423984, -8.4802503",2565,3039,2018,11
 2018-11-01,Norte,Unidade Local de Saúde do Nordeste,"41.8056532, -6.7888197",2274,2693,2018,11
-2018-12-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1471,1778,2018,12
+2018-12-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1471,1778,2018,12
 2018-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",3112,4176,2018,12
 2018-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",3334,3915,2018,12
 2018-12-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",2863,3197,2018,12
@@ -4066,7 +4066,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2019-02-01,Centro,Instituto Português de Oncologia de Coimbra F. G.,"40.2162514, -8.4103814",11,75,2019,2
 2019-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",324,452,2019,2
 2019-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7569771, -9.1460705",0,0,2019,2
-2019-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",667,780,2019,2
+2019-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",667,780,2019,2
 2019-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.2410946, -8.6937515",381,466,2019,2
 2019-02-01,Lisboa e Vale do Tejo,Instituto Português de Oncologia de Lisboa F. G.,"38.7396768, -9.1634516",57,151,2019,2
 2019-02-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",1203,1381,2019,2
@@ -4090,7 +4090,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2019-04-01,Centro,Unidade Local de Saúde da Guarda,"40.5309916, -7.2734793",410,459,2019,4
 2019-04-01,Centro,Unidade Local de Saúde de Castelo Branco,"39.8212263, -7.4981271",277,482,2019,4
 2019-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Arrábida,"38.5283754, -8.8818638",1108,1256,2019,4
-2019-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1310,1563,2019,4
+2019-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1310,1563,2019,4
 2019-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.2410946, -8.6937515",738,876,2019,4
 2019-04-01,Norte,Unidade Local de Saúde de Santo António,"41.1764649, -8.6649823",0,0,2019,4
 2019-04-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",865,1016,2019,4
@@ -4123,7 +4123,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2019-07-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",3540,4149,2019,7
 2019-08-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",980,1229,2019,8
 2019-08-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",674,761,2019,8
-2019-08-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",798,1020,2019,8
+2019-08-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",798,1020,2019,8
 2019-08-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7414812, -8.7982706",3220,3632,2019,8
 2019-08-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.6362453, -8.6543716",2722,3422,2019,8
 2019-08-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",5485,6762,2019,8
@@ -4150,12 +4150,12 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2019-10-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7414812, -8.7982706",4110,4617,2019,10
 2019-10-01,Centro,Instituto Português de Oncologia de Coimbra F. G.,"40.2162514, -8.4103814",45,385,2019,10
 2019-10-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",2812,3078,2019,10
-2019-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2982,3549,2019,10
+2019-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2982,3549,2019,10
 2019-10-01,Norte,Unidade Local de Saúde do Médio Ave,"41.3423984, -8.4802503",2280,2602,2019,10
 2019-10-01,Norte,Unidade Local de Saúde de Trás-os-Montes e Alto Douro,"41.3031784, -7.7515252",3888,4526,2019,10
 2019-10-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",3699,4230,2019,10
 2019-11-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",1079,1214,2019,11
-2019-11-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1182,1523,2019,11
+2019-11-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1182,1523,2019,11
 2019-11-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",7820,9585,2019,11
 2019-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Arrábida,"38.5283754, -8.8818638",3083,3478,2019,11
 2019-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500861, -9.1616116",4516,5416,2019,11
@@ -4182,7 +4182,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2020-01-01,Norte,Unidade Local de Saúde do Alto Ave,"41.4387173, -8.3086907",331,404,2020,1
 2020-01-01,Norte,Unidade Local de Saúde de Braga,"41.56785, -8.398982",487,554,2020,1
 2020-01-01,Norte,Unidade Local de Saúde do Alto Minho,"41.7056054, -8.8252713",431,503,2020,1
-2020-02-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",219,296,2020,2
+2020-02-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",219,296,2020,2
 2020-02-01,Centro,Unidade Local de Saúde de Coimbra,"40.297919, -8.7707806",0,0,2020,2
 2020-02-01,Centro,Unidade Local de Saúde de Coimbra,"40.3470015, -8.5933462",91,91,2020,2
 2020-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6554005, -9.0592392",383,495,2020,2
@@ -4223,7 +4223,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2020-06-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",2405,3266,2020,6
 2020-06-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",2087,2501,2020,6
 2020-06-01,Norte,Unidade Local de Saúde de Vila Nova de Gaia/Espinho,"41.1094138, -8.5972617",1977,2547,2020,6
-2020-07-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",601,743,2020,7
+2020-07-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",601,743,2020,7
 2020-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",1124,1452,2020,7
 2020-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Arrábida,"38.5283754, -8.8818638",946,1110,2020,7
 2020-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",1145,1367,2020,7
@@ -4233,7 +4233,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2020-07-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",1003,1138,2020,7
 2020-07-01,Norte,Unidade Local de Saúde do Nordeste,"41.8056532, -6.7888197",951,1150,2020,7
 2020-08-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",536,600,2020,8
-2020-08-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",717,866,2020,8
+2020-08-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",717,866,2020,8
 2020-08-01,Centro,Unidade Local de Saúde de Coimbra,"40.3470015, -8.5933462",226,226,2020,8
 2020-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",1196,1591,2020,8
 2020-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",667,921,2020,8
@@ -4252,7 +4252,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2020-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7166948, -9.1371248",3580,4227,2020,9
 2020-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",1307,1751,2020,9
 2020-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",1606,1920,2020,9
-2020-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2024,2378,2020,9
+2020-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2024,2378,2020,9
 2020-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",2098,2458,2020,9
 2020-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",1887,2269,2020,9
 2020-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",1477,1477,2020,9
@@ -4283,7 +4283,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2020-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",1861,2481,2020,12
 2020-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",1195,1544,2020,12
 2020-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500861, -9.1616116",3895,4580,2020,12
-2020-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2782,3253,2020,12
+2020-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2782,3253,2020,12
 2020-12-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",6638,9169,2020,12
 2020-12-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",4719,5527,2020,12
 2021-01-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",115,140,2021,1
@@ -4314,7 +4314,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2021-02-01,Norte,Instituto Português de Oncologia do Porto F. G.,"41.1785642, -8.6062881",66,189,2021,2
 2021-03-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",591,653,2021,3
 2021-03-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",182,201,2021,3
-2021-03-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",461,504,2021,3
+2021-03-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",461,504,2021,3
 2021-03-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2804158, -7.4922407",271,318,2021,3
 2021-03-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7414812, -8.7982706",1549,1645,2021,3
 2021-03-01,Norte,Unidade Local de Saúde do Alto Ave,"41.4387173, -8.3086907",1024,1104,2021,3
@@ -4351,7 +4351,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2021-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6554005, -9.0592392",1027,1244,2021,7
 2021-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",1296,1581,2021,7
 2021-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7569771, -9.1460705",0,0,2021,7
-2021-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1715,1965,2021,7
+2021-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1715,1965,2021,7
 2021-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",4106,4562,2021,7
 2021-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",2240,2240,2021,7
 2021-07-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",1939,2235,2021,7
@@ -4379,7 +4379,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2021-10-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",1906,1987,2021,10
 2021-10-01,Norte,Unidade Local de Saúde do Nordeste,"41.8056532, -6.7888197",2275,2577,2021,10
 2021-11-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",1532,1661,2021,11
-2021-11-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1466,1651,2021,11
+2021-11-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1466,1651,2021,11
 2021-11-01,Centro,Unidade Local de Saúde de Coimbra,"40.297919, -8.7707806",0,0,2021,11
 2021-11-01,Centro,Unidade Local de Saúde de Coimbra,"40.3470015, -8.5933462",452,452,2021,11
 2021-11-01,Centro,Instituto Português de Oncologia de Coimbra F. G.,"40.2162514, -8.4103814",71,485,2021,11
@@ -4410,7 +4410,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2022-02-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",508,626,2022,2
 2022-02-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7414812, -8.7982706",1120,1218,2022,2
 2022-02-01,Centro,Unidade Local de Saúde do Baixo Mondego,"40.117897, -8.8586755",495,533,2022,2
-2022-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1030,1102,2022,2
+2022-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1030,1102,2022,2
 2022-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",451,512,2022,2
 2022-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.2410946, -8.6937515",389,458,2022,2
 2022-02-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",1372,1797,2022,2
@@ -4456,10 +4456,10 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2022-06-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",3328,3753,2022,6
 2022-06-01,Norte,Unidade Local de Saúde do Alto Minho,"41.7056054, -8.8252713",2580,2936,2022,6
 2022-07-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",623,756,2022,7
-2022-07-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",819,914,2022,7
+2022-07-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",819,914,2022,7
 2022-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6554005, -9.0592392",1004,1251,2022,7
 2022-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",1825,2188,2022,7
-2022-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2620,2884,2022,7
+2022-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2620,2884,2022,7
 2022-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",1762,1762,2022,7
 2022-07-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",2552,2826,2022,7
 2022-07-01,Norte,Unidade Local de Saúde do Nordeste,"41.8056532, -6.7888197",1746,1995,2022,7
@@ -4506,7 +4506,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2022-12-01,Centro,Unidade Local de Saúde de Coimbra,"40.297919, -8.7707806",0,0,2022,12
 2022-12-01,Centro,Unidade Local de Saúde da Guarda,"40.5309916, -7.2734793",573,643,2022,12
 2022-12-01,Centro,Unidade Local de Saúde de Castelo Branco,"39.8212263, -7.4981271",949,1317,2022,12
-2022-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",3970,4440,2022,12
+2022-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",3970,4440,2022,12
 2022-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.2410946, -8.6937515",1811,2167,2022,12
 2022-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Almada-Seixal,"38.6658713, -9.1822554",3718,4173,2022,12
 2022-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",3123,3123,2022,12
@@ -4524,15 +4524,15 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2023-01-01,Norte,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,"41.3828711, -8.7589945",116,162,2023,1
 2023-02-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",419,512,2023,2
 2023-02-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",326,351,2023,2
-2023-02-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",251,269,2023,2
+2023-02-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",251,269,2023,2
 2023-02-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",1936,2228,2023,2
 2023-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",589,652,2023,2
 2023-02-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",737,789,2023,2
-2023-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",326,379,2023,2
+2023-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",326,379,2023,2
 2023-02-01,Norte,Instituto Português de Oncologia do Porto F. G.,"41.1785642, -8.6062881",61,218,2023,2
 2023-03-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",618,751,2023,3
 2023-03-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",407,519,2023,3
-2023-03-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",376,410,2023,3
+2023-03-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",376,410,2023,3
 2023-03-01,Centro,Unidade Local de Saúde de Coimbra,"40.297919, -8.7707806",0,0,2023,3
 2023-03-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.8571967, -8.6318023",186,190,2023,3
 2023-03-01,Centro,Unidade Local de Saúde de Castelo Branco,"39.8212263, -7.4981271",271,374,2023,3
@@ -4546,20 +4546,20 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2023-04-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",761,939,2023,4
 2023-04-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2804158, -7.4922407",789,892,2023,4
 2023-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",1231,1368,2023,4
-2023-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",845,941,2023,4
+2023-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",845,941,2023,4
 2023-04-01,Norte,Unidade Local de Saúde de Trás-os-Montes e Alto Douro,"41.3031784, -7.7515252",2020,2242,2023,4
 2023-04-01,Norte,Unidade Local de Saúde de Vila Nova de Gaia/Espinho,"41.1094138, -8.5972617",2400,2969,2023,4
 2023-04-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",1005,1041,2023,4
 2023-04-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",1550,1733,2023,4
 2023-05-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",1019,1236,2023,5
 2023-05-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",684,878,2023,5
-2023-05-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",686,742,2023,5
+2023-05-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",686,742,2023,5
 2023-05-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2804158, -7.4922407",1022,1156,2023,5
 2023-05-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",4948,5694,2023,5
 2023-05-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.516364, -8.0827433",2461,2663,2023,5
 2023-05-01,Centro,Unidade Local de Saúde de Coimbra,"40.297919, -8.7707806",0,0,2023,5
 2023-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6554005, -9.0592392",799,964,2023,5
-2023-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1133,1254,2023,5
+2023-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1133,1254,2023,5
 2023-05-01,Norte,Unidade Local de Saúde de Braga,"41.56785, -8.398982",4942,5333,2023,5
 2023-05-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",1242,1284,2023,5
 2023-05-01,Norte,Unidade Local de Saúde do Nordeste,"41.8056532, -6.7888197",1299,1562,2023,5
@@ -4570,7 +4570,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2023-06-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.8571967, -8.6318023",356,362,2023,6
 2023-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",1778,1977,2023,6
 2023-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",1736,2098,2023,6
-2023-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1416,1581,2023,6
+2023-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1416,1581,2023,6
 2023-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.2410946, -8.6937515",621,850,2023,6
 2023-06-01,Lisboa e Vale do Tejo,Instituto Português de Oncologia de Lisboa F. G.,"38.7396768, -9.1634516",191,582,2023,6
 2023-06-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",3754,4199,2023,6
@@ -4582,7 +4582,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2023-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",1488,1682,2023,7
 2023-07-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",4446,4938,2023,7
 2023-08-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",1437,1557,2023,8
-2023-08-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1094,1197,2023,8
+2023-08-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1094,1197,2023,8
 2023-08-01,Centro,Unidade Local de Saúde de Coimbra,"40.297919, -8.7707806",0,0,2023,8
 2023-08-01,Centro,Instituto Português de Oncologia de Coimbra F. G.,"40.2162514, -8.4103814",101,293,2023,8
 2023-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7166948, -9.1371248",3674,4134,2023,8
@@ -4595,7 +4595,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2023-08-01,Norte,Unidade Local de Saúde do Alto Ave,"41.4387173, -8.3086907",2520,3040,2023,8
 2023-09-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",1837,2194,2023,9
 2023-09-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",1199,1521,2023,9
-2023-09-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1247,1357,2023,9
+2023-09-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1247,1357,2023,9
 2023-09-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",3291,3853,2023,9
 2023-09-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",7479,8712,2023,9
 2023-09-01,Centro,Unidade Local de Saúde de Coimbra,"40.297919, -8.7707806",0,0,2023,9
@@ -4629,7 +4629,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2023-11-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",2651,2726,2023,11
 2023-11-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",4285,4667,2023,11
 2023-12-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",2298,2462,2023,12
-2023-12-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1676,1827,2023,12
+2023-12-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1676,1827,2023,12
 2023-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6554005, -9.0592392",1618,2068,2023,12
 2023-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500861, -9.1616116",6876,7797,2023,12
 2023-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7569771, -9.1460705",0,0,2023,12
@@ -4660,7 +4660,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2016-03-01,Norte,Unidade Local de Saúde do Alto Minho,"41.7056054, -8.8252713",967,1182,2016,3
 2016-04-01,Centro,Unidade Local de Saúde do Baixo Mondego,"40.117897, -8.8586755",661,949,2016,4
 2016-04-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",1013,1133,2016,4
-2016-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1230,1467,2016,4
+2016-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1230,1467,2016,4
 2016-04-01,Norte,Unidade Local de Saúde de Santo António,"41.1472498, -8.6172617",2765,3440,2016,4
 2016-04-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9293884, -8.5458794",1298,1685,2016,4
 2016-04-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",1931,2300,2016,4
@@ -4676,7 +4676,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2016-05-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",1590,1973,2016,5
 2016-06-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",1199,1608,2016,6
 2016-06-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",646,780,2016,6
-2016-06-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",882,1071,2016,6
+2016-06-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",882,1071,2016,6
 2016-06-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",4891,6290,2016,6
 2016-06-01,Centro,Unidade Local de Saúde do Baixo Mondego,"40.117897, -8.8586755",1002,1399,2016,6
 2016-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",1424,1822,2016,6
@@ -4693,7 +4693,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2016-07-01,Norte,Unidade Local de Saúde de Santo António,"41.1764649, -8.6649823",0,0,2016,7
 2016-07-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",893,1174,2016,7
 2016-07-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",2470,3023,2016,7
-2016-08-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1035,1263,2016,8
+2016-08-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1035,1263,2016,8
 2016-08-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",1602,2014,2016,8
 2016-08-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.6362453, -8.6543716",2214,2724,2016,8
 2016-08-01,Centro,Unidade Local de Saúde de Coimbra,"40.3470015, -8.5933462",476,476,2016,8
@@ -4720,7 +4720,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2016-10-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",4618,6419,2016,10
 2016-10-01,Norte,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,"41.3828711, -8.7589945",914,1449,2016,10
 2016-10-01,Norte,Unidade Local de Saúde do Alto Ave,"41.4387173, -8.3086907",2649,3513,2016,10
-2016-11-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1442,1778,2016,11
+2016-11-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1442,1778,2016,11
 2016-11-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",8236,10616,2016,11
 2016-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",1198,1640,2016,11
 2016-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",4144,5494,2016,11
@@ -4734,11 +4734,11 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2016-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500861, -9.1616116",4908,6432,2016,12
 2016-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",2845,3575,2016,12
 2016-12-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",2521,2855,2016,12
-2016-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",3730,4469,2016,12
+2016-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",3730,4469,2016,12
 2016-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",2809,2809,2016,12
 2016-12-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",5390,6529,2016,12
 2016-12-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",4445,5369,2016,12
-2017-01-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",102,136,2017,1
+2017-01-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",102,136,2017,1
 2017-01-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7414812, -8.7982706",363,445,2017,1
 2017-01-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.6362453, -8.6543716",314,353,2017,1
 2017-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",102,135,2017,1
@@ -4774,7 +4774,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2017-05-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.6362453, -8.6543716",1420,1657,2017,5
 2017-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",1420,1862,2017,5
 2017-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",565,753,2017,5
-2017-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1698,2031,2017,5
+2017-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1698,2031,2017,5
 2017-05-01,Lisboa e Vale do Tejo,Instituto Português de Oncologia de Lisboa F. G.,"38.7396768, -9.1634516",59,296,2017,5
 2017-05-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",2783,3646,2017,5
 2017-05-01,Norte,Unidade Local de Saúde do Médio Ave,"41.3423984, -8.4802503",1087,1303,2017,5
@@ -4909,7 +4909,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2018-06-01,Norte,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,"41.3828711, -8.7589945",826,1066,2018,6
 2018-06-01,Norte,Unidade Local de Saúde do Alto Ave,"41.4387173, -8.3086907",1527,1894,2018,6
 2018-06-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",1252,1443,2018,6
-2018-07-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",910,1101,2018,7
+2018-07-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",910,1101,2018,7
 2018-07-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.516364, -8.0827433",2389,2608,2018,7
 2018-07-01,Centro,Unidade Local de Saúde de Coimbra,"40.3470015, -8.5933462",176,176,2018,7
 2018-07-01,Centro,Unidade Local de Saúde do Baixo Mondego,"40.117897, -8.8586755",1348,1543,2018,7
@@ -4922,7 +4922,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2018-07-01,Norte,Unidade Local de Saúde de Braga,"41.56785, -8.398982",3897,4636,2018,7
 2018-07-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",1502,1738,2018,7
 2018-07-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",2360,2740,2018,7
-2018-08-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",986,1197,2018,8
+2018-08-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",986,1197,2018,8
 2018-08-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",5671,7136,2018,8
 2018-08-01,Centro,Instituto Português de Oncologia de Coimbra F. G.,"40.2162514, -8.4103814",15,238,2018,8
 2018-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7569771, -9.1460705",0,0,2018,8
@@ -4936,7 +4936,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2018-09-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",5192,6543,2018,9
 2018-09-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",1987,2271,2018,9
 2018-10-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",2090,2757,2018,10
-2018-10-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1219,1481,2018,10
+2018-10-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1219,1481,2018,10
 2018-10-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.8571967, -8.6318023",452,491,2018,10
 2018-10-01,Centro,Unidade Local de Saúde da Guarda,"40.5309916, -7.2734793",925,1104,2018,10
 2018-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",2686,3172,2018,10
@@ -5014,7 +5014,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2019-07-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",1875,2499,2019,7
 2019-07-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",872,1093,2019,7
 2019-07-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",597,673,2019,7
-2019-07-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",723,913,2019,7
+2019-07-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",723,913,2019,7
 2019-07-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",1861,2174,2019,7
 2019-07-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7414812, -8.7982706",2890,3245,2019,7
 2019-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",1876,2280,2019,7
@@ -5032,7 +5032,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2019-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",2377,2845,2019,9
 2019-09-01,Norte,Unidade Local de Saúde do Médio Ave,"41.3423984, -8.4802503",1964,2227,2019,9
 2019-09-01,Norte,Instituto Português de Oncologia do Porto F. G.,"41.1785642, -8.6062881",911,1603,2019,9
-2019-10-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1041,1358,2019,10
+2019-10-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1041,1358,2019,10
 2019-10-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",2688,3136,2019,10
 2019-10-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.6362453, -8.6543716",3494,4386,2019,10
 2019-10-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",7086,8689,2019,10
@@ -5057,7 +5057,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2019-11-01,Norte,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,"41.3828711, -8.7589945",1177,1678,2019,11
 2019-11-01,Norte,Unidade Local de Saúde de Vila Nova de Gaia/Espinho,"41.1094138, -8.5972617",5922,7170,2019,11
 2019-12-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",1194,1353,2019,12
-2019-12-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1260,1636,2019,12
+2019-12-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1260,1636,2019,12
 2019-12-01,Centro,Unidade Local de Saúde de Castelo Branco,"39.8212263, -7.4981271",885,1383,2019,12
 2019-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500861, -9.1616116",4932,5910,2019,12
 2019-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",4598,5431,2019,12
@@ -5097,24 +5097,24 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2020-03-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",994,1083,2020,3
 2020-03-01,Norte,Unidade Local de Saúde do Alto Minho,"41.7056054, -8.8252713",856,1051,2020,3
 2020-04-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",163,238,2020,4
-2020-04-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",284,383,2020,4
+2020-04-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",284,383,2020,4
 2020-04-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.516364, -8.0827433",1043,1137,2020,4
 2020-04-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",634,719,2020,4
-2020-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",830,993,2020,4
+2020-04-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",830,993,2020,4
 2020-04-01,Lisboa e Vale do Tejo,Instituto Português de Oncologia de Lisboa F. G.,"38.7396768, -9.1634516",76,255,2020,4
 2020-04-01,Norte,Unidade Local de Saúde de Santo António,"41.1472498, -8.6172617",2076,2526,2020,4
 2020-04-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",1281,1494,2020,4
 2020-04-01,Norte,Unidade Local de Saúde de Braga,"41.56785, -8.398982",1116,1289,2020,4
 2020-05-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2804158, -7.4922407",394,473,2020,5
 2020-05-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.6362453, -8.6543716",1121,1425,2020,5
-2020-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",896,1091,2020,5
+2020-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",896,1091,2020,5
 2020-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",810,988,2020,5
 2020-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",1148,1350,2020,5
 2020-05-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",956,956,2020,5
 2020-05-01,Norte,Unidade Local de Saúde de Vila Nova de Gaia/Espinho,"41.1094138, -8.5972617",1569,2044,2020,5
 2020-05-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",641,735,2020,5
 2020-06-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",393,436,2020,6
-2020-06-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",416,544,2020,6
+2020-06-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",416,544,2020,6
 2020-06-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.6362453, -8.6543716",1481,1877,2020,6
 2020-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7569771, -9.1460705",0,0,2020,6
 2020-06-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",892,1006,2020,6
@@ -5123,7 +5123,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2020-06-01,Norte,Unidade Local de Saúde de Santo António,"41.1472498, -8.6172617",2511,3102,2020,6
 2020-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6554005, -9.0592392",607,826,2020,7
 2020-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",592,817,2020,7
-2020-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",1428,1692,2020,7
+2020-07-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",1428,1692,2020,7
 2020-07-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9293884, -8.5458794",2821,3188,2020,7
 2020-07-01,Norte,Unidade Local de Saúde do Alto Minho,"41.7056054, -8.8252713",1355,1662,2020,7
 2020-08-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",1084,1349,2020,8
@@ -5134,7 +5134,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2020-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Almada-Seixal,"38.6658713, -9.1822554",1535,1748,2020,8
 2020-08-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",3086,4480,2020,8
 2020-08-01,Norte,Unidade Local de Saúde de Santo António,"41.1764649, -8.6649823",0,0,2020,8
-2020-09-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",855,1018,2020,9
+2020-09-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",855,1018,2020,9
 2020-09-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7414812, -8.7982706",3821,4179,2020,9
 2020-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7569771, -9.1460705",0,0,2020,9
 2020-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.2410946, -8.6937515",970,1076,2020,9
@@ -5171,10 +5171,10 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2020-12-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",2973,3328,2020,12
 2020-12-01,Norte,Unidade Local de Saúde do Alto Minho,"41.7056054, -8.8252713",2443,2978,2020,12
 2020-12-01,Norte,Unidade Local de Saúde do Nordeste,"41.8056532, -6.7888197",1966,2328,2020,12
-2021-01-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",90,97,2021,1
+2021-01-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",90,97,2021,1
 2021-01-01,Centro,Unidade Local de Saúde da Guarda,"40.5309916, -7.2734793",18,20,2021,1
 2021-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500861, -9.1616116",388,420,2021,1
-2021-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",116,136,2021,1
+2021-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",116,136,2021,1
 2021-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",75,85,2021,1
 2021-01-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",767,974,2021,1
 2021-01-01,Norte,Unidade Local de Saúde do Médio Ave,"41.3423984, -8.4802503",243,265,2021,1
@@ -5185,7 +5185,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2021-02-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.8571967, -8.6318023",24,25,2021,2
 2021-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7166948, -9.1371248",869,946,2021,2
 2021-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.708454, -9.216985",212,238,2021,2
-2021-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",252,280,2021,2
+2021-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",252,280,2021,2
 2021-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.2410946, -8.6937515",429,434,2021,2
 2021-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",79,93,2021,2
 2021-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Almada-Seixal,"38.6658713, -9.1822554",371,386,2021,2
@@ -5248,7 +5248,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2021-07-01,Norte,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,"41.3828711, -8.7589945",570,771,2021,7
 2021-07-01,Norte,Unidade Local de Saúde de Braga,"41.56785, -8.398982",7839,8424,2021,7
 2021-07-01,Norte,Unidade Local de Saúde do Nordeste,"41.8056532, -6.7888197",1499,1699,2021,7
-2021-08-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1056,1201,2021,8
+2021-08-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1056,1201,2021,8
 2021-08-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7414812, -8.7982706",4384,4762,2021,8
 2021-08-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.8571967, -8.6318023",499,514,2021,8
 2021-08-01,Centro,Instituto Português de Oncologia de Coimbra F. G.,"40.2162514, -8.4103814",39,363,2021,8
@@ -5260,7 +5260,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2021-08-01,Norte,Unidade Local de Saúde de Vila Nova de Gaia/Espinho,"41.1094138, -8.5972617",4825,5771,2021,8
 2021-08-01,Norte,Unidade Local de Saúde do Alto Ave,"41.4387173, -8.3086907",2462,2809,2021,8
 2021-08-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",1537,1602,2021,8
-2021-09-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1187,1348,2021,9
+2021-09-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1187,1348,2021,9
 2021-09-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",5450,6632,2021,9
 2021-09-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.8571967, -8.6318023",586,602,2021,9
 2021-09-01,Centro,Instituto Português de Oncologia de Coimbra F. G.,"40.2162514, -8.4103814",45,399,2021,9
@@ -5272,12 +5272,12 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2021-09-01,Norte,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,"41.3828711, -8.7589945",685,948,2021,9
 2021-09-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",1733,1803,2021,9
 2021-10-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",1386,1502,2021,10
-2021-10-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1356,1521,2021,10
+2021-10-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1356,1521,2021,10
 2021-10-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.6362453, -8.6543716",3181,3781,2021,10
 2021-10-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",6386,7720,2021,10
 2021-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Oeste,"39.4054629, -9.1258493",1422,1625,2021,10
 2021-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500861, -9.1616116",4688,5265,2021,10
-2021-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2602,2993,2021,10
+2021-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2602,2993,2021,10
 2021-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.2410946, -8.6937515",1800,2070,2021,10
 2021-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",2641,3171,2021,10
 2021-11-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",1016,1286,2021,11
@@ -5292,20 +5292,20 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2021-11-01,Norte,Unidade Local de Saúde de Santo António,"41.1764649, -8.6649823",0,0,2021,11
 2021-11-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.5324234, -8.6171561",2108,2197,2021,11
 2021-11-01,Norte,Unidade Local de Saúde do Alto Minho,"41.7056054, -8.8252713",3487,4022,2021,11
-2021-12-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1512,1701,2021,12
+2021-12-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1512,1701,2021,12
 2021-12-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7414812, -8.7982706",6764,7305,2021,12
 2021-12-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.6362453, -8.6543716",3676,4372,2021,12
 2021-12-01,Centro,Unidade Local de Saúde de Coimbra,"40.3470015, -8.5933462",484,484,2021,12
 2021-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Médio Tejo,"39.478072, -8.5404429",2566,3059,2021,12
 2021-12-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",3901,4238,2021,12
-2021-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",3204,3708,2021,12
+2021-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",3204,3708,2021,12
 2021-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Estuário do Tejo,"38.977235, -8.984506",6960,7748,2021,12
 2021-12-01,Norte,Unidade Local de Saúde do Tâmega e Sousa,"41.2494561, -8.264901",6453,7287,2021,12
 2021-12-01,Norte,Unidade Local de Saúde do Nordeste,"41.8056532, -6.7888197",2791,3160,2021,12
-2022-01-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",83,87,2022,1
+2022-01-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",83,87,2022,1
 2022-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6554005, -9.0592392",151,176,2022,1
 2022-01-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",365,383,2022,1
-2022-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",658,710,2022,1
+2022-01-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",658,710,2022,1
 2022-01-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",680,894,2022,1
 2022-01-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9293884, -8.5458794",549,616,2022,1
 2022-01-01,Norte,Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde,"41.3828711, -8.7589945",86,123,2022,1
@@ -5356,7 +5356,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2022-06-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",531,643,2022,6
 2022-06-01,Centro,Unidade Local de Saúde da Cova da Beira,"40.2804158, -7.4922407",890,1013,2022,6
 2022-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Arrábida,"38.5283754, -8.8818638",1824,1943,2022,6
-2022-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2370,2610,2022,6
+2022-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2370,2610,2022,6
 2022-06-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Almada-Seixal,"38.6658713, -9.1822554",1967,2158,2022,6
 2022-06-01,Norte,Unidade Local de Saúde de São João,"41.1831056, -8.6010558",4437,5650,2022,6
 2022-06-01,Norte,Unidade Local de Saúde de Entre Douro e Vouga,"40.9293884, -8.5458794",3499,3868,2022,6
@@ -5373,7 +5373,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2022-08-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.516364, -8.0827433",3227,3458,2022,8
 2022-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6554005, -9.0592392",1032,1306,2022,8
 2022-08-01,Lisboa e Vale do Tejo,Hospital de Cascais,"38.729006, -9.418267",2869,3094,2022,8
-2022-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2866,3182,2022,8
+2022-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2866,3182,2022,8
 2022-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Almada-Seixal,"38.6658713, -9.1822554",2575,2861,2022,8
 2022-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",2074,2074,2022,8
 2022-08-01,Lisboa e Vale do Tejo,Instituto Português de Oncologia de Lisboa F. G.,"38.7396768, -9.1634516",142,660,2022,8
@@ -5386,19 +5386,19 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2022-09-01,Norte,Unidade Local de Saúde de Braga,"41.56785, -8.398982",8340,9036,2022,9
 2022-09-01,Norte,Unidade Local de Saúde de Matosinhos,"41.1794456, -8.6745115",3230,3599,2022,9
 2022-10-01,Alentejo,Unidade Local de Saúde do Litoral Alentejano,"38.0162314, -8.6956768",1313,1436,2022,10
-2022-10-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1264,1386,2022,10
+2022-10-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1264,1386,2022,10
 2022-10-01,Algarve,Unidade Local de Saúde do Algarve,"37.0238973, -7.9281554",3424,4071,2022,10
 2022-10-01,Centro,Unidade Local de Saúde de Coimbra,"40.2191523, -8.4098211",7593,9042,2022,10
 2022-10-01,Centro,Unidade Local de Saúde de Viseu Dão-Lafões,"40.516364, -8.0827433",4063,4371,2022,10
 2022-10-01,Centro,Unidade Local de Saúde de Coimbra,"40.3470015, -8.5933462",270,270,2022,10
 2022-10-01,Centro,Instituto Português de Oncologia de Coimbra F. G.,"40.2162514, -8.4103814",126,482,2022,10
-2022-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",3430,3832,2022,10
+2022-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",3430,3832,2022,10
 2022-10-01,Lisboa e Vale do Tejo,Unidade Local de Saúde da Lezíria,"39.2410946, -8.6937515",1674,1997,2022,10
 2022-10-01,Norte,Unidade Local de Saúde de Santo António,"41.1472498, -8.6172617",8261,9340,2022,10
 2022-10-01,Norte,Unidade Local de Saúde de Trás-os-Montes e Alto Douro,"41.3031784, -7.7515252",4311,4868,2022,10
 2022-10-01,Norte,Unidade Local de Saúde de Braga,"41.56785, -8.398982",9546,10333,2022,10
 2022-11-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.014123, -7.8721227",1067,1308,2022,11
-2022-11-01,Alentejo,Unidade Local de Saúde do Norte Alentejano,"39.3003425, -7.4263845",1405,1542,2022,11
+2022-11-01,Alentejo,Unidade Local de Saúde do Alto Alentejo,"39.3003425, -7.4263845",1405,1542,2022,11
 2022-11-01,Centro,Unidade Local de Saúde do Baixo Mondego,"40.117897, -8.8586755",2979,3198,2022,11
 2022-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde do Arco Ribeirinho,"38.6554005, -9.0592392",1476,1880,2022,11
 2022-11-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",2764,2764,2022,11
@@ -5533,7 +5533,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2023-12-01,Alentejo,Unidade Local de Saúde do Alentejo Central,"38.5684861, -7.9032848",2410,2859,2023,12
 2023-12-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.8571967, -8.6318023",709,717,2023,12
 2023-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7166948, -9.1371248",5664,6324,2023,12
-2023-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821455, -9.176296",2753,3080,2023,12
+2023-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821455, -9.176296",2753,3080,2023,12
 2023-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Amadora/Sintra,"38.7422257, -9.2264834",5007,5637,2023,12
 2023-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7218793, -9.144249",3612,3612,2023,12
 2023-12-01,Norte,Unidade Local de Saúde do Médio Ave,"41.3423984, -8.4802503",2498,2941,2023,12
@@ -5564,7 +5564,7 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2024-02-01,Lisboa e Vale do Tejo,Instituto Português de Oncologia de Lisboa F. G.,"38.739946, -9.161139",55,222,2024,2
 2024-02-01,Centro,Unidade Local de Saúde da Região de Aveiro,"40.636332, -8.654388",782,886,2024,2
 2024-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Lisboa Ocidental,"38.7084, -9.21711",845,1014,2024,2
-2024-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821769, -9.176301",523,615,2024,2
+2024-02-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821769, -9.176301",523,615,2024,2
 2024-02-01,Norte,Unidade Local de Saúde de Trás-os-Montes e Alto Douro,"41.310331, -7.760103",1224,1307,2024,2
 2024-02-01,Algarve,Unidade Local de Saúde do Algarve,"37.024668, -7.928949",794,938,2024,2
 2024-02-01,Norte,Unidade Local de Saúde do Alto Ave,"41.488574, -8.338685",706,860,2024,2
@@ -5655,13 +5655,13 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2024-08-01,Norte,Unidade Local de Saúde do Nordeste,"41.802452, -6.768198",2092,2517,2024,8
 2025-08-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7418, -8.79444",4325,4463,2025,8
 2025-08-01,Norte,Unidade Local de Saúde de Braga,"41.562328338623, -8.3",7565,8147,2025,8
-2025-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821769, -9.176301",2342,2670,2025,8
+2025-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821769, -9.176301",2342,2670,2025,8
 2025-08-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Santa Maria,"38.7500648498535, -9.0",5200,5735,2025,8
 2025-08-01,Norte,Unidade Local de Saúde de Santo António,"41.147283, -8.619536",6922,7666,2025,8
 2025-08-01,Centro,Unidade Local de Saúde do Baixo Mondego,"40.130297609, -8.8606",2225,2301,2025,8
 2024-09-01,Lisboa e Vale do Tejo,Instituto Português de Oncologia de Lisboa F. G.,"38.739946, -9.161139",503,1159,2024,9
 2024-09-01,Norte,Unidade Local de Saúde de Braga,"41.562328338623, -8.3",7905,8593,2024,9
-2024-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821769, -9.176301",2473,2857,2024,9
+2024-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821769, -9.176301",2473,2857,2024,9
 2024-09-01,Norte,Unidade Local de Saúde de Santo António,"41.147283, -8.619536",7983,8901,2024,9
 2024-09-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de São José,"38.7169, -9.13654",6970,7430,2024,9
 2024-09-01,Alentejo,Unidade Local de Saúde do Baixo Alentejo,"38.0146, -7.86863",1105,1364,2024,9
@@ -5723,4 +5723,4 @@ tempo,regiao,instituicao,localizacao_geografica,no_episodios_cirurgicos_ambulat_
 2025-12-01,Centro,Unidade Local de Saúde de Castelo Branco,"39.822737, -7.499876",1009,1173,2025,12
 2025-12-01,Centro,Unidade Local de Saúde da Região de Leiria,"39.7418, -8.79444",5932,6079,2025,12
 2025-12-01,Norte,Unidade Local de Saúde de Barcelos/Esposende,"41.533438, -8.616604",3509,3556,2025,12
-2025-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures-Odivelas,"38.821769, -9.176301",3149,3578,2025,12
+2025-12-01,Lisboa e Vale do Tejo,Unidade Local de Saúde de Loures/Odivelas,"38.821769, -9.176301",3149,3578,2025,12

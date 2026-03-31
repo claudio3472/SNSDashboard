@@ -145,9 +145,9 @@ def standardize_all_datasets(datasets_list: list[tuple[str, pd.DataFrame]]) -> N
         "Centro Hospitalar de Setúbal": "Unidade Local de Saúde da Arrábida",
         "Centro Hospitalar do Oeste": "Unidade Local de Saúde do Oeste",
 
-        "Hospital de Loures": "Unidade Local de Saúde de Loures-Odivelas",
-        "HOSPITAL DE LOURES": "Unidade Local de Saúde de Loures-Odivelas",
-        "Hospital Beatriz Ângelo": "Unidade Local de Saúde de Loures-Odivelas",
+        "Hospital de Loures": "Unidade Local de Saúde de Loures/Odivelas",
+        "HOSPITAL DE LOURES": "Unidade Local de Saúde de Loures/Odivelas",
+        "Hospital Beatriz Ângelo": "Unidade Local de Saúde de Loures/Odivelas",
 
         "Hospital de Vila Franca de Xira": "Unidade Local de Saúde do Estuário do Tejo",
         "Hospital De Vila Franca De Xira": "Unidade Local de Saúde do Estuário do Tejo",
@@ -239,7 +239,7 @@ def standardize_all_datasets(datasets_list: list[tuple[str, pd.DataFrame]]) -> N
         "Unidade Local de Saúde de Almada-Seixal": "Unidade Local de Saúde de Almada-Seixal",
         "Unidade Local de Saúde de Amadora/Sintra": "Unidade Local de Saúde de Amadora/Sintra",
         "Unidade Local de Saúde de Lisboa Ocidental": "Unidade Local de Saúde de Lisboa Ocidental",
-        "Unidade Local de Saúde de Loures-Odivelas": "Unidade Local de Saúde de Loures-Odivelas",
+        "Unidade Local de Saúde de Loures-Odivelas": "Unidade Local de Saúde de Loures/Odivelas",
         "Unidade Local de Saúde de Santa Maria": "Unidade Local de Saúde de Santa Maria",
         "Unidade Local de Saúde de São José": "Unidade Local de Saúde de São José",
         "Unidade Local de Saúde do Arco Ribeirinho": "Unidade Local de Saúde do Arco Ribeirinho",
@@ -255,7 +255,7 @@ def standardize_all_datasets(datasets_list: list[tuple[str, pd.DataFrame]]) -> N
         "Unidade Local de Saúde do Alto Ave": "Unidade Local de Saúde do Alto Ave",
         "Unidade Local de Saúde do Alto Minho": "Unidade Local de Saúde do Alto Minho",
         "Unidade Local de Saúde do Tâmega e Sousa": "Unidade Local de Saúde do Tâmega e Sousa",
-        "Unidade Local de Saúde do Norte Alentejano": "Unidade Local de Saúde do Norte Alentejano",
+        "Unidade Local de Saúde do Norte Alentejano": "Unidade Local de Saúde do Alto Alentejo",
 
         # ============================================================
         # 5) ULS — VARIANTES (maiúsculas/abreviações/esp. nas barras)
@@ -267,7 +267,7 @@ def standardize_all_datasets(datasets_list: list[tuple[str, pd.DataFrame]]) -> N
         "Unidade Local de Saúde Guarda": "Unidade Local de Saúde da Guarda",
         "Unidade Local de Saúde Matosinhos": "Unidade Local de Saúde de Matosinhos",
         "Unidade Local de Saúde Nordeste": "Unidade Local de Saúde do Nordeste",
-        "Unidade Local de Saúde Norte Alentejano": "Unidade Local de Saúde do Norte Alentejano",
+        "Unidade Local de Saúde Norte Alentejano": "Unidade Local de Saúde do Alto Alentejo",
         "Unidade Local de Saúde de Gaia e Espinho": "Unidade Local de Saúde de Vila Nova de Gaia/Espinho",
         "Unidade Local de Saúde de S. João": "Unidade Local de Saúde de São João",
 
@@ -280,13 +280,14 @@ def standardize_all_datasets(datasets_list: list[tuple[str, pd.DataFrame]]) -> N
         "UNIDADE LOCAL DE SAÚDE DE MATOSINHOS": "Unidade Local de Saúde de Matosinhos",
 
         "UNIDADE LOCAL DE SAÚDE DE AMADORA / SINTRA": "Unidade Local de Saúde de Amadora/Sintra",
-        "UNIDADE LOCAL DE SAÚDE DE LOURES / ODIVELAS": "Unidade Local de Saúde de Loures-Odivelas",
+        "UNIDADE LOCAL DE SAÚDE DE LOURES / ODIVELAS": "Unidade Local de Saúde de Loures/Odivelas",
         "UNIDADE LOCAL DE SAÚDE DO ESTUÁRIO DO TEJO": "Unidade Local de Saúde do Estuário do Tejo",
         "UNIDADE LOCAL DE SAÚDE DE BRAGA": "Unidade Local de Saúde de Braga",
         "UNIDADE LOCAL DE SAÚDE DE SANTO ANTÓNIO": "Unidade Local de Saúde de Santo António",
 
         "Unidade Local De Saúde Do Alentejo Central": "Unidade Local de Saúde do Alentejo Central",
         "Unidade Local De Saúde Do Alto Alentejo": "Unidade Local de Saúde do Alto Alentejo",
+        "Unidade Local de Saúde do Norte Alentejano": "Unidade Local de Saúde do Alto Alentejo",
         "Unidade Local De Saúde Do Baixo Alentejo": "Unidade Local de Saúde do Baixo Alentejo",
         "Unidade Local De Saúde Litoral Alentejano": "Unidade Local de Saúde do Litoral Alentejano",
         "Unidade Local De Saúde Do Algarve": "Unidade Local de Saúde do Algarve",
@@ -447,12 +448,13 @@ def standardize_all_datasets(datasets_list: list[tuple[str, pd.DataFrame]]) -> N
         "ACES Lisboa Central": "Unidade Local de Saúde de São José",
         "ACES Lisboa Norte": "Unidade Local de Saúde de Santa Maria",
         "ACES Lisboa Ocidental e Oeiras": "Unidade Local de Saúde de Lisboa Ocidental",
-        "ACES Loures / Odivelas": "Unidade Local de Saúde de Loures-Odivelas",
+        "ACES Loures / Odivelas": "Unidade Local de Saúde de Loures/Odivelas",
         "ACES Médio Tejo": "Unidade Local de Saúde do Médio Tejo",
         "ACES Oeste Norte": "Unidade Local de Saúde do Oeste",
         "ACES Oeste Sul": "Unidade Local de Saúde do Oeste",
 
         # Norte (Minho / Douro / Tâmega e Sousa / Grande Porto / Ave)
+        "ACES Alto Trás-os-Montes - Alto Tâmega e Barroso": "Unidade Local de Saúde de Trás-os-Montes e Alto Douro",
         "ACES Alto Ave - Guimarães, Vizela e Terras de Basto": "Unidade Local de Saúde do Alto Ave",
         "ACES Ave / Famalicão": "Unidade Local de Saúde do Médio Ave",
         "ACES Cávado I - Braga": "Unidade Local de Saúde de Braga",

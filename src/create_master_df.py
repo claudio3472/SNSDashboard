@@ -1,5 +1,8 @@
 import os
 import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 def categorizar_instituicao(nome):
     """Categoriza o tipo de instituição com base no nome."""
@@ -96,6 +99,7 @@ def create_master_dataset():
         master_path = os.path.join(data_dir, "master_dataset.csv")
         master_df.to_csv(master_path, index=False)
         print(f"\nSuccess! Saved Master Dataset: {master_path}")
+        
 
 if __name__ == "__main__":
     create_master_dataset()

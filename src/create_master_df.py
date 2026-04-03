@@ -38,6 +38,7 @@ def create_master_dataset():
         "Unidade Local de Saúde do Litoral Alentejano": "Alentejo",
         "Unidade Local de Saúde do Médio Tejo": "Lisboa e Vale do Tejo",
         "Unidade Local de Saúde do Oeste": "Lisboa e Vale do Tejo",
+        "Unidade Local de Saúde da Região de Aveiro": "Centro",
         "Ação Governativa": "Serviços Centrais",
         "Administração Central do Sistema de Saúde, I.P.": "Serviços Centrais",
         "Direção Executiva do Serviço Nacional de Saúde, I.P.": "Serviços Centrais",

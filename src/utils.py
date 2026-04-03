@@ -433,6 +433,9 @@ def standardize_all_datasets(datasets_list: list[tuple[str, pd.DataFrame]]) -> N
         "ACES Algarve I - Algarve Central": "Unidade Local de Saúde do Algarve",
         "ACES Algarve II - Algarve Barlavento": "Unidade Local de Saúde do Algarve",
         "ACES Algarve III - Algarve Sotavento": "Unidade Local de Saúde do Algarve",
+        "ACES Algarve Barlavento": "Unidade Local de Saúde do Algarve",
+        "ACES Algarve Sotavento": "Unidade Local de Saúde do Algarve",
+        "ACES Algarve Central": "Unidade Local de Saúde do Algarve",
 
         # Região Centro (Baixo Mondego / Beiras / Leiria)
         "ACES Baixo Mondego": "Unidade Local de Saúde do Baixo Mondego",
@@ -440,6 +443,18 @@ def standardize_all_datasets(datasets_list: list[tuple[str, pd.DataFrame]]) -> N
         "ACES Pinhal Interior Norte": "Unidade Local de Saúde de Coimbra",
         "ACES Pinhal Interior Sul": "Unidade Local de Saúde de Castelo Branco",
         "ACES Pinhal Litoral": "Unidade Local de Saúde da Região de Leiria",
+        "ACES Baixo Vouga": "Unidade Local de Saúde da Região de Aveiro",
+        "ACES Cova da Beira": "Unidade Local de Saúde da Cova da Beira",
+        "ACES Dão Lafões": "Unidade Local de Saúde de Viseu Dão-Lafões",
+        "ACES Dão-Lafões": "Unidade Local de Saúde de Viseu Dão-Lafões",
+        "ACES Guarda": "Unidade Local de Saúde da Guarda",
+        "ACES Aveiro Norte": "Unidade Local de Saúde da Região de Aveiro",
+
+        # Altenejo (Alentejo Central / Baixo Alentejo / Litoral Alentejano / Norte Alentejano)
+        "ACES Alentejo Central": "Unidade Local de Saúde do Alentejo Central",
+        "ACES Baixo Alentejo": "Unidade Local de Saúde do Baixo Alentejo",
+        "ACES Alentejo Litoral": "Unidade Local de Saúde do Litoral Alentejano",
+        "ACES São Mamede": "Unidade Local de Saúde do Alto Alentejo",
 
         # Lisboa e Vale do Tejo
         "ACES Amadora": "Unidade Local de Saúde de Amadora/Sintra",
@@ -452,6 +467,11 @@ def standardize_all_datasets(datasets_list: list[tuple[str, pd.DataFrame]]) -> N
         "ACES Médio Tejo": "Unidade Local de Saúde do Médio Tejo",
         "ACES Oeste Norte": "Unidade Local de Saúde do Oeste",
         "ACES Oeste Sul": "Unidade Local de Saúde do Oeste",
+        "ACES Almada / Seixal": "Unidade Local de Saúde de Almada-Seixal",
+        "ACES Arco Ribeirinho": "Unidade Local de Saúde do Arco Ribeirinho",
+        "ACES Arrábida": "Unidade Local de Saúde da Arrábida",
+        "ACES Estuário do Tejo": "Unidade Local de Saúde do Estuário do Tejo",
+        "ACES Lezíria": "Unidade Local de Saúde da Lezíria",
 
         # Norte (Minho / Douro / Tâmega e Sousa / Grande Porto / Ave)
         "ACES Alto Trás-os-Montes - Alto Tâmega e Barroso": "Unidade Local de Saúde de Trás-os-Montes e Alto Douro",
@@ -470,10 +490,89 @@ def standardize_all_datasets(datasets_list: list[tuple[str, pd.DataFrame]]) -> N
         "ACES Grande Porto VI - Porto Oriental": "Unidade Local de Saúde de São João",
         "ACES Grande Porto VII - Gaia": "Unidade Local de Saúde de Vila Nova de Gaia/Espinho",
         "ACES Grande Porto VIII - Espinho / Gaia": "Unidade Local de Saúde de Vila Nova de Gaia/Espinho",
+        "ACES Alto Ave": "Unidade Local de Saúde do Alto Ave",
+        "ACES Alto Minho": "Unidade Local de Saúde do Alto Minho",
+        "ACES Alto Tâmega e Barroso": "Unidade Local de Saúde de Trás-os-Montes e Alto Douro",
+        "ACES Barcelos / Esposende": "Unidade Local de Saúde de Barcelos/Esposende",
+        "ACES Braga": "Unidade Local de Saúde de Braga",
+        "ACES Douro Sul": "Unidade Local de Saúde de Trás-os-Montes e Alto Douro",
+        "ACES Espinho / Gaia": "Unidade Local de Saúde de Vila Nova de Gaia/Espinho",
+        "ACES Feira e Arouca": "Unidade Local de Saúde de Entre Douro e Vouga",
+        "ACES Gaia": "Unidade Local de Saúde de Vila Nova de Gaia/Espinho",
+        "ACES Gerês / Cabreira": "Unidade Local de Saúde de Braga",
+        "ACES Gondomar": "Unidade Local de Saúde de Santo António",
+        "ACES Maia / Valongo": "Unidade Local de Saúde de São João",
+        "ACES Marão e Douro Norte": "Unidade Local de Saúde de Trás-os-Montes e Alto Douro",
+        "ACES Matosinhos": "Unidade Local de Saúde de Matosinhos",
+        "ACES Nordeste": "Unidade Local de Saúde do Nordeste",
+        "ACES Porto Ocidental": "Unidade Local de Saúde de Santo António",
+        "ACES Porto Oriental": "Unidade Local de Saúde de São João",
+        "ACES Póvoa de Varzim / Vila do Conde": "Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde",
+        "ACES Póvoa do Varzim / Vila do Conde": "Unidade Local de Saúde da Póvoa de Varzim/Vila do Conde",
+        "ACES Santo Tirso / Trofa": "Unidade Local de Saúde do Médio Ave",
+        "ACES Vale do Sousa Norte": "Unidade Local de Saúde de Entre Douro e Vouga",
+        "ACES Vale do Sousa Sul": "Unidade Local de Saúde de Entre Douro e Vouga",
 
         "ACES Tâmega I - Baixo Tâmega": "Unidade Local de Saúde do Tâmega e Sousa",
+        "ACES Baixo Tâmega": "Unidade Local de Saúde do Tâmega e Sousa",
         "ACES Tâmega II - Vale do Sousa Sul": "Unidade Local de Saúde do Tâmega e Sousa",
         "ACES Tâmega III - Vale do Sousa Norte": "Unidade Local de Saúde do Tâmega e Sousa",
+
+
+        # ============================================================
+        # 13) CSP — variantes/typos → forma canónica (Instituto)
+        # ============================================================
+
+        "CSP da ULS Alentejo Central": "Área dos CSP da ULS Alentejo Central",
+        "CSP da ULS Alto Alentejo": "Área dos CSP da ULS Alto Alentejo",
+        "CSP da ULS Baixo Alentejo": "Área dos CSP da ULS Baixo Alentejo",
+        "CSP da ULS Litoral Alentejano": "Área dos CSP da ULS Litoral Alentejano",
+
+        "CSP da ULS Algarve": "Área dos CSP da ULS Algarve",
+
+        "CSP da ULS Baixo Mondego": "Área dos CSP da ULS Baixo Mondego",
+        "CSP da ULS Castelo Branco": "Área dos CSP da ULS Castelo Branco",
+        "CSP da ULS Coimbra": "Área dos CSP da ULS Coimbra",
+        "CSP da ULS Cova da Beira": "Área dos CSP da ULS Cova da Beira",
+        "CSP da ULS Guarda": "Área dos CSP da ULS Guarda",
+        "CSP da ULS Região de Aveiro": "Área dos CSP da ULS Região de Aveiro",
+        "CSP da ULS Região de Leiria": "Área dos CSP da ULS Região de Leiria",
+        "CSP da ULS Viseu Dão-Lafões": "Área dos CSP da ULS Viseu Dão-Lafões",
+
+        "CSP da ULS Almada / Seixal": "Área dos CSP da ULS Almada-Seixal",
+        "CSP da ULS Amadora / Sintra": "Área dos CSP da ULS Amadora / Sintra",
+        "CSP da ULS Arco Ribeirinho": "Área dos CSP da ULS Arco Ribeirinho",
+        "CSP da ULS Arrábida": "Área dos CSP da ULS Arrábida",
+        "CSP da ULS Estuário do Tejo": "Área dos CSP da ULS Estuário do Tejo",
+        "CSP da ULS Lezíria": "Área dos CSP da ULS Lezíria",
+        "CSP da ULS Lisboa Ocidental": "Área dos CSP da ULS Lisboa Ocidental",
+        "CSP da ULS Loures / Odivelas": "Área dos CSP da ULS Loures / Odivelas",
+        "CSP da ULS Médio Tejo": "Área dos CSP da ULS Médio Tejo",
+        "CSP da ULS Oeste": "Área dos CSP da ULS Oeste",
+        "CSP da ULS Santa Maria": "Área dos CSP da ULS Santa Maria",
+        "CSP da ULS São José": "Área dos CSP da ULS São José",
+        
+        "CSP da ULS Alto Ave": "Área dos CSP da ULS Alto Ave",
+        "CSP da ULS Alto Minho": "Área dos CSP da ULS Alto Minho",
+        "CSP da ULS Barcelos / Esposende": "Área dos CSP da ULS Barcelos / Esposende",
+        "CSP da ULS Braga": "Área dos CSP da ULS Braga",
+        "CSP da ULS Entre Douro e Vouga": "Área dos CSP da ULS Entre Douro e Vouga",
+        "CSP da ULS Gaia / Espinho": "Área dos CSP da ULS Gaia / Espinho",
+        "CSP da ULS Matosinhos": "Área dos CSP da ULS Matosinhos",
+        "CSP da ULS Médio Ave": "Área dos CSP da ULS Médio Ave",
+        "CSP da ULS Nordeste": "Área dos CSP da ULS Nordeste",
+        "CSP da ULS Santo António": "Área dos CSP da ULS Santo António",
+        "CSP da ULS São João": "Área dos CSP da ULS São João",
+        "CSP da ULS Trás-os-Montes e Alto Douro": "Área dos CSP da ULS Trás-os-Montes e Alto Douro",
+        "CSP da ULS Tâmega e Sousa": "Área dos CSP da ULS Tâmega e Sousa",
+        "CSP da ULS Póvoa Varzim / Vila Conde": "Área dos CSP da ULS Póvoa de Varzim / Vila do Conde",
+        "Área dos CSP da ULS Póvoa Varzim / Vila Conde": "Área dos CSP da ULS Póvoa de Varzim / Vila do Conde",
+        "CSP da ULS Trás-os-Montes Alto Douro": "Área dos CSP da ULS Trás-os-Montes e Alto Douro",
+
+        # Hotfix final
+        "Área dos CSP da ULS Trás-os-Montes Alto Douro": "Área dos CSP da ULS Trás-os-Montes e Alto Douro",
+        "Área dos CSP da ULS Almada / Seixal": "Área dos CSP da ULS Almada-Seixal",
+
     }
     invalid_strings = ['nan', 'none', 'null', '', 'inválido']
 
@@ -505,6 +604,8 @@ def standardize_all_datasets(datasets_list: list[tuple[str, pd.DataFrame]]) -> N
         
         if inst_col is not None:
             df[inst_col] = df[inst_col].astype(str)
+            # Trim and normalize case to avoid mismatch in mapping keys
+            df[inst_col] = df[inst_col].str.strip()
             # Remover E.P.E., PPP, S.P.A., ...
             df[inst_col] = df[inst_col].str.replace(r',?\s*E\.?\s*P\.?\s*E\.?', '', regex=True, flags=re.IGNORECASE)
             df[inst_col] = df[inst_col].str.replace(r',?\s*P\.?\s*P\.?\s*P\.?', '', regex=True, flags=re.IGNORECASE)
@@ -514,7 +615,10 @@ def standardize_all_datasets(datasets_list: list[tuple[str, pd.DataFrame]]) -> N
             df[inst_col] = df[inst_col].str.replace(r'\s+', ' ', regex=True)
             df[inst_col] = df[inst_col].str.strip()
             
+            # Aplica mapeamentos (inclui ACES → ULS)
             df[inst_col] = df[inst_col].replace(inst_mapping)
+            df[inst_col] = df[inst_col].replace({k.upper(): v for k, v in inst_mapping.items()})
+            df[inst_col] = df[inst_col].replace({k.lower(): v for k, v in inst_mapping.items()})
 
 def add_year_month_columns(datasets):
     """

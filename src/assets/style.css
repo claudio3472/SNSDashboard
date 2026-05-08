@@ -76,3 +76,45 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
+
+
+
+/* APP LAYOUT */
+.app-wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 230px;
+    background-color: #0f172a;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-title {
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+
+/* SIDEBAR LINKS */
+.sidebar-link {
+    color: #cbd5f5;
+    text-decoration: none;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.sidebar-link:hover {
+    color: white;
+}
+
+/* PAGE CONTENT */
+.page-content {
+    flex: 1;
+    padding: 32px;
+    background-color: #f8fafc;
+}

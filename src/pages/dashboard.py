@@ -7,14 +7,13 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 # ============================================================
-# 1. LOAD DATA (FIXED PATH)
+# LOAD DATA
 # ============================================================
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_PATH = os.path.join(BASE_DIR, "..", "data", "processed", "master_dataset.csv")
 
 df = pd.read_csv(DATA_PATH)
 
-# último ano disponível
 year = df["ano"].max()
 df_year = df[df["ano"] == year].copy()
 
@@ -27,7 +26,7 @@ REGIOES = [
 ]
 
 # ============================================================
-# 2. KPIs
+# KPIs
 # ============================================================
 kpi_urgencias = int(df_year["total_urgencias"].sum())
 kpi_consultas = int(df_year["no_de_consultas_medicas_total"].sum())
@@ -35,7 +34,7 @@ kpi_divida = df_year["divida_total_fornecedores_externos"].sum() / 1e6
 kpi_instituicoes = df["instituicao"].nunique()
 
 # ============================================================
-# 3. GASTOS vs RENDIMENTOS
+# GASTOS vs RENDIMENTOS
 # ============================================================
 finance = (
     df_year
@@ -46,10 +45,18 @@ finance = (
 )
 
 fig_gastos = go.Figure()
-fig_gastos.add_bar(x=finance.index, y=finance["gastos_operacionais"],
-                   name="Gastos", marker_color="#ef4444")
-fig_gastos.add_bar(x=finance.index, y=finance["rendimentos_operacionais"],
-                   name="Rendimentos", marker_color="#0f172a")
+fig_gastos.add_bar(
+    x=finance.index,
+    y=finance["gastos_operacionais"],
+    name="Gastos",
+    marker_color="#ef4444",
+)
+fig_gastos.add_bar(
+    x=finance.index,
+    y=finance["rendimentos_operacionais"],
+    name="Rendimentos",
+    marker_color="#0f172a",
+)
 
 fig_gastos.update_layout(
     barmode="group",
@@ -58,7 +65,7 @@ fig_gastos.update_layout(
 )
 
 # ============================================================
-# 4. ENCARGOS MEDICAMENTOS
+# ENCARGOS MEDICAMENTOS
 # ============================================================
 fig_medicamentos = px.pie(
     finance.reset_index(),
@@ -69,7 +76,7 @@ fig_medicamentos = px.pie(
 )
 
 # ============================================================
-# 5. PROFISSIONAIS
+# PROFISSIONAIS
 # ============================================================
 prof = (
     df_year
@@ -79,10 +86,18 @@ prof = (
 )
 
 fig_prof = go.Figure()
-fig_prof.add_bar(y=prof.index, x=prof["medicos_internos"],
-                 name="Médicos", orientation="h")
-fig_prof.add_bar(y=prof.index, x=prof["enfermeiros"],
-                 name="Enfermeiros", orientation="h")
+fig_prof.add_bar(
+    y=prof.index,
+    x=prof["medicos_internos"],
+    name="Médicos",
+    orientation="h",
+)
+fig_prof.add_bar(
+    y=prof.index,
+    x=prof["enfermeiros"],
+    name="Enfermeiros",
+    orientation="h",
+)
 
 fig_prof.update_layout(
     barmode="stack",
@@ -91,7 +106,7 @@ fig_prof.update_layout(
 )
 
 # ============================================================
-# 6. RADAR
+# RADAR
 # ============================================================
 df_year["total_cirurgias"] = df_year[
     [
@@ -123,10 +138,13 @@ for col in radar_df.columns:
         )
     )
 
-fig_radar.update_layout(title="Atividade Assistencial por Região", height=360)
+fig_radar.update_layout(
+    title="Atividade Assistencial por Região",
+    height=360,
+)
 
 # ============================================================
-# 7. LAYOUT ONLY (NO Dash APP HERE)
+# KPI CARD
 # ============================================================
 def kpi_card(title, value):
     return html.Div(
@@ -137,6 +155,9 @@ def kpi_card(title, value):
         ],
     )
 
+# ============================================================
+# ✅ LAYOUT (STATIC, STABLE)
+# ============================================================
 layout = html.Div(
     className="content",
     children=[

@@ -1,29 +1,66 @@
 body {
     margin: 0;
-    background-color: #f8fafc;
     font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    background-color: #f8fafc;
 }
 
-/* APP CONTAINER */
-.app-container {
-    width: 100%;
+/* ================= APP LAYOUT ================= */
+.app-wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* ================= SIDEBAR ================= */
+.sidebar {
+    width: 240px;
+    background: linear-gradient(180deg, #020617, #0f172a);
+    color: white;
+    padding: 24px 16px;
+    box-sizing: border-box;
+}
+
+.sidebar-title {
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+/* ✅ FIX: proper vertical menu */
+.sidebar a {
+    display: block;
+    color: #cbd5f5;
+    text-decoration: none;
+    padding: 10px 12px;
+    border-radius: 8px;
+    margin-bottom: 6px;
+}
+
+.sidebar a:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: white;
+}
+
+/* ================= PAGE CONTENT ================= */
+.page-content {
+    flex: 1;
+    background-color: #f8fafc;
     display: flex;
     justify-content: center;
 }
 
-/* CONTENT CENTRAL (CRÍTICO) */
+/* ✅ FIX: single centering, no horizontal drift */
 .content {
     width: 100%;
     max-width: 1400px;
     padding: 24px 32px 40px 32px;
+    box-sizing: border-box;
 }
 
-/* KPI */
+/* ================= KPI ================= */
 .kpi-row {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
-    margin-bottom: 28px;
+    margin-bottom: 24px;
 }
 
 .kpi-card {
@@ -43,78 +80,33 @@ body {
     font-weight: 700;
 }
 
-/* CARDS */
+.kpi-subtitle {
+    font-size: 12px;
+    color: #64748b;
+}
+
+/* ================= CARDS & GRIDS ================= */
 .card {
     background: white;
     border-radius: 14px;
-    padding: 6px;
+    padding: 8px;
     border: 1px solid #e5e7eb;
+    margin-bottom: 24px;
 }
-
-/* FULL WIDTH CHART */
-.full-width {
-    margin-bottom: 28px;
-}
-
-/* GRID 2 COLUNAS */
-.row-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    margin-bottom: 28px;
-}
-
-/* RADAR */
-.radar {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
 
 .grid-2x2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-}
-
-
-
-/* APP LAYOUT */
-.app-wrapper {
-    display: flex;
-    min-height: 100vh;
-}
-
-/* SIDEBAR */
-.sidebar {
-    width: 230px;
-    background-color: #0f172a;
-    padding: 20px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-}
-
-.sidebar-title {
     margin-bottom: 24px;
-    font-size: 20px;
 }
 
-/* SIDEBAR LINKS */
-.sidebar-link {
-    color: #cbd5f5;
-    text-decoration: none;
-    margin-bottom: 12px;
-    font-size: 15px;
+/* ================= FILTER BAR ================= */
+.filter-bar {
+    display: flex;
+    gap: 12px;
 }
 
-.sidebar-link:hover {
-    color: white;
-}
-
-/* PAGE CONTENT */
-.page-content {
-    flex: 1;
-    padding: 32px;
-    background-color: #f8fafc;
+.filter-bar .Select {
+    width: 180px;
 }

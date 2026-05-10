@@ -37,7 +37,6 @@ app.layout = html.Div(
 )
 def render_page(pathname):
 
-    # ✅ default page on load
     if pathname in (None, "/", "/dashboard"):
         from pages.dashboard import layout
         return layout

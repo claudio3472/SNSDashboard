@@ -1,5 +1,12 @@
 from dash import Dash, html, dcc, Input, Output
 
+import pages.dashboard as dashboard
+import pages.mapa as mapa
+import pages.stress as stress
+import pages.financeira as financeira
+import pages.medicamentos as medicamentos
+import pages.contas as contas
+
 app = Dash(
     __name__,
     suppress_callback_exceptions=True,
@@ -38,28 +45,17 @@ app.layout = html.Div(
 def render_page(pathname):
 
     if pathname in (None, "/", "/dashboard"):
-        from pages.dashboard import layout
-        return layout
-
+        return dashboard.layout
     elif pathname == "/mapa":
-        from pages.mapa import layout
-        return layout
-
+        return mapa.layout
     elif pathname == "/stress":
-        from pages.stress import layout
-        return layout
-
+        return stress.layout
     elif pathname == "/financeira":
-        from pages.financeira import layout
-        return layout
-
+        return financeira.layout
     elif pathname == "/medicamentos":
-        from pages.medicamentos import layout
-        return layout
-
+        return medicamentos.layout
     elif pathname == "/contas":
-        from pages.contas import layout
-        return layout
+        return contas.layout
 
     return html.H2("404 — Página não encontrada")
 

@@ -55,6 +55,7 @@ def create_master_dataset():
 
     target_datasets = ['dados_financeiros', 'atendimento_urgencia', 'internamento_hospitalar', 'cirurgias', 'consultas', 'divida', 'contas_sns', 'medicamento_hospitalar', 'trabalhadores_grupo_profissional', 'utentes_cuidados_primarios', 'trabalhadores_modalidade', 'acesso_consultas', 'cirurgias_ambulatorio']
     master_df = None
+    loc_map_rows = []
 
     print(f"Reading datasets from {data_dir}...\n")
     
@@ -76,6 +77,9 @@ def create_master_dataset():
                         df_temp.loc[mask, 'regiao'] = nova_regiao
 
             keys = ['regiao', 'instituicao', 'ano', 'mes']
+
+            if 'localizacao_geografica' in df_temp.columns and all(k in df_temp.columns for k in keys):
+                loc_map_rows.append(df_temp[['regiao', 'instituicao', 'localizacao_geografica']].drop_duplicates())
             
             if all(k in df_temp.columns for k in keys):
                 num_cols = [c for c in df_temp.select_dtypes(include=['number']).columns if c not in ['ano', 'mes']]
@@ -92,6 +96,11 @@ def create_master_dataset():
     if master_df is not None:
         num_cols_master = [c for c in master_df.columns if c not in keys]
         master_df[num_cols_master] = master_df[num_cols_master].fillna(0)
+
+        if loc_map_rows:
+            loc_map = pd.concat(loc_map_rows, ignore_index=True)
+            loc_map = loc_map.drop_duplicates(subset=['regiao', 'instituicao'], keep='first')
+            master_df = master_df.merge(loc_map, on=['regiao', 'instituicao'], how='left')
         
         # Adicionar coluna com o tipo de instituição
         print("🏷️ A criar a nova coluna 'tipo_instituicao'...")

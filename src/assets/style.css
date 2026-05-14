@@ -110,3 +110,17 @@ body {
 .filter-bar .Select {
     width: 180px;
 }
+
+
+.reset-btn {
+    border: 1px solid #d1d5db;
+    background: white;
+    border-radius: 8px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.reset-btn:hover {
+    background: #f3f4f6;
+}

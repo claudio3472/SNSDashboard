@@ -1,6 +1,3 @@
-# ============================================================
-# mapa.py
-# ============================================================
 
 from dash import html, dcc, callback, Input, Output, State, dash_table, no_update, ctx
 import pandas as pd

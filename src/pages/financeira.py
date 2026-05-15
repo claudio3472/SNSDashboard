@@ -1,3 +1,4 @@
+
 from dash import html, dcc, callback, Input, Output
 import pandas as pd
 import plotly.graph_objects as go
@@ -98,9 +99,7 @@ def build_main_figure(dff):
         title="Evolução Financeira (M€)",
         height=360,
         uirevision="constant",
-        xaxis=dict(
-            rangeslider=dict(visible=True)
-        ),
+        xaxis=dict(rangeslider=dict(visible=True)),
     )
 
     return fig
@@ -142,33 +141,10 @@ layout = html.Div(
         html.Div(
             className="grid-2x2",
             children=[
-                html.Div(
-                    className="card",
-                    children=[
-                        dcc.Graph(id="finance-graph-v2")
-                    ],
-                ),
-
-                html.Div(
-                    className="card",
-                    children=[
-                        dcc.Graph(id="finance-regiao-v2")
-                    ],
-                ),
-
-                html.Div(
-                    className="card",
-                    children=[
-                        dcc.Graph(id="finance-orcamento-v2")
-                    ],
-                ),
-
-                html.Div(
-                    className="card",
-                    children=[
-                        dcc.Graph(id="finance-divida-v2")
-                    ],
-                ),
+                html.Div(className="card", children=[dcc.Graph(id="finance-graph-v2")]),
+                html.Div(className="card", children=[dcc.Graph(id="finance-regiao-v2")]),
+                html.Div(className="card", children=[dcc.Graph(id="finance-orcamento-v2")]),
+                html.Div(className="card", children=[dcc.Graph(id="finance-divida-v2")]),
             ],
         ),
     ],

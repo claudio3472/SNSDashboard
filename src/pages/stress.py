@@ -1,5 +1,3 @@
-
-
 import pandas as pd
 import numpy as np
 import plotly.express as px
@@ -10,7 +8,6 @@ from dash import html, dcc, Input, Output, callback
 # ============================================================
 # DATA LOAD & PREP
 # ============================================================
-
 df = pd.read_csv("data/processed/master_dataset.csv")
 
 df["regiao"] = df["regiao"].astype(str).str.strip()

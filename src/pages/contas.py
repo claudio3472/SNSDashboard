@@ -1,59 +1,20 @@
-from dash import html, dcc, callback, Input, Output
+from dash import html, dcc, callback, Input, Output, ctx, no_update
+from pages.pages_helper import load_data, process_data, create_sparkline, kpi_card, carregar_e_processar_dados, aplicar_config_padrao
 import pandas as pd
 import plotly.graph_objects as go
 
 # ============================================================
-# DATA LOAD & TRANSFORMAÇÃO
+# DATA LOAD
 # ============================================================
-df = pd.read_csv("data/processed/contas_sns.csv")
-df["ano"] = df["ano"].astype(int)
-
-
-# 1. Converter tempo para datetime verdadeiro (resolve bugs de comparação no slider)
-df["tempo"] = pd.to_datetime(df["tempo"])
-df = df.sort_values("tempo").reset_index(drop=True)
-df["mes"] = df["tempo"].dt.month
-# 2. Desacumular os dados (calcular o valor gasto ESPECIFICAMENTE em cada mês)
-colunas_para_desacumular = [
-    "execucao_acumulada_receita_efectiva",
-    "execucao_acumulada_despesa_efectiva",
-    "execucao_acumulada_despesas_com_o_pessoal",
-    "execucao_acumulada_aquisicao_de_bens_e_servicos",
-    "execucao_acumulada_transferencias_correntes",
-    "execucao_acumulada_investimentos",
-    "execucao_acumulada_outras_despesas_correntes"
-]
-
-for col in colunas_para_desacumular:
-    # Cria uma nova coluna substituindo "execucao_acumulada_" por "mensal_"
-    nova_col = col.replace("execucao_acumulada_", "mensal_")
-    # Calcula a diferença para o mês anterior dentro do mesmo ano
-    df[nova_col] = df.groupby(df["tempo"].dt.year)[col].diff().fillna(df[col])
+try:
+    df = carregar_e_processar_dados("data/processed/contas_sns.csv")
+    assert not df.empty, "Dataset vazio após carregamento"
+except Exception as e:
+    print(f"❌ Erro ao carregar dados: {e}")
+    df = pd.DataFrame()
 
 # ============================================================
-# FUNÇÃO PARA CRIAR SPARKLINES NOS KPIS
-# ============================================================
-def criar_sparkline(x_data, y_data, cor):
-    fig = go.Figure(go.Scatter(
-        x=x_data, y=y_data, 
-        mode="lines", 
-        line=dict(color=cor, width=2.5),
-        hoverinfo="skip" # Desativa o hover para não atrapalhar no KPI
-    ))
-    
-    fig.update_layout(
-        margin=dict(l=0, r=0, t=5, b=5), # Margens quase a zero
-        height=40,                       # Altura minúscula
-        paper_bgcolor="rgba(0,0,0,0)",   # Fundo transparente
-        plot_bgcolor="rgba(0,0,0,0)",    # Fundo transparente
-        xaxis=dict(visible=False),       # Esconder eixo X
-        yaxis=dict(visible=False),       # Esconder eixo Y
-        showlegend=False
-    )
-    return fig
-
-# ============================================================
-# CRIAR A TIMELINE ANTES DO LAYOUT (Evita os glitches do slider)
+# CRIAR A TIMELINE ANTES DO LAYOUT
 # ============================================================
 fig_timeline_estatica = go.Figure()
 fig_timeline_estatica.add_trace(go.Scatter(
@@ -68,19 +29,18 @@ fig_timeline_estatica.add_trace(go.Scatter(
 fig_timeline_estatica.update_layout(
     title=dict(
         text="Evolução Receita vs Despesa (M€)<br><sup>Use o slider inferior para selecionar os meses</sup>",
-        font=dict(size=16) # Podes diminuir este valor se ainda achares grande
+        font=dict(size=16)
     ),
     xaxis=dict(rangeslider=dict(visible=True), type="date"),
     yaxis=dict(title="M€"),
-    legend=dict(orientation="h", y=1), # Subi a legenda um bocadinho (de 1.1 para 1.15)
-    margin=dict(l=20, r=20, t=80, b=40),  # <--- Aumentámos o Topo (t) para 80 e a Base (b) para 40
-    height=340,                           # Aumentei ligeiramente a altura geral para compensar as margens maiores
+    legend=dict(orientation="h", y=1),
+    margin=dict(l=20, r=20, t=80, b=40),
+    height=340,
 )
 
 # ============================================================
 # HEATMAP DE SAZONALIDADE
 # ============================================================
-# Criar uma matriz (pivot table): Anos nas linhas, Meses nas colunas
 pivot_sazonalidade = df.pivot_table(
     index="ano", 
     columns="mes", 
@@ -88,7 +48,6 @@ pivot_sazonalidade = df.pivot_table(
     aggfunc="sum"
 )
 
-# Nomes dos meses para o eixo X
 nomes_meses = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"]
 
 fig_heatmap = go.Figure(data=go.Heatmap(
@@ -103,7 +62,7 @@ fig_heatmap = go.Figure(data=go.Heatmap(
 fig_heatmap.update_layout(
     title="Sazonalidade da Despesa (Mapa de Calor)",
     xaxis=dict(title="Mês", tickmode="array", tickvals=list(range(12)), ticktext=nomes_meses),
-    yaxis=dict(title="Ano", type="category"), # Forçar o ano a ser texto para não aparecer "2,020"
+    yaxis=dict(title="Ano", type="category"),
     margin=dict(l=20, r=20, t=50, b=20),
     height=320,
 )
@@ -117,12 +76,10 @@ layout = html.Div(
         html.H2("Contas SNS"),
         html.P("Análise do orçamento e execução do Serviço Nacional de Saúde"),
 
-        # Store para passar o range selecionado sem dependência circular
         dcc.Store(id="store-range-contas"),
 
         html.Div(id="kpi-row-contas", className="kpi-row"),
 
-        # 1. Os dois gráficos em cima (Grelha Waterfall + Timeline)
         html.Div(
             className="grid-2x2",
             children=[
@@ -131,10 +88,8 @@ layout = html.Div(
             ],
         ),
         
-        # 2. O gráfico de barras que já estava no meio
         html.Div(className="card", children=[dcc.Graph(id="fig-despesa-mensal")]),
         
-        # 3. O gráfico que estava em cima passa para baixo
         html.Div(className="card", children=[dcc.Graph(id="fig-orcamento-execucao")]),
 
         html.Div(className="card", children=[dcc.Graph(id="fig-heatmap", figure=fig_heatmap)]),
@@ -152,21 +107,18 @@ def guardar_range(relayoutData):
     if not relayoutData:
         return {}
 
-    # 1. Seleção no gráfico principal (Zoom box)
     if "xaxis.range[0]" in relayoutData:
         return {
             "start": relayoutData["xaxis.range[0]"],
             "end":   relayoutData["xaxis.range[1]"],
         }
     
-    # 2. Uso do Range Slider inferior
     if "xaxis.range" in relayoutData:
         return {
             "start": relayoutData["xaxis.range"][0],
             "end":   relayoutData["xaxis.range"][1],
         }
 
-    # 3. Duplo clique no gráfico para limpar os filtros (autorange)
     if "xaxis.autorange" in relayoutData:
         return {}
 
@@ -174,17 +126,43 @@ def guardar_range(relayoutData):
 
 
 # ============================================================
-# CALLBACK 2 — Atualiza o dashboard com base no Store
+# CALLBACK 2 — Atualiza o dashboard com base no Store e Cliques
 # ============================================================
 @callback(
     Output("kpi-row-contas",         "children"),
     Output("fig-orcamento-execucao", "figure"),
     Output("fig-despesa-mensal",     "figure"),
-    Output("fig-waterfall",          "figure"), # Alterado de sankey
+    Output("fig-waterfall",          "figure"),
+    Output("fig-orcamento-execucao", "clickData"),
+    Output("fig-orcamento-execucao", "relayoutData"), # <--- 1. NOVO OUTPUT AQUI!
     Input("store-range-contas",      "data"),
-    Input("fig-orcamento-execucao",  "clickData"), # <--- NOVO INPUT!
+    Input("fig-orcamento-execucao",  "clickData"),
+    Input("fig-orcamento-execucao",  "relayoutData")
 )
-def update_dashboard(range_data, click_orcamento): # <--- NOVO ARGUMENTO
+def update_dashboard(range_data, click_orcamento, relayout_orcamento):
+    
+    # ----------------------------------------------------------
+    # LÓGICA DE RESET VIA DUPLO CLIQUE
+    # ----------------------------------------------------------
+    out_click = no_update
+    out_relayout = no_update # <--- 2. NOVA VARIÁVEL PARA PROTEGER O RELAYOUT
+    categoria_clicada = None
+    
+    trigger_prop = ctx.triggered[0]["prop_id"] if ctx.triggered else ""
+
+    # Se a ação foi o duplo clique (autorange)
+    if "relayoutData" in trigger_prop and relayout_orcamento and "xaxis.autorange" in relayout_orcamento:
+        out_click = None         # Apagamos o clique
+        out_relayout = None      # <--- 3. APAGAMOS O RELAYOUT (para o próximo duplo clique funcionar!)
+        categoria_clicada = None
+    else:
+        # Se foi um clique normal
+        if click_orcamento:
+            categoria_clicada = click_orcamento["points"][0]["x"]
+
+    # ----------------------------------------------------------
+    # DADOS E FILTRO TEMPORAL
+    # ----------------------------------------------------------
     dff = df.copy()
 
     if range_data and "start" in range_data:
@@ -195,28 +173,23 @@ def update_dashboard(range_data, click_orcamento): # <--- NOVO ARGUMENTO
             (dff["tempo"] <= end_date)
         ]
 
-    # Usamos o último registo apenas para as métricas anuais fixas (Orçamento)
     last = dff.iloc[-1] if not dff.empty else df.iloc[-1]
 
     # ----------------------------------------------------------
-    # KPIs (Agora com Sparklines!)
+    # KPIs
     # ----------------------------------------------------------
     total_receita = dff["mensal_receita_efectiva"].sum()
     total_despesa = dff["mensal_despesa_efectiva"].sum()
     saldo_global  = total_receita - total_despesa
     num_periodos  = dff["tempo"].nunique()
 
-    # Calcular o saldo mensal para a linha do terceiro KPI
     saldo_mensal = dff["mensal_receita_efectiva"] - dff["mensal_despesa_efectiva"]
-
     cor_saldo = "#e74c3c" if saldo_global < 0 else "#27ae60"
 
-    # Criar os gráficos pequeninos
-    spark_receita = criar_sparkline(dff["tempo"], dff["mensal_receita_efectiva"], "#27ae60")
-    spark_despesa = criar_sparkline(dff["tempo"], dff["mensal_despesa_efectiva"], "#e74c3c")
-    spark_saldo   = criar_sparkline(dff["tempo"], saldo_mensal, cor_saldo)
+    spark_receita = create_sparkline(dff["tempo"], dff["mensal_receita_efectiva"], "#27ae60")
+    spark_despesa = create_sparkline(dff["tempo"], dff["mensal_despesa_efectiva"], "#e74c3c")
+    spark_saldo   = create_sparkline(dff["tempo"], saldo_mensal, cor_saldo)
 
-    # Inserir o dcc.Graph dentro de cada Div (com displayModeBar=False para esconder o menu do Plotly)
     kpis = [
         html.Div([
             html.Div("Receita do Período", className="kpi-title"),
@@ -244,7 +217,7 @@ def update_dashboard(range_data, click_orcamento): # <--- NOVO ARGUMENTO
     ]
 
     # ----------------------------------------------------------
-    # ORÇAMENTO VS EXECUÇÃO (Agora reage perfeitamente ao slider)
+    # ORÇAMENTO VS EXECUÇÃO
     # ----------------------------------------------------------
     categorias = {
         "Pessoal":             ("orcamento_despesas_com_o_pessoal",       "mensal_despesas_com_o_pessoal"),
@@ -273,25 +246,26 @@ def update_dashboard(range_data, click_orcamento): # <--- NOVO ARGUMENTO
         textposition='outside'
     ))
     fig_oc.update_layout(
-        title="Orçamento Anual vs Execução no Período por Categoria (M€)",
+        title=dict(
+            text="Orçamento Anual vs Execução no Período por Categoria (M€)",
+            x=0.5,
+            xanchor="center",
+            y=0.95,
+            yanchor="top",
+        ),
         barmode="group",
-        yaxis=dict(title="M€"),
+        yaxis=dict(title="M€", automargin=True),
         legend=dict(orientation="h", y=1.1),
-        margin=dict(l=20, r=20, t=70, b=20), # Margem de topo aumentada por causa dos textos 'outside'
-        height=320,
+        margin=dict(l=20, r=20, t=100, b=20),
+        height=360,
     )
 
     # ----------------------------------------------------------
-    # DESPESA MENSAL COM CROSS-FILTERING
+    # DESPESA MENSAL COM CROSS-FILTERING (Ajustado)
     # ----------------------------------------------------------
     fig_mensal = go.Figure()
     
-    # 1. Verificar se alguém clicou numa barra
-    categoria_clicada = None
-    if click_orcamento:
-        categoria_clicada = click_orcamento["points"][0]["x"] # Apanha o nome (ex: "Pessoal")
-
-    # 2. Se não clicou em nada (ou clicou no vazio), mostra o gráfico original (Receita vs Despesa Total)
+    # Substituímos a verificação aqui para usar a variável segura que criámos lá em cima
     if not categoria_clicada:
         fig_mensal.add_trace(go.Bar(
             x=dff["tempo"], y=dff["mensal_receita_efectiva"],
@@ -303,28 +277,31 @@ def update_dashboard(range_data, click_orcamento): # <--- NOVO ARGUMENTO
         ))
         titulo_mensal = "Receita e Despesa Mensal Total (M€)<br><sup>Clique numa categoria no gráfico de Orçamento para filtrar</sup>"
     
-    # 3. Se clicou numa categoria específica, mostra apenas essa linha
     else:
-        # Procurar o nome da coluna no nosso dicionário 'categorias' (que já existe no teu código)
         coluna_mensal = categorias[categoria_clicada][1] 
-        
         fig_mensal.add_trace(go.Bar(
             x=dff["tempo"], y=dff[coluna_mensal],
-            name=categoria_clicada, marker_color="#3498db" # Azul para realçar que está filtrado
+            name=categoria_clicada, marker_color="#3498db" 
         ))
         titulo_mensal = f"Evolução Mensal da Despesa: <b>{categoria_clicada}</b> (M€)<br><sup>Faça duplo clique no gráfico de orçamento para limpar o filtro</sup>"
 
     fig_mensal.update_layout(
-        title=titulo_mensal,
+        title=dict(
+            text=titulo_mensal,
+            x=0.5,
+            xanchor="center",
+            y=0.95,
+            yanchor="top",
+        ),
         barmode="group",
-        yaxis=dict(title="M€"),
+        yaxis=dict(title="M€", automargin=True),
         legend=dict(orientation="h", y=1.15),
-        margin=dict(l=20, r=20, t=80, b=20),
-        height=320,
+        margin=dict(l=20, r=20, t=70, b=20),
+        height=360,
     )
 
     # ----------------------------------------------------------
-    # WATERFALL (Substitui o Sankey)
+    # WATERFALL 
     # ----------------------------------------------------------
     pessoal      = dff["mensal_despesas_com_o_pessoal"].sum()
     bens_serv    = dff["mensal_aquisicao_de_bens_e_servicos"].sum()
@@ -352,4 +329,4 @@ def update_dashboard(range_data, click_orcamento): # <--- NOVO ARGUMENTO
         showlegend=False
     )
 
-    return kpis, fig_oc, fig_mensal, fig_waterfall
+    return kpis, fig_oc, fig_mensal, fig_waterfall, out_click, out_relayout # <--- 4. NOVO RETURN

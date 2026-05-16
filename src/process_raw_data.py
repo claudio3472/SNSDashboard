@@ -1,5 +1,6 @@
-import os
 import pandas as pd
+import os
+
 from utils import standardize_all_datasets, add_year_month_columns
 
 if __name__ == "__main__":
@@ -16,19 +17,19 @@ if __name__ == "__main__":
         "dados_financeiros", "medicamento_hospitalar", "contas_sns", "divida",
         "internamento_hospitalar", "consultas", "cirurgias", "cirurgias_ambulatorio",
         "atendimento_urgencia", "trabalhadores_grupo_profissional", "trabalhadores_modalidade",
-        "utentes_cuidados_primarios", "acesso_consultas"
+        "utentes_cuidados_primarios", "acesso_consultas", "mortalidade_hospitalar"
     ]
 
-    # -----------------------------------------------------------------------------------------
-    # ✅ LOAD RAW FILES + FIX FOR UTENTES: ars → regiao
-    # -----------------------------------------------------------------------------------------
+    # ==============================================================
+    # LOAD RAW FILES + FIX FOR UTENTES: ars → regiao
+    # ==============================================================
     for name in raw_files:
         file_path = os.path.join(raw_dir, f"{name}.csv")
 
         if os.path.exists(file_path):
             df = pd.read_csv(file_path, low_memory=False)
 
-            # ✅ FIX: renaming ars → regiao for utentes_cuidados_primarios
+            # renaming ars → regiao for utentes_cuidados_primarios
             if name == "utentes_cuidados_primarios":
                 if "ars" in df.columns:
                     print("Normalizing region column for utentes_cuidados_primarios (ars → regiao)")
@@ -42,7 +43,7 @@ if __name__ == "__main__":
                         .str.strip()
                     )
 
-            # ✅ CLEAN SPECIAL COLUMNS FOR CERTAIN DATASETS
+            # CLEAN SPECIAL COLUMNS FOR CERTAIN DATASETS
             if name == "cirurgias_ambulatorio":
                 df = df.drop(columns=["cir_ambulatorio_gdh_para_procedimentos_ambulatorizaveis"], errors='ignore')
 

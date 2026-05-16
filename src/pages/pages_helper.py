@@ -3,7 +3,6 @@ import plotly.graph_objects as go
 from dash import html
 import os
 
-
 def load_data(data_path: str | None = None) -> pd.DataFrame:
     """Load raw CSV from data folder."""
     if data_path is None:
@@ -60,6 +59,7 @@ def create_sparkline(x_data, y_data, color):
     )
     return fig
 
+
 def carregar_e_processar_dados(caminho: str) -> pd.DataFrame:
     """Carrega, valida e processa dados consoante o dataset especificado"""
     df = pd.read_csv(caminho)
@@ -72,8 +72,10 @@ def carregar_e_processar_dados(caminho: str) -> pd.DataFrame:
     return df
 
 
+import pandas as pd
+import plotly.graph_objects as go
+
 def processar_contas_sns(df: pd.DataFrame) -> pd.DataFrame:
-    
     df["ano"] = df["ano"].astype(int)
     df["tempo"] = pd.to_datetime(df["tempo"])
     df = df.sort_values("tempo").reset_index(drop=True)
@@ -95,6 +97,7 @@ def processar_contas_sns(df: pd.DataFrame) -> pd.DataFrame:
     
     return df
 
+
 def aplicar_config_padrao(fig: go.Figure, titulo: str, altura: int = 320) -> go.Figure:
     """Aplica configurações visuais padrão a um gráfico"""
     fig.update_layout(
@@ -104,3 +107,11 @@ def aplicar_config_padrao(fig: go.Figure, titulo: str, altura: int = 320) -> go.
         height=altura,
     )
     return fig
+
+
+def formatar_numero(valor, decimais=1):
+    """Substitui a formatação padrão dos EUA."""
+    if pd.isna(valor):
+        return "0"
+    s = f"{valor:,.{decimais}f}"
+    return s.replace(",", "X").replace(".", ",").replace("X", " ")

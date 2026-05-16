@@ -17,12 +17,65 @@ CATEGORIAS_ORCAMENTO = {
 
 MESES_NOMES = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"]
 
-
 # ============================================================
 # DATA LOAD
 # ============================================================
 
-df_global = carregar_e_processar_dados("data/processed/contas_sns.csv")
+try:
+    df_global = carregar_e_processar_dados("data/processed/contas_sns.csv")
+    assert not df_global.empty, "Dataset vazio após carregamento"
+except Exception as e:
+    print(f"❌ Erro ao carregar dados: {e}")
+    df_global = pd.DataFrame()
+
+if not df_global.empty:
+    MIN_DATE = df_global["tempo"].min().date()
+    MAX_DATE = df_global["tempo"].max().date()
+else:
+    MIN_DATE = None
+    MAX_DATE = None
+
+
+# ============================================================
+# HELPERS
+# ============================================================
+
+def filter_period(data, start_date, end_date):
+    dff = data.copy()
+
+    if not end_date:
+        end_date = dff["tempo"].max()
+
+    end_date = pd.to_datetime(end_date)
+
+    if start_date:
+        start_date = pd.to_datetime(start_date)
+        dff = dff[dff["tempo"] >= start_date]
+
+    dff = dff[dff["tempo"] <= end_date]
+
+    return dff
+
+
+def empty_figure(title):
+    fig = go.Figure()
+    fig.update_layout(
+        title=title,
+        height=320,
+        xaxis=dict(visible=False),
+        yaxis=dict(visible=False),
+        annotations=[
+            dict(
+                text="Sem dados para o período selecionado",
+                x=0.5,
+                y=0.5,
+                xref="paper",
+                yref="paper",
+                showarrow=False,
+            )
+        ],
+    )
+    return fig
 
 
 # ============================================================
@@ -30,7 +83,7 @@ df_global = carregar_e_processar_dados("data/processed/contas_sns.csv")
 # ============================================================
 
 def build_timeline_figure(df):
-    if df.empty: return go.Figure()
+    if df.empty: return empty_figure("Evolução Receita vs Despesa")
     
     txt_receita = [formatar_numero(v) for v in df["execucao_acumulada_receita_efectiva"]]
     txt_despesa = [formatar_numero(v) for v in df["execucao_acumulada_despesa_efectiva"]]
@@ -40,34 +93,34 @@ def build_timeline_figure(df):
         x=df["tempo"], y=df["execucao_acumulada_receita_efectiva"],
         name="Receita (Acumulada)", line=dict(color="#27ae60", width=2), fill="tozeroy",
         fillcolor="rgba(39,174,96,0.1)",
-        text=txt_receita, hovertemplate="%{text} M€<extra></extra>"
+        text=txt_receita, hovertemplate="Data: %{x|%Y-%m}<br>Receita: %{text} M€<extra></extra>"
     ))
     fig.add_trace(go.Scatter(
         x=df["tempo"], y=df["execucao_acumulada_despesa_efectiva"],
         name="Despesa (Acumulada)", line=dict(color="#e74c3c", width=2),
-        text=txt_despesa, hovertemplate="%{text} M€<extra></extra>"
+        text=txt_despesa, hovertemplate="Data: %{x|%Y-%m}<br>Despesa: %{text} M€<extra></extra>"
     ))
     fig.update_layout(
         title=dict(
-            text="Evolução Receita vs Despesa (M€)<br><sup>Use o slider inferior para selecionar os meses</sup>",
+            text="Evolução Receita vs Despesa Acumulada (M€)",
             x=0.5, xanchor="center", y=0.95, yanchor="top",
             font=dict(size=16)
         ),
-        xaxis=dict(rangeslider=dict(visible=True), type="date"),
+        xaxis=dict(type="date"),
         yaxis=dict(title="M€"),
-        legend=dict(orientation="h", y=1),
+        legend=dict(orientation="h", y=1.12),
         margin=dict(l=20, r=20, t=80, b=40),
         height=340,
+        plot_bgcolor="white",
     )
     return fig
 
 
 def build_heatmap_figure(df):
-    if df.empty: return go.Figure()
+    if df.empty: return empty_figure("Sazonalidade da Despesa")
     
     pivot = df.pivot_table(index="ano", columns="mes", values="mensal_despesa_efectiva", aggfunc="sum")
-    
-    text_matrix = [[formatar_numero(val) for val in row] for row in pivot.values]
+    text_matrix = [[formatar_numero(val) if pd.notna(val) else "" for val in row] for row in pivot.values]
     
     fig = go.Figure(data=go.Heatmap(
         z=pivot.values,
@@ -90,6 +143,8 @@ def build_heatmap_figure(df):
 
 
 def build_waterfall_figure(dff, total_receita, total_despesa, saldo_global):
+    if dff.empty: return empty_figure("Cascata Financeira")
+
     pessoal      = dff["mensal_despesas_com_o_pessoal"].sum()
     bens_serv    = dff["mensal_aquisicao_de_bens_e_servicos"].sum()
     transferenc  = dff["mensal_transferencias_correntes"].sum()
@@ -123,32 +178,28 @@ def build_waterfall_figure(dff, total_receita, total_despesa, saldo_global):
         title=dict(text="Cascata Financeira: Da Receita ao Saldo (M€)", x=0.5, xanchor="center", y=0.95, yanchor="top"),
         margin=dict(l=20, r=20, t=70, b=20),
         height=320,
-        showlegend=False
+        showlegend=False,
+        plot_bgcolor="white",
     )
     return fig
 
 
 def build_orcamento_execucao_figure(dff):
-    if dff.empty: return go.Figure()
+    if dff.empty: return empty_figure("Orçamento vs Execução")
     
     nomes = list(CATEGORIAS_ORCAMENTO.keys())
     orc_vals = []
     exe_vals = []
 
     for col_orc, col_exe in CATEGORIAS_ORCAMENTO.values():
-        
         orc_total_acumulado = 0
         for ano in dff["ano"].unique():
             dff_ano = dff[dff["ano"] == ano]
-            
             num_meses_ano = dff_ano["mes"].nunique()
-            
             orc_anual_deste_ano = dff_ano[col_orc].iloc[-1]
-            
             orc_total_acumulado += (orc_anual_deste_ano / 12) * num_meses_ano
             
         orc_vals.append(orc_total_acumulado)
-        
         exe_vals.append(dff[col_exe].sum())
 
     txt_orc = [formatar_numero(v) for v in orc_vals]
@@ -173,11 +224,14 @@ def build_orcamento_execucao_figure(dff):
         legend=dict(orientation="h", y=1.2, x=0.5, xanchor="center"),
         margin=dict(l=20, r=20, t=120, b=20),
         height=360,
+        plot_bgcolor="white",
     )
     return fig
 
 
 def build_mensal_figure(dff, categoria_clicada):
+    if dff.empty: return empty_figure("Despesa Mensal")
+
     fig = go.Figure()
     
     if not categoria_clicada:
@@ -189,14 +243,14 @@ def build_mensal_figure(dff, categoria_clicada):
             name="Receita Mensal", marker_color="#27ae60",
             text=txt_rec, 
             textposition="none",
-            hovertemplate="%{text} M€<extra></extra>"
+            hovertemplate="Data: %{x|%Y-%m}<br>Receita: %{text} M€<extra></extra>"
         ))
         fig.add_trace(go.Bar(
             x=dff["tempo"], y=dff["mensal_despesa_efectiva"],
             name="Despesa Mensal Total", marker_color="#e74c3c",
             text=txt_desp, 
             textposition="none",
-            hovertemplate="%{text} M€<extra></extra>"
+            hovertemplate="Data: %{x|%Y-%m}<br>Despesa: %{text} M€<extra></extra>"
         ))
         titulo = "Receita e Despesa Mensal Total (M€)<br><sup>Clique numa categoria no gráfico de Orçamento para filtrar</sup>"
     else:
@@ -208,7 +262,7 @@ def build_mensal_figure(dff, categoria_clicada):
             name=categoria_clicada, marker_color="#3498db",
             text=txt_cat, 
             textposition="none",
-            hovertemplate="%{text} M€<extra></extra>"
+            hovertemplate="Data: %{x|%Y-%m}<br>Valor: %{text} M€<extra></extra>"
         ))
         titulo = f"Evolução Mensal da Despesa: <b>{categoria_clicada}</b> (M€)<br><sup>Faça duplo clique no gráfico de orçamento para limpar o filtro</sup>"
 
@@ -219,6 +273,7 @@ def build_mensal_figure(dff, categoria_clicada):
         legend=dict(orientation="h", y=1.15, x=0.5, xanchor="center"),
         margin=dict(l=20, r=20, t=80, b=20),
         height=360,
+        plot_bgcolor="white",
     )
     return fig
 
@@ -228,6 +283,8 @@ def build_mensal_figure(dff, categoria_clicada):
 # ============================================================
 
 def build_kpi_cards(dff, total_receita, total_despesa, saldo_global):
+    if dff.empty: return []
+
     num_periodos = dff["tempo"].nunique()
     saldo_mensal = dff["mensal_receita_efectiva"] - dff["mensal_despesa_efectiva"]
     cor_saldo = "#e74c3c" if saldo_global < 0 else "#27ae60"
@@ -240,19 +297,19 @@ def build_kpi_cards(dff, total_receita, total_despesa, saldo_global):
         html.Div([
             html.Div("Receita do Período", className="kpi-title"),
             html.Div(f"{formatar_numero(total_receita)} M€", className="kpi-value"),
-            dcc.Graph(figure=spark_receita, config={'displayModeBar': False})
+            dcc.Graph(figure=spark_receita, config={'displayModeBar': False, 'staticPlot': True})
         ], className="kpi-card"),
         
         html.Div([
             html.Div("Despesa do Período", className="kpi-title"),
             html.Div(f"{formatar_numero(total_despesa)} M€", className="kpi-value"),
-            dcc.Graph(figure=spark_despesa, config={'displayModeBar': False})
+            dcc.Graph(figure=spark_despesa, config={'displayModeBar': False, 'staticPlot': True})
         ], className="kpi-card"),
         
         html.Div([
             html.Div("Saldo Global", className="kpi-title"),
             html.Div(f"{formatar_numero(saldo_global)} M€", className="kpi-value", style={"color": cor_saldo}),
-            dcc.Graph(figure=spark_saldo, config={'displayModeBar': False})
+            dcc.Graph(figure=spark_saldo, config={'displayModeBar': False, 'staticPlot': True})
         ], className="kpi-card"),
         
         html.Div([
@@ -270,10 +327,76 @@ def build_kpi_cards(dff, total_receita, total_despesa, saldo_global):
 layout = html.Div(
     className="content",
     children=[
-        html.H2("Contas SNS"),
-        html.P("Análise do orçamento e execução do Serviço Nacional de Saúde"),
+        
+        html.Div(
+            style={
+                "display": "flex",
+                "justifyContent": "space-between",
+                "alignItems": "flex-start",
+                "gap": "20px",
+                "flexWrap": "wrap",
+                "marginBottom": "25px",
+            },
+            children=[
 
-        dcc.Store(id="store-range-contas"),
+                html.Div([
+                    html.H2("Contas SNS", style={"marginBottom": "8px"}),
+                    html.P(
+                        "Análise do orçamento e execução do Serviço Nacional de Saúde",
+                        style={"color": "#6b7280", "marginBottom": "0"},
+                    ),
+                ]),
+
+                html.Div(
+                    style={
+                        "display": "flex",
+                        "gap": "14px",
+                        "alignItems": "flex-end",
+                        "marginTop": "10px",
+                    },
+                    children=[
+                        html.Div([
+                            html.Div(
+                                "Data Inicial",
+                                style={
+                                    "fontSize": "12px",
+                                    "fontWeight": "600",
+                                    "marginBottom": "5px",
+                                    "color": "#374151",
+                                },
+                            ),
+                            dcc.DatePickerSingle(
+                                id="contas-start-date",
+                                min_date_allowed=MIN_DATE,
+                                max_date_allowed=MAX_DATE,
+                                date=MIN_DATE,
+                                display_format="YYYY-MM-DD",
+                            ),
+                        ]),
+
+                        html.Div([
+                            html.Div(
+                                "Data Final",
+                                style={
+                                    "fontSize": "12px",
+                                    "fontWeight": "600",
+                                    "marginBottom": "5px",
+                                    "color": "#374151",
+                                },
+                            ),
+                            dcc.DatePickerSingle(
+                                id="contas-end-date",
+                                min_date_allowed=MIN_DATE,
+                                max_date_allowed=MAX_DATE,
+                                date=None,
+                                placeholder="Última disponível",
+                                display_format="YYYY-MM-DD",
+                            ),
+                        ]),
+                    ],
+                ),
+            ],
+        ),
 
         html.Div(id="kpi-row-contas", className="kpi-row"),
 
@@ -281,13 +404,13 @@ layout = html.Div(
             className="grid-2x2",
             children=[
                 html.Div(className="card", children=[dcc.Graph(id="fig-waterfall")]),
-                html.Div(className="card", children=[dcc.Graph(id="fig-timeline", figure=build_timeline_figure(df_global))]),
+                html.Div(className="card", children=[dcc.Graph(id="fig-timeline")]),
             ],
         ),
         
         html.Div(className="card", children=[dcc.Graph(id="fig-despesa-mensal")]),
         html.Div(className="card", children=[dcc.Graph(id="fig-orcamento-execucao")]),
-        html.Div(className="card", children=[dcc.Graph(id="fig-heatmap", figure=build_heatmap_figure(df_global))]),
+        html.Div(className="card", children=[dcc.Graph(id="fig-heatmap")]),
     ],
 )
 
@@ -297,31 +420,21 @@ layout = html.Div(
 # ============================================================
 
 @callback(
-    Output("store-range-contas", "data"),
-    Input("fig-timeline", "relayoutData")
-)
-def guardar_range(relayoutData):
-    if not relayoutData or "xaxis.autorange" in relayoutData:
-        return {}
-    if "xaxis.range[0]" in relayoutData:
-        return {"start": relayoutData["xaxis.range[0]"], "end": relayoutData["xaxis.range[1]"]}
-    if "xaxis.range" in relayoutData:
-        return {"start": relayoutData["xaxis.range"][0], "end": relayoutData["xaxis.range"][1]}
-    return {}
-
-
-@callback(
     Output("kpi-row-contas",         "children"),
+    Output("fig-timeline",           "figure"),
     Output("fig-orcamento-execucao", "figure"),
     Output("fig-despesa-mensal",     "figure"),
     Output("fig-waterfall",          "figure"),
+    Output("fig-heatmap",            "figure"),
     Output("fig-orcamento-execucao", "clickData"),
     Output("fig-orcamento-execucao", "relayoutData"),
-    Input("store-range-contas",      "data"),
+    
+    Input("contas-start-date",       "date"),
+    Input("contas-end-date",         "date"),
     Input("fig-orcamento-execucao",  "clickData"),
     Input("fig-orcamento-execucao",  "relayoutData")
 )
-def update_dashboard(range_data, click_orcamento, relayout_orcamento):
+def update_dashboard(start_date, end_date, click_orcamento, relayout_orcamento):
     out_click, out_relayout, categoria_clicada = no_update, no_update, None
     trigger_prop = ctx.triggered[0]["prop_id"] if ctx.triggered else ""
 
@@ -330,21 +443,39 @@ def update_dashboard(range_data, click_orcamento, relayout_orcamento):
     elif click_orcamento:
         categoria_clicada = click_orcamento["points"][0]["x"]
 
-    dff = df_global.copy()
-    if range_data and "start" in range_data:
-        dff = dff[
-            (dff["tempo"] >= pd.to_datetime(range_data["start"])) & 
-            (dff["tempo"] <= pd.to_datetime(range_data["end"]))
-        ]
+    dff = filter_period(df_global, start_date, end_date)
+
+    if dff.empty:
+        return (
+            [],
+            empty_figure("Evolução Receita vs Despesa Acumulada (M€)"),
+            empty_figure("Orçamento vs Execução"),
+            empty_figure("Despesa Mensal"),
+            empty_figure("Cascata Financeira"),
+            empty_figure("Sazonalidade da Despesa"),
+            out_click,
+            out_relayout,
+        )
     
     total_receita = dff["mensal_receita_efectiva"].sum()
     total_despesa = dff["mensal_despesa_efectiva"].sum()
     saldo_global  = total_receita - total_despesa
  
-    # Construção
+    # Construção com as lógicas refatoradas
     kpis          = build_kpi_cards(dff, total_receita, total_despesa, saldo_global)
+    fig_timeline  = build_timeline_figure(dff)
     fig_oc        = build_orcamento_execucao_figure(dff)
     fig_mensal    = build_mensal_figure(dff, categoria_clicada)
     fig_waterfall = build_waterfall_figure(dff, total_receita, total_despesa, saldo_global)
+    fig_heatmap   = build_heatmap_figure(dff)
 
-    return kpis, fig_oc, fig_mensal, fig_waterfall, out_click, out_relayout
+    return (
+        kpis, 
+        fig_timeline, 
+        fig_oc, 
+        fig_mensal, 
+        fig_waterfall, 
+        fig_heatmap, 
+        out_click, 
+        out_relayout
+    )

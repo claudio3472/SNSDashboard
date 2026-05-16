@@ -55,6 +55,18 @@ for col in [
 if "tipo_instituicao" not in df.columns:
     df["tipo_instituicao"] = "Instituição"
 
+df["tipo_instituicao"] = (
+    df["tipo_instituicao"]
+    .astype(str)
+    .str.strip()
+)
+
+df = df[
+    ~df["tipo_instituicao"]
+    .str.lower()
+    .str.contains("csp|outro|sns|hospital", na=False)
+].copy()
+
 CUMULATIVE_COLS = [
     "no_de_consultas_medicas_total",
     "total_urgencias",
@@ -214,6 +226,7 @@ def base_layout(fig, title, height=400):
         height=height,
         margin=dict(l=30, r=30, t=80, b=40),
         plot_bgcolor="white",
+        separators=",.",
     )
     return fig
 
@@ -624,6 +637,7 @@ def update_dashboard(start_date, end_date, selected_region):
         margin=dict(l=0, r=0, t=60, b=0),
         showlegend=False,
         dragmode=False,
+        separators=",.",
     )
 
     # ========================================================

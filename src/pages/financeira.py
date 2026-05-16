@@ -87,6 +87,7 @@ def base_layout(fig, title, height=380):
         height=height,
         margin=dict(l=30, r=30, t=90, b=40),
         plot_bgcolor="white",
+        separators=",.",
     )
     return fig
 
@@ -170,15 +171,7 @@ layout = html.Div(
                 ),
                 html.Div(
                     className="card",
-                    children=[dcc.Graph(id="finance-comparison-v2", config={"displayModeBar": False})],
-                ),
-                html.Div(
-                    className="card",
                     children=[dcc.Graph(id="finance-risk-v2", config={"displayModeBar": False})],
-                ),
-                html.Div(
-                    className="card",
-                    children=[dcc.Graph(id="finance-structure-v2", config={"displayModeBar": False})],
                 ),
             ],
         ),
@@ -234,9 +227,7 @@ def save_range(relayout):
     Output("finance-kpis-v2", "children"),
     Output("finance-graph-v2", "figure"),
     Output("finance-waterfall-v2", "figure"),
-    Output("finance-comparison-v2", "figure"),
     Output("finance-risk-v2", "figure"),
-    Output("finance-structure-v2", "figure"),
     Input("store-range-finance-v2", "data"),
     Input("finance-region-filter-v2", "value"),
     Input("finance-institution-filter-v2", "value"),
@@ -255,9 +246,7 @@ def update_finance(range_data, region, institution):
             ],
             empty_fig("Evolução Financeira"),
             empty_fig("Cascata Financeira"),
-            empty_fig("Comparação Financeira"),
             empty_fig("Risco Financeiro"),
-            empty_fig("Estrutura Financeira"),
         )
 
     # ========================================================
@@ -455,134 +444,6 @@ def update_finance(range_data, region, institution):
     )
 
     # ========================================================
-    # COMPARISON
-    # ========================================================
-
-    if institution != "all":
-        comp = (
-            dff.groupby("tempo")
-            .agg(
-                gastos=("gastos_operacionais", "sum"),
-                rendimentos=("rendimentos_operacionais", "sum"),
-            )
-            .reset_index()
-            .sort_values("tempo")
-        )
-
-        comp["gastos_m"] = comp["gastos"] / 1e6
-        comp["rendimentos_m"] = comp["rendimentos"] / 1e6
-        comp["saldo_m"] = comp["rendimentos_m"] - comp["gastos_m"]
-
-        fig_comp = go.Figure()
-
-        fig_comp.add_bar(
-            x=comp["tempo"],
-            y=comp["rendimentos_m"],
-            name="Rendimentos",
-            marker_color="#009E73",
-        )
-
-        fig_comp.add_bar(
-            x=comp["tempo"],
-            y=comp["gastos_m"],
-            name="Gastos",
-            marker_color="#D55E00",
-        )
-
-        fig_comp.add_trace(
-            go.Scatter(
-                x=comp["tempo"],
-                y=comp["saldo_m"],
-                name="Saldo",
-                mode="lines+markers",
-                line=dict(color="#0072B2", width=3),
-            )
-        )
-
-        fig_comp.update_layout(
-            barmode="group",
-            yaxis=dict(title="M€"),
-            legend=dict(orientation="h", y=1.12),
-        )
-
-        fig_comp = base_layout(fig_comp, "Evolução Mensal da Instituição")
-
-    else:
-        group_col = "instituicao" if region != "all" else "regiao"
-        label = "Instituição" if region != "all" else "Região"
-
-        comp = (
-            dff.groupby(group_col)
-            .agg(
-                gastos=("gastos_operacionais", "sum"),
-                rendimentos=("rendimentos_operacionais", "sum"),
-            )
-            .reset_index()
-        )
-
-        comp["gastos_m"] = comp["gastos"] / 1e6
-        comp["rendimentos_m"] = comp["rendimentos"] / 1e6
-
-        if group_col == "instituicao":
-            comp = comp.sort_values("gastos_m", ascending=False).head(12)
-
-        comp = comp.sort_values("gastos_m")
-
-        fig_comp = go.Figure()
-
-        for _, row in comp.iterrows():
-            fig_comp.add_trace(
-                go.Scatter(
-                    x=[row["gastos_m"], row["rendimentos_m"]],
-                    y=[row[group_col], row[group_col]],
-                    mode="lines",
-                    line=dict(color="#bdc3c7", width=3),
-                    showlegend=False,
-                    hoverinfo="skip",
-                )
-            )
-
-        fig_comp.add_trace(
-            go.Scatter(
-                x=comp["gastos_m"],
-                y=comp[group_col],
-                mode="markers",
-                name="Gastos",
-                marker=dict(
-                    color="#D55E00",
-                    size=12,
-                    line=dict(color="white", width=1),
-                ),
-            )
-        )
-
-        fig_comp.add_trace(
-            go.Scatter(
-                x=comp["rendimentos_m"],
-                y=comp[group_col],
-                mode="markers",
-                name="Rendimentos",
-                marker=dict(
-                    color="#009E73",
-                    size=12,
-                    line=dict(color="white", width=1),
-                ),
-            )
-        )
-
-        fig_comp.update_layout(
-            xaxis=dict(title="M€"),
-            yaxis=dict(title=None, automargin=True),
-            legend=dict(orientation="h", y=1.12),
-        )
-
-        fig_comp = base_layout(
-            fig_comp,
-            f"Gastos vs Rendimentos por {label}",
-            height=420,
-        )
-
-    # ========================================================
     # RISK
     # ========================================================
 
@@ -654,47 +515,11 @@ def update_finance(range_data, region, institution):
         "Risco Financeiro",
     )
 
-    # ========================================================
-    # STRUCTURE
-    # ========================================================
-
-    struct = (
-        dff.groupby(["regiao", "tipo_instituicao"])
-        .agg(gastos=("gastos_operacionais", "sum"))
-        .reset_index()
-    )
-
-    struct = struct[struct["gastos"] > 0]
-
-    if struct.empty:
-        fig_struct = empty_fig("Distribuição de Gastos Operacionais")
-    else:
-        fig_struct = px.sunburst(
-            struct,
-            path=["regiao", "tipo_instituicao"],
-            values="gastos",
-            color="regiao",
-            color_discrete_sequence=COLORBLIND,
-            title="Distribuição de Gastos Operacionais",
-        )
-
-        fig_struct.update_traces(
-            textinfo="label+percent parent",
-            insidetextorientation="radial",
-            hovertemplate="<b>%{label}</b><br>Gastos: %{value:,.0f}€<extra></extra>",
-        )
-
-        fig_struct.update_layout(
-            height=420,
-            margin=dict(t=80, l=10, r=10, b=10),
-            title=dict(x=0.5),
-        )
+   
 
     return (
         kpis,
         fig_main,
         fig_waterfall,
-        fig_comp,
         fig_risk,
-        fig_struct,
     )

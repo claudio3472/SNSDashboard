@@ -12,21 +12,74 @@ from pages.pages_helper import load_data, process_data, create_sparkline, kpi_ca
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEFAULT_DATA_PATH = os.path.join(BASE_DIR, "..", "data", "processed", "medicamento_hospitalar.csv")
-df = process_data(load_data(DEFAULT_DATA_PATH))
 
-df["tempo"] = pd.to_datetime(
-            df["ano"].astype(str) + "-" + df["mes"].astype(str).str.zfill(2) + "-01"
-        )
-df["mes"] = df["tempo"].dt.month
+try:
+    df = process_data(load_data(DEFAULT_DATA_PATH))
+    df["tempo"] = pd.to_datetime(
+                df["ano"].astype(str) + "-" + df["mes"].astype(str).str.zfill(2) + "-01"
+            )
+    df["mes"] = df["tempo"].dt.month
+except Exception as e:
+    print(f"❌ Erro ao carregar dados: {e}")
+    df = pd.DataFrame()
+
+if not df.empty:
+    MIN_DATE = df["tempo"].min().date()
+    MAX_DATE = df["tempo"].max().date()
+    ANOS = sorted(df["ano"].astype(int).unique().tolist())
+else:
+    MIN_DATE = None
+    MAX_DATE = None
+    ANOS = []
 
 REGIOES = ["Norte", "Centro", "Lisboa e Vale do Tejo", "Alentejo", "Algarve"]
-ANOS = sorted(df["ano"].astype(int).unique().tolist())
 REGION_OPTIONS = [{"label": "Todas as regiões", "value": "all"}] + [
     {"label": r, "value": r} for r in REGIOES
 ]
 MESES_PT = {1:"Jan", 2:"Fev", 3:"Mar", 4:"Abr", 5:"Mai", 6:"Jun",
             7:"Jul", 8:"Ago", 9:"Set", 10:"Out", 11:"Nov", 12:"Dez"}
-df["mes_nome"] = df["mes"].map(MESES_PT)
+
+if not df.empty:
+    df["mes_nome"] = df["mes"].map(MESES_PT)
+
+
+# ============================================================
+# HELPERS
+# ============================================================
+
+def filter_period(data, start_date, end_date):
+    dff = data.copy()
+
+    if not end_date:
+        end_date = dff["tempo"].max()
+
+    end_date = pd.to_datetime(end_date)
+
+    if start_date:
+        start_date = pd.to_datetime(start_date)
+        dff = dff[dff["tempo"] >= start_date]
+
+    dff = dff[dff["tempo"] <= end_date]
+
+    return dff
+
+def empty_figure(title):
+    fig = go.Figure()
+    fig.update_layout(
+        title={"text": title, "x": 0.5, "xanchor": "center", "y": 0.97, "yanchor": "top"},
+        height=400,
+        xaxis=dict(visible=False),
+        yaxis=dict(visible=False),
+        annotations=[
+            dict(
+                text="Sem dados para os filtros selecionados",
+                x=0.5, y=0.5,
+                xref="paper", yref="paper",
+                showarrow=False,
+            )
+        ],
+    )
+    return fig
 
 
 # ============================================================
@@ -36,26 +89,94 @@ df["mes_nome"] = df["mes"].map(MESES_PT)
 layout = html.Div(
     className="content",
     children=[
-        html.H2("Medicamentos Hospitalares"),
-        html.P("Encargos SNS com medicamentos."),
-
         html.Div(
-            className="filter-row",
-            style={"display": "flex", "gap": "1rem", "flexWrap": "wrap", "alignItems": "center", "marginBottom": "1rem"},
+            style={
+                "display": "flex",
+                "justifyContent": "space-between",
+                "alignItems": "flex-start",
+                "gap": "20px",
+                "flexWrap": "wrap",
+                "marginBottom": "25px",
+            },
             children=[
-                dcc.Dropdown(
-                    id="med-region-filter",
-                    options=REGION_OPTIONS,
-                    value=["all"],
-                    multi=True,
-                    clearable=True,
-                    placeholder="Selecionar região(ões)",
-                    style={"minWidth": "300px"},
+
+                html.Div([
+                    html.H2("Medicamentos Hospitalares", style={"marginBottom": "8px"}),
+                    html.P("Encargos SNS com medicamentos.", style={"color": "#6b7280", "marginBottom": "0"}),
+                ]),
+
+                html.Div(
+                    style={
+                        "display": "flex",
+                        "gap": "14px",
+                        "alignItems": "flex-end",
+                        "marginTop": "10px",
+                        "flexWrap": "wrap",
+                    },
+                    children=[
+                        html.Div([
+                            html.Div(
+                                "Região",
+                                style={
+                                    "fontSize": "12px",
+                                    "fontWeight": "600",
+                                    "marginBottom": "5px",
+                                    "color": "#374151",
+                                },
+                            ),
+                            dcc.Dropdown(
+                                id="med-region-filter",
+                                options=REGION_OPTIONS,
+                                value=["all"],
+                                multi=True,
+                                clearable=True,
+                                placeholder="Selecionar região(ões)",
+                                style={"minWidth": "250px"},
+                            ),
+                        ]),
+                        
+                        html.Div([
+                            html.Div(
+                                "Data Inicial",
+                                style={
+                                    "fontSize": "12px",
+                                    "fontWeight": "600",
+                                    "marginBottom": "5px",
+                                    "color": "#374151",
+                                },
+                            ),
+                            dcc.DatePickerSingle(
+                                id="med-start-date",
+                                min_date_allowed=MIN_DATE,
+                                max_date_allowed=MAX_DATE,
+                                date=MIN_DATE,
+                                display_format="YYYY-MM-DD",
+                            ),
+                        ]),
+
+                        html.Div([
+                            html.Div(
+                                "Data Final",
+                                style={
+                                    "fontSize": "12px",
+                                    "fontWeight": "600",
+                                    "marginBottom": "5px",
+                                    "color": "#374151",
+                                },
+                            ),
+                            dcc.DatePickerSingle(
+                                id="med-end-date",
+                                min_date_allowed=MIN_DATE,
+                                max_date_allowed=MAX_DATE,
+                                date=None,
+                                placeholder="Última disponível",
+                                display_format="YYYY-MM-DD",
+                            ),
+                        ]),
+                    ],
                 ),
             ],
         ),
-
-        dcc.Store(id="store-range-med"),
 
         html.Div(id="med-kpis", className="kpi-row"),
 
@@ -82,7 +203,7 @@ layout = html.Div(
 
 def build_kpis_med(dff: pd.DataFrame) -> list:
     if dff.empty:
-        return [kpi_card("Sem dados", "—")] * 3
+        return [kpi_card("Total do Período", "—"), kpi_card("Tendência", "—"), kpi_card("Mês de Pico", "—")]
 
     # Total do período ─────────────────────────────────────────────────────
     total = dff["encargos_sns_hospitalar"].sum() / 1e6
@@ -112,10 +233,11 @@ def build_kpis_med(dff: pd.DataFrame) -> list:
     ]
 
 
-def build_fig_stream(dff_base: pd.DataFrame, range_data: dict) -> go.Figure:
-    """Area chart empilhada (streamgraph) — evolução dos encargos por região."""
+def build_fig_stream(dff: pd.DataFrame) -> go.Figure:
+    if dff.empty: return empty_figure("Evolução de Encargos por Região")
+
     stream_df = (
-        dff_base
+        dff
         .groupby(["tempo", "regiao"])["encargos_sns_hospitalar"]
         .sum()
         .reset_index()
@@ -141,10 +263,6 @@ def build_fig_stream(dff_base: pd.DataFrame, range_data: dict) -> go.Figure:
         hovertemplate="<b>%{fullData.name}</b><br>%{x|%b %Y}<br>%{customdata[0]} M€<extra></extra>",
     )
 
-    xaxis_kwargs = dict(rangeslider=dict(visible=True), type="date")
-    if range_data and "start" in range_data:
-        xaxis_kwargs["range"] = [range_data["start"], range_data["end"]]
-
     fig.update_layout(
         title={
             "text": "Evolução de Encargos por Região",
@@ -154,7 +272,7 @@ def build_fig_stream(dff_base: pd.DataFrame, range_data: dict) -> go.Figure:
         legend=dict(title="Região"),
         height=400,
         margin=dict(l=40, r=20, t=50, b=40),
-        xaxis=xaxis_kwargs,
+        xaxis=dict(type="date"),
         yaxis_title="Encargos (M€)",
         uirevision="med-stream",
     )
@@ -162,6 +280,8 @@ def build_fig_stream(dff_base: pd.DataFrame, range_data: dict) -> go.Figure:
 
 
 def build_fig_violin(dff: pd.DataFrame) -> go.Figure:
+    if dff.empty: return empty_figure("Distribuição e Volatilidade Mensal de Encargos")
+
     violin_df = dff.copy()
     violin_df["encargos_sns_hospitalar"] /= 1e6
     violin_df['encargos_formatado'] = violin_df['encargos_sns_hospitalar'].apply(lambda x: f"{x:.1f}".replace(".", ","))
@@ -206,6 +326,8 @@ def build_fig_violin(dff: pd.DataFrame) -> go.Figure:
 
 
 def build_fig_polar(dff: pd.DataFrame) -> go.Figure:
+    if dff.empty: return empty_figure("Sazonalidade de Encargos por Ano")
+
     polar_df = (
         dff
         .groupby(["ano", "mes", "mes_nome"])["encargos_sns_hospitalar"]
@@ -216,6 +338,9 @@ def build_fig_polar(dff: pd.DataFrame) -> go.Figure:
     meses_por_ano = polar_df.groupby("ano")["mes"].nunique()
     anos_completos = meses_por_ano[meses_por_ano == 12].index
     polar_df = polar_df[polar_df["ano"].isin(anos_completos)]
+
+    if polar_df.empty: 
+        return empty_figure("Sazonalidade de Encargos por Ano<br><sup>Selecione pelo menos 1 ano completo</sup>")
 
     polar_df["encargos_sns_hospitalar"] /= 1e6
     polar_df = polar_df.sort_values(["ano", "mes"])
@@ -236,7 +361,7 @@ def build_fig_polar(dff: pd.DataFrame) -> go.Figure:
     )
     fig.update_layout(
         title={
-            "text": "Sazonalidade de Encargos por Ano<br><sup>Selecione pelo menos 1 ano completo no gráfico de evolução</sup>",
+            "text": "Sazonalidade de Encargos por Ano<br><sup>Requer seleção de pelo menos 1 ano completo</sup>",
             "x": 0.5, "xanchor": "center",
             "y": 0.97, "yanchor": "top"
         },
@@ -270,51 +395,30 @@ def build_fig_polar(dff: pd.DataFrame) -> go.Figure:
 # ============================================================
 
 @callback(
-    Output("store-range-med", "data"),
-    Input("med-stream", "relayoutData"),
-)
-def guardar_range(relayoutData):
-    """Guarda o intervalo de zoom do streamgraph para filtrar os restantes gráficos."""
-    if not relayoutData:
-        return {}
-    if "xaxis.range[0]" in relayoutData:
-        return {"start": relayoutData["xaxis.range[0]"], "end": relayoutData["xaxis.range[1]"]}
-    if "xaxis.range" in relayoutData:
-        return {"start": relayoutData["xaxis.range"][0], "end": relayoutData["xaxis.range"][1]}
-    if "xaxis.autorange" in relayoutData:
-        return {}
-    return {}
-
-
-@callback(
     Output("med-kpis",   "children"),
     Output("med-stream", "figure"),
     Output("med-violin", "figure"),
     Output("med-polar",  "figure"),
-    Input("store-range-med",   "data"),
+    Input("med-start-date", "date"),
+    Input("med-end-date", "date"),
     Input("med-region-filter", "value"),
 )
-def update_dashboard(range_data, selected_region):
-    # Filtro de região ─────────────────────────────────────────────────────
+def update_dashboard(start_date, end_date, selected_region):
+    # Aplica Filtro Temporal
+    dff = filter_period(df, start_date, end_date)
+
+    # Aplica Filtro de Região
     if not selected_region:
         selected_region = ["all"]
     if isinstance(selected_region, str):
         selected_region = [selected_region]
 
-    dff_base = df.copy()
     if "all" not in selected_region:
-        dff_base = dff_base[dff_base["regiao"].isin(selected_region)]
-
-    # Filtro temporal (zoom do streamgraph → violin e polar) ───────────────
-    dff = dff_base.copy()
-    if range_data and "start" in range_data:
-        start = pd.to_datetime(range_data["start"])
-        end   = pd.to_datetime(range_data["end"])
-        dff = dff[(dff["tempo"] >= start) & (dff["tempo"] <= end)]
+        dff = dff[dff["regiao"].isin(selected_region)]
 
     return (
         build_kpis_med(dff),
-        build_fig_stream(dff_base, range_data),
+        build_fig_stream(dff),
         build_fig_violin(dff),
         build_fig_polar(dff),
     )

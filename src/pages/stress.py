@@ -1,4 +1,4 @@
-from dash import html, dcc, callback, Input, Output, State, dash_table, no_update, ctx
+from dash import html, dcc, callback, Input, Output, no_update, ctx
 from pages.pages_helper import load_data, process_data, create_sparkline, kpi_card
 
 import pandas as pd
@@ -8,6 +8,10 @@ import plotly.graph_objects as go
 import re
 from shapely.geometry import Point, Polygon
 
+
+# ============================================================
+# DATA
+# ============================================================
 
 df = process_data(load_data())
 
@@ -20,14 +24,22 @@ MAX_DATE = df["tempo"].max().date()
 
 REGIOES = ["Norte", "Centro", "Lisboa e Vale do Tejo", "Alentejo", "Algarve"]
 
-COLORBLIND = ["#0072B2", "#E69F00", "#009E73", "#D55E00", "#CC79A7", "#56B4E9"]
+COLORBLIND = [
+    "#0072B2",
+    "#E69F00",
+    "#009E73",
+    "#CC79A7",
+    "#D55E00",
+    "#56B4E9",
+]
 
 STRESS_COLORSCALE = [
-    [0.0, "#2C7BB6"],
-    [0.25, "#74ADD1"],
-    [0.5, "#ABDDA4"],
-    [0.75, "#FDAE61"],
-    [1.0, "#D7191C"],
+    [0.0, "#F7F7F7"],
+    [0.2, COLORBLIND[5]],
+    [0.4, COLORBLIND[0]],
+    [0.6, COLORBLIND[2]],
+    [0.8, COLORBLIND[1]],
+    [1.0, COLORBLIND[4]],
 ]
 
 for col in [
@@ -42,6 +54,28 @@ for col in [
     if col not in df.columns:
         df[col] = 0
     df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
+
+CUMULATIVE_COLS = [
+    "total_urgencias",
+    "no_de_consultas_medicas_total",
+    "no_intervencoes_cirurgicas_programadas",
+    "no_intervencoes_cirurgicas_convencionais",
+    "no_intervencoes_cirurgicas_urgentes",
+]
+
+df = df.sort_values(["instituicao", "ano", "mes"]).copy()
+
+for col in CUMULATIVE_COLS:
+    original = df[col].copy()
+
+    df[col] = (
+        df.groupby(["instituicao", "ano"])[col]
+        .diff()
+        .fillna(original)
+    )
+
+    df[col] = df[col].clip(lower=0)
+
 
 df["total_staff"] = df["medicos_internos"] + df["enfermeiros"]
 
@@ -160,7 +194,11 @@ gdf_points["point"] = gdf_points.geometry.representative_point()
 
 gdf["lon"] = gdf_points["point"].x
 gdf["lat"] = gdf_points["point"].y
-gdf["zona_mapa"] = gdf.apply(lambda row: assign_zone(row["lat"], row["lon"], None), axis=1)
+
+gdf["zona_mapa"] = gdf.apply(
+    lambda row: assign_zone(row["lat"], row["lon"], None),
+    axis=1,
+)
 
 geojson_map = gdf.__geo_interface__
 
@@ -171,6 +209,7 @@ geojson_map = gdf.__geo_interface__
 
 def empty_fig(title):
     fig = go.Figure()
+
     fig.update_layout(
         title=dict(text=title, x=0.03),
         height=380,
@@ -188,6 +227,7 @@ def empty_fig(title):
         ],
         margin=dict(l=30, r=30, t=80, b=40),
     )
+
     return fig
 
 
@@ -195,7 +235,7 @@ def base_layout(fig, title, height=380):
     fig.update_layout(
         title=dict(text=title, x=0.03),
         height=height,
-        margin=dict(l=30, r=30, t=90, b=40),
+        margin=dict(l=30, r=30, t=80, b=40),
         plot_bgcolor="white",
     )
     return fig
@@ -213,13 +253,6 @@ def filter_period(start_date, end_date):
         dff = dff[dff["tempo"] >= pd.to_datetime(start_date)]
 
     return dff[dff["tempo"] <= end_date]
-
-
-def split_selection(dff, selected_region, selected_inst):
-    dff_region = dff[dff["zona_mapa"] == selected_region].copy() if selected_region else dff.copy()
-    dff_inst = dff_region[dff_region["instituicao"] == selected_inst].copy() if selected_inst else dff_region.copy()
-
-    return dff_region, dff_inst
 
 
 def spark(x, y, color):
@@ -261,13 +294,28 @@ layout = html.Div(
                         "flexWrap": "wrap",
                     },
                     children=[
-                        html.Button("Voltar às regiões", id="stress-reset-region", n_clicks=0, className="reset-btn"),
-                        html.Button("Limpar instituição", id="stress-reset-inst", n_clicks=0, className="reset-btn"),
+                        html.Button(
+                            "Voltar às regiões",
+                            id="stress-reset-region",
+                            n_clicks=0,
+                            className="reset-btn",
+                        ),
+
+                        html.Button(
+                            "Limpar instituição",
+                            id="stress-reset-inst",
+                            n_clicks=0,
+                            className="reset-btn",
+                        ),
 
                         html.Div([
                             html.Div(
                                 "Data Inicial",
-                                style={"fontSize": "12px", "marginBottom": "4px", "fontWeight": "600"},
+                                style={
+                                    "fontSize": "12px",
+                                    "marginBottom": "4px",
+                                    "fontWeight": "600",
+                                },
                             ),
                             dcc.DatePickerSingle(
                                 id="stress-start-date",
@@ -281,7 +329,11 @@ layout = html.Div(
                         html.Div([
                             html.Div(
                                 "Data Final",
-                                style={"fontSize": "12px", "marginBottom": "4px", "fontWeight": "600"},
+                                style={
+                                    "fontSize": "12px",
+                                    "marginBottom": "4px",
+                                    "fontWeight": "600",
+                                },
                             ),
                             dcc.DatePickerSingle(
                                 id="stress-end-date",
@@ -302,37 +354,54 @@ layout = html.Div(
         html.Div(
             className="card",
             style={"marginBottom": "20px"},
-            children=[dcc.Graph(id="stress-map", config={"displayModeBar": False})],
+            children=[
+                dcc.Graph(
+                    id="stress-map",
+                    config={"displayModeBar": False},
+                )
+            ],
         ),
 
         html.Div(
             className="grid-2x2",
             children=[
-                html.Div(className="card", children=[dcc.Graph(id="stress-ts", config={"displayModeBar": False})]),
-                html.Div(className="card", children=[dcc.Graph(id="stress-bubble", config={"displayModeBar": False})]),
-                html.Div(className="card", children=[dcc.Graph(id="stress-heatmap", config={"displayModeBar": False})]),
-                html.Div(className="card", children=[dcc.Graph(id="stress-parcoords", config={"displayModeBar": False})]),
-            ],
-        ),
+                html.Div(
+                    className="card",
+                    children=[
+                        dcc.Graph(
+                            id="stress-ts",
+                            config={"displayModeBar": False},
+                        )
+                    ],
+                ),
 
-        html.Div(
-            className="card",
-            children=[
-                html.H4("Instituições"),
+                html.Div(
+                    className="card",
+                    children=[
+                        dcc.Graph(
+                            id="stress-bubble",
+                            config={"displayModeBar": False},
+                        )
+                    ],
+                ),
 
-                dash_table.DataTable(
-                    id="stress-table",
-                    page_size=10,
-                    active_cell=None,
-                    style_table={"overflowX": "auto"},
-                    style_cell={"textAlign": "left", "padding": "8px"},
-                    style_header={"fontWeight": "bold", "backgroundColor": "#f3f4f6"},
-                    style_data_conditional=[
-                        {
-                            "if": {"state": "active"},
-                            "backgroundColor": "#dbeafe",
-                            "border": "1px solid #2563eb",
-                        }
+                html.Div(
+                    className="card",
+                    children=[
+                        dcc.Graph(
+                            id="stress-heatmap",
+                            config={"displayModeBar": False},
+                        )
+                    ],
+                ),
+
+                html.Div(
+                    className="card",
+                    children=[
+                        dcc.Graph(
+                            id="stress-parcoords",
+                            config={"displayModeBar": False},
+                        )
                     ],
                 ),
             ],
@@ -349,24 +418,18 @@ layout = html.Div(
     Output("stress-region", "data"),
     Output("stress-inst", "data"),
     Input("stress-map", "clickData"),
-    Input("stress-table", "active_cell"),
     Input("stress-reset-region", "n_clicks"),
     Input("stress-reset-inst", "n_clicks"),
-    State("stress-table", "data"),
-    State("stress-region", "data"),
     prevent_initial_call=True,
 )
-def update_selection(map_click, active_cell, reset_region, reset_inst, table_data, current_region):
+def update_selection(map_click, reset_region, reset_inst):
     trigger = ctx.triggered_id
 
     if trigger == "stress-reset-region":
         return None, None
 
     if trigger == "stress-reset-inst":
-        return current_region, None
-
-    if trigger == "stress-table" and active_cell and table_data:
-        return current_region, table_data[active_cell["row"]]["instituicao"]
+        return no_update, None
 
     if trigger == "stress-map" and map_click:
         point = map_click["points"][0]
@@ -380,7 +443,7 @@ def update_selection(map_click, active_cell, reset_region, reset_inst, table_dat
                 return custom[0], None
 
             if len(custom) >= 1:
-                return current_region, custom[0]
+                return no_update, custom[0]
 
     return no_update, no_update
 
@@ -397,8 +460,6 @@ def update_selection(map_click, active_cell, reset_region, reset_inst, table_dat
     Output("stress-bubble", "figure"),
     Output("stress-heatmap", "figure"),
     Output("stress-parcoords", "figure"),
-    Output("stress-table", "data"),
-    Output("stress-table", "columns"),
     Input("stress-start-date", "date"),
     Input("stress-end-date", "date"),
     Input("stress-region", "data"),
@@ -406,7 +467,16 @@ def update_selection(map_click, active_cell, reset_region, reset_inst, table_dat
 )
 def update_dashboard(start_date, end_date, selected_region, selected_inst):
     dff = filter_period(start_date, end_date)
-    dff_region, dff_inst = split_selection(dff, selected_region, selected_inst)
+
+    if selected_region:
+        dff_region = dff[dff["zona_mapa"] == selected_region].copy()
+    else:
+        dff_region = dff.copy()
+
+    if selected_inst:
+        dff_inst = dff_region[dff_region["instituicao"] == selected_inst].copy()
+    else:
+        dff_inst = dff_region.copy()
 
     real_end = end_date or str(MAX_DATE)
     subtitle = f"Período: {start_date} a {real_end} | Nível: {selected_region or 'Portugal'}"
@@ -415,20 +485,6 @@ def update_dashboard(start_date, end_date, selected_region, selected_inst):
         subtitle += f" → {selected_inst}"
 
     if dff_inst.empty:
-        table_empty = pd.DataFrame(
-            columns=[
-                "instituicao",
-                "regiao",
-                "stress",
-                "urgencias",
-                "consultas",
-                "cirurgias",
-                "medicos",
-                "enfermeiros",
-                "staff",
-            ]
-        )
-
         return (
             subtitle,
             [
@@ -442,8 +498,6 @@ def update_dashboard(start_date, end_date, selected_region, selected_inst):
             empty_fig("Profissionais vs Urgências"),
             empty_fig("Heatmap Mensal de Stress"),
             empty_fig("Padrões Assistenciais"),
-            [],
-            [{"name": c, "id": c} for c in table_empty.columns],
         )
 
     # ========================================================
@@ -452,7 +506,6 @@ def update_dashboard(start_date, end_date, selected_region, selected_inst):
 
     total_urgencias = int(dff_inst["total_urgencias"].sum())
     total_staff = int(dff_inst["total_staff"].sum())
-
     stress_medio = total_urgencias / total_staff * 10 if total_staff > 0 else 0
 
     spark_df = (
@@ -470,18 +523,21 @@ def update_dashboard(start_date, end_date, selected_region, selected_inst):
         kpi_card(
             "Stress Médio",
             f"{stress_medio:,.2f}",
-            spark(spark_df["tempo"], spark_df["stress"], "#D55E00"),
+            spark(spark_df["tempo"], spark_df["stress"], COLORBLIND[4]),
         ),
+
         kpi_card(
             "Urgências",
             f"{total_urgencias:,}".replace(",", " "),
-            spark(spark_df["tempo"], spark_df["urgencias"], "#0072B2"),
+            spark(spark_df["tempo"], spark_df["urgencias"], COLORBLIND[0]),
         ),
+
         kpi_card(
             "Profissionais",
             f"{total_staff:,}".replace(",", " "),
-            spark(spark_df["tempo"], spark_df["staff"], "#009E73"),
+            spark(spark_df["tempo"], spark_df["staff"], COLORBLIND[2]),
         ),
+
         kpi_card(
             "Instituições",
             f"{dff_inst['instituicao'].nunique()}",
@@ -672,7 +728,7 @@ def update_dashboard(start_date, end_date, selected_region, selected_inst):
             y=ts["stress"],
             name="Stress",
             mode="lines+markers",
-            line=dict(color="#0072B2", width=2.5),
+            line=dict(color=COLORBLIND[0], width=2.5),
             hovertemplate="Data: %{x|%Y-%m}<br>Stress: %{y:.2f}<extra></extra>",
         )
     )
@@ -683,7 +739,7 @@ def update_dashboard(start_date, end_date, selected_region, selected_inst):
             y=ts["rolling_3m"],
             name="Tendência 3m",
             mode="lines",
-            line=dict(color="#D55E00", width=3, dash="dot"),
+            line=dict(color=COLORBLIND[4], width=3, dash="dot"),
             hovertemplate="Data: %{x|%Y-%m}<br>Tendência: %{y:.2f}<extra></extra>",
         )
     )
@@ -865,11 +921,11 @@ def update_dashboard(start_date, end_date, selected_region, selected_inst):
             line=dict(
                 color=pc["regiao_id"],
                 colorscale=[
-                    [0.0, "#0072B2"],
-                    [0.25, "#E69F00"],
-                    [0.5, "#009E73"],
-                    [0.75, "#D55E00"],
-                    [1.0, "#CC79A7"],
+                    [0.0, COLORBLIND[0]],
+                    [0.25, COLORBLIND[1]],
+                    [0.5, COLORBLIND[2]],
+                    [0.75, COLORBLIND[3]],
+                    [1.0, COLORBLIND[4]],
                 ],
                 showscale=True,
                 cmin=0,
@@ -897,30 +953,6 @@ def update_dashboard(start_date, end_date, selected_region, selected_inst):
         margin=dict(l=60, r=40, t=90, b=40),
     )
 
-    # ========================================================
-    # TABLE
-    # ========================================================
-
-    table = (
-        dff_region.groupby(["instituicao", "zona_mapa"])
-        .agg(
-            stress=("stress_index", "mean"),
-            urgencias=("total_urgencias", "sum"),
-            consultas=("no_de_consultas_medicas_total", "sum"),
-            cirurgias=("total_cirurgias", "sum"),
-            medicos=("medicos_internos", "sum"),
-            enfermeiros=("enfermeiros", "sum"),
-            staff=("total_staff", "sum"),
-        )
-        .reset_index()
-        .sort_values("stress", ascending=False)
-    )
-
-    table = table.rename(columns={"zona_mapa": "regiao"})
-    table["stress"] = table["stress"].replace([np.inf, -np.inf], np.nan).fillna(0).round(2)
-
-    columns = [{"name": col, "id": col} for col in table.columns]
-
     return (
         subtitle,
         kpis,
@@ -929,6 +961,4 @@ def update_dashboard(start_date, end_date, selected_region, selected_inst):
         fig_bubble,
         fig_heat,
         fig_pc,
-        table.to_dict("records"),
-        columns,
     )

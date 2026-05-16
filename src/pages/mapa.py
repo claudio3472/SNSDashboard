@@ -1,4 +1,4 @@
-from dash import html, dcc, callback, Input, Output, State, dash_table, no_update, ctx
+from dash import html, dcc, callback, Input, Output, no_update, ctx
 from pages.pages_helper import load_data, process_data, create_sparkline, kpi_card
 
 import pandas as pd
@@ -8,6 +8,10 @@ import plotly.graph_objects as go
 import re
 from shapely.geometry import Point, Polygon
 
+
+# ============================================================
+# DATA
+# ============================================================
 
 df = process_data(load_data())
 
@@ -20,14 +24,22 @@ MAX_DATE = df["tempo"].max().date()
 
 REGIOES = ["Norte", "Centro", "Lisboa e Vale do Tejo", "Alentejo", "Algarve"]
 
-COLORBLIND = ["#0072B2", "#E69F00", "#009E73", "#D55E00", "#CC79A7", "#56B4E9"]
+COLORBLIND = [
+    "#0072B2",
+    "#E69F00",
+    "#009E73",
+    "#CC79A7",
+    "#D55E00",
+    "#56B4E9",
+]
 
 ACTIVITY_SCALE = [
-    [0.0, "#F7FBFF"],
-    [0.25, "#C6DBEF"],
-    [0.5, "#6BAED6"],
-    [0.75, "#2171B5"],
-    [1.0, "#08306B"],
+    [0.0, "#F7F7F7"],
+    [0.2, COLORBLIND[5]],
+    [0.4, COLORBLIND[0]],
+    [0.6, COLORBLIND[2]],
+    [0.8, COLORBLIND[1]],
+    [1.0, COLORBLIND[4]],
 ]
 
 for col in [
@@ -42,6 +54,24 @@ for col in [
 
 if "tipo_instituicao" not in df.columns:
     df["tipo_instituicao"] = "Instituição"
+
+CUMULATIVE_COLS = [
+    "no_de_consultas_medicas_total",
+    "total_urgencias",
+]
+
+df = df.sort_values(["instituicao", "ano", "mes"]).copy()
+
+for col in CUMULATIVE_COLS:
+    original = df[col].copy()
+
+    df[col] = (
+        df.groupby(["instituicao", "ano"])[col]
+        .diff()
+        .fillna(original)
+    )
+
+    df[col] = df[col].clip(lower=0)
 
 
 # ============================================================
@@ -82,8 +112,8 @@ REGIAO_COORDS = {
     "Norte": {"lat": 41.35, "lon": -8.20, "color": "#0072B2"},
     "Centro": {"lat": 40.20, "lon": -8.15, "color": "#E69F00"},
     "Lisboa e Vale do Tejo": {"lat": 38.80, "lon": -9.05, "color": "#009E73"},
-    "Alentejo": {"lat": 38.10, "lon": -7.85, "color": "#D55E00"},
-    "Algarve": {"lat": 37.10, "lon": -8.10, "color": "#CC79A7"},
+    "Alentejo": {"lat": 38.10, "lon": -7.85, "color": "#CC79A7"},
+    "Algarve": {"lat": 37.10, "lon": -8.10, "color": "#D55E00"},
 }
 
 REGION_BOUNDS = {
@@ -141,7 +171,11 @@ gdf_points["point"] = gdf_points.geometry.representative_point()
 
 gdf["lon"] = gdf_points["point"].x
 gdf["lat"] = gdf_points["point"].y
-gdf["zona_mapa"] = gdf.apply(lambda row: assign_zone(row["lat"], row["lon"], None), axis=1)
+
+gdf["zona_mapa"] = gdf.apply(
+    lambda row: assign_zone(row["lat"], row["lon"], None),
+    axis=1,
+)
 
 geojson_map = gdf.__geo_interface__
 
@@ -152,6 +186,7 @@ geojson_map = gdf.__geo_interface__
 
 def empty_fig(title):
     fig = go.Figure()
+
     fig.update_layout(
         title=dict(text=title, x=0.03),
         height=400,
@@ -169,6 +204,7 @@ def empty_fig(title):
         ],
         margin=dict(l=30, r=30, t=80, b=40),
     )
+
     return fig
 
 
@@ -176,7 +212,7 @@ def base_layout(fig, title, height=400):
     fig.update_layout(
         title=dict(text=title, x=0.03),
         height=height,
-        margin=dict(l=30, r=30, t=90, b=40),
+        margin=dict(l=30, r=30, t=80, b=40),
         plot_bgcolor="white",
     )
     return fig
@@ -196,13 +232,6 @@ def filter_period(start_date, end_date):
     return dff[dff["tempo"] <= end_date]
 
 
-def split_selection(dff, selected_region, selected_inst):
-    dff_region = dff[dff["zona_mapa"] == selected_region].copy() if selected_region else dff.copy()
-    dff_inst = dff_region[dff_region["instituicao"] == selected_inst].copy() if selected_inst else dff_region.copy()
-
-    return dff_region, dff_inst
-
-
 def spark(x, y, color):
     return dcc.Graph(
         figure=create_sparkline(x, y, color),
@@ -218,15 +247,14 @@ layout = html.Div(
     className="content",
     children=[
         dcc.Store(id="mapa-region"),
-        dcc.Store(id="mapa-inst"),
 
         html.Div(
             style={
                 "display": "flex",
                 "justifyContent": "space-between",
                 "alignItems": "center",
-                "gap": "12px",
                 "flexWrap": "wrap",
+                "gap": "12px",
             },
             children=[
                 html.Div([
@@ -242,13 +270,21 @@ layout = html.Div(
                         "flexWrap": "wrap",
                     },
                     children=[
-                        html.Button("Voltar às regiões", id="btn-reset-region", n_clicks=0, className="reset-btn"),
-                        html.Button("Limpar instituição", id="btn-reset-inst", n_clicks=0, className="reset-btn"),
+                        html.Button(
+                            "Voltar às regiões",
+                            id="btn-reset-region",
+                            n_clicks=0,
+                            className="reset-btn",
+                        ),
 
                         html.Div([
                             html.Div(
                                 "Data Inicial",
-                                style={"fontSize": "12px", "marginBottom": "4px", "fontWeight": "600"},
+                                style={
+                                    "fontSize": "12px",
+                                    "marginBottom": "4px",
+                                    "fontWeight": "600",
+                                },
                             ),
                             dcc.DatePickerSingle(
                                 id="mapa-start-date",
@@ -262,7 +298,11 @@ layout = html.Div(
                         html.Div([
                             html.Div(
                                 "Data Final",
-                                style={"fontSize": "12px", "marginBottom": "4px", "fontWeight": "600"},
+                                style={
+                                    "fontSize": "12px",
+                                    "marginBottom": "4px",
+                                    "fontWeight": "600",
+                                },
                             ),
                             dcc.DatePickerSingle(
                                 id="mapa-end-date",
@@ -283,7 +323,12 @@ layout = html.Div(
         html.Div(
             className="card",
             style={"marginBottom": "20px"},
-            children=[dcc.Graph(id="mapa-portugal", config={"displayModeBar": False})],
+            children=[
+                dcc.Graph(
+                    id="mapa-portugal",
+                    config={"displayModeBar": False},
+                )
+            ],
         ),
 
         html.Div(
@@ -293,29 +338,6 @@ layout = html.Div(
                 html.Div(className="card", children=[dcc.Graph(id="mapa-tipo", config={"displayModeBar": False})]),
                 html.Div(className="card", children=[dcc.Graph(id="mapa-capacidade", config={"displayModeBar": False})]),
                 html.Div(className="card", children=[dcc.Graph(id="mapa-detail", config={"displayModeBar": False})]),
-            ],
-        ),
-
-        html.Div(
-            className="card",
-            children=[
-                html.H4("Instituições"),
-
-                dash_table.DataTable(
-                    id="mapa-table",
-                    page_size=10,
-                    active_cell=None,
-                    style_table={"overflowX": "auto"},
-                    style_cell={"textAlign": "left", "padding": "8px"},
-                    style_header={"fontWeight": "bold", "backgroundColor": "#f3f4f6"},
-                    style_data_conditional=[
-                        {
-                            "if": {"state": "active"},
-                            "backgroundColor": "#dbeafe",
-                            "border": "1px solid #2563eb",
-                        }
-                    ],
-                ),
             ],
         ),
     ],
@@ -328,26 +350,15 @@ layout = html.Div(
 
 @callback(
     Output("mapa-region", "data"),
-    Output("mapa-inst", "data"),
     Input("mapa-portugal", "clickData"),
-    Input("mapa-table", "active_cell"),
     Input("btn-reset-region", "n_clicks"),
-    Input("btn-reset-inst", "n_clicks"),
-    State("mapa-table", "data"),
-    State("mapa-region", "data"),
     prevent_initial_call=True,
 )
-def update_selection(map_click, active_cell, reset_region, reset_inst, table_data, current_region):
+def update_selection(map_click, reset_region):
     trigger = ctx.triggered_id
 
     if trigger == "btn-reset-region":
-        return None, None
-
-    if trigger == "btn-reset-inst":
-        return current_region, None
-
-    if trigger == "mapa-table" and active_cell and table_data:
-        return current_region, table_data[active_cell["row"]]["instituicao"]
+        return None
 
     if trigger == "mapa-portugal" and map_click:
         point = map_click["points"][0]
@@ -355,12 +366,12 @@ def update_selection(map_click, active_cell, reset_region, reset_inst, table_dat
 
         if isinstance(custom, list):
             if len(custom) >= 2 and custom[0] == "region":
-                return custom[1], None
+                return custom[1]
 
             if len(custom) >= 1 and custom[0] in REGIOES:
-                return custom[0], None
+                return custom[0]
 
-    return no_update, no_update
+    return no_update
 
 
 # ============================================================
@@ -375,26 +386,22 @@ def update_selection(map_click, active_cell, reset_region, reset_inst, table_dat
     Output("mapa-tipo", "figure"),
     Output("mapa-capacidade", "figure"),
     Output("mapa-detail", "figure"),
-    Output("mapa-table", "data"),
-    Output("mapa-table", "columns"),
     Input("mapa-start-date", "date"),
     Input("mapa-end-date", "date"),
     Input("mapa-region", "data"),
-    Input("mapa-inst", "data"),
 )
-def update_dashboard(start_date, end_date, selected_region, selected_inst):
+def update_dashboard(start_date, end_date, selected_region):
     dff = filter_period(start_date, end_date)
-    dff_region, dff_inst = split_selection(dff, selected_region, selected_inst)
+
+    if selected_region:
+        dff_region = dff[dff["zona_mapa"] == selected_region].copy()
+    else:
+        dff_region = dff.copy()
 
     real_end = end_date or str(MAX_DATE)
     subtitle = f"Período: {start_date} a {real_end} | Nível: {selected_region or 'Portugal'}"
 
-    if selected_inst:
-        subtitle += f" → {selected_inst}"
-
-    if dff_inst.empty:
-        table = pd.DataFrame(columns=["instituicao", "regiao", "atividade", "consultas", "urgencias", "profissionais"])
-
+    if dff_region.empty:
         return (
             subtitle,
             [
@@ -407,22 +414,20 @@ def update_dashboard(start_date, end_date, selected_region, selected_inst):
             empty_fig("Evolução da Atividade Assistencial"),
             empty_fig("Atividade por Tipo de Instituição"),
             empty_fig("Capacidade Assistencial"),
-            empty_fig("Detalhe"),
-            [],
-            [{"name": c, "id": c} for c in table.columns],
+            empty_fig("Consultas vs Urgências por Região"),
         )
 
     # ========================================================
     # KPIS
     # ========================================================
 
-    consultas = int(dff_inst["no_de_consultas_medicas_total"].sum())
-    urgencias = int(dff_inst["total_urgencias"].sum())
+    consultas = int(dff_region["no_de_consultas_medicas_total"].sum())
+    urgencias = int(dff_region["total_urgencias"].sum())
     atividade = consultas + urgencias
-    profissionais = int((dff_inst["medicos_internos"] + dff_inst["enfermeiros"]).sum())
+    profissionais = int((dff_region["medicos_internos"] + dff_region["enfermeiros"]).sum())
 
     spark_df = (
-        dff_inst.groupby("tempo")
+        dff_region.groupby("tempo")
         .agg(
             consultas=("no_de_consultas_medicas_total", "sum"),
             urgencias=("total_urgencias", "sum"),
@@ -439,23 +444,24 @@ def update_dashboard(start_date, end_date, selected_region, selected_inst):
         kpi_card(
             "Atividade Total",
             f"{atividade:,}".replace(",", " "),
-            spark(spark_df["tempo"], spark_df["atividade"], "#0072B2"),
+            spark(spark_df["tempo"], spark_df["atividade"], COLORBLIND[0]),
         ),
         kpi_card(
             "Consultas",
             f"{consultas:,}".replace(",", " "),
-            spark(spark_df["tempo"], spark_df["consultas"], "#009E73"),
+            spark(spark_df["tempo"], spark_df["consultas"], COLORBLIND[2]),
         ),
         kpi_card(
             "Urgências",
             f"{urgencias:,}".replace(",", " "),
-            spark(spark_df["tempo"], spark_df["urgencias"], "#D55E00"),
+            spark(spark_df["tempo"], spark_df["urgencias"], COLORBLIND[4]),
         ),
         kpi_card(
             "Instituições",
-            f"{dff_inst['instituicao'].nunique()}",
+            f"{dff_region['instituicao'].nunique()}",
             html.Div(
-                f"{profissionais:,}".replace(",", " ") + f" profissionais | {dff_inst['tempo'].nunique()} períodos",
+                f"{profissionais:,}".replace(",", " ")
+                + f" profissionais | {dff_region['tempo'].nunique()} períodos",
                 className="kpi-subtitle",
                 style={"marginTop": "10px"},
             ),
@@ -471,6 +477,8 @@ def update_dashboard(start_date, end_date, selected_region, selected_inst):
         .agg(
             consultas=("no_de_consultas_medicas_total", "sum"),
             urgencias=("total_urgencias", "sum"),
+            instituicoes=("instituicao", "nunique"),
+            meses=("tempo", "nunique"),
         )
         .reindex(REGIOES)
         .fillna(0)
@@ -478,12 +486,23 @@ def update_dashboard(start_date, end_date, selected_region, selected_inst):
     )
 
     map_data["atividade"] = map_data["consultas"] + map_data["urgencias"]
-    map_data["atividade_m"] = map_data["atividade"] / 1e6
+
+    map_data["atividade_media_mensal"] = np.where(
+        (map_data["meses"] > 0) & (map_data["instituicoes"] > 0),
+        map_data["atividade"] / map_data["meses"] / map_data["instituicoes"],
+        0,
+    )
+
+    map_data["atividade_m"] = map_data["atividade_media_mensal"] / 1e6
 
     map_df = (
         gdf[["map_id", "zona_mapa"]]
         .drop_duplicates()
-        .merge(map_data[["zona_mapa", "atividade_m"]], on="zona_mapa", how="left")
+        .merge(
+            map_data[["zona_mapa", "atividade_m"]],
+            on="zona_mapa",
+            how="left",
+        )
     )
 
     map_df["atividade_m"] = map_df["atividade_m"].fillna(0)
@@ -504,8 +523,15 @@ def update_dashboard(start_date, end_date, selected_region, selected_inst):
             marker_line_color="white",
             marker_line_width=0.35,
             customdata=map_df[["zona_mapa", "atividade_m"]],
-            hovertemplate="<b>%{customdata[0]}</b><br>Atividade: %{customdata[1]:.2f} M<extra></extra>",
-            colorbar=dict(title="Milhões", thickness=12),
+            hovertemplate=(
+                "<b>%{customdata[0]}</b><br>"
+                "Média mensal por instituição: %{customdata[1]:.3f} M"
+                "<extra></extra>"
+            ),
+            colorbar=dict(
+                title="Média mensal<br>por instituição<br>(M)",
+                thickness=12,
+            ),
         )
     )
 
@@ -553,26 +579,27 @@ def update_dashboard(start_date, end_date, selected_region, selected_inst):
         else:
             inst_points["size"] = 12
 
-        fig_map.add_trace(
-            go.Scattergeo(
-                lon=inst_points["lon"],
-                lat=inst_points["lat"],
-                mode="markers",
-                marker=dict(
-                    size=inst_points["size"],
-                    color="#111827",
-                    opacity=0.78,
-                    line=dict(color="white", width=1),
-                ),
-                customdata=inst_points[["instituicao", "consultas", "urgencias"]],
-                hovertemplate=(
-                    "<b>%{customdata[0]}</b><br>"
-                    "Consultas: %{customdata[1]:,.0f}<br>"
-                    "Urgências: %{customdata[2]:,.0f}"
-                    "<extra></extra>"
-                ),
+        if not inst_points.empty:
+            fig_map.add_trace(
+                go.Scattergeo(
+                    lon=inst_points["lon"],
+                    lat=inst_points["lat"],
+                    mode="markers",
+                    marker=dict(
+                        size=inst_points["size"],
+                        color="#111827",
+                        opacity=0.78,
+                        line=dict(color="white", width=1),
+                    ),
+                    customdata=inst_points[["instituicao", "consultas", "urgencias"]],
+                    hovertemplate=(
+                        "<b>%{customdata[0]}</b><br>"
+                        "Consultas: %{customdata[1]:,.0f}<br>"
+                        "Urgências: %{customdata[2]:,.0f}"
+                        "<extra></extra>"
+                    ),
+                )
             )
-        )
 
     if selected_region:
         lon_range = REGION_BOUNDS[selected_region]["lon"]
@@ -749,119 +776,39 @@ def update_dashboard(start_date, end_date, selected_region, selected_inst):
     # DETAIL
     # ========================================================
 
-    if selected_inst:
-        detail = (
-            dff_inst.groupby("tempo")
-            .agg(
-                consultas=("no_de_consultas_medicas_total", "sum"),
-                urgencias=("total_urgencias", "sum"),
-                medicos=("medicos_internos", "sum"),
-                enfermeiros=("enfermeiros", "sum"),
-            )
-            .reset_index()
-            .sort_values("tempo")
-        )
-
-        detail["profissionais"] = detail["medicos"] + detail["enfermeiros"]
-
-        fig_detail = go.Figure()
-
-        fig_detail.add_trace(
-            go.Scatter(
-                x=detail["tempo"],
-                y=detail["consultas"],
-                mode="lines+markers",
-                name="Consultas",
-                line=dict(color="#009E73", width=2.5),
-            )
-        )
-
-        fig_detail.add_trace(
-            go.Scatter(
-                x=detail["tempo"],
-                y=detail["urgencias"],
-                mode="lines+markers",
-                name="Urgências",
-                line=dict(color="#D55E00", width=2.5),
-            )
-        )
-
-        fig_detail.add_bar(
-            x=detail["tempo"],
-            y=detail["profissionais"],
-            name="Profissionais",
-            marker_color="rgba(0,114,178,0.35)",
-        )
-
-        fig_detail = base_layout(fig_detail, f"Perfil Assistencial — {selected_inst}")
-
-    else:
-        region_data = (
-            dff_region.groupby("zona_mapa")
-            .agg(
-                consultas=("no_de_consultas_medicas_total", "sum"),
-                urgencias=("total_urgencias", "sum"),
-            )
-            .reindex(REGIOES)
-            .fillna(0)
-            .reset_index()
-        )
-
-        fig_detail = go.Figure()
-
-        fig_detail.add_bar(
-            x=region_data["zona_mapa"],
-            y=region_data["consultas"],
-            name="Consultas",
-            marker_color="#009E73",
-        )
-
-        fig_detail.add_bar(
-            x=region_data["zona_mapa"],
-            y=region_data["urgencias"],
-            name="Urgências",
-            marker_color="#D55E00",
-        )
-
-        fig_detail = base_layout(fig_detail, "Consultas vs Urgências por Região")
-        fig_detail.update_layout(barmode="group")
-
-    fig_detail.update_layout(
-        yaxis=dict(title="Total"),
-        legend=dict(orientation="h", y=1.12),
-    )
-
-    # ========================================================
-    # TABLE
-    # ========================================================
-
-    table = (
-        dff_region.groupby("instituicao")
+    region_data = (
+        dff_region.groupby("zona_mapa")
         .agg(
             consultas=("no_de_consultas_medicas_total", "sum"),
             urgencias=("total_urgencias", "sum"),
-            medicos=("medicos_internos", "sum"),
-            enfermeiros=("enfermeiros", "sum"),
-            regiao=("zona_mapa", "first"),
         )
+        .reindex(REGIOES)
+        .fillna(0)
         .reset_index()
     )
 
-    table["atividade"] = table["consultas"] + table["urgencias"]
-    table["profissionais"] = table["medicos"] + table["enfermeiros"]
+    fig_detail = go.Figure()
 
-    table = table[
-        [
-            "instituicao",
-            "regiao",
-            "atividade",
-            "consultas",
-            "urgencias",
-            "profissionais",
-        ]
-    ].sort_values("atividade", ascending=False)
+    fig_detail.add_bar(
+        x=region_data["zona_mapa"],
+        y=region_data["consultas"],
+        name="Consultas",
+        marker_color=COLORBLIND[2],
+    )
 
-    columns = [{"name": col, "id": col} for col in table.columns]
+    fig_detail.add_bar(
+        x=region_data["zona_mapa"],
+        y=region_data["urgencias"],
+        name="Urgências",
+        marker_color=COLORBLIND[4],
+    )
+
+    fig_detail = base_layout(fig_detail, "Consultas vs Urgências por Região")
+    fig_detail.update_layout(
+        barmode="group",
+        yaxis=dict(title="Total"),
+        legend=dict(orientation="h", y=1.12),
+    )
 
     return (
         subtitle,
@@ -871,6 +818,4 @@ def update_dashboard(start_date, end_date, selected_region, selected_inst):
         fig_tipo,
         fig_cap,
         fig_detail,
-        table.to_dict("records"),
-        columns,
     )

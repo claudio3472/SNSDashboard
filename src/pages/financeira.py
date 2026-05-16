@@ -41,6 +41,23 @@ for col in [
 if "tipo_instituicao" not in df.columns:
     df["tipo_instituicao"] = "Instituição"
 
+CUMULATIVE_COLS = [
+    "gastos_operacionais",
+    "rendimentos_operacionais",
+]
+
+df = df.sort_values(["instituicao", "ano", "mes"]).copy()
+
+for col in CUMULATIVE_COLS:
+    original = df[col].copy()
+
+    df[col] = (
+        df.groupby(["instituicao", "ano"])[col]
+        .diff()
+        .fillna(original)
+    )
+
+    df[col] = df[col].clip(lower=0)
 
 def empty_fig(title):
     fig = go.Figure()
@@ -369,20 +386,39 @@ def update_finance(range_data, region, institution):
         title=dict(
             text="Evolução Financeira<br><sup>Use o slider inferior para selecionar o período</sup>",
             x=0.03,
+            y=0.97,
         ),
-        height=420,
+
+        height=460,
+
         uirevision="finance-temporal",
+
         xaxis=dict(
             rangeslider=dict(visible=True),
             type="date",
             title=None,
         ),
-        yaxis=dict(title="M€"),
-        legend=dict(orientation="h", y=1.12),
-        margin=dict(l=30, r=30, t=95, b=40),
+
+        yaxis=dict(
+            title="M€"
+        ),
+
+        legend=dict(
+            orientation="h",
+            y=1.03,
+            x=0,
+            bgcolor="rgba(255,255,255,0)",
+        ),
+
+        margin=dict(
+            l=40,
+            r=30,
+            t=125,
+            b=40,
+        ),
+
         plot_bgcolor="white",
     )
-
     # ========================================================
     # WATERFALL
     # ========================================================

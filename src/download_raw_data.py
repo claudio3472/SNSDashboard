@@ -1,9 +1,10 @@
 import os
+
 from utils import load_sns_dataset
 
 if __name__ == "__main__":
     print("Downloading datasets to data/raw...")
-    
+
     datasets_info = [
         ("dados_financeiros", "agregados-economico-financeiros"),
         ("medicamento_hospitalar", "despesa-com-medicamentos-nos-hospitais-do-sns"),
@@ -18,6 +19,7 @@ if __name__ == "__main__":
         ("trabalhadores_modalidade", "trabalhadores-por-modalidade-de-vinculacao"),
         ("utentes_cuidados_primarios", "utentes-inscritos-em-cuidados-de-saude-primarios"),
         ("acesso_consultas", "acesso-de-consultas-medicas-pela-populacao-inscrita"),
+        ("mortalidade_hospitalar", "morbilidade_mortalidade_hospit")
     ]
 
     src_dir = os.path.dirname(os.path.abspath(__file__))

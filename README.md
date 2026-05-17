@@ -132,6 +132,7 @@ pip install -r requirements.txt
 To load, clean, and standardize the data from the Transparency Portal, run:
 
 ```bash
+python src/download_raw_data.py
 python src/process_raw_data.py
 python src/create_master_df.py
 ```

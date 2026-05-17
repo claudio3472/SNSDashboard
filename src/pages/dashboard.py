@@ -378,7 +378,7 @@ def build_fig_parallel(df_filtered: pd.DataFrame, click_prof: dict | None) -> go
         ],
     ))
     fig.update_layout(
-        title={"text": "Padrões de Atividade Assistencial por Instituição",
+        title={"text": "Padrões de Atividade Assistencial por Instituição (Média Anual)",
             "x": 0.5, "xanchor": "center",
             "y": 0.97, "yanchor": "top"
         },

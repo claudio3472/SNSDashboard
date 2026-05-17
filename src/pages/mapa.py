@@ -490,8 +490,7 @@ def update_dashboard(start_date, end_date, selected_region):
             "Instituições",
             f"{dff_region['instituicao'].nunique()}",
             html.Div(
-                f"{profissionais:,}".replace(",", " ")
-                + f" profissionais | {dff_region['tempo'].nunique()} períodos",
+                f"{dff_region['tempo'].nunique()} períodos",
                 className="kpi-subtitle",
                 style={"marginTop": "10px"},
             ),

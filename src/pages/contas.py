@@ -207,15 +207,23 @@ def build_orcamento_execucao_figure(dff):
 
     fig = go.Figure()
     fig.add_trace(go.Bar(
-        name="Orçamento (Período sel.)", x=nomes, y=orc_vals,
-        marker_color="rgba(52,152,219,0.6)",
-        marker_line=dict(color="rgba(52,152,219,1)", width=1.5),
-        text=txt_orc, textposition='outside', hovertemplate="%{text} M€<extra></extra>"
+        name="Orçamento (Período sel.)",
+        x=nomes,
+        y=orc_vals,
+        marker_color="gray",
+        text=txt_orc,
+        textposition='outside',
+        hovertemplate="%{text} M€<extra></extra>"
     ))
+
     fig.add_trace(go.Bar(
-        name="Execução (Período sel.)", x=nomes, y=exe_vals,
-        marker_color="rgba(231,76,60,0.8)",
-        text=txt_exe, textposition='outside', hovertemplate="%{text} M€<extra></extra>"
+        name="Execução (Período sel.)",
+        x=nomes,
+        y=exe_vals,
+        marker_color="#E67E22",
+        text=txt_exe,
+        textposition='outside',
+        hovertemplate="%{text} M€<extra></extra>"
     ))
     fig.update_layout(
         title=dict(text="Orçamento vs Execução no Período por Categoria (M€)"),

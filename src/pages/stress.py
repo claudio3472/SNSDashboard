@@ -55,6 +55,21 @@ for col in [
         df[col] = 0
     df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
 
+if "tipo_instituicao" not in df.columns:
+    df["tipo_instituicao"] = "Instituição"
+
+df["tipo_instituicao"] = (
+    df["tipo_instituicao"]
+    .astype(str)
+    .str.strip()
+)
+
+df = df[
+    df["tipo_instituicao"]
+    .str.lower()
+    .isin(["uls", "hospital", "ipo"])
+].copy()
+
 CUMULATIVE_COLS = [
     "total_urgencias",
     "no_de_consultas_medicas_total",
@@ -82,7 +97,7 @@ df["total_staff"] = df["medicos_internos"] + df["enfermeiros"]
 df["stress_index"] = (
     df["total_urgencias"]
     / df["total_staff"].replace(0, np.nan)
-) * 10
+)
 
 df["stress_index"] = (
     df["stress_index"]
@@ -187,7 +202,7 @@ def make_unique_columns(cols):
 
 gdf.columns = make_unique_columns(gdf.columns)
 gdf["map_id"] = gdf.index.astype(str)
-gdf["geometry"] = gdf["geometry"].simplify(0.002, preserve_topology=True)
+gdf["geometry"] = gdf["geometry"].simplify(0.01, preserve_topology=True)
 
 gdf_points = gdf.copy()
 gdf_points["point"] = gdf_points.geometry.representative_point()
@@ -200,7 +215,21 @@ gdf["zona_mapa"] = gdf.apply(
     axis=1,
 )
 
-geojson_map = gdf.__geo_interface__
+geojson_map = {
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": row["map_id"],
+            "properties": {
+                "map_id": row["map_id"],
+                "zona_mapa": row["zona_mapa"],
+            },
+            "geometry": row["geometry"].__geo_interface__,
+        }
+        for _, row in gdf.iterrows()
+    ],
+}
 
 
 # ============================================================
@@ -277,9 +306,10 @@ layout = html.Div(
             style={
                 "display": "flex",
                 "justifyContent": "space-between",
-                "alignItems": "center",
-                "gap": "12px",
+                "alignItems": "flex-start",
+                "gap": "20px",
                 "flexWrap": "wrap",
+                "marginBottom": "18px",
             },
             children=[
                 html.Div([
@@ -291,20 +321,15 @@ layout = html.Div(
                     style={
                         "display": "flex",
                         "gap": "10px",
-                        "alignItems": "center",
+                        "alignItems": "flex-end",
+                        "justifyContent": "flex-end",
                         "flexWrap": "wrap",
+                        "paddingTop": "4px",
                     },
                     children=[
                         html.Button(
                             "Voltar às regiões",
                             id="stress-reset-region",
-                            n_clicks=0,
-                            className="reset-btn",
-                        ),
-
-                        html.Button(
-                            "Limpar instituição",
-                            id="stress-reset-inst",
                             n_clicks=0,
                             className="reset-btn",
                         ),
@@ -420,17 +445,14 @@ layout = html.Div(
     Output("stress-inst", "data"),
     Input("stress-map", "clickData"),
     Input("stress-reset-region", "n_clicks"),
-    Input("stress-reset-inst", "n_clicks"),
     prevent_initial_call=True,
 )
-def update_selection(map_click, reset_region, reset_inst):
+
+def update_selection(map_click, reset_region):
     trigger = ctx.triggered_id
 
     if trigger == "stress-reset-region":
         return None, None
-
-    if trigger == "stress-reset-inst":
-        return no_update, None
 
     if trigger == "stress-map" and map_click:
         point = map_click["points"][0]
@@ -506,7 +528,7 @@ def update_dashboard(start_date, end_date, selected_region, selected_inst):
 
     total_urgencias = int(dff_inst["total_urgencias"].sum())
     total_staff = int(dff_inst["total_staff"].sum())
-    stress_medio = total_urgencias / total_staff * 10 if total_staff > 0 else 0
+    stress_medio = total_urgencias / total_staff if total_staff > 0 else 0
 
     spark_df = (
         dff_inst.groupby("tempo")
@@ -562,7 +584,6 @@ def update_dashboard(start_date, end_date, selected_region, selected_inst):
     stress_region["stress"] = (
         stress_region["urgencias"]
         / stress_region["staff"].replace(0, np.nan)
-        * 10
     ).replace([np.inf, -np.inf], np.nan).fillna(0)
 
     q95 = stress_region["stress"].quantile(0.95)
@@ -849,7 +870,6 @@ def update_dashboard(start_date, end_date, selected_region, selected_inst):
     heat["stress"] = (
         heat["urgencias"]
         / heat["staff"].replace(0, np.nan)
-        * 10
     ).replace([np.inf, -np.inf], np.nan).fillna(0)
 
     heat["periodo"] = heat["tempo"].dt.strftime("%Y-%m")
@@ -944,9 +964,14 @@ def update_dashboard(start_date, end_date, selected_region, selected_inst):
     )
 
     fig_pc.update_layout(
-        title=dict(text="Padrões Assistenciais por Instituição", x=0.5),
+        title={
+            "text": "Padrões Assistenciais por Instituição",
+            "x": 0.03,
+            "xanchor": "left",
+            "y": 0.93,
+        },
         height=420,
-        margin=dict(l=60, r=40, t=90, b=40),
+        margin=dict(l=60, r=40, t=110, b=40),
     )
 
     return (

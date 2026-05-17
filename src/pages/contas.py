@@ -103,7 +103,7 @@ def build_timeline_figure(df):
     fig.update_layout(
         title=dict(
             text="Evolução Receita vs Despesa Acumulada (M€)",
-            x=0.5, xanchor="center", y=0.95, yanchor="top",
+            
             font=dict(size=16)
         ),
         xaxis=dict(type="date"),
@@ -133,7 +133,7 @@ def build_heatmap_figure(df):
     ))
     
     fig.update_layout(
-        title=dict(text="Sazonalidade da Despesa", x=0.5, xanchor="center", y=0.95, yanchor="top"),
+        title=dict(text="Sazonalidade da Despesa"),
         xaxis=dict(title="Mês", tickmode="array", tickvals=list(range(12)), ticktext=MESES_NOMES),
         yaxis=dict(title="Ano", type="category"),
         margin=dict(l=20, r=20, t=70, b=20),
@@ -175,7 +175,7 @@ def build_waterfall_figure(dff, total_receita, total_despesa, saldo_global):
         hovertemplate="%{x}<br>Valor: %{text} M€<extra></extra>"
     ))
     fig.update_layout(
-        title=dict(text="Cascata Financeira: Da Receita ao Saldo (M€)", x=0.5, xanchor="center", y=0.95, yanchor="top"),
+        title=dict(text="Cascata Financeira: Da Receita ao Saldo (M€)"),
         margin=dict(l=20, r=20, t=70, b=20),
         height=320,
         showlegend=False,
@@ -218,10 +218,10 @@ def build_orcamento_execucao_figure(dff):
         text=txt_exe, textposition='outside', hovertemplate="%{text} M€<extra></extra>"
     ))
     fig.update_layout(
-        title=dict(text="Orçamento vs Execução no Período por Categoria (M€)", x=0.5, xanchor="center", y=0.95, yanchor="top"),
+        title=dict(text="Orçamento vs Execução no Período por Categoria (M€)"),
         barmode="group",
         yaxis=dict(title="M€", automargin=True),
-        legend=dict(orientation="h", y=1.2, x=0.5, xanchor="center"),
+        legend=dict(orientation="h"),
         margin=dict(l=20, r=20, t=120, b=20),
         height=360,
         plot_bgcolor="white",
@@ -267,10 +267,10 @@ def build_mensal_figure(dff, categoria_clicada):
         titulo = f"Evolução Mensal da Despesa: <b>{categoria_clicada}</b> (M€)<br><sup>Faça duplo clique no gráfico de orçamento para limpar o filtro</sup>"
 
     fig.update_layout(
-        title=dict(text=titulo, x=0.5, xanchor="center", y=0.95, yanchor="top"),
+        title=dict(text=titulo),
         barmode="group",
         yaxis=dict(title="M€", automargin=True),
-        legend=dict(orientation="h", y=1.15, x=0.5, xanchor="center"),
+        legend=dict(orientation="h"),
         margin=dict(l=20, r=20, t=80, b=20),
         height=360,
         plot_bgcolor="white",
@@ -343,7 +343,7 @@ layout = html.Div(
                     html.H2("Contas SNS", style={"marginBottom": "8px"}),
                     html.P(
                         "Análise do orçamento e execução do Serviço Nacional de Saúde",
-                        style={"color": "#6b7280", "marginBottom": "0"},
+                        style={"marginBottom": "0"},
                     ),
                 ]),
 

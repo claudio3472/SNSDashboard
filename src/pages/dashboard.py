@@ -149,9 +149,7 @@ def build_fig_profissionais(df_filtered: pd.DataFrame, ano_inicio: int, ano_fim:
     fig.update_layout(
         barmode="stack",
         title={
-            "text": titulo,
-            "x": 0.5, "xanchor": "center",
-            "y": 0.97, "yanchor": "top"
+            "text": titulo
         },
         height=360,
         margin=dict(l=80, r=20, t=50, b=40),
@@ -208,9 +206,7 @@ def build_fig_gastos_rendimentos(df_filtered: pd.DataFrame) -> go.Figure:
 
     fig.update_layout(
         title={
-            "text": "Gastos vs Rendimentos por Região - Média Anual (M€)",
-            "x": 0.5, "xanchor": "center",
-            "y": 0.97, "yanchor": "top"
+            "text": "Gastos vs Rendimentos por Região - Média Anual (M€)"
         },
         xaxis=dict(title="M€", showgrid=True, gridcolor="lightgrey"),
         yaxis=dict(showgrid=True, gridcolor="whitesmoke"),
@@ -307,9 +303,7 @@ def build_fig_sunburst(df_filtered: pd.DataFrame) -> go.Figure:
         uirevision="sunburst_lock",
         autosize=False,
         title={
-            "text": "Distribuição de Gastos Operacionais",
-            "x": 0.5, "xanchor": "center",
-            "y": 0.97, "yanchor": "top"
+            "text": "Distribuição de Gastos Operacionais"
         },
         margin=dict(t=60, l=10, r=10, b=10),
         height=520,
@@ -378,13 +372,15 @@ def build_fig_parallel(df_filtered: pd.DataFrame, click_prof: dict | None) -> go
         ],
     ))
     fig.update_layout(
-        title={"text": "Padrões de Atividade Assistencial por Instituição (Média Anual)",
-            "x": 0.5, "xanchor": "center",
-            "y": 0.97, "yanchor": "top"
+        title={
+            "text": "Padrões de Atividade Assistencial por Instituição (Média Anual)",
+            "x": 0.03,
+            "xanchor": "left",
+            "y": 0.97,
         },
         autosize=True,
         height=520,
-        margin=dict(l=60, r=40, t=90, b=40),
+        margin=dict(l=60, r=40, t=110, b=40),
     )
     return fig
 

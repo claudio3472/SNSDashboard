@@ -176,7 +176,7 @@ def make_unique_columns(cols):
 
 gdf.columns = make_unique_columns(gdf.columns)
 gdf["map_id"] = gdf.index.astype(str)
-gdf["geometry"] = gdf["geometry"].simplify(0.002, preserve_topology=True)
+gdf["geometry"] = gdf["geometry"].simplify(0.01, preserve_topology=True)
 
 gdf_points = gdf.copy()
 gdf_points["point"] = gdf_points.geometry.representative_point()
@@ -189,7 +189,21 @@ gdf["zona_mapa"] = gdf.apply(
     axis=1,
 )
 
-geojson_map = gdf.__geo_interface__
+geojson_map = {
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": row["map_id"],
+            "properties": {
+                "map_id": row["map_id"],
+                "zona_mapa": row["zona_mapa"],
+            },
+            "geometry": row["geometry"].__geo_interface__,
+        }
+        for _, row in gdf.iterrows()
+    ],
+}
 
 
 # ============================================================
@@ -265,9 +279,10 @@ layout = html.Div(
             style={
                 "display": "flex",
                 "justifyContent": "space-between",
-                "alignItems": "center",
+                "alignItems": "flex-start",
+                "gap": "20px",
                 "flexWrap": "wrap",
-                "gap": "12px",
+                "marginBottom": "18px",
             },
             children=[
                 html.Div([
@@ -279,8 +294,10 @@ layout = html.Div(
                     style={
                         "display": "flex",
                         "gap": "10px",
-                        "alignItems": "center",
+                        "alignItems": "flex-end",
+                        "justifyContent": "flex-end",
                         "flexWrap": "wrap",
+                        "paddingTop": "4px",
                     },
                     children=[
                         html.Button(

@@ -66,7 +66,7 @@ def filter_period(data, start_date, end_date):
 def empty_figure(title):
     fig = go.Figure()
     fig.update_layout(
-        title={"text": title, "x": 0.5, "xanchor": "center", "y": 0.97, "yanchor": "top"},
+        title={"text": title},
         height=400,
         xaxis=dict(visible=False),
         yaxis=dict(visible=False),
@@ -101,8 +101,8 @@ layout = html.Div(
             children=[
 
                 html.Div([
-                    html.H2("Medicamentos Hospitalares", style={"marginBottom": "8px"}),
-                    html.P("Encargos SNS com medicamentos.", style={"color": "#6b7280", "marginBottom": "0"}),
+                    html.H2("Medicamentos", style={"marginBottom": "8px"}),
+                    html.P("Encargos SNS com medicamentos nos hospitais.", style={"marginBottom": "0"}),
                 ]),
 
                 html.Div(
@@ -266,8 +266,6 @@ def build_fig_stream(dff: pd.DataFrame) -> go.Figure:
     fig.update_layout(
         title={
             "text": "Evolução de Encargos por Região",
-            "x": 0.5, "xanchor": "center",
-            "y": 0.97, "yanchor": "top"
         },
         legend=dict(title="Região"),
         height=400,
@@ -312,8 +310,6 @@ def build_fig_violin(dff: pd.DataFrame) -> go.Figure:
     fig.update_layout(
         title={
             "text": "Distribuição e Volatilidade Mensal de Encargos",
-            "x": 0.5, "xanchor": "center",
-            "y": 0.97, "yanchor": "top"
         },
         height=400,
         yaxis_title="Encargos (M€)",
@@ -362,8 +358,6 @@ def build_fig_polar(dff: pd.DataFrame) -> go.Figure:
     fig.update_layout(
         title={
             "text": "Sazonalidade de Encargos por Ano<br><sup>Requer seleção de pelo menos 1 ano completo</sup>",
-            "x": 0.5, "xanchor": "center",
-            "y": 0.97, "yanchor": "top"
         },
         legend=dict(title="Ano"),
         polar=dict(

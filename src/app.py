@@ -16,7 +16,14 @@ app = Dash(
 sidebar = html.Div(
     className="sidebar",
     children=[
-        html.H3("SNS Dashboard", className="sidebar-title"),
+        html.H3(
+            "SNS Dashboard",
+            className="sidebar-title",
+            style={
+                "paddingLeft": "14px",
+                "marginTop": "10px",
+            },
+        ),
 
         dcc.Link("Dashboard Geral", href="/dashboard", className="sidebar-link"),
         dcc.Link("Mapa Regional", href="/mapa", className="sidebar-link"),

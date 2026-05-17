@@ -127,67 +127,83 @@ def apply_range(dff, range_data):
 layout = html.Div(
     className="content",
     children=[
-        html.H2("Evolução Financeira"),
-        html.P("Análise financeira do SNS"),
-
         html.Div(
-            className="filter-row",
             style={
                 "display": "flex",
-                "gap": "1rem",
+                "justifyContent": "space-between",
+                "alignItems": "flex-start",
+                "gap": "20px",
                 "flexWrap": "wrap",
-                "alignItems": "center",
+                "marginBottom": "18px",
             },
             children=[
-                dcc.Dropdown(
-                    id="finance-region-filter-v2",
-                    options=REGION_OPTIONS,
-                    value="all",
-                    clearable=False,
-                    placeholder="Selecionar região",
-                    style={"minWidth": "260px"},
-                ),
+                html.Div([
+                    html.H2("Evolução Financeira"),
+                    html.P("Análise financeira do SNS"),
+                ]),
 
-                dcc.Dropdown(
-                    id="finance-institution-filter-v2",
-                    value="all",
-                    clearable=False,
-                    placeholder="Selecionar instituição",
-                    style={"minWidth": "260px"},
+                html.Div(
+                    className="filter-row",
+                    style={
+                        "display": "flex",
+                        "gap": "1rem",
+                        "flexWrap": "wrap",
+                        "alignItems": "flex-end",
+                        "justifyContent": "flex-end",
+                        "paddingTop": "4px",
+                    },
+                    children=[
+                        dcc.Dropdown(
+                            id="finance-region-filter-v2",
+                            options=REGION_OPTIONS,
+                            value="all",
+                            clearable=False,
+                            placeholder="Selecionar região",
+                            style={"minWidth": "260px"},
+                        ),
+
+                        dcc.Dropdown(
+                            id="finance-institution-filter-v2",
+                            value="all",
+                            clearable=False,
+                            placeholder="Selecionar instituição",
+                            style={"minWidth": "260px"},
+                        ),
+                    ],
                 ),
             ],
         ),
 
-        dcc.Store(id="store-range-finance-v2"),
+                dcc.Store(id="store-range-finance-v2"),
 
-        html.Div(id="finance-kpis-v2", className="kpi-row"),
+                html.Div(id="finance-kpis-v2", className="kpi-row"),
 
-        html.Div(
-            className="card",
-            style={"marginBottom": "20px"},
-            children=[
-                dcc.Graph(
-                    id="finance-graph-v2",
-                    config={"displayModeBar": False},
-                )
-            ],
-        ),
-
-        html.Div(
-            className="grid-2x2",
-            children=[
                 html.Div(
                     className="card",
-                    children=[dcc.Graph(id="finance-waterfall-v2", config={"displayModeBar": False})],
+                    style={"marginBottom": "20px"},
+                    children=[
+                        dcc.Graph(
+                            id="finance-graph-v2",
+                            config={"displayModeBar": False},
+                        )
+                    ],
                 ),
+
                 html.Div(
-                    className="card",
-                    children=[dcc.Graph(id="finance-risk-v2", config={"displayModeBar": False})],
+                    className="grid-2x2",
+                    children=[
+                        html.Div(
+                            className="card",
+                            children=[dcc.Graph(id="finance-waterfall-v2", config={"displayModeBar": False})],
+                        ),
+                        html.Div(
+                            className="card",
+                            children=[dcc.Graph(id="finance-risk-v2", config={"displayModeBar": False})],
+                        ),
+                    ],
                 ),
             ],
-        ),
-    ],
-)
+        )
 
 
 @callback(

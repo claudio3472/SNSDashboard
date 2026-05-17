@@ -237,7 +237,7 @@ def base_layout(fig, title, height=380):
         height=height,
         margin=dict(l=30, r=30, t=80, b=40),
         plot_bgcolor="white",
-        separators=",.",
+        separators=", ",
     )
     return fig
 
@@ -522,7 +522,7 @@ def update_dashboard(start_date, end_date, selected_region, selected_inst):
     kpis = [
         kpi_card(
             "Stress Médio",
-            f"{stress_medio:,.2f}",
+           f"{stress_medio:.2f}".replace(".", ","),
             spark(spark_df["tempo"], spark_df["stress"], COLORBLIND[4]),
         ),
 
@@ -695,7 +695,7 @@ def update_dashboard(start_date, end_date, selected_region, selected_inst):
         margin=dict(l=0, r=0, t=60, b=0),
         showlegend=False,
         dragmode=False,
-        separators=",.",
+        separators=", ",
     )
 
     # ========================================================

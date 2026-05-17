@@ -41,6 +41,18 @@ for col in [
 if "tipo_instituicao" not in df.columns:
     df["tipo_instituicao"] = "Instituição"
 
+df["tipo_instituicao"] = (
+    df["tipo_instituicao"]
+    .astype(str)
+    .str.strip()
+)
+
+df = df[
+    df["tipo_instituicao"]
+    .str.lower()
+    .isin(["uls", "ipo"])
+].copy()
+
 CUMULATIVE_COLS = [
     "gastos_operacionais",
     "rendimentos_operacionais",
@@ -87,7 +99,6 @@ def base_layout(fig, title, height=380):
         height=height,
         margin=dict(l=30, r=30, t=90, b=40),
         plot_bgcolor="white",
-        separators=",.",
     )
     return fig
 
@@ -275,7 +286,7 @@ def update_finance(range_data, region, institution):
     kpis = [
         kpi_card(
             "Total Gastos",
-            f"{total_gastos:,.1f} M€",
+            f"{total_gastos:.1f}".replace(".", ",") + " M€",
             dcc.Graph(
                 figure=create_sparkline(spark["tempo"], spark["gastos"], "#D55E00"),
                 config={"displayModeBar": False, "staticPlot": True},
@@ -283,7 +294,7 @@ def update_finance(range_data, region, institution):
         ),
         kpi_card(
             "Total Rendimentos",
-            f"{total_rend:,.1f} M€",
+            f"{total_rend:.1f}".replace(".", ",") + " M€",
             dcc.Graph(
                 figure=create_sparkline(spark["tempo"], spark["rendimentos"], "#009E73"),
                 config={"displayModeBar": False, "staticPlot": True},
@@ -294,7 +305,7 @@ def update_finance(range_data, region, institution):
             children=[
                 html.Div("Balanço", className="kpi-title"),
                 html.Div(
-                    f"{saldo:,.1f} M€",
+                    f"{saldo:.1f}".replace(".", ",") + " M€",
                     className="kpi-value",
                     style={"color": cor_saldo},
                 ),
@@ -306,7 +317,7 @@ def update_finance(range_data, region, institution):
         ),
         kpi_card(
             "Dívida / Instituições",
-            f"{total_divida:,.1f} M€",
+            f"{total_divida:.1f}".replace(".", ",") + " M€",
             html.Div(
                 f"{dff['instituicao'].nunique()} instituições | {dff['tempo'].nunique()} períodos",
                 className="kpi-subtitle",
@@ -319,95 +330,153 @@ def update_finance(range_data, region, institution):
     # MAIN TIMELINE
     # ========================================================
 
-    ts = (
-        base.groupby("tempo")
-        .agg(
-            gastos=("gastos_operacionais", "sum"),
-            rendimentos=("rendimentos_operacionais", "sum"),
-            divida=("divida_total_fornecedores_externos", "sum"),
+    if institution != "all":
+        ts = (
+            dff.groupby("tempo")
+            .agg(
+                gastos=("gastos_operacionais", "sum"),
+                rendimentos=("rendimentos_operacionais", "sum"),
+            )
+            .reset_index()
+            .sort_values("tempo")
         )
-        .reset_index()
-        .sort_values("tempo")
-    )
 
-    ts["gastos_m"] = ts["gastos"] / 1e6
-    ts["rendimentos_m"] = ts["rendimentos"] / 1e6
-    ts["saldo_m"] = ts["rendimentos_m"] - ts["gastos_m"]
+        ts["gastos_m"] = ts["gastos"] / 1e6
+        ts["rendimentos_m"] = ts["rendimentos"] / 1e6
+        ts["saldo_m"] = ts["rendimentos_m"] - ts["gastos_m"]
 
-    fig_main = go.Figure()
+        fig_main = go.Figure()
 
-    fig_main.add_trace(
-        go.Scatter(
+        fig_main.add_bar(
             x=ts["tempo"],
             y=ts["rendimentos_m"],
             name="Rendimentos",
-            mode="lines",
-            line=dict(color="#009E73", width=2),
-            fill="tozeroy",
-            fillcolor="rgba(0,158,115,0.10)",
-            hovertemplate="Data: %{x|%Y-%m}<br>Rendimentos: %{y:.1f} M€<extra></extra>",
+            marker_color="#009E73",
+            hovertemplate="Data: %{x|%Y-%m}<br>Rendimentos: %{y:,.1f} M€<extra></extra>",
         )
-    )
 
-    fig_main.add_trace(
-        go.Scatter(
+        fig_main.add_bar(
             x=ts["tempo"],
             y=ts["gastos_m"],
             name="Gastos",
-            mode="lines",
-            line=dict(color="#D55E00", width=2),
-            hovertemplate="Data: %{x|%Y-%m}<br>Gastos: %{y:.1f} M€<extra></extra>",
+            marker_color="#D55E00",
+            hovertemplate="Data: %{x|%Y-%m}<br>Gastos: %{y:,.1f} M€<extra></extra>",
         )
-    )
 
-    fig_main.add_trace(
-        go.Scatter(
-            x=ts["tempo"],
-            y=ts["saldo_m"],
-            name="Saldo",
-            mode="lines",
-            line=dict(color="#0072B2", width=3),
-            hovertemplate="Data: %{x|%Y-%m}<br>Saldo: %{y:.1f} M€<extra></extra>",
+        fig_main.add_trace(
+            go.Scatter(
+                x=ts["tempo"],
+                y=ts["saldo_m"],
+                name="Saldo",
+                mode="lines+markers",
+                line=dict(color="#0072B2", width=3),
+                hovertemplate="Data: %{x|%Y-%m}<br>Saldo: %{y:,.1f} M€<extra></extra>",
+            )
         )
-    )
 
-    fig_main.update_layout(
-        title=dict(
-            text="Evolução Financeira<br><sup>Use o slider inferior para selecionar o período</sup>",
-            x=0.03,
-            y=0.97,
-        ),
+        fig_main.update_layout(
+            title=dict(
+                text="Evolução Mensal da Instituição",
+                x=0.03,
+                y=0.97,
+            ),
+            height=460,
+            barmode="group",
+            uirevision="finance-temporal",
+            xaxis=dict(
+                rangeslider=dict(visible=True),
+                type="date",
+                title=None,
+            ),
+            yaxis=dict(title="M€"),
+            legend=dict(
+                orientation="h",
+                y=1.03,
+                x=0,
+                bgcolor="rgba(255,255,255,0)",
+            ),
+            margin=dict(l=40, r=30, t=120, b=40),
+            plot_bgcolor="white",
+        )
 
-        height=460,
+    else:
+        ts = (
+            base.groupby("tempo")
+            .agg(
+                gastos=("gastos_operacionais", "sum"),
+                rendimentos=("rendimentos_operacionais", "sum"),
+                divida=("divida_total_fornecedores_externos", "sum"),
+            )
+            .reset_index()
+            .sort_values("tempo")
+        )
 
-        uirevision="finance-temporal",
+        ts["gastos_m"] = ts["gastos"] / 1e6
+        ts["rendimentos_m"] = ts["rendimentos"] / 1e6
+        ts["saldo_m"] = ts["rendimentos_m"] - ts["gastos_m"]
 
-        xaxis=dict(
-            rangeslider=dict(visible=True),
-            type="date",
-            title=None,
-        ),
+        fig_main = go.Figure()
 
-        yaxis=dict(
-            title="M€"
-        ),
+        fig_main.add_trace(
+            go.Scatter(
+                x=ts["tempo"],
+                y=ts["rendimentos_m"],
+                name="Rendimentos",
+                mode="lines",
+                line=dict(color="#009E73", width=2),
+                fill="tozeroy",
+                fillcolor="rgba(0,158,115,0.10)",
+                hovertemplate="Data: %{x|%Y-%m}<br>Rendimentos: %{y:,.1f} M€<extra></extra>",
+            )
+        )
 
-        legend=dict(
-            orientation="h",
-            y=1.03,
-            x=0,
-            bgcolor="rgba(255,255,255,0)",
-        ),
+        fig_main.add_trace(
+            go.Scatter(
+                x=ts["tempo"],
+                y=ts["gastos_m"],
+                name="Gastos",
+                mode="lines",
+                line=dict(color="#D55E00", width=2),
+                hovertemplate="Data: %{x|%Y-%m}<br>Gastos: %{y:,.1f} M€<extra></extra>",
+            )
+        )
 
-        margin=dict(
-            l=40,
-            r=30,
-            t=125,
-            b=40,
-        ),
+        fig_main.add_trace(
+            go.Scatter(
+                x=ts["tempo"],
+                y=ts["saldo_m"],
+                name="Saldo",
+                mode="lines",
+                line=dict(color="#0072B2", width=3),
+                hovertemplate="Data: %{x|%Y-%m}<br>Saldo: %{y:,.1f} M€<extra></extra>",
+            )
+        )
 
-        plot_bgcolor="white",
-    )
+        fig_main.update_layout(
+            title=dict(
+                text="Evolução Financeira<br><sup>Use o slider inferior para selecionar o período</sup>",
+                x=0.03,
+                y=0.97,
+            ),
+            height=460,
+            uirevision="finance-temporal",
+            xaxis=dict(
+                rangeslider=dict(visible=True),
+                type="date",
+                title=None,
+            ),
+            yaxis=dict(title="M€"),
+            legend=dict(
+                orientation="h",
+                y=1.03,
+                x=0,
+                bgcolor="rgba(255,255,255,0)",
+            ),
+            margin=dict(l=40, r=30, t=125, b=40),
+            plot_bgcolor="white",
+            separators=", ",
+        )
+        
     # ========================================================
     # WATERFALL
     # ========================================================
@@ -429,7 +498,7 @@ def update_finance(range_data, region, institution):
             increasing={"marker": {"color": "#009E73"}},
             decreasing={"marker": {"color": "#D55E00"}},
             totals={"marker": {"color": "#0072B2"}},
-            hovertemplate="%{x}<br>%{y:.1f} M€<extra></extra>",
+            hovertemplate="%{x}<br>%{y:,.1f} M€<extra></extra>",
         )
     )
 
@@ -486,7 +555,7 @@ def update_finance(range_data, region, institution):
             hovertemplate=(
                 "<b>%{customdata[0]}</b><br>"
                 "Gastos: %{x:.1f} M€<br>"
-                "Dívida: %{y:.1f} M€<br>"
+                "Dívida: %{y:,.1f} M€<br>"
                 "Urgências: %{customdata[1]:,.0f}"
                 "<extra></extra>"
             ),

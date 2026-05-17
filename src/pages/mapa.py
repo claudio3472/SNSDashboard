@@ -226,7 +226,7 @@ def base_layout(fig, title, height=400):
         height=height,
         margin=dict(l=30, r=30, t=80, b=40),
         plot_bgcolor="white",
-        separators=",.",
+        separators=", ",
     )
     return fig
 
@@ -637,7 +637,7 @@ def update_dashboard(start_date, end_date, selected_region):
         margin=dict(l=0, r=0, t=60, b=0),
         showlegend=False,
         dragmode=False,
-        separators=",.",
+        separators=", ",
     )
 
     # ========================================================
